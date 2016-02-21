@@ -1,0 +1,64 @@
+html{
+	font-size:20px;
+}
+
+a {
+    text-decoration: none;
+    color: #00a;
+}
+a:hover{
+	color: #00e;
+}
+
+article {
+	width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+
+h1{
+	font-size: 3em;
+}
+h2{
+	font-size: 2.5em;
+}
+h3{
+	font-size: 2em;
+}
+
+
+.A3 {
+    width: 29.7cm;
+}
+
+.A4 {
+    width: 21cm;
+}
+
+.A5 {
+    width: 14.8cm;
+}
+
+.A6 {
+    width: 10.5cm;
+}
+
+
+
+button,[type=submit] {
+    background-color: #4CAF50; /* Green */
+    border: none;
+    color: white;
+    margin: 5px;
+    padding: 5px 10px;
+    -webkit-border-radius: 3px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+}
+
+button:hover {
+    opacity: 0.7;
+}
