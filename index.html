@@ -14,12 +14,7 @@ body{
     margin:0;
     padding:0 !important;
 }
-article{
-    padding: 1cm;
-}
 table{
-    margin-left: auto;
-    margin-right: auto;
     border: 1px solid red;
 }
 
@@ -30,6 +25,15 @@ p{
 }
 @media (max-width:800px){
     table{width: 100%;}
+}
+
+@media (max-width:800px){
+    * {font-size:2vw;}
+}
+@media (max-width:700px){
+    * {font-size:2.5vw;}
+}
+@media (max-width:600px){
     * {font-size:3vw;}
 }
 
@@ -38,7 +42,7 @@ p{
 <title>git.max.pub</title>
 <!-- <article class='a4'> -->
 <!-- <center> -->
-    <table class='icon-list'>
+    <table class='icon-list center'>
 
         <tr onclick="location='http://max.pub'">
             <th> <img src='http://lib.max.pub/max.jpg' class='round' /> </th>
