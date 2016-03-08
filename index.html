@@ -1,6 +1,6 @@
 <meta content='width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0' name='viewport' />
-<link href='http://git.max.pub/style/base.css' rel='stylesheet' type='text/css'>
-<link href='http://git.max.pub/style/icon-list.css' rel='stylesheet' type='text/css'>
+<link href='style/base.css' rel='stylesheet' type='text/css'>
+<link href='style/icon-list.css' rel='stylesheet' type='text/css'>
 <link href='https://fonts.googleapis.com/css?family=Quicksand:300' rel='stylesheet' type='text/css'>
 
 <style>
@@ -17,45 +17,46 @@ body{
 article{
     padding: 1cm;
 }
-table{border: 1px solid red;}
+table{
+    margin-left: auto;
+    margin-right: auto;
+    border: 1px solid red;
+}
+
+
 p{
     font-size:0.5em;
     color: silver;
 }
 @media (max-width:800px){
     table{width: 100%;}
+    * {font-size:3vw;}
 }
 
 </style>
 
 <title>git.max.pub</title>
 <!-- <article class='a4'> -->
-<center>
+<!-- <center> -->
     <table class='icon-list'>
 
         <tr onclick="location='http://max.pub'">
             <th> <img src='http://lib.max.pub/max.jpg' class='round' /> </th>
             <th> Max Fechner </th>
         </tr>
-        <tr>
-            <td></td>
-            <td>
-                <p>GitHub repositories</p>
-            </td>
-        </tr>
 
         <tr onclick="location='/json-view'">
             <td> 
                 <img src='https://raw.githubusercontent.com/max-pub/JSON-view/gh-pages/json-view.png'/> 
             </td>
-            <td>JSON-view<p>GitHub repositories</p></td>
+            <td>JSON-view</td>
         </tr>
 
         <tr onclick="location='/date-format'">
             <td> 
                 <img src='https://raw.githubusercontent.com/max-pub/date-format/gh-pages/date-format.black.png'/> 
             </td>
-            <td>date-format<p>GitHub repositories</p></td>
+            <td>date-format</td>
         </tr>
 
         <tr onclick="location='/AJAX.js'">
@@ -97,7 +98,10 @@ p{
             <td> 
                 <img src='https://raw.githubusercontent.com/max-pub/SurfTime/master/build/bin/clock.128.png'/> 
             </td>
-            <td>SurfTime<p>GitHub repositories GitHub repositories GitHub repositories</p></td>
+            <td>
+                SurfTime
+                <!-- <p>Measure and Visualize your Online-Time</p> -->
+            </td>
         </tr>
 
         <tr onclick="location='https://github.com/max-pub/StartApp'">
@@ -114,10 +118,20 @@ p{
             <td>WikiLite</td>
         </tr>
 
-    </table>
-</center>
-<!-- </article> -->
+        <tr>
+            <td colspan='2' id='size'></td>
+        </tr>
 
+    </table>
+<!-- </center> -->
+<!-- </article> -->
+<script>
+showSize = function(){
+    document.getElementById('size').innerHTML = window.innerWidth +' x '+window.innerHeight;
+}
+window.onload = showSize
+window.onresize = showSize
+</script>
 
 
 <!-- <link href='style/base.css' rel='stylesheet' type='text/css'> -->

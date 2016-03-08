@@ -1,0 +1,11 @@
+@font-face {
+    font-family: 'Josefin Sans';
+    font-style: normal;
+    font-weight: 300;
+    src: local('josefin.300'), url(https://git.max.pub/style/font/josefin.300.ttf) format('ttf');
+}
+
+* {
+    font-family: 'Josefin Sans';
+    font-weight: 300;
+}
