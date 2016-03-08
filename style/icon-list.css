@@ -1,0 +1,33 @@
+table.icon-list [onclick] {
+  color: #333 !important;
+}
+table.icon-list [onclick]:hover {
+  color: SteelBlue !important;
+}
+table.icon-list th,
+table.icon-list td {
+  padding: 20px 10px;
+  vertical-align: middle;
+  text-align: left;
+}
+table.icon-list th:first-child,
+table.icon-list td:first-child {
+  vertical-align: top;
+  text-align: center;
+  padding-right: 20px;
+}
+table.icon-list th {
+  font-size: 4em !important;
+}
+table.icon-list th:nth-child(2) {
+  padding-top: 30px;
+}
+table.icon-list th img {
+  width: 96px;
+}
+table.icon-list td {
+  font-size: 2.5em !important;
+}
+table.icon-list td img {
+  width: 48px;
+}
