@@ -73,5 +73,17 @@ body{
         </tr>
 
         
+        <tr>
+            <td colspan='2' id='size'></td>
+        </tr>
+
     </table>
+<!-- </center> -->
 <!-- </article> -->
+<script>
+showSize = function(){
+    document.getElementById('size').innerHTML = window.innerWidth +' x '+window.innerHeight;
+}
+window.onload = showSize;
+window.onresize = showSize;
+</script>
