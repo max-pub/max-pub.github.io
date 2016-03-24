@@ -1,0 +1,17 @@
+Changing your products price to a 9-ender increases revenue by 24%, despite a higher total price!
+EG: 39$ vs 35$
+
+Selling something for "a small 5$ fee" vs "a 5$ fee" increases revenue by by 20%!
+
+Selling two similar products at a different price-point increases revenue by 60%!
+EG: 62c/64c vs 63c/63c
+
+
+// http://thenextweb.com/entrepreneur/2014/05/27/10-surprising-pricing-strategies-can-drastically-improve-sales/
+
+
+In 2007, more than 90% of Internet requests came from a Windows computer. Now, it's about 15%.
+
+Fast forward 14 years. Microsoft no longer dominates computing. So the government's antitrust investigation worked, right?
+Sort of.
+A lot of Microsoft insiders say that its antitrust battles did make the company more timid. For instance, before the antitrust problems, Microsoft might have considered bundling its search engine, Bing, into Windows. But there was no way Microsoft would even consider doing that afterwards.
