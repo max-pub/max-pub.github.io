@@ -1,6 +1,6 @@
 <meta content='width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0' name='viewport' />
-<link href='/style/base.css' rel='stylesheet' type='text/css'>
-<link href='/style/icon-list.css' rel='stylesheet' type='text/css'>
+<link href='style/base.css' rel='stylesheet' type='text/css'>
+<link href='style/icon-list.css' rel='stylesheet' type='text/css'>
 <link href='https://fonts.googleapis.com/css?family=Quicksand:300' rel='stylesheet' type='text/css'>
 
 <style>
@@ -18,9 +18,13 @@ body{
 table{
     /*border: 1px solid red;*/
 }
-.subheader{
-    font-size: 0.7em;
+.subheader {
+    font-size: 0.5em;
     color: gray;
+}
+.subheader th{
+    text-align: left !important;
+    padding-top:70px !important;
 }
 
 p{
@@ -46,32 +50,21 @@ p{
 
 </style>
 
-<title>git.max.pub</title>
+<title>max.pub/code</title>
 <!-- <article class='a4'> -->
 <!-- <center> -->
     <table class='icon-list center'>
 
         <tr onclick="location='http://max.pub'">
-            <th> <img src='//max.pub/max.jpg' class='round' /> </th>
+            <th> <img src='http://max.pub/max.jpg' class='round' /> </th>
             <th> Max Fechner </th>
         </tr>
 
+
+
         <tr class='subheader'>
-            <th colspan='2'> JavaScript Libraries </th>
-        </tr>
-
-        <tr onclick="location='/json-view'">
-            <td> 
-                <img src='https://raw.githubusercontent.com/max-pub/JSON-view/gh-pages/json-view.png'/> 
-            </td>
-            <td>JSON.format.js</td>
-        </tr>
-
-        <tr onclick="location='/date-format'">
-            <td> 
-                <img src='/date-format/demo/icon.black.png'/> 
-            </td>
-            <td>Date.format.js</td>
+            <th></th>
+            <th> JavaScript Libraries </th>
         </tr>
 
         <tr onclick="location='/AJAX.js'">
@@ -90,10 +83,26 @@ p{
 
         <tr onclick="location='/GEO.js'">
             <td> 
-                <img src='https://raw.githubusercontent.com/max-pub/GEO.js/gh-pages/GEO.js.png'/> 
+                <img src='/GEO.js/GEO.js.png'/> 
             </td>
             <td>GEO.js</td>
         </tr>
+
+        <tr onclick="location='/json-view'">
+            <td> 
+                <img src='https://raw.githubusercontent.com/max-pub/JSON-view/gh-pages/json-view.png'/> 
+            </td>
+            <td>JSON.format.js</td>
+        </tr>
+
+        <tr onclick="location='/date-format'">
+            <td> 
+                <img src='/date-format/demo/icon.black.png'/> 
+            </td>
+            <td>Date.format.js</td>
+        </tr>
+
+
 
         <tr class='subheader'>
             <th> </th>
@@ -113,6 +122,8 @@ p{
             </td>
             <td>Weather Charts</td>
         </tr>
+
+
 
         <tr class='subheader'>
             <th> </th>
