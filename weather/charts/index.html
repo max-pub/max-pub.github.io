@@ -1,89 +1,200 @@
-<!--vulcanize --inline-scripts --inline-css index.html | crisper --html csp.html --js csp.js--><!-- vulcanize --inline-scripts --inline-css index.html | crisper --html build/csp.html --js build/csp.js --><!-- vulcanize --inline-scripts --inline-css index.html > build.html --><html><head><meta charset="UTF-8"><!-- <script src="bower_components/GEO.js/GEO.ip.ipinfo.js"></script> -->
-<style>
-.ct-double-octave:after,.ct-major-eleventh:after,.ct-major-second:after,.ct-major-seventh:after,.ct-major-sixth:after,.ct-major-tenth:after,.ct-major-third:after,.ct-major-twelfth:after,.ct-minor-second:after,.ct-minor-seventh:after,.ct-minor-sixth:after,.ct-minor-third:after,.ct-octave:after,.ct-perfect-fifth:after,.ct-perfect-fourth:after,.ct-square:after{content:"";clear:both}.ct-label{fill:rgba(0,0,0,.4);color:rgba(0,0,0,.4);font-size:.75rem;line-height:1}.ct-chart-bar .ct-label,.ct-chart-line .ct-label{display:block;display:-webkit-box;display:-moz-box;display:-ms-flexbox;display:-webkit-flex;display:flex}.ct-label.ct-horizontal.ct-start{-webkit-box-align:flex-end;-webkit-align-items:flex-end;-ms-flex-align:flex-end;align-items:flex-end;-webkit-box-pack:flex-start;-webkit-justify-content:flex-start;-ms-flex-pack:flex-start;justify-content:flex-start;text-align:left;text-anchor:start}.ct-label.ct-horizontal.ct-end{-webkit-box-align:flex-start;-webkit-align-items:flex-start;-ms-flex-align:flex-start;align-items:flex-start;-webkit-box-pack:flex-start;-webkit-justify-content:flex-start;-ms-flex-pack:flex-start;justify-content:flex-start;text-align:left;text-anchor:start}.ct-label.ct-vertical.ct-start{-webkit-box-align:flex-end;-webkit-align-items:flex-end;-ms-flex-align:flex-end;align-items:flex-end;-webkit-box-pack:flex-end;-webkit-justify-content:flex-end;-ms-flex-pack:flex-end;justify-content:flex-end;text-align:right;text-anchor:end}.ct-label.ct-vertical.ct-end{-webkit-box-align:flex-end;-webkit-align-items:flex-end;-ms-flex-align:flex-end;align-items:flex-end;-webkit-box-pack:flex-start;-webkit-justify-content:flex-start;-ms-flex-pack:flex-start;justify-content:flex-start;text-align:left;text-anchor:start}.ct-chart-bar .ct-label.ct-horizontal.ct-start{-webkit-box-align:flex-end;-webkit-align-items:flex-end;-ms-flex-align:flex-end;align-items:flex-end;-webkit-box-pack:center;-webkit-justify-content:center;-ms-flex-pack:center;justify-content:center;text-align:center;text-anchor:start}.ct-chart-bar .ct-label.ct-horizontal.ct-end{-webkit-box-align:flex-start;-webkit-align-items:flex-start;-ms-flex-align:flex-start;align-items:flex-start;-webkit-box-pack:center;-webkit-justify-content:center;-ms-flex-pack:center;justify-content:center;text-align:center;text-anchor:start}.ct-chart-bar.ct-horizontal-bars .ct-label.ct-horizontal.ct-start{-webkit-box-align:flex-end;-webkit-align-items:flex-end;-ms-flex-align:flex-end;align-items:flex-end;-webkit-box-pack:flex-start;-webkit-justify-content:flex-start;-ms-flex-pack:flex-start;justify-content:flex-start;text-align:left;text-anchor:start}.ct-chart-bar.ct-horizontal-bars .ct-label.ct-horizontal.ct-end{-webkit-box-align:flex-start;-webkit-align-items:flex-start;-ms-flex-align:flex-start;align-items:flex-start;-webkit-box-pack:flex-start;-webkit-justify-content:flex-start;-ms-flex-pack:flex-start;justify-content:flex-start;text-align:left;text-anchor:start}.ct-chart-bar.ct-horizontal-bars .ct-label.ct-vertical.ct-start{-webkit-box-align:center;-webkit-align-items:center;-ms-flex-align:center;align-items:center;-webkit-box-pack:flex-end;-webkit-justify-content:flex-end;-ms-flex-pack:flex-end;justify-content:flex-end;text-align:right;text-anchor:end}.ct-chart-bar.ct-horizontal-bars .ct-label.ct-vertical.ct-end{-webkit-box-align:center;-webkit-align-items:center;-ms-flex-align:center;align-items:center;-webkit-box-pack:flex-start;-webkit-justify-content:flex-start;-ms-flex-pack:flex-start;justify-content:flex-start;text-align:left;text-anchor:end}.ct-grid{stroke:rgba(0,0,0,.2);stroke-width:1px;stroke-dasharray:2px}.ct-point{stroke-width:10px;stroke-linecap:round}.ct-line{fill:none;stroke-width:4px}.ct-area{stroke:none;fill-opacity:.1}.ct-bar{fill:none;stroke-width:10px}.ct-slice-donut{fill:none;stroke-width:60px}.ct-series-a .ct-bar,.ct-series-a .ct-line,.ct-series-a .ct-point,.ct-series-a .ct-slice-donut{stroke:#d70206}.ct-series-a .ct-area,.ct-series-a .ct-slice-pie{fill:#d70206}.ct-series-b .ct-bar,.ct-series-b .ct-line,.ct-series-b .ct-point,.ct-series-b .ct-slice-donut{stroke:#f05b4f}.ct-series-b .ct-area,.ct-series-b .ct-slice-pie{fill:#f05b4f}.ct-series-c .ct-bar,.ct-series-c .ct-line,.ct-series-c .ct-point,.ct-series-c .ct-slice-donut{stroke:#f4c63d}.ct-series-c .ct-area,.ct-series-c .ct-slice-pie{fill:#f4c63d}.ct-series-d .ct-bar,.ct-series-d .ct-line,.ct-series-d .ct-point,.ct-series-d .ct-slice-donut{stroke:#d17905}.ct-series-d .ct-area,.ct-series-d .ct-slice-pie{fill:#d17905}.ct-series-e .ct-bar,.ct-series-e .ct-line,.ct-series-e .ct-point,.ct-series-e .ct-slice-donut{stroke:#453d3f}.ct-series-e .ct-area,.ct-series-e .ct-slice-pie{fill:#453d3f}.ct-series-f .ct-bar,.ct-series-f .ct-line,.ct-series-f .ct-point,.ct-series-f .ct-slice-donut{stroke:#59922b}.ct-series-f .ct-area,.ct-series-f .ct-slice-pie{fill:#59922b}.ct-series-g .ct-bar,.ct-series-g .ct-line,.ct-series-g .ct-point,.ct-series-g .ct-slice-donut{stroke:#0544d3}.ct-series-g .ct-area,.ct-series-g .ct-slice-pie{fill:#0544d3}.ct-series-h .ct-bar,.ct-series-h .ct-line,.ct-series-h .ct-point,.ct-series-h .ct-slice-donut{stroke:#6b0392}.ct-series-h .ct-area,.ct-series-h .ct-slice-pie{fill:#6b0392}.ct-series-i .ct-bar,.ct-series-i .ct-line,.ct-series-i .ct-point,.ct-series-i .ct-slice-donut{stroke:#f05b4f}.ct-series-i .ct-area,.ct-series-i .ct-slice-pie{fill:#f05b4f}.ct-series-j .ct-bar,.ct-series-j .ct-line,.ct-series-j .ct-point,.ct-series-j .ct-slice-donut{stroke:#dda458}.ct-series-j .ct-area,.ct-series-j .ct-slice-pie{fill:#dda458}.ct-series-k .ct-bar,.ct-series-k .ct-line,.ct-series-k .ct-point,.ct-series-k .ct-slice-donut{stroke:#eacf7d}.ct-series-k .ct-area,.ct-series-k .ct-slice-pie{fill:#eacf7d}.ct-series-l .ct-bar,.ct-series-l .ct-line,.ct-series-l .ct-point,.ct-series-l .ct-slice-donut{stroke:#86797d}.ct-series-l .ct-area,.ct-series-l .ct-slice-pie{fill:#86797d}.ct-series-m .ct-bar,.ct-series-m .ct-line,.ct-series-m .ct-point,.ct-series-m .ct-slice-donut{stroke:#b2c326}.ct-series-m .ct-area,.ct-series-m .ct-slice-pie{fill:#b2c326}.ct-series-n .ct-bar,.ct-series-n .ct-line,.ct-series-n .ct-point,.ct-series-n .ct-slice-donut{stroke:#6188e2}.ct-series-n .ct-area,.ct-series-n .ct-slice-pie{fill:#6188e2}.ct-series-o .ct-bar,.ct-series-o .ct-line,.ct-series-o .ct-point,.ct-series-o .ct-slice-donut{stroke:#a748ca}.ct-series-o .ct-area,.ct-series-o .ct-slice-pie{fill:#a748ca}.ct-square{display:block;position:relative;width:100%}.ct-square:before{display:block;float:left;content:"";width:0;height:0;padding-bottom:100%}.ct-square:after{display:table}.ct-square>svg{display:block;position:absolute;top:0;left:0}.ct-minor-second{display:block;position:relative;width:100%}.ct-minor-second:before{display:block;float:left;content:"";width:0;height:0;padding-bottom:93.75%}.ct-minor-second:after{display:table}.ct-minor-second>svg{display:block;position:absolute;top:0;left:0}.ct-major-second{display:block;position:relative;width:100%}.ct-major-second:before{display:block;float:left;content:"";width:0;height:0;padding-bottom:88.8888888889%}.ct-major-second:after{display:table}.ct-major-second>svg{display:block;position:absolute;top:0;left:0}.ct-minor-third{display:block;position:relative;width:100%}.ct-minor-third:before{display:block;float:left;content:"";width:0;height:0;padding-bottom:83.3333333333%}.ct-minor-third:after{display:table}.ct-minor-third>svg{display:block;position:absolute;top:0;left:0}.ct-major-third{display:block;position:relative;width:100%}.ct-major-third:before{display:block;float:left;content:"";width:0;height:0;padding-bottom:80%}.ct-major-third:after{display:table}.ct-major-third>svg{display:block;position:absolute;top:0;left:0}.ct-perfect-fourth{display:block;position:relative;width:100%}.ct-perfect-fourth:before{display:block;float:left;content:"";width:0;height:0;padding-bottom:75%}.ct-perfect-fourth:after{display:table}.ct-perfect-fourth>svg{display:block;position:absolute;top:0;left:0}.ct-perfect-fifth{display:block;position:relative;width:100%}.ct-perfect-fifth:before{display:block;float:left;content:"";width:0;height:0;padding-bottom:66.6666666667%}.ct-perfect-fifth:after{display:table}.ct-perfect-fifth>svg{display:block;position:absolute;top:0;left:0}.ct-minor-sixth{display:block;position:relative;width:100%}.ct-minor-sixth:before{display:block;float:left;content:"";width:0;height:0;padding-bottom:62.5%}.ct-minor-sixth:after{display:table}.ct-minor-sixth>svg{display:block;position:absolute;top:0;left:0}.ct-golden-section{display:block;position:relative;width:100%}.ct-golden-section:before{display:block;float:left;content:"";width:0;height:0;padding-bottom:61.804697157%}.ct-golden-section:after{content:"";display:table;clear:both}.ct-golden-section>svg{display:block;position:absolute;top:0;left:0}.ct-major-sixth{display:block;position:relative;width:100%}.ct-major-sixth:before{display:block;float:left;content:"";width:0;height:0;padding-bottom:60%}.ct-major-sixth:after{display:table}.ct-major-sixth>svg{display:block;position:absolute;top:0;left:0}.ct-minor-seventh{display:block;position:relative;width:100%}.ct-minor-seventh:before{display:block;float:left;content:"";width:0;height:0;padding-bottom:56.25%}.ct-minor-seventh:after{display:table}.ct-minor-seventh>svg{display:block;position:absolute;top:0;left:0}.ct-major-seventh{display:block;position:relative;width:100%}.ct-major-seventh:before{display:block;float:left;content:"";width:0;height:0;padding-bottom:53.3333333333%}.ct-major-seventh:after{display:table}.ct-major-seventh>svg{display:block;position:absolute;top:0;left:0}.ct-octave{display:block;position:relative;width:100%}.ct-octave:before{display:block;float:left;content:"";width:0;height:0;padding-bottom:50%}.ct-octave:after{display:table}.ct-octave>svg{display:block;position:absolute;top:0;left:0}.ct-major-tenth{display:block;position:relative;width:100%}.ct-major-tenth:before{display:block;float:left;content:"";width:0;height:0;padding-bottom:40%}.ct-major-tenth:after{display:table}.ct-major-tenth>svg{display:block;position:absolute;top:0;left:0}.ct-major-eleventh{display:block;position:relative;width:100%}.ct-major-eleventh:before{display:block;float:left;content:"";width:0;height:0;padding-bottom:37.5%}.ct-major-eleventh:after{display:table}.ct-major-eleventh>svg{display:block;position:absolute;top:0;left:0}.ct-major-twelfth{display:block;position:relative;width:100%}.ct-major-twelfth:before{display:block;float:left;content:"";width:0;height:0;padding-bottom:33.3333333333%}.ct-major-twelfth:after{display:table}.ct-major-twelfth>svg{display:block;position:absolute;top:0;left:0}.ct-double-octave{display:block;position:relative;width:100%}.ct-double-octave:before{display:block;float:left;content:"";width:0;height:0;padding-bottom:25%}.ct-double-octave:after{display:table}.ct-double-octave>svg{display:block;position:absolute;top:0;left:0}
-</style>
-<!-- <link rel="import" href="bower_components/date-format/date-format.html"> -->
+<html><head><meta charset="UTF-8"><title>Weather Charts</title>
+<link rel="shortcut icon" type="image/png" href="/icon.png">
+
 
 <style>
-@font-face {
-    font-family: 'Source Sans Pro';
-    font-style: normal;
-    font-weight: 300;
-    src: local('bin/source.sans.300.ttf'), url("https://git.max.pub/style/font/source.sans.300.ttf") format('ttf');
-}
-
-* {
-    font-family: 'Source Sans Pro';
-    font-weight: 300;
-}
-
+	@font-face {
+	  font-family: 'Source Sans Pro';
+	  src:  url('bin/source.sans.300.ttf') format('truetype');
+	  font-weight: 300 !important;
+	}
 </style>
 
 
-<!--<link href='https://fonts.googleapis.com/css?family=Josefin+Sans:200,300,500' rel='stylesheet' type='text/css'>-->
-<!-- <link href='https://fonts.googleapis.com/css?family=Source+Sans+Pro:100,200,300,400,500,600,700,800,900' rel='stylesheet' type='text/css'> -->
-<!--<link href='https://fonts.googleapis.com/css?family=Open+Sans:400,300' rel='stylesheet' type='text/css'>-->
-<style>
-/* Generated by less 2.5.1 */
-* {
-  /*font-family: 'Source Sans Pro';*/
-  /*font-weight: 500;*/
-}
-html{
-  font-size: 20px;
-}
-body {
-  background:#555;
-}
-article{
-  position: relative;
-  width:15cm;margin-left:auto;margin-right:auto;
-  background: #222;
-}
-h3 {
-  color: #ccc;
-  /*font-size: 18px;*/
-  /*    margin: 20px 55px 10px 35px;*/
-  margin: 2.5em 10px 10px 10px;
-  padding: 0;
-}
-h3 span:nth-child(2) {
-  color: gray;
-  float: right;
-}
-#chart .ct-point {
-  stroke: silver;
-  stroke-width: 5px;
-}
-#chart .ct-label {
-  fill: white;
-}
-#ozone .ct-line {
-  stroke: #a33;
-}
-#humidity .ct-line {
-  stroke: #3a3;
-}
-#pressure .ct-line {
-  stroke: #33a;
-}
-#visibility .ct-line {
-  stroke: #a3a;
-}
-#dewPoint .ct-line {
-  stroke: #aa3;
-}
+</head><body style="background:#555;padding:0;margin:0;overflow:hidden;"><div hidden="" by-vulcanize=""><!--
+@license
+Copyright (c) 2014 The Polymer Project Authors. All rights reserved.
+This code may only be used under the BSD style license found at http://polymer.github.io/LICENSE.txt
+The complete set of authors may be found at http://polymer.github.io/AUTHORS.txt
+The complete set of contributors may be found at http://polymer.github.io/CONTRIBUTORS.txt
+Code distributed by Google as part of the polymer project is also
+subject to an additional IP rights grant found at http://polymer.github.io/PATENTS.txt
+--><!--
+@license
+Copyright (c) 2014 The Polymer Project Authors. All rights reserved.
+This code may only be used under the BSD style license found at http://polymer.github.io/LICENSE.txt
+The complete set of authors may be found at http://polymer.github.io/AUTHORS.txt
+The complete set of contributors may be found at http://polymer.github.io/CONTRIBUTORS.txt
+Code distributed by Google as part of the polymer project is also
+subject to an additional IP rights grant found at http://polymer.github.io/PATENTS.txt
+-->
 
-</style>
+<!--
+@license
+Copyright (c) 2015 The Polymer Project Authors. All rights reserved.
+This code may only be used under the BSD style license found at http://polymer.github.io/LICENSE.txt
+The complete set of authors may be found at http://polymer.github.io/AUTHORS.txt
+The complete set of contributors may be found at http://polymer.github.io/CONTRIBUTORS.txt
+Code distributed by Google as part of the polymer project is also
+subject to an additional IP rights grant found at http://polymer.github.io/PATENTS.txt
+--><!--
+@license
+Copyright (c) 2014 The Polymer Project Authors. All rights reserved.
+This code may only be used under the BSD style license found at http://polymer.github.io/LICENSE.txt
+The complete set of authors may be found at http://polymer.github.io/AUTHORS.txt
+The complete set of contributors may be found at http://polymer.github.io/CONTRIBUTORS.txt
+Code distributed by Google as part of the polymer project is also
+subject to an additional IP rights grant found at http://polymer.github.io/PATENTS.txt
+-->
+<dom-module id="hash-route" assetpath="bower_components/hash-router/">
+    <template>
+        <content></content>
+    </template>
+</dom-module>
 
+<dom-module id="hash-key" assetpath="bower_components/hash-router/"></dom-module>
 
-</head><body><div hidden="" by-vulcanize=""><dom-module id="rain-bucket" assetpath="bower_components/weather-charts/">
+<dom-module id="close-app" assetpath="bower_components/close-app/">
     <style>
-        h3 span:last-child {
-            float: right;
+        :host{
+            display: inline-block;
+            font-size: 35px;
+            color: white;
+            padding-right: 5px;
+            cursor: pointer;
+        }
+        :host:hover{
             color: silver;
         }
+    </style>
+    <template>
+        ×
+        <!-- <button>&times;</button> -->
+        <!-- <button>&#x2715;</button> -->
+        <!-- <button>&#x2716;</button> -->
+    </template>
+</dom-module>
 
+
+
+
+
+<dom-module id="week-header" assetpath="components/week/">
+    <style>
+        :host{
+            width: 100%;
+            display: block;
+        }
+        table{
+            width: 100%;
+            border-collapse: collapse;
+        }
+        .icon {
+            width: 30px;
+            font-size: 35px;
+            color: white;
+            padding-left: 5px;
+            cursor: pointer;
+        }
+        .icon:hover{
+            color: silver;
+        }
+        button{
+            float: right;
+            color: white;
+            font-weight: bold;
+            font-size: 20px;
+            font-size: 25px;
+            background: transparent;
+            -webkit-border-radius: 100px;
+            border: 2px solid white;
+            border: none;
+            display: inline-block;
+            width: 36px;
+            height: 36px;
+            margin: 5px;
+        }
+        button:hover{
+            color: silver;
+            border-color: silver;
+        }
+
+        .close{
+            width: 30px;
+        }
+        .title, .loading{
+            text-align: center;
+        }
+        a{
+            display: inline-block;
+            margin: 5px;
+            font-size:2em;
+            cursor: pointer;
+            text-decoration: none;
+        }
+        .city{
+            color: orange;
+        }
+        .country{
+            color: silver;
+        }
+        .loading{
+            color: silver;
+        }
+    </style>
+    <template>
+        <table>
+            <tbody><tr>
+                <td class="icon" onclick="document.location.hash=''">
+                    <!-- <button>&larr;</button> -->
+                    ←
+                    <!-- <img src='../../build/bin/back.png'/> -->
+                </td>
+                <td class="title" hidden$="[[!place]]">
+                    <a class="city">{{place.city}}</a>
+                    <a class="country">{{place.country}}</a>
+                </td>
+                <td class="loading" hidden$="[[place]]">
+                    lookup [[lat]],[[lon]]
+                </td>
+                <td class="close">
+                    <close-app></close-app>
+                </td>
+            </tr>
+        </tbody></table>
+    </template>
+</dom-module>
+
+<dom-module id="geo-search" assetpath="bower_components/GEO.js/">
+
+    <template>
+    </template>
+
+    </dom-module>
+<dom-module id="weather-data" assetpath="components/week/">
+    <template>
+        <!-- <geo-search query="{{lat}},{{lon}}" first="{{place}}"></geo-search> -->
+        <!-- <b>{{place.city}}</b> -->
+    </template>
+</dom-module>
+
+
+
+
+
+<dom-module id="rain-bucket" assetpath="bower_components/weather-charts/">
+    <style>
+        h3{
+            color: var(--title-color);
+        }
+        h3 span:last-child {
+            float: right;
+            color: var(--unit-color);
+        }
+
+        table{
+            width: 100%;
+        }
         td {
             text-align: center;
             width: 11%;
@@ -163,9 +274,12 @@ h3 span:nth-child(2) {
 
 <dom-module id="cloud-cover" assetpath="bower_components/weather-charts/">
     <style>
+        h3{
+            color: var(--title-color);
+        }
         h3 span:last-child {
             float: right;
-            color: silver;
+            color: var(--unit-color);
         }
 
         #drops img {
@@ -236,9 +350,12 @@ h3 span:nth-child(2) {
 
 <dom-module id="wind-speed" assetpath="bower_components/weather-charts/">
     <style>
+        h3{
+            color: var(--title-color);
+        }
         h3 span:last-child {
             float: right;
-            color: silver;
+            color: var(--unit-color);
         }
 
         table {
@@ -289,9 +406,12 @@ h3 span:nth-child(2) {
 
 <dom-module id="moon-phase" assetpath="bower_components/weather-charts/">
     <style>
+        h3{
+            color: var(--title-color);
+        }
         h3 span:last-child {
             float: right;
-            color: silver;
+            color: var(--unit-color);
         }
 
         table {
@@ -310,7 +430,8 @@ h3 span:nth-child(2) {
             position: absolute;
             display: inline-block;
             height: 100%;
-            background: #333;
+            /*background: #333;*/
+            background: var(--background-color);
         }
 
         .values {
@@ -356,9 +477,12 @@ h3 span:nth-child(2) {
 
 <dom-module id="day-light" assetpath="bower_components/weather-charts/">
     <style>
+        h3{
+            color: var(--title-color);
+        }
         h3 span:last-child {
             float: right;
-            color: silver;
+            color: var(--unit-color);
         }
 
         table {
@@ -488,9 +612,12 @@ h3 span:nth-child(2) {
 
 <dom-module id="temperature-range" assetpath="bower_components/weather-charts/">
     <style>
+        h3{
+            color: var(--title-color);
+        }
         h3 span:last-child {
             float: right;
-            color: silver;
+            color: var(--unit-color);
         }
 
         table {
@@ -659,22 +786,128 @@ h3 span:nth-child(2) {
         <td style$="background:hsl({{tempColor(item)}},100%,50%)">blasdf</td>
     </template>
 </tr>-->
-<dom-module id="line-chart" assetpath="components/">
+<dom-module id="humi-dity" assetpath="bower_components/weather-charts/">
     <style>
+        h3{
+            color: var(--title-color);
+        }
+        h3 span:last-child {
+            float: right;
+            color: var(--unit-color);
+        }
+
+        table {
+            width: 100%;
+        }
+
+        td {
+            text-align: center;
+            width: 11%;
+            overflow: hidden;
+        }
+        img{
+            width:100%;
+        }
+        .labels {
+            color: white;
+        }
+
+        .values {
+            color: white;
+            font-size: 15px;
+        }
+    </style>
+
+    <template>
+        <h3>
+            <span>Humidity</span>
+            <span>in %</span>
+        </h3>
+
+        <table>
+            <tbody><tr>
+                <template is="dom-repeat" items="{{data}}">
+                    <td> <img src="bin/rain.png" style$="opacity:{{item}};"> </td>
+                </template>
+            </tr>
+            <tr class="values">
+                <template is="dom-repeat" items="{{data}}">
+                    <td>{{value(item)}}</td>
+                </template>
+            </tr>
+        </tbody></table>
+    </template>
+
+</dom-module>
+
+
+
+
+
+<style>
+.ct-double-octave:after,.ct-major-eleventh:after,.ct-major-second:after,.ct-major-seventh:after,.ct-major-sixth:after,.ct-major-tenth:after,.ct-major-third:after,.ct-major-twelfth:after,.ct-minor-second:after,.ct-minor-seventh:after,.ct-minor-sixth:after,.ct-minor-third:after,.ct-octave:after,.ct-perfect-fifth:after,.ct-perfect-fourth:after,.ct-square:after{content:"";clear:both}.ct-label{fill:rgba(0,0,0,.4);color:rgba(0,0,0,.4);font-size:.75rem;line-height:1}.ct-chart-bar .ct-label,.ct-chart-line .ct-label{display:block;display:-webkit-box;display:-moz-box;display:-ms-flexbox;display:-webkit-flex;display:flex}.ct-label.ct-horizontal.ct-start{-webkit-box-align:flex-end;-webkit-align-items:flex-end;-ms-flex-align:flex-end;align-items:flex-end;-webkit-box-pack:flex-start;-webkit-justify-content:flex-start;-ms-flex-pack:flex-start;justify-content:flex-start;text-align:left;text-anchor:start}.ct-label.ct-horizontal.ct-end{-webkit-box-align:flex-start;-webkit-align-items:flex-start;-ms-flex-align:flex-start;align-items:flex-start;-webkit-box-pack:flex-start;-webkit-justify-content:flex-start;-ms-flex-pack:flex-start;justify-content:flex-start;text-align:left;text-anchor:start}.ct-label.ct-vertical.ct-start{-webkit-box-align:flex-end;-webkit-align-items:flex-end;-ms-flex-align:flex-end;align-items:flex-end;-webkit-box-pack:flex-end;-webkit-justify-content:flex-end;-ms-flex-pack:flex-end;justify-content:flex-end;text-align:right;text-anchor:end}.ct-label.ct-vertical.ct-end{-webkit-box-align:flex-end;-webkit-align-items:flex-end;-ms-flex-align:flex-end;align-items:flex-end;-webkit-box-pack:flex-start;-webkit-justify-content:flex-start;-ms-flex-pack:flex-start;justify-content:flex-start;text-align:left;text-anchor:start}.ct-chart-bar .ct-label.ct-horizontal.ct-start{-webkit-box-align:flex-end;-webkit-align-items:flex-end;-ms-flex-align:flex-end;align-items:flex-end;-webkit-box-pack:center;-webkit-justify-content:center;-ms-flex-pack:center;justify-content:center;text-align:center;text-anchor:start}.ct-chart-bar .ct-label.ct-horizontal.ct-end{-webkit-box-align:flex-start;-webkit-align-items:flex-start;-ms-flex-align:flex-start;align-items:flex-start;-webkit-box-pack:center;-webkit-justify-content:center;-ms-flex-pack:center;justify-content:center;text-align:center;text-anchor:start}.ct-chart-bar.ct-horizontal-bars .ct-label.ct-horizontal.ct-start{-webkit-box-align:flex-end;-webkit-align-items:flex-end;-ms-flex-align:flex-end;align-items:flex-end;-webkit-box-pack:flex-start;-webkit-justify-content:flex-start;-ms-flex-pack:flex-start;justify-content:flex-start;text-align:left;text-anchor:start}.ct-chart-bar.ct-horizontal-bars .ct-label.ct-horizontal.ct-end{-webkit-box-align:flex-start;-webkit-align-items:flex-start;-ms-flex-align:flex-start;align-items:flex-start;-webkit-box-pack:flex-start;-webkit-justify-content:flex-start;-ms-flex-pack:flex-start;justify-content:flex-start;text-align:left;text-anchor:start}.ct-chart-bar.ct-horizontal-bars .ct-label.ct-vertical.ct-start{-webkit-box-align:center;-webkit-align-items:center;-ms-flex-align:center;align-items:center;-webkit-box-pack:flex-end;-webkit-justify-content:flex-end;-ms-flex-pack:flex-end;justify-content:flex-end;text-align:right;text-anchor:end}.ct-chart-bar.ct-horizontal-bars .ct-label.ct-vertical.ct-end{-webkit-box-align:center;-webkit-align-items:center;-ms-flex-align:center;align-items:center;-webkit-box-pack:flex-start;-webkit-justify-content:flex-start;-ms-flex-pack:flex-start;justify-content:flex-start;text-align:left;text-anchor:end}.ct-grid{stroke:rgba(0,0,0,.2);stroke-width:1px;stroke-dasharray:2px}.ct-point{stroke-width:10px;stroke-linecap:round}.ct-line{fill:none;stroke-width:4px}.ct-area{stroke:none;fill-opacity:.1}.ct-bar{fill:none;stroke-width:10px}.ct-slice-donut{fill:none;stroke-width:60px}.ct-series-a .ct-bar,.ct-series-a .ct-line,.ct-series-a .ct-point,.ct-series-a .ct-slice-donut{stroke:#d70206}.ct-series-a .ct-area,.ct-series-a .ct-slice-pie{fill:#d70206}.ct-series-b .ct-bar,.ct-series-b .ct-line,.ct-series-b .ct-point,.ct-series-b .ct-slice-donut{stroke:#f05b4f}.ct-series-b .ct-area,.ct-series-b .ct-slice-pie{fill:#f05b4f}.ct-series-c .ct-bar,.ct-series-c .ct-line,.ct-series-c .ct-point,.ct-series-c .ct-slice-donut{stroke:#f4c63d}.ct-series-c .ct-area,.ct-series-c .ct-slice-pie{fill:#f4c63d}.ct-series-d .ct-bar,.ct-series-d .ct-line,.ct-series-d .ct-point,.ct-series-d .ct-slice-donut{stroke:#d17905}.ct-series-d .ct-area,.ct-series-d .ct-slice-pie{fill:#d17905}.ct-series-e .ct-bar,.ct-series-e .ct-line,.ct-series-e .ct-point,.ct-series-e .ct-slice-donut{stroke:#453d3f}.ct-series-e .ct-area,.ct-series-e .ct-slice-pie{fill:#453d3f}.ct-series-f .ct-bar,.ct-series-f .ct-line,.ct-series-f .ct-point,.ct-series-f .ct-slice-donut{stroke:#59922b}.ct-series-f .ct-area,.ct-series-f .ct-slice-pie{fill:#59922b}.ct-series-g .ct-bar,.ct-series-g .ct-line,.ct-series-g .ct-point,.ct-series-g .ct-slice-donut{stroke:#0544d3}.ct-series-g .ct-area,.ct-series-g .ct-slice-pie{fill:#0544d3}.ct-series-h .ct-bar,.ct-series-h .ct-line,.ct-series-h .ct-point,.ct-series-h .ct-slice-donut{stroke:#6b0392}.ct-series-h .ct-area,.ct-series-h .ct-slice-pie{fill:#6b0392}.ct-series-i .ct-bar,.ct-series-i .ct-line,.ct-series-i .ct-point,.ct-series-i .ct-slice-donut{stroke:#f05b4f}.ct-series-i .ct-area,.ct-series-i .ct-slice-pie{fill:#f05b4f}.ct-series-j .ct-bar,.ct-series-j .ct-line,.ct-series-j .ct-point,.ct-series-j .ct-slice-donut{stroke:#dda458}.ct-series-j .ct-area,.ct-series-j .ct-slice-pie{fill:#dda458}.ct-series-k .ct-bar,.ct-series-k .ct-line,.ct-series-k .ct-point,.ct-series-k .ct-slice-donut{stroke:#eacf7d}.ct-series-k .ct-area,.ct-series-k .ct-slice-pie{fill:#eacf7d}.ct-series-l .ct-bar,.ct-series-l .ct-line,.ct-series-l .ct-point,.ct-series-l .ct-slice-donut{stroke:#86797d}.ct-series-l .ct-area,.ct-series-l .ct-slice-pie{fill:#86797d}.ct-series-m .ct-bar,.ct-series-m .ct-line,.ct-series-m .ct-point,.ct-series-m .ct-slice-donut{stroke:#b2c326}.ct-series-m .ct-area,.ct-series-m .ct-slice-pie{fill:#b2c326}.ct-series-n .ct-bar,.ct-series-n .ct-line,.ct-series-n .ct-point,.ct-series-n .ct-slice-donut{stroke:#6188e2}.ct-series-n .ct-area,.ct-series-n .ct-slice-pie{fill:#6188e2}.ct-series-o .ct-bar,.ct-series-o .ct-line,.ct-series-o .ct-point,.ct-series-o .ct-slice-donut{stroke:#a748ca}.ct-series-o .ct-area,.ct-series-o .ct-slice-pie{fill:#a748ca}.ct-square{display:block;position:relative;width:100%}.ct-square:before{display:block;float:left;content:"";width:0;height:0;padding-bottom:100%}.ct-square:after{display:table}.ct-square>svg{display:block;position:absolute;top:0;left:0}.ct-minor-second{display:block;position:relative;width:100%}.ct-minor-second:before{display:block;float:left;content:"";width:0;height:0;padding-bottom:93.75%}.ct-minor-second:after{display:table}.ct-minor-second>svg{display:block;position:absolute;top:0;left:0}.ct-major-second{display:block;position:relative;width:100%}.ct-major-second:before{display:block;float:left;content:"";width:0;height:0;padding-bottom:88.8888888889%}.ct-major-second:after{display:table}.ct-major-second>svg{display:block;position:absolute;top:0;left:0}.ct-minor-third{display:block;position:relative;width:100%}.ct-minor-third:before{display:block;float:left;content:"";width:0;height:0;padding-bottom:83.3333333333%}.ct-minor-third:after{display:table}.ct-minor-third>svg{display:block;position:absolute;top:0;left:0}.ct-major-third{display:block;position:relative;width:100%}.ct-major-third:before{display:block;float:left;content:"";width:0;height:0;padding-bottom:80%}.ct-major-third:after{display:table}.ct-major-third>svg{display:block;position:absolute;top:0;left:0}.ct-perfect-fourth{display:block;position:relative;width:100%}.ct-perfect-fourth:before{display:block;float:left;content:"";width:0;height:0;padding-bottom:75%}.ct-perfect-fourth:after{display:table}.ct-perfect-fourth>svg{display:block;position:absolute;top:0;left:0}.ct-perfect-fifth{display:block;position:relative;width:100%}.ct-perfect-fifth:before{display:block;float:left;content:"";width:0;height:0;padding-bottom:66.6666666667%}.ct-perfect-fifth:after{display:table}.ct-perfect-fifth>svg{display:block;position:absolute;top:0;left:0}.ct-minor-sixth{display:block;position:relative;width:100%}.ct-minor-sixth:before{display:block;float:left;content:"";width:0;height:0;padding-bottom:62.5%}.ct-minor-sixth:after{display:table}.ct-minor-sixth>svg{display:block;position:absolute;top:0;left:0}.ct-golden-section{display:block;position:relative;width:100%}.ct-golden-section:before{display:block;float:left;content:"";width:0;height:0;padding-bottom:61.804697157%}.ct-golden-section:after{content:"";display:table;clear:both}.ct-golden-section>svg{display:block;position:absolute;top:0;left:0}.ct-major-sixth{display:block;position:relative;width:100%}.ct-major-sixth:before{display:block;float:left;content:"";width:0;height:0;padding-bottom:60%}.ct-major-sixth:after{display:table}.ct-major-sixth>svg{display:block;position:absolute;top:0;left:0}.ct-minor-seventh{display:block;position:relative;width:100%}.ct-minor-seventh:before{display:block;float:left;content:"";width:0;height:0;padding-bottom:56.25%}.ct-minor-seventh:after{display:table}.ct-minor-seventh>svg{display:block;position:absolute;top:0;left:0}.ct-major-seventh{display:block;position:relative;width:100%}.ct-major-seventh:before{display:block;float:left;content:"";width:0;height:0;padding-bottom:53.3333333333%}.ct-major-seventh:after{display:table}.ct-major-seventh>svg{display:block;position:absolute;top:0;left:0}.ct-octave{display:block;position:relative;width:100%}.ct-octave:before{display:block;float:left;content:"";width:0;height:0;padding-bottom:50%}.ct-octave:after{display:table}.ct-octave>svg{display:block;position:absolute;top:0;left:0}.ct-major-tenth{display:block;position:relative;width:100%}.ct-major-tenth:before{display:block;float:left;content:"";width:0;height:0;padding-bottom:40%}.ct-major-tenth:after{display:table}.ct-major-tenth>svg{display:block;position:absolute;top:0;left:0}.ct-major-eleventh{display:block;position:relative;width:100%}.ct-major-eleventh:before{display:block;float:left;content:"";width:0;height:0;padding-bottom:37.5%}.ct-major-eleventh:after{display:table}.ct-major-eleventh>svg{display:block;position:absolute;top:0;left:0}.ct-major-twelfth{display:block;position:relative;width:100%}.ct-major-twelfth:before{display:block;float:left;content:"";width:0;height:0;padding-bottom:33.3333333333%}.ct-major-twelfth:after{display:table}.ct-major-twelfth>svg{display:block;position:absolute;top:0;left:0}.ct-double-octave{display:block;position:relative;width:100%}.ct-double-octave:before{display:block;float:left;content:"";width:0;height:0;padding-bottom:25%}.ct-double-octave:after{display:table}.ct-double-octave>svg{display:block;position:absolute;top:0;left:0}
+</style>
+<style>
+.humidity .ct-line {
+  stroke: #33a;
+}
+.humidity .ct-point {
+  stroke-width: 5px;
+  stroke: silver;
+}
+.humidity .ct-label {
+  stroke: silver;
+}
+.pressure .ct-line {
+  stroke: #a33;
+}
+.pressure .ct-point {
+  stroke-width: 5px;
+  stroke: silver;
+}
+.pressure .ct-label {
+  stroke: silver;
+}
+.ozone .ct-line {
+  stroke: #3a3;
+}
+.ozone .ct-point {
+  stroke-width: 5px;
+  stroke: silver;
+}
+.ozone .ct-label {
+  stroke: silver;
+}
+
+</style>
+
+
+<dom-module id="line-chart" assetpath="components/week/">
+    <style>
+        h3{
+            color: var(--title-color);
+        }
+        h3 span:last-child {
+            float: right;
+            color: var(--unit-color);
+        }
         #chart {
             width: 110%;
             left: -5%;
         }
-        /*
+        #chart .ct-series-a .ct-line {
+            stroke: green !important;
+        }
+        .ct-series-a .ct-line {
+            stroke: green;
+        }
+        .ct-label{
+            stroke: orange;
+        }
         #chart .ct-series .ct-point {
             stroke-width: 5px;
             stroke: silver;
         }
-
-        #chart .ct-line {
-            stroke: #a3a;
-        }
-*/
     </style>
 
     <template>
@@ -682,7 +915,7 @@ h3 span:nth-child(2) {
             <span>[[title]]</span>
             <span>in [[unit]]</span>
         </h3>
-        <div id="chart" class="ct-double-octave"></div>
+        <div id="chart" class$="ct-double-octave [[title]]"></div>
     </template>
 
 
@@ -692,12 +925,77 @@ h3 span:nth-child(2) {
 
 
 
-<dom-module id="week-days" assetpath="components/">
+<dom-module id="weather-week" assetpath="components/week/">
     <style>
+
+        :host{
+            width: 100%;
+            /*height:100%;*/
+            display: block;
+            position: relative;
+            margin:0;
+            padding:0;
+            background: #222;
+        }
+
+        main{
+            padding: 3mm;
+        }
+
+        main>*{
+            --title-color: white;
+            --unit-color: silver;
+            --background-color: #222;
+        }
+        main .loading{
+            color: white;
+            font-size: 2em;
+            margin-top: 100px;
+        }
+    </style>
+
+
+    <template>
+
+        <main hidden$="[[!sections]]">
+            <temperature-range data="[[sections.temperature]]" unit="C"></temperature-range>
+            <cloud-cover data="[[sections.cloudCover]]" unit="%"></cloud-cover>
+            <rain-bucket data="[[sections.precipitation]]" unit="%"></rain-bucket>
+            <!-- <humi-dity   data="[[sections.humidity]]"  unit="%"></humi-dity> -->
+            <wind-speed data="[[sections.wind]]" unit="km/h"></wind-speed>
+            <moon-phase data="[[sections.moon]]" unit="%"></moon-phase>
+            <day-light data="[[sections.light]]" unit="hh:mm"></day-light>
+
+            <line-chart id="humidity" title="Humidity" unit="%" data="[[sections.humidity]]"></line-chart>
+            <line-chart id="pressure" title="Pressure" unit="mBar" data="[[sections.pressure]]"></line-chart>
+            <line-chart id="ozone" title="Ozone" unit="dobson" data="[[sections.ozone]]"></line-chart>
+            <!--        <line-chart id='dewpoint' name='Dew Point' unit='&deg;C' data="[[data.dewPoint]]"></line-chart>-->
+            <!--        <line-chart id='visibility' name='Visibility' unit='km' data="[[data.visibility]]"></line-chart>-->
+        </main>
+
+        <main hidden$="[[sections]]">
+            <center class="loading">loading weather data...</center>
+        </main>
+
+
+    </template>
+
+
+</dom-module>
+
+
+
+
+
+<dom-module id="week-days" assetpath="components/week/">
+    <style>
+        :host{
+            display: block;
+        }
         table {
             padding: 3px;
             width: 100%;
-            background: #333;
+            /*background: #333;*/
         }
 
         td {
@@ -739,107 +1037,73 @@ h3 span:nth-child(2) {
 
 
 
-<dom-module id="one-week" assetpath="components/">
+<dom-module id="place-item" assetpath="components/cities/">
     <style>
-        :host{
-            position: relative;
-        }
 
-        header {
-            position: fixed;
+        table{
             /*width: 100%;*/
-            top: 0;
-            width: 15cm;
-            margin-left:auto;
-            margin-right:auto;
-            /*left: 0;*/
-            /*right: 0;*/
-            z-index: 100;
-            background: #333;
-            padding: 0px;
+        }
+        td{
+            font-size: 1.2em;
+        }
+        .city{
+            /*color: #ddd;*/
             color: white;
-            text-align: center;
         }
-        header>span{
-            display: inline-block;
-            margin: 5px;
-            font-size:2em;
+        .country {
+            /*color: #999;*/
+            color: gray;
         }
-        header .city{
+        .countryCode {
+            color: orange;
+            width: 30px;
+        }
+        .star{
             color: orange;
         }
-        header .country{
-            color: silver;
+        .position{
+            color: gray;
         }
-
-        footer {
-            position: fixed;
-            /*width: 100%;*/
-            bottom: 0;
-            width: 15cm;
-            margin-left:auto;
-            margin-right:auto;
-            /*left: 0;*/
-            /*right: 0;*/
-            z-index: 100;
+        li{
+        	color: orange;
+        	font-size: 1.2em;
         }
-        moon-phase .hidden{
-            background: red !important;
+        li,tr{
+            cursor: pointer;
         }
-        main{
-            background: #222;
-            min-height: 100%;
-            padding-top:30px;
-            padding-bottom:70px;
+        .remove{
+        	display: none;
+        	color: white;
+        	float: right;
+        	margin-right: 5px;
         }
-        center.loading{
-            color: white;
-            font-size: 2em;
-            /*padding: 50px;*/
-            /*display: inline-block;*/
-            /*margin-left: auto;*/
-            /*margin-right: auto;*/
-            margin-top: 100px;
+        .remove:hover{
+        	color: red;
+        }
+        .remove.show{
+        	display: inline-block;
         }
     </style>
 
 
     <template>
-        <article>
-            <header>
-                <span class="city">{{city.city}}</span>
-                <span class="country">{{city.country}}</span>
-            </header>
-
-            <template is="dom-if" if="{{days}}">
-                <main>
-                    <temperature-range data="[[section.temperature]]" unit="C"></temperature-range>
-                    <cloud-cover data="[[section.cloudCover]]" unit="%"></cloud-cover>
-                    <rain-bucket data="[[section.precipitation]]" unit="%"></rain-bucket>
-                    <wind-speed data="[[section.wind]]" unit="km/h"></wind-speed>
-                    <moon-phase data="[[section.moon]]" unit="%"></moon-phase>
-                    <day-light data="[[section.light]]" unit="hh:mm"></day-light>
-
-                    <line-chart id="pressure" title="Pressure" unit="mBar" data="[[section.pressure]]"></line-chart>
-                    <line-chart id="humidity" title="Humidity" unit="%" data="[[section.humidity]]"></line-chart>
-                    <line-chart id="ozone" title="Ozone" unit="dobson" data="[[section.ozone]]"></line-chart>
-                    <!--        <line-chart id='dewpoint' name='Dew Point' unit='&deg;C' data="[[data.dewPoint]]"></line-chart>-->
-                    <!--        <line-chart id='visibility' name='Visibility' unit='km' data="[[data.visibility]]"></line-chart>-->
-                </main>
-            </template>
-
-            <template is="dom-if" if="{{!days}}">
-                <main>
-                    <template is="dom-if" if="{{city.country}}">
-                    <center class="loading">loading weather data...</center>
-                    </template>
-                </main>
-            </template>
-
-            <footer>
-                <week-days labels="[[section.days]]"></week-days>
-            </footer>
-        </article>
+    	<li>
+    		<span on-tap="setCity" class="city">[[data.city]]</span>
+    		<span on-tap="setCity" class="country">[[data.country]]</span>
+    		<span on-tap="remove" class$="remove [[removeButton]]">‐</span>
+    	</li>
+	    <!-- <table> -->
+	        <!-- <tr on-tap="setCity"> -->
+	        	<!-- &#9733; -->
+	        	<!-- &#9734; -->
+	            <!-- <td class='star'>&#9733;</td> -->
+	            <!-- <td class='countryCode'>[[data.countryCode]]</td> -->
+	            <!-- <td class='city'>[[data.city]]</td> -->
+	            <!-- <td class='country'>[[data.country]]</td> -->
+	            <!-- <td class='country'>[[data.type]]</td> -->
+	            <!-- <td class='position'>[[round(data.lat)]]/[[round(data.lon)]]</td> -->
+	        <!-- </tr> -->
+	    <!-- </table> -->
     </template>
 
 
@@ -849,8 +1113,217 @@ h3 span:nth-child(2) {
 
 
 
+<dom-module id="place-picker" assetpath="components/cities/">
+    <style>
+        :host{
+            width: 100%;
+            /*height:100%;*/
+            display: block;
+          /*position: relative;*/
+          /*width:12cm;margin-left:auto;margin-right:auto;*/
+          /*background: #222;*/
+          margin: 0;
+          padding: 0;
+        /*padding:3mm;*/
+        }
+        main{
+                    padding:3mm;
+
+        }        
+        main input{
+            font-size: 1.5em;
+            background: #ddd;
+            color: #222;
+            width: 99%;
+            /*border: 1px solid silver;*/
+            border: none;
+            -webkit-border-radius: 3px;
+            /*margin: 3px;*/
+        }
+        h2{
+            color: orange;
+            /*color: red;*/
+            font-family: 'Source Sans Pro';
+            font-weight: 300;
+            margin-bottom: 3px;
+        }
+    </style>
+
+
+    <template>
+
+        <main>
+            <input type="search" placeholder="search" on-search="search">
+
+            <template is="dom-repeat" items="{{searchResults}}">
+                <place-item data="[[item]]"></place-item>
+            </template>       
+
+            <h2>Nearby</h2>
+                <place-item data="[[gps]]"></place-item>
+                <place-item data="[[ip]]"></place-item>
+
+            <h2>Recent</h2>
+            <template is="dom-repeat" items="{{favorites}}">
+                <place-item data="[[item]]" remove-button="show"></place-item>
+            </template>       
+                <!-- add favorites by tapping the yellow star... -->
+
+            <!-- <h2 onclick="location='//en.wikipedia.org/wiki/Megacity'">Mega-Cities</h2> -->
+            <h2>Examples</h2>
+            <template is="dom-repeat" items="{{defaults}}">
+                <place-item data="[[item]]"></place-item>
+            </template>       
+
+        </main>
+    </template>
+</dom-module>
+
+
+
+
+
+<!-- <link rel="import" href="../close-app.html"> -->
+
+<dom-module id="place-header" assetpath="components/cities/">
+    <style>
+        :host{
+            width: 100%;
+            display: block;
+        }
+        table{
+            width: 100%;
+            border-collapse: collapse;
+        }
+        .icon {
+            width: 50px;
+        }
+        .icon img{
+            margin-left:5px;
+            width: 40px; 
+            height: 40px;
+        }
+
+        .close{
+            width: 30px;
+        }
+        a{
+            display: inline-block;
+            margin: 5px;
+            font-size:2em;
+            text-decoration: none;
+        }
+        .city{
+            color: orange;
+        }
+        .country{
+            color: silver;
+        }
+        .loading{
+            color: silver;
+        }
+    </style>
+    <template>
+        <table>
+            <tbody><tr>
+                <td class="icon" onclick="document.location.hash='#'">
+                    <!-- <img src='icon.png'/> -->
+                    <img src="icon.png">
+                </td>
+                <td class="title">
+                    <a class="city">Weather</a>
+                    <a class="country">Charts</a>
+                </td>
+                <td class="close">
+                    <close-app></close-app>
+                </td>
+            </tr>
+        </tbody></table>
+    </template>
+</dom-module>
+
+<dom-module id="app-root" assetpath="components/">
+    <style>
+    *{
+        font-family: 'Source Sans Pro';
+        /*font-family: 'Quicksand';*/
+        /*font-family: 'Open Sans';*/
+        font-weight: 300;
+    }
+    article{
+        width: 12cm;
+        height:100%;
+        margin-left: auto;
+        margin-right: auto;
+        position: relative;
+    }
+    place-header,week-header {
+        position: absolute;
+        width: 100%;
+        top: 0;
+        background: #333;
+        color: white;
+        height:50px;
+    }
+    place-picker,weather-week{
+        /*display: block;*/
+        position: absolute;
+        left:0px;
+        top: 50px;
+        bottom:40px;
+        right:-6mm;
+        /*width: 90%;*/
+        overflow-x: hidden;
+        overflow-y: scroll;
+        /*padding:3mm;*/
+        background: #222;
+    }
+    place-picker{
+        bottom:0;
+    }
+    week-days {
+        position: absolute;
+        width: 100%;
+        bottom: 0px;
+        height:40px;
+        background: #333;
+    }
+    </style>
+    <template>
+        <hash-key key="esc" hash=""></hash-key>
+
+        <hash-route regex="">
+            <article>
+                <place-header></place-header>
+                <place-picker></place-picker>
+            </article>
+        </hash-route>
+
+        <hash-route regex="/(-?\d+\.\d+),(-?\d+\.\d+)" p1="{{lat}}" p2="{{lon}}">
+            <article>
+                <week-header lat="[[lat]]" lon="[[lon]]"></week-header>
+                <weather-data lat="[[lat]]" lon="[[lon]]" sections="{{sections}}"></weather-data>
+                <weather-week sections="[[sections]]"></weather-week>
+                <week-days labels="[[sections.days]]"></week-days>
+            </article>
+        </hash-route>
+    </template>
+</dom-module>
+
+
+
 </div>
-    <article>
-	    <one-week></one-week>
-    </article>
-<script src="index.js"></script></body></html>
+	<app-root></app-root>
+
+
+
+
+
+
+
+
+
+
+
+
+<script src="index.js"></script></body><!-- vulcanize --inline-scripts --inline-css index.html | crisper --html build/index.html --js build/index.js --><!-- <link href='https://fonts.googleapis.com/css?family=Source+Sans+Pro:300' rel='stylesheet' type='text/css'> --><!-- <link href='https://fonts.googleapis.com/css?family=Quicksand:300' rel='stylesheet' type='text/css'> --><!-- <link href='https://fonts.googleapis.com/css?family=Open+Sans:300' rel='stylesheet' type='text/css'> --></html>
