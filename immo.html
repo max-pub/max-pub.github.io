@@ -15,6 +15,10 @@
  td{ white-space: nowrap; }
  #rendite,#total{font-size: 30px;}
  h1{font-size: 40px;}
+ sup{font-size: 15px;}
+ sub{font-size: 17px;}
+ u{text-decoration: none; font-size: 20px;}
+ #mail{display: none;}
 </style>
 
 <h1>Immobilien Rechner</h1>
@@ -54,20 +58,38 @@
 		<td colspan='5'><hr/></td>
 	</tr>
 	<tr>
+		<td>Fl&auml;che</td>		
+		<td> <input id='size' type='number' value='90' step="1" onchange='update()'/> </td>		
+		<td>m<sup>2</sup></td>	
+	</tr>
+	<tr>
+		<td></td>
+		<td> = <i id='sizeprice'></i> </td>
+		<td>&euro; <u>/m<sup>2</sup></u></td>	
+	</tr>
+	<tr>
+		<td colspan='5'><hr/></td>
+	</tr>
+	<tr>
 		<td>Miete</td>		
 		<td> <input id='rent_mon' type='number' value='900' step="10" onchange='update()'/> </td>		
-		<td>&euro;</td>	
+		<td>&euro; <u>/Monat</u></td>	
+	</tr>
+	<tr>
+		<td></td>
+		<td> = <i id='rent_size'></i> </td>
+		<td>&euro; <u>/m<sup>2</sup></u></td>	
 	</tr>
 	<tr>
 		<td></td>
 		<td> * 12 = <i id='rent_year'></i> </td>
-		<td>&euro;</td>	
+		<td>&euro; <u>/Jahr</u></td>	
 	</tr>
 
 	<tr>
 		<td>Rendite</td>		
 		<td> <b id='rendite'></b> </td>		
-		<td>%</td>
+		<td>% <u>/Jahr</u></td>
 	</tr>
 
 	<tr>
@@ -76,9 +98,11 @@
 		<td>Jahre</td>
 	</tr>
 
-
 </table>
-
+<br/>
+<br/>
+<br/>
+<a id='mail' href=''>send mail</a>
 
 <script>
 update = function(){
@@ -92,13 +116,23 @@ update = function(){
 	tax_abs.innerHTML = Math.round(price.value * tax_rel.value/100);
 	total.innerHTML = Math.round(price.value*1 + mak_abs.innerHTML*1 + tax_abs.innerHTML*1);
 
+	var size = document.getElementById('size');
+	var sizeprice = document.getElementById('sizeprice');
+	sizeprice.innerHTML = Math.round(total.innerHTML*1 / size.value);
+
 	var rent_mon = document.getElementById('rent_mon');
 	var rent_year = document.getElementById('rent_year');
 	var rendite = document.getElementById('rendite');
 	var amor = document.getElementById('amor');
 	rent_year.innerHTML = Math.round(rent_mon.value * 12);
+	rent_size.innerHTML = (rent_mon.value / size.value).toFixed(2);
 	rendite.innerHTML = ((rent_year.innerHTML*1 / total.innerHTML*1)*100).toFixed(2);
 	amor.innerHTML = Math.round(total.innerHTML*1 / rent_year.innerHTML*1);
+
+	var mail = document.getElementById('mail');
+	var href = "abc%0Ahttps://max.pub/immo";
+	mail.setAttribute('href',"mailto:?subject=Haus XXX&body="+href);
+
 }
 update();
 </script>
