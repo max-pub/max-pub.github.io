@@ -1,3 +1,6 @@
+<meta name="mobile-web-app-capable" content="yes">
+<meta content='width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0' name='viewport'/>
+
 <link href="https://fonts.googleapis.com/css?family=Inconsolata" rel="stylesheet">
 
 <style>
@@ -6,32 +9,42 @@
  td {text-align: right;}
  td:first-child {text-align: left;}
  td:last-child {text-align: left;}
- .small{width: 100px;}
  td{ white-space: nowrap; }
+ #rendite,#total{font-size: 27px;}
+ h1{font-size: 40px;}
 </style>
+
+<h1>Immobilien Rechner</h1>
+
 <table>
 	<tr>
 		<td>Haus</td>		
-		<td colspan='3'> <input id='price' type='number' step='5000' value='290000' onchange='update()'/> </td>	
+		<td> <input id='price' type='number' step='5000' value='290000' onchange='update()'/> </td>	
 		<td>&euro;</td>	
 	</tr>
 	<tr>
 		<td>Makler</td>		
-		<td class='small'> <input id='mak_rel' type='number' value='5.95' step="0.01" onchange='update()'/>% </td>		
-		<td> = </td>
-		<td> <i id='mak_abs'></i> </td>		
+		<td> <input id='mak_rel' type='number' value='5.95' step="0.01" onchange='update()'/> </td>		
+		<td>%</td>	
+	</tr>
+	<tr>
+		<td></td>
+		<td> = <i id='mak_abs'></i> </td>
 		<td>&euro;</td>	
 	</tr>
 	<tr>
 		<td>Steuer</td>		
-		<td class='small'> <input id='tax_rel' type='number' value='12.00' step="0.1" onchange='update()'/>% </td>		
-		<td> = </td>
-		<td> <i id='tax_abs'></i> </td>		
+		<td> <input id='tax_rel' type='number' value='12.00' step="0.1" onchange='update()'/> </td>		
+		<td>%</td>	
+	</tr>
+	<tr>
+		<td></td>
+		<td> = <i id='tax_abs'></i> </td>
 		<td>&euro;</td>	
 	</tr>
 	<tr>
 		<td>Gesamt</td>		
-		<td colspan='3'> <b id='total'></b> </td>		
+		<td> <b id='total'></b> </td>		
 		<td>&euro;</td>	
 	</tr>
 	<tr>
@@ -39,21 +52,24 @@
 	</tr>
 	<tr>
 		<td>Miete</td>		
-		<td class='small'> <input id='rent_mon' type='number' value='900' step="10" onchange='update()'/>&euro;  </td>		
-		<td style='padding-left:10px;'> * 12 = </td>
-		<td>  <i id='rent_year'></i> </td>		
+		<td> <input id='rent_mon' type='number' value='900' step="10" onchange='update()'/> </td>		
+		<td>&euro;</td>	
+	</tr>
+	<tr>
+		<td></td>
+		<td> * 12 = <i id='rent_year'></i> </td>
 		<td>&euro;</td>	
 	</tr>
 
 	<tr>
 		<td>Rendite</td>		
-		<td colspan='3'> <b id='rendite'></b> </td>		
+		<td> <b id='rendite'></b> </td>		
 		<td>%</td>
 	</tr>
 
 	<tr>
 		<td>Amortisation</td>		
-		<td colspan='3'> <b id='amor'></b> </td>		
+		<td> <b id='amor'></b> </td>		
 		<td>Jahre</td>
 	</tr>
 
