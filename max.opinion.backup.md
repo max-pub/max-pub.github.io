@@ -35,7 +35,7 @@ schwieriger:
 	verteidigung
 
 
-### [Universal Apps](/1app)
+### [Universal Apps](/UniversalAppPlatform) (1app)
 microsoft, facebook, amazon
 
 
