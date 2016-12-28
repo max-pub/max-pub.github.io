@@ -22,7 +22,7 @@ makeAuthorList = function(lst) {
 	// console.log(lst)
 	var HTML = '<main class="authors">';
 	HTML += `<h1>Autoren</h1>
-			 <h2>mit abgelaufenem Urheberrecht</h2>`;
+			 <h2>urheberrechtsfreier B&uuml;cher</h2>`;
 	lst.forEach((item) => {
 		HTML += `
 		<a class='li' href="#${item.year+' '+item.name}"> 
