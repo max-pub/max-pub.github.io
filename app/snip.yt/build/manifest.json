@@ -1,0 +1,21 @@
+{
+    "name": "mark.pink",
+    "description": "show marks",
+    "manifest_version": 2,
+    "version": "1",
+    "background": {
+        "scripts": ["background.js"]
+    },
+    "browser_action": {
+        "default_icon": {
+            "64": "bin/icon.png"
+        },
+        "default_title": "show marks"
+    },
+
+    // "offline_enabled": true,
+    // "permissions": ["tabs", "idle"],
+    "icons": {
+        "256": "bin/icon.png"
+    }
+}

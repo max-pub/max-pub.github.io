@@ -1,0 +1,82 @@
+<link rel="import" href="../bower_components/date-format/date-format.html">
+
+<dom-module id="one-quote">
+    <style>
+    :host{
+        display: block;
+        background: white;
+        padding: 5px;
+        margin: 10px;
+    }
+    i{
+        color: silver;
+    }
+/*    a{
+        display: inline-block;
+        color: red;
+        cursor: pointer;
+    }
+*/    .remove{
+        display: block;
+        float: right;
+        width: 16px;
+        height: 16px;
+        cursor: pointer;
+    }
+    </style>
+
+
+    <template>
+        <h2 on-tap='openURL'>[[quote.title]]</h2>
+        <template is="dom-repeat" items="{{quote.quotes}}">
+            <p>
+                <img class='remove' src='../bin/remove.png' on-tap="removeQuote"/>
+                [[item.quote]] 
+                <!-- <a on-tap="removeQuote">DELETE</a> -->
+            </p>
+            
+        </template>
+        <div class='URL'>
+            <img src="http://www.google.com/s2/favicons?domain=[[domain(quote.URL)]]"/>
+            <b>[[domain(quote.URL)]]</b>
+            <date-format date="[[quote.t]]" format="DD MMMM YYYY"></date-format>
+        </div>
+    </template>
+
+</dom-module>
+
+
+
+
+
+<script>
+    Polymer({
+        is: "one-quote",
+        properties: {
+            quote: {
+                type: String,
+                observer: 'quoteChange'
+            }
+        },
+        quoteChange: function () {
+        },
+        removeQuote: function(event){
+            var ID = event.model.item.ID;
+            ajax('http://api.max.pub/quotes/?del='+ID, function(success){
+                console.log('remove',success);
+                delete event.model.item;
+            }.bind(this));
+        },
+        openURL: function(){
+            window.open(this.quote.URL);
+        },
+        domain: function(URL){
+            return URL.split('//')[1].split('/')[0].replace('www.','');
+        },
+        path: function(URL){
+            return '/'+URL.split('//')[1].split('/').slice(1).join('/');
+        }
+
+    });
+</script>
+

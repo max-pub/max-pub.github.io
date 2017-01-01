@@ -1,0 +1,42 @@
+<link href='https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400' rel='stylesheet' type='text/css'>
+
+<link rel="import" href="one-quote.html">
+
+<dom-module id="app-root">
+    <style>
+        *{ 
+            font-family: "Source Sans Pro"; 
+        }
+        one-quote{
+            width: 15cm;
+            margin-left: auto;
+            margin-right: auto;
+        }
+    </style>
+
+
+    <template>
+        <h1>mark.pink</h1>
+        <template is="dom-repeat" items="{{list}}">
+            <one-quote quote='{{item}}'></one-quote>
+        </template>
+    </template>
+</dom-module>
+
+
+
+
+
+<script>
+    Polymer({
+        is: "app-root",
+        properties: {},
+        ready: function () {
+            ajax('http://api.max.pub/quotes/?list=all',function(lst){
+                lst = JSON.parse(lst);
+                console.log('list',lst);
+                this.set('list',lst);
+            }.bind(this));
+        }
+    });
+</script>

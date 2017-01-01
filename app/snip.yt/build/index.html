@@ -1,0 +1,131 @@
+<!DOCTYPE html><html><head><meta charset="UTF-8">
+    <title>mark.pink</title>
+<style>
+        html{
+            font-size: 20px;
+        }
+	body{
+		background: #eee;
+	}	
+</style></head>
+
+
+<body><div hidden="" by-vulcanize=""><!--
+@license
+Copyright (c) 2014 The Polymer Project Authors. All rights reserved.
+This code may only be used under the BSD style license found at http://polymer.github.io/LICENSE.txt
+The complete set of authors may be found at http://polymer.github.io/AUTHORS.txt
+The complete set of contributors may be found at http://polymer.github.io/CONTRIBUTORS.txt
+Code distributed by Google as part of the polymer project is also
+subject to an additional IP rights grant found at http://polymer.github.io/PATENTS.txt
+--><!--
+@license
+Copyright (c) 2014 The Polymer Project Authors. All rights reserved.
+This code may only be used under the BSD style license found at http://polymer.github.io/LICENSE.txt
+The complete set of authors may be found at http://polymer.github.io/AUTHORS.txt
+The complete set of contributors may be found at http://polymer.github.io/CONTRIBUTORS.txt
+Code distributed by Google as part of the polymer project is also
+subject to an additional IP rights grant found at http://polymer.github.io/PATENTS.txt
+--><!--
+@license
+Copyright (c) 2014 The Polymer Project Authors. All rights reserved.
+This code may only be used under the BSD style license found at http://polymer.github.io/LICENSE.txt
+The complete set of authors may be found at http://polymer.github.io/AUTHORS.txt
+The complete set of contributors may be found at http://polymer.github.io/CONTRIBUTORS.txt
+Code distributed by Google as part of the polymer project is also
+subject to an additional IP rights grant found at http://polymer.github.io/PATENTS.txt
+-->
+<dom-module id="date-format" assetpath="bower_components/date-format/">
+    <template>
+        <style></style>
+        <span id="format"></span>
+    </template>
+</dom-module>
+
+
+<dom-module id="one-quote" assetpath="components/">
+    <style>
+    :host{
+        display: block;
+        background: white;
+        padding: 5px;
+        margin: 10px;
+    }
+    i{
+        color: silver;
+    }
+/*    a{
+        display: inline-block;
+        color: red;
+        cursor: pointer;
+    }
+*/    .remove{
+        display: block;
+        float: right;
+        width: 16px;
+        height: 16px;
+        cursor: pointer;
+    }
+    </style>
+
+
+    <template>
+        <h2 on-tap="openURL">[[quote.title]]</h2>
+        <template is="dom-repeat" items="{{quote.quotes}}">
+            <p>
+                <img class="remove" src="bin/remove.png" on-tap="removeQuote">
+                [[item.quote]] 
+                <!-- <a on-tap="removeQuote">DELETE</a> -->
+            </p>
+            
+        </template>
+        <div class="URL">
+            <img src="http://www.google.com/s2/favicons?domain=[[domain(quote.URL)]]">
+            <b>[[domain(quote.URL)]]</b>
+            <date-format date="[[quote.t]]" format="DD MMMM YYYY"></date-format>
+        </div>
+    </template>
+
+</dom-module>
+
+
+
+
+
+<link href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400" rel="stylesheet" type="text/css">
+
+<dom-module id="app-root" assetpath="components/">
+    <style>
+        *{ 
+            font-family: "Source Sans Pro"; 
+        }
+        one-quote{
+            width: 15cm;
+            margin-left: auto;
+            margin-right: auto;
+        }
+    </style>
+
+
+    <template>
+        <h1>mark.pink</h1>
+        <template is="dom-repeat" items="{{list}}">
+            <one-quote quote="{{item}}"></one-quote>
+        </template>
+    </template>
+</dom-module>
+
+
+
+
+
+</div>
+	<app-root></app-root>
+
+
+
+
+
+
+
+<script src="index.js"></script></body></html><!--vulcanize --inline-scripts --inline-css index.html | crisper --html build/index.html --js build/index.js-->
