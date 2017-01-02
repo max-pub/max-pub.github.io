@@ -6,8 +6,8 @@ $$ = (q) => document.querySelectorAll(q);
 
 makeRow = (hash, year, title) => {
 	return `<tr onclick="document.location.hash='#${hash}'"> 
-				<td class='year'>${year}</td> 
-				<td class='name'>${title}</td>
+				<td>${year}</td> 
+				<td>${title}</td>
 			</tr>`;
 }
 
@@ -73,7 +73,7 @@ showBooks = (path) => {
 		text.split('\n\n').forEach((block) => {
 			block = block.trim();
 			if (block.substr(0, 4) * 1 == block.substr(0, 4)) { //lebenslauf
-				HTML += "<table>";
+				HTML += "<h2>Lebenslauf</h2><table class='cv'>";
 				block.split('\n').forEach((line) => {
 					HTML += `<tr><td>${line.substr(0,4)}</td><td>${line.substr(5)}</td></tr>\n`;
 				});
