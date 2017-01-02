@@ -72,7 +72,7 @@ showBooks = (path) => {
 		var HTML = '';
 		text.split('\n\n').forEach((block) => {
 			block = block.trim();
-			if (block.substr(0, 4) * 1 == block.substr(0, 4)) { //lebenslauf
+			if (new RegExp(/^[0-9]{4}/).test(block.substr(0, 4))) { //lebenslauf
 				HTML += "<h2>Lebenslauf</h2><table class='cv'>";
 				block.split('\n').forEach((line) => {
 					HTML += `<tr><td>${line.substr(0,4)}</td><td>${line.substr(5)}</td></tr>\n`;
