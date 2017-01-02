@@ -1,8 +1,15 @@
-MD = new showdown.Converter();
+// MD = new showdown.Converter();
+// MD = new LitMD();
 $ = (q) => document.querySelector(q);
 $$ = (q) => document.querySelectorAll(q);
 
 
+makeRow = (hash, year, title) => {
+	return `<tr onclick="document.location.hash='#${hash}'"> 
+				<td class='year'>${year}</td> 
+				<td class='name'>${title}</td>
+			</tr>`;
+}
 
 
 show = (ID) => {
@@ -26,23 +33,23 @@ showLanguages = (path) => {
 
 
 
-
 showAuthors = (path) => {
 	show('authors');
 	loadList(path.string).then((types) => {
-		types.forEach((typ,i)=>{
-			$('#authors h2.typ'+i).innerHTML = typ;
-			loadList(path.string+'/'+typ).then((lst) => {
+		types.forEach((typ, i) => {
+			$('#authors h2.typ' + i).innerHTML = typ;
+			loadList(path.string + '/' + typ).then((lst) => {
 				var HTML = '';
-				lst.forEach((item)=>{
-					var year = item.substr(0,4);
+				lst.forEach((item) => {
+					var year = item.substr(0, 4);
 					var name = item.substr(5);
-					HTML += `<a href="#${path.string}/${typ}/${item}"> 
-								<span class='year'>${year}</span> 
-								<span class='name'>${name}</span>
-							</a>`;
+					HTML += makeRow(path.string + '/' + typ + '/' + item, year, name);
+					// HTML += `<a href="#${path.string}/${typ}/${item}"> 
+					// 			<span class='year'>${year}</span> 
+					// 			<span class='name'>${name}</span>
+					// 		</a>`;
 				});
-				$('#authors .list.typ'+i).innerHTML = HTML;
+				$('#authors .list.typ' + i).innerHTML = HTML;
 			});
 		});
 	});
@@ -50,33 +57,40 @@ showAuthors = (path) => {
 
 
 
-
 showBooks = (path) => {
 	show('books');
 
 	$('#books .author').innerHTML = path.author.substr(5);
-	$('#books .pic').setAttribute('src','https://raw.githubusercontent.com/OpenDataCollection/Books/master/'+path.string+'/pic.jpg');
-	
-	loadContent(path.string+'/bio.txt').then((text)=>{
+	$('#books .pic').onerror = () => {
+		$('#books .pic').hidden = true;
+	}
+	$('#books .pic').setAttribute('src', 'https://raw.githubusercontent.com/OpenDataCollection/Books/master/' + path.string + '/pic.jpg');
+
+	loadContent(path.string + '/bio.txt').then((text) => {
+		if (text.substr(0, 3) === '404') return;
 		$('#books .bio').innerHTML = text;
 	});
-	
-	loadList(path.string).then((lst) => {
-		var HTML = '';
-		lst.forEach((item)=>{
-			var year = item.substr(0,4);
-			var name = item.substr(5).replace('.md','');
-			HTML += `<a href="#${path.string}/${year} ${name}"> 
-						<span class='year'>${year}</span> 
-						<span class='name'>${name}</span>
-					</a>`;
+
+	loadList(path.string).then((types) => {
+		types.forEach((typ, i) => {
+			$('#books h2.typ' + i).innerHTML = typ;
+			loadList(path.string + '/' + typ).then((lst) => {
+				var HTML = '';
+				lst.forEach((item) => {
+					var year = item.substr(0, 4);
+					var name = item.substr(5).replace('.md', '');
+					HTML += makeRow(path.string + '/' + typ + '/' + year + ' ' + name, year, name);
+					// HTML += `<a href="#${path.string}/${year} ${name}"> 
+					// 			<span class='year'>${year}</span> 
+					// 			<span class='name'>${name}</span>
+					// 		</a>`;
+				});
+				$('#books .list.typ' + i).innerHTML = HTML;
+			});
 		});
-		$('#books .list').innerHTML = HTML;
 	});
 
 }
-
-
 
 
 
@@ -84,12 +98,10 @@ showBook = function(path) {
 	show('book');
 	$('#book .title').innerHTML = path.title.substr(5);
 	$('#book .author').innerHTML = path.author.substr(5);
-	loadContent(path.string+'.md').then((text)=>{
-		var html = MD.makeHtml(text);
+	loadContent(path.string + '.md').then((text) => {
+		bookText = text;
+		// var html = MD.makeHtml(text);
+		var html = LitMD(text);
 		$('#book .content').innerHTML = html;
 	});
 }
-
-
-
-

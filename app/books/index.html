@@ -11,7 +11,9 @@
 
 
 <script src='https://api.max.pub/polyfill/?fetch'></script>
-<script src='showdown.min.js'></script>
+<!-- <script src='showdown.min.js'></script> -->
+<!-- <script src='https://rawgit.com/OpenDataCollection/Books/master/md.js'></script> -->
+<script src='LitMD.js'></script>
 <script src='load.js'></script>
 <script src='show.js'></script>
 <script src='hash.js'></script>
@@ -27,17 +29,19 @@
 <main id="authors">
 	<h1>Autoren</h1>
 	<h2 class='typ0'></h2>
-	<div class='list typ0'></div>
+	<table class='list typ0'></table>
 	<h2 class='typ1'></h2>
-	<div class='list typ1'></div>
+	<table class='list typ1'></table>
 </main>
 
 <main id="books">
 	<h1 class='author'></h1>
 	<img class='pic'/>
 	<p class='bio'></p>
-	<h2>B&uuml;cher</h2>
-	<div class='list'></div>
+	<h2 class='typ0'></h2>
+	<table class='list typ0'></table>
+	<h2 class='typ1'></h2>
+	<table class='list typ1'></table>
 </main>
 
 <main id='book'>
