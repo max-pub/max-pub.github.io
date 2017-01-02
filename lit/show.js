@@ -69,7 +69,7 @@ showBooks = (path) => {
 
 	loadContent(path.string + '/bio.txt').then((text) => {
 		if (text.substr(0, 3) === '404') return;
-		$('#books .bio').innerHTML = text;
+		$('#books .bio').innerHTML = text.split('\n').join('<br/>\n');
 	});
 
 	loadList(path.string).then((types) => {
