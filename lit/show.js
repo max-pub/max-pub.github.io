@@ -69,7 +69,21 @@ showBooks = (path) => {
 
 	loadContent(path.string + '/bio.txt').then((text) => {
 		if (text.substr(0, 3) === '404') return;
-		$('#books .bio').innerHTML = text.split('\n').join('<br/>\n');
+		var HTML = '';
+		text.split('\n\n').forEach((block) => {
+			block = block.trim();
+			if (block.substr(0, 4) * 1 == block.substr(0, 4)) { //lebenslauf
+				HTML += "<table>";
+				block.split('\n').forEach((line) => {
+					HTML += `<tr><td>${line.substr(0,4)}</td><td>${line.substr(5)}</td></tr>\n`;
+				});
+				HTML += "</table>\n\n";
+			} else {
+				HTML += `<p>${block}</p>\n\n`;
+			}
+		});
+		$('#books .bio').innerHTML = HTML;
+		//text.split('\n').join('<br/>\n');
 	});
 
 	loadList(path.string).then((types) => {
