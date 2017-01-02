@@ -1,0 +1,36 @@
+<style>
+	i{color: silver;font-style: normal;}
+</style>
+<div id='final'></div>
+
+
+<script src='LitMD.js'></script>
+<script src='test.js'></script>
+<script>
+text = `
+#some shit titl
+
+## Am 4. Mai 1771
+
+Wie froh bin ich, daß ich weg bin! 
+endlich
+wirklich weg!!
+
+Du bist so gut, meiner Mutter zu sagen, daß ich ihr Geschäft bestens betreiben und ihr ehstens Nachricht davon geben werde.
+
+
+
+## Am fasdf heading
+
+|bei uns aus ihr macht. Sie ist eine muntere, heftige Frau von dem besten Herzen. Ich erklärte ihr meiner Mutter Beschwerden über den zurückgehaltenen Erbschaftsanteil; sie sagte mir ihre Gründe, Ursachen und die Bedingungen, unter welchen sie bereit wäre, alles herauszugeben, und mehr als wir verlangten--kurz, ich mag jetzt nichts davon schreiben, sage meiner Mutter, es werde alles gut gehen. Und ich habe, mein Lieber, wieder bei diesem kleinen Geschäft gefunden, daß Mißverständnisse und Trägheit vielleicht mehr Irrungen in der Welt machen als List und Bosheit. Wenigstens sind die beiden letzteren gewiß seltener.
+
+Karl |ängstlich:
+Übrigens befinde ich mich hier gar wohl. 
+
+Franz Peter Jakob:
+Du bist so gut, meiner Mutter zu sagen, daß ich ihr Geschäft bestens betreiben und ihr ehstens Nachricht davon geben werde. habe, mein Lieber, wieder bei diesem kleinen Geschäft gefunden, daß Mißverständnisse und Trägheit v
+|ielleicht mehr Irrungen in der Welt machen als List und Bosheit. 
+Wenigstens sind die beiden letzteren gewiß seltener.
+`
+document.querySelector('#final').innerHTML = LitMD(text);
+</script>
