@@ -1,6 +1,7 @@
 <meta content='width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0' name='viewport' />
 <link href='style/base.css' rel='stylesheet' type='text/css'>
 <link href='style/icon-list.css' rel='stylesheet' type='text/css'>
+<!-- <link href='https://fonts.googleapis.com/css?family=Josefin Sans:300' rel='stylesheet' type='text/css'> -->
 <link href='https://fonts.googleapis.com/css?family=Quicksand:300' rel='stylesheet' type='text/css'>
 
 <!-- <link href='../style/base.css' rel='stylesheet' type='text/css'>
@@ -12,6 +13,7 @@
 <style>
 *{
     font-family: "Quicksand";
+    /*font-family: "Helvetica";*/
     font-weight: 300;
     /*font-family: "Josefin Sans";*/
     /*font-weight: 100 !important;*/
@@ -21,12 +23,16 @@ body{
     margin:0;
     padding:0 !important;
 }
+table{
+    margin: 0 auto;
+    width: 15cm;
+}
 /*table{border:1px solid red;}*/
-@media (max-width:800px){
+@media (max-width:15cm){
     table{width: 100%;}
 }
 
-@media (max-width:800px){
+/*@media (max-width:800px){
     * {font-size:2vw;}
 }
 @media (max-width:700px){
@@ -38,53 +44,67 @@ body{
 @media (max-width:500px){
     * {font-size:3.2vw;}
 }
-
+*/
 </style>
 
 <!-- <article class='a4'> -->
-    <table class='icon-list center'>
-        <tr onclick="top.location='http://max.pub/max.jpg'">
-            <th> <img src='http://max.pub/max.jpg' class='round' /> </th>
-            <th> Max Fechner </th>
-        </tr>
 
-        <tr onclick="top.location='mailto:web@max.pub'">
-            <td> <img src='ico/email.png' /> </td>
-            <td> Mail </td>
-        </tr>
 
-        <tr onclick="top.location='http://telegram.me/max_pub'">
-            <td> <img src='ico/chat.png' /> </td>
-            <td> Chat </td>
-        </tr>
+<table class='icon-list center'>
+    <tr onclick="top.location='http://max.pub/max.jpg'">
+        <th> <img src='max.jpg' class='round' /> </th>
+        <th> Max Fechner </th>
+    </tr>
 
-        <tr onclick="top.location='https://twitter.com/max___pub'">
-            <td> <img src='ico/twitter.png' /> </td>
-            <td> Twitter </td>
-        </tr>
-        
-<!--         <tr onclick="top.location='/code'">
-            <td> <img src='ico/code.png' /> </td>
-            <td> Code </td>
-        </tr>
- -->
-<!--         <tr onclick="top.location='/blog'">
-            <td> <img src='ico/blog.png' /> </td>
-            <td> Blog </td>
-        </tr>
- -->
-        
-        <tr>
-            <td colspan='2' id='size'></td>
-        </tr>
+    <tr onclick="top.location='mailto:web@max.pub'">
+        <td> <img src='ico/email.png' /> </td>
+        <td> Email </td>
+    </tr>
 
-    </table>
+    <tr onclick="top.location='http://t.me/maxpub'">
+        <td> <img src='ico/telegram.png' /> </td>
+        <td> Telegram </td>
+    </tr>
+
+    <tr onclick="top.location='http://m.me/mxmln'">
+        <td> <img src='ico/messenger.png' /> </td>
+        <td> Messenger </td>
+    </tr>
+
+    <tr>
+        <td colspan='2' id='size'></td>
+    </tr>
+
+    <tr onclick="top.location='https://twitter.com/max___pub'">
+        <td> <img src='ico/twitter.png' /> </td>
+        <td> Twitter </td>
+    </tr>
+    
+    <tr onclick="top.location='https://medium.com/@max___pub'">
+        <td> <img src='ico/medium.png' /> </td>
+        <td> Medium </td>
+    </tr>
+
+    <tr onclick="top.location='https://github.com/max-pub'">
+        <td> <img src='ico/github.png' /> </td>
+        <td> GitHub </td>
+    </tr>
+    
+    
+    <tr>
+        <td colspan='2' id='size'></td>
+    </tr>
+
+</table>
+
+
 <!-- </center> -->
 <!-- </article> -->
-<script>
+<!-- <script>
 showSize = function(){
     document.getElementById('size').innerHTML = window.innerWidth +' x '+window.innerHeight;
 }
 // window.onload = showSize;
 // window.onresize = showSize;
 </script>
+ -->
