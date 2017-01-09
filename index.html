@@ -1,24 +1,22 @@
 <meta content='width=device-width, initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0, user-scalable=no' name='viewport' />
 
-<link href='style/base.css' rel='stylesheet' type='text/css'>
-<link href='style/icon-list.css' rel='stylesheet' type='text/css'>
-<!-- <link href='https://fonts.googleapis.com/css?family=Josefin Sans:300' rel='stylesheet' type='text/css'> -->
 <link href='https://fonts.googleapis.com/css?family=Quicksand:300' rel='stylesheet' type='text/css'>
 
-<!-- <link href='../style/base.css' rel='stylesheet' type='text/css'>
-<link href='../style/icon-list.css' rel='stylesheet' type='text/css'>
-<link href='../style/font/josefin.300.css' rel='stylesheet' type='text/css'>
- -->
 <title>max.pub</title>
+
+
 
 <style>
 *{
-    font-family: Quicksand, Helvetica, sans-serif;
-    /*font-family: "Helvetica";*/
-    font-weight: 300;
     /*font-family: "Josefin Sans";*/
-    /*font-weight: 100 !important;*/
+    font-family: Quicksand, Helvetica, sans-serif;
+    font-weight: 300;
 }
+a{
+    text-decoration: none;
+    color: #333;
+}
+a:hover{color:#aaf;}
 body{
     overflow-x: hidden;
     /*overflow-y: hidden;*/
@@ -27,93 +25,66 @@ body{
 }
 table{
     margin: 0 auto;
-    width: 15cm;
+    width: 11cm;
 }
-th{
-    /*font-size:120px !important;*/
-}
-/*table{border:1px solid red;}*/
-@media (max-width:15cm){
+@media (max-width:11cm){
     table{width: 100%;}
 }
 
-/*@media (max-width:10cm){
-    * {font-size:2.4vw;}
-}
-*/
-/*@media (max-width:800px){
-    * {font-size:2vw;}
-}
-@media (max-width:700px){
-    * {font-size:2.4vw;}
-}
-@media (max-width:600px){
-    * {font-size:2.8vw;}
-}
-@media (max-width:500px){
-    * {font-size:3.2vw;}
-}
-*/
+th,td{text-align: left;padding: 11px 0;}
+th{font-size: 40px;}
+td{font-size: 27px;}
+th:first-child,td:first-child{text-align: center;width:120px;}
+th>img{width:96px;border-radius: 100px;}
+td>img{width: 48px;}
+
 </style>
 
-<!-- <article class='a4'> -->
+
+
 
 
 <table class='icon-list center'>
-    <tr onclick="top.location='http://max.pub/max.jpg'">
+    <tr>
         <th> <img src='max.jpg' class='round' /> </th>
-        <th> Max Fechner </th>
+        <th> <a href='max.jpg'>Max Fechner</a> </th>
     </tr>
 
-    <tr onclick="top.location='mailto:web@max.pub'">
+    <tr>
         <td> <img src='ico/email.png' /> </td>
-        <td> Email </td>
+        <td> <a href='mailto:web@max.pub'>Email</a> </td>
     </tr>
 
-    <tr onclick="top.location='http://t.me/maxpub'">
+    <tr>
         <td> <img src='ico/telegram.png' /> </td>
-        <td> Telegram </td>
+        <td> <a href='http://t.me/maxpub'>Telegram</a> </td>
     </tr>
 
-    <tr onclick="top.location='http://m.me/mxmln'">
+    <tr>
         <td> <img src='ico/messenger.png' /> </td>
-        <td> Messenger </td>
+        <td> <a href='http://m.me/mxmln'>Messenger</a> </td>
     </tr>
 
     <tr>
-        <td colspan='2' id='size'></td>
+        <td colspan='2'></td>
     </tr>
 
-    <tr onclick="top.location='https://twitter.com/max___pub'">
+    <tr>
         <td> <img src='ico/twitter.png' /> </td>
-        <td> Twitter </td>
+        <td> <a href='https://twitter.com/max___pub'>Twitter</a> </td>
     </tr>
-    
-    <tr onclick="top.location='https://medium.com/@max___pub'">
-        <td> <img src='ico/medium.png' /> </td>
-        <td> Medium </td>
-    </tr>
-
-    <tr onclick="top.location='https://github.com/max-pub'">
-        <td> <img src='ico/github.png' /> </td>
-        <td> GitHub </td>
-    </tr>
-    
     
     <tr>
-        <td colspan='2' id='size'></td>
+        <td> <img src='ico/medium.png' /> </td>
+        <td> <a href='https://medium.com/@max___pub'>Medium</a> </td>
     </tr>
 
+    <tr>
+        <td> <img src='ico/github.png' /> </td>
+        <td> <a href='https://github.com/max-pub'>GitHub</a> </td>
+    </tr>
+    
 </table>
 
 
-<!-- </center> -->
-<!-- </article> -->
-<!-- <script>
-showSize = function(){
-    document.getElementById('size').innerHTML = window.innerWidth +' x '+window.innerHeight;
-}
-// window.onload = showSize;
-// window.onresize = showSize;
-</script>
- -->
+
