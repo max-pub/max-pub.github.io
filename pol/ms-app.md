@@ -1,0 +1,7 @@
+Why Microsoft should expand their App-Platform
+Microsoft did a great job in creating an common App-Platform for its ecosystem of Windows-Devices. They fell short, however, of creating platform-spanning true Universal Apps. I’d argue that it makes sense for them to do just that.
+Imagine an e
+Given that Windows-Apps are still an afterthought for most developers I understand Microsoft’s decision even less. They are trying converters as a way to bring iOS and Android apps to windows as second-class citizens. I’m sure that way won’t work.
+Instead they should focus on creating universal apps that run across all major operating systems, maybe with a better experience on Windows than elsewhere. And I think this would be fairly easy to achieve. They’d just have to build packagable runtimes of their existing “Windows Universal Apps” for Mac, iOS & Android and automate the AppStore-Distribution. The necessary pieces even already exist in projects like PhoneGap & MacGap.
+Just give developers one API to develop and one distribution center to automatically publish to all major app stores. The holy grail of app-development, it can be achieved. And I’m sure that no other company is better positioned to create this and has more to gain by it than Microsoft in its current state.
+Go Microsoft, this is the path to attract developers and ultimately succeed with your ecosystem.
