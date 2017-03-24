@@ -11,9 +11,9 @@ body{
 
 
 main{ 
-	padding: 17mm; 
-	width: 176mm;
-	height: 263mm;
+	padding: 7mm; 
+	width: 196mm;
+	height: 292mm;
 	background: white;
 	margin: 0 auto;
 	position: relative;
@@ -22,7 +22,7 @@ main{
 
 #date{
 	position: absolute;
-	top: 33mm;
+	top: 22mm;
 	width: 177mm;
 	text-align: center;
 	// right: 20mm;
@@ -36,12 +36,49 @@ main{
 	font-weight: 300;
 	margin: 0 0 20mm 0 ;
 	position: absolute;
-	top: 20mm;
+	top: 10mm;
 	text-align: center;
 	width: 177mm;
 	border: none;
 
 }
+
+address{
+	position: absolute;
+	display: block;
+	// border-radius: 10px;
+	white-space: pre;
+	font-style: normal;
+	border: 1px solid silver;
+}
+
+#sender{
+	top: 35mm;
+	right: 7mm;
+	width: 90mm;
+	height: 45mm;
+	text-align: right;
+	padding: 3mm;
+	// background: #aaf;
+	// border: 1px solid silver;
+	// background: #fafafa;
+}
+#recipient{
+	top: 35mm;
+	height: 45mm;
+	width: 90mm;
+	padding: 3mm;
+	left: 7mm;
+	// background: #fafafa;
+}
+
+
+
+
+
+
+
+
 textarea{
 	display: block;
 	border: 1px solid silver;
@@ -54,40 +91,11 @@ textarea{
 	outline: none;
 	// margin: 0 0 30mm 0 ;
 }
-address{
-	position: absolute;
-	display: block;
-	// border-radius: 10px;
-	white-space: pre;
-	font-style: normal;
-	border: 1px solid silver;
-}
-
-#sender{
-	top: 45mm;
-	right: 17mm;
-	width: 60mm;
-	height: 45mm;
-	text-align: right;
-	padding: 3mm;
-	// background: #aaf;
-	// border: 1px solid silver;
-	// background: #fafafa;
-}
-#recipient{
-	top: 45mm;
-	height: 45mm;
-	width: 90mm;
-	padding: 3mm;
-	left: 17mm;
-	// background: #fafafa;
-}
-
 
 #message{
 	position: absolute;
-	width: 176mm;
-	height: 180mm;
+	width: 196mm;
+	height: 200mm;
 	top: 100mm;
 	padding: 3mm;
 	// bottom: 20mm;
