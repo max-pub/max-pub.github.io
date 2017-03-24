@@ -1,0 +1,43 @@
+<script src='JsBarcode.all.min.js'></script>
+<style>
+svg{display: block;}
+#ean5s,#ean8s,#code128s{width: 70px;}
+</style>
+<!-- <img id="barcode"/> -->
+<!-- <svg id="barcode"></svg> -->
+
+<svg id="ean5s"></svg>
+<svg id="ean5"></svg>
+<svg id="ean8s"></svg>
+<svg id="ean8"></svg>
+<svg id="upc"></svg>
+<svg id="code128s"></svg>
+<svg id="code128"></svg>
+<svg id="itf14"></svg>
+<svg id="code39"></svg>
+
+<script>
+//JsBarcode("#barcode", "Hi!");
+
+// JsBarcode("#barcode")
+//   //.EAN13("1234567890128")
+//   //.blank(20)  // An blank creates a space between the barcodes
+//   .EAN5("12345", {height: 40, textPosition: "bottom", fontSize: 12})
+//   .blank(20)  // An blank creates a space between the barcodes
+//   .EAN8("96386074", {height: 40, textPosition: "bottom", fontSize: 12})
+//   .blank(20)  // An blank creates a space between the barcodes
+//   .UPC("123456789999", {height: 40, textPosition: "bottom", fontSize: 12,flat: true})
+//   .render();
+
+// JsBarcode("#ean", "590123413457", {format: "EAN"});
+JsBarcode("#ean5s", "12345", {format: "EAN5", flat:true, height: 60});
+JsBarcode("#ean8s", "1234567", {format: "EAN8", flat:true, height: 60});
+JsBarcode("#code128s", "ZE", {height:60});
+JsBarcode("#ean5", "12345", {format: "EAN5", flat:true, height: 40});
+JsBarcode("#ean8", "1234567", {format: "EAN8", flat:true, height: 40});
+JsBarcode("#upc", "123456789999", {format: "UPC", flat:true, height: 40});
+JsBarcode("#code128", "ZE", {height:40});
+
+JsBarcode("#itf14", "12345678901231", {format: "ITF14", height: 40});
+JsBarcode("#code39", "CODE39 Barcode", {format: "CODE39", height: 40});
+</script>

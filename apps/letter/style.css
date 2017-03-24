@@ -1,0 +1,122 @@
+*{
+	font-family: Helvetica;
+	font-weight: 300;
+}
+
+body{
+	background: #555;
+	margin:0;
+	padding:0;
+}
+
+
+main{ 
+	padding: 17mm; 
+	width: 176mm;
+	height: 263mm;
+	background: white;
+	margin: 0 auto;
+	position: relative;
+	border: 1px solid silver;
+}
+
+#date{
+	position: absolute;
+	top: 33mm;
+	width: 177mm;
+	text-align: center;
+	// right: 20mm;
+	// text-align: right;
+	// dina4: 297 x 210;
+
+}
+
+#subject{
+	font-size: 30px;
+	font-weight: 300;
+	margin: 0 0 20mm 0 ;
+	position: absolute;
+	top: 20mm;
+	text-align: center;
+	width: 177mm;
+	border: none;
+
+}
+textarea{
+	display: block;
+	border: 1px solid silver;
+	font-size: 16px;
+	// white-space: pre;
+	font-style: normal; 
+	height: 30mm;
+	position: absolute;
+	resize: none;
+	outline: none;
+	// margin: 0 0 30mm 0 ;
+}
+address{
+	position: absolute;
+	display: block;
+	// border-radius: 10px;
+	white-space: pre;
+	font-style: normal;
+	border: 1px solid silver;
+}
+
+#sender{
+	top: 45mm;
+	right: 17mm;
+	width: 60mm;
+	height: 45mm;
+	text-align: right;
+	padding: 3mm;
+	// background: #aaf;
+	// border: 1px solid silver;
+	// background: #fafafa;
+}
+#recipient{
+	top: 45mm;
+	height: 45mm;
+	width: 90mm;
+	padding: 3mm;
+	left: 17mm;
+	// background: #fafafa;
+}
+
+
+#message{
+	position: absolute;
+	width: 176mm;
+	height: 180mm;
+	top: 100mm;
+	padding: 3mm;
+	// bottom: 20mm;
+	border: 1px solid silver;
+	// white-space: pre;
+}
+
+
+
+
+i{
+	background: silver;
+	padding: 0.3mm;
+	position: absolute;
+	width: 3mm;
+}
+.lo{
+	top: 110mm;
+	left:0;
+}
+.lu{
+	top: 210mm;
+	left:0;
+}
+.ro{
+	top: 110mm;
+	right:0;
+}
+.ru{
+	top: 210mm;
+	right:0;
+}
