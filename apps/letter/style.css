@@ -1,6 +1,34 @@
+@font-face {
+    font-family: JosefinSans;
+    src: url(JosefinSans.ttf);
+}
+@font-face {
+    font-family: AvenirNext;
+    src: url(AvenirNext.otf);
+}
+@font-face {
+    font-family: AvenirLight;
+    src: url(AvenirLight.otf);
+}
+@font-face {
+    font-family: AvenirNextProUltraLightCondensed;
+    src: url(AvenirNextProUltraLightCondensed.otf);
+}
+@font-face {
+    font-family: Avenir;
+    src: url(Avenir.ttc);
+}
+@font-face {
+    font-family: HelveticaNeueThin;
+    src: url(HelveticaNeueThin.otf);
+}
+
+
 *{
 	font-family: Helvetica;
 	font-weight: 300;
+	line-height: 1.5;
+	font-variant: normal;
 }
 
 body{
@@ -50,7 +78,7 @@ address{
 	white-space: pre;
 	font-style: normal;
 	border: 1px solid silver;
-	font-size: 18px;
+	font-size: 17px;
 }
 
 #sender{
@@ -75,7 +103,9 @@ address{
 
 
 
-
+@media print {
+	main,address,textarea{ border: 1px solid transparent !important; }
+}
 
 
 
@@ -101,6 +131,9 @@ textarea{
 	padding: 3mm;
 	// bottom: 20mm;
 	border: 1px solid silver;
+	font-size: 17px;
+	text-align: justify;
+	word-spacing: 0.15em;
 	// white-space: pre;
 }
 
@@ -109,7 +142,7 @@ textarea{
 
 i{
 	background: silver;
-	padding: 0.3mm;
+	padding: 0.2mm;
 	position: absolute;
 	width: 3mm;
 }
@@ -120,6 +153,7 @@ i{
 .lu{
 	top: 210mm;
 	left:0;
+	display:none;
 }
 .ro{
 	top: 100mm;
@@ -128,4 +162,5 @@ i{
 .ru{
 	top: 210mm;
 	right:0;
+	display:none;
 }
