@@ -1,0 +1,49 @@
+<meta name="HandheldFriendly" content="true" />
+<meta name="viewport" content="width=device-width,height=device-height, user-scalable=no" />
+
+<script src='line-chart.js'></script>
+<script src='Date.format.js'></script>
+<script src='date-format.tag.js'></script>
+<script src='weather-chart.tag.js'></script>
+
+
+<style>
+	body{background: #333;}
+	main{position: relative; width: 600px; margin: 0 auto;}
+	line-chart{position: absolute; width: 100%;}
+	date-format{ color: white; font-size: 30px; font-family: Helvetica Neue; font-weight: 100; display: inline-block; margin-bottom: 10px; }
+	weather-chart{margin-bottom:50px; width:100%; height: 200px; background: #333; border: 1px solid white;}
+</style>
+
+<main>
+	
+</main>
+
+
+<script>
+
+process = data => {
+	console.log('processing',data);
+	var main = document.querySelector('main');
+	main.innerHTML = '';
+	for(var i=0; i<data.length; i++){
+		var day = data[i];
+		let date = day[0] ? day[0].date : day[23].date;
+		main.insertAdjacentHTML('beforeend', `<date-format date='${date}' format='DDDD, DD. MMMM YYYY'></date-format>`);
+		main.insertAdjacentHTML('beforeend', `<weather-chart id='${date}'></weather-chart>`);
+		document.getElementById(date).setData(day);
+	}
+}
+
+let data = localStorage.getItem('data');
+if(data) process(JSON.parse(data));
+
+fetch("https://api.max.pub/weather/?range=hours&lat=17.7&lon=-88.0").then(resp => resp.json()).then(data => {
+	console.log('NEW DATA',data);
+	localStorage.setItem('data',JSON.stringify(data));
+	process(data);
+});
+
+</script>
+
+
