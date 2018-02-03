@@ -4,14 +4,18 @@
 <script src='line-chart.js'></script>
 <script src='Date.format.js'></script>
 <script src='date-format.tag.js'></script>
+<script src='gps.js'></script>
+<script src='place-name.tag.js'></script>
 <script src='weather-chart.tag.js'></script>
 
 
 <style>
-	body{background: #333;}
+    *{font-family: Helvetica Neue; font-weight: 100; }
+	body{background: #333;margin:0;padding:0;}
 	main{position: relative; width: 600px; margin: 0 auto;}
 	line-chart{position: absolute; width: 100%;}
-	date-format{ color: white; font-size: 30px; font-family: Helvetica Neue; font-weight: 100; display: inline-block; margin-bottom: 10px; }
+	date-format{ color: white; font-size: 30px; display: block; margin-bottom: 10px; }
+	place-name{color: white; font-size: 50px;display: block; margin-bottom: 30px; }
 	weather-chart{margin-bottom:50px; width:100%; height: 200px; background: #333; border: 1px solid white;}
 </style>
 
@@ -25,7 +29,7 @@
 process = data => {
 	console.log('processing',data);
 	var main = document.querySelector('main');
-	main.innerHTML = '';
+	main.innerHTML = `<place-name lat="${POS.lat}" lon="${POS.lon}"></place-name>`;
 	for(var i=0; i<data.length; i++){
 		var day = data[i];
 		let date = day[0] ? day[0].date : day[23].date;
@@ -35,14 +39,20 @@ process = data => {
 	}
 }
 
-let data = localStorage.getItem('data');
-if(data) process(JSON.parse(data));
+gps(pos=>{
+	POS = pos;
+	var storeKey = pos.lon+','+pos.lat;
+	console.log("POS",storeKey);
+	let data = localStorage.getItem(storeKey);
+	if(data) process(JSON.parse(data));
 
-fetch("https://api.max.pub/weather/?range=hours&lat=17.7&lon=-88.0").then(resp => resp.json()).then(data => {
-	console.log('NEW DATA',data);
-	localStorage.setItem('data',JSON.stringify(data));
-	process(data);
-});
+	fetch(`https://api.max.pub/weather/?range=hours&lat=${pos.lat}&lon=${pos.lon}`).then(resp => resp.json()).then(data => {
+		console.log('NEW DATA',data);
+		localStorage.setItem(storeKey, JSON.stringify(data));
+		process(data);
+	});
+
+},null,2);
 
 </script>
 

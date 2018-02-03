@@ -1,10 +1,10 @@
 document.head.insertAdjacentHTML('beforeend', `<template id="weather-chart"><style>
 	:host{display: block; position: relative; }
 	line-chart{position:absolute; width:100%;}
-	#clouds{ fill: #aaa; opacity: 1.0;}
-	#rain{ fill: cornflowerBlue; opacity: 1;}
-	#wind{ fill: transparent; stroke: #ccc; stroke-width: 5; stroke-dasharray: 10,10; stroke-linecap: round;}
-	#temp{ stroke: #BD4900; stroke-width:10; opacity: 1; fill: transparent;}
+	#clouds{ fill: #fff; opacity: 0.5;}
+	#rain{ fill: cornflowerblue; opacity: 0.9;}
+	#wind{ fill: transparent; stroke: #fff; stroke-width: 5; stroke-dasharray: 20,20; stroke-linecap: round; opacity: 0.9;}
+	#temp{ stroke: #FF8F00; stroke-width:10; opacity: 0.9; fill: transparent;}
 </style>
 	<line-chart id="clouds" aspect-ratio="3" y-min="1" y-max="100" smooth="" fill=""></line-chart>
 	<line-chart id="rain" aspect-ratio="3" y-min="0.01" y-max="100" smooth="" fill="" inverse=""></line-chart>
