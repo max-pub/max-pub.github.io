@@ -14,19 +14,17 @@
 	body{background: #333;margin:0;padding:0;}
 	main{position: relative; width: 600px; margin: 0 auto;}
 	line-chart{position: absolute; width: 100%;}
-	date-format{ color: white; font-size: 30px; display: block; margin-bottom: 10px; }
-	place-name{color: white; font-size: 50px;display: block; margin-bottom: 30px; }
-	weather-chart{margin-bottom:50px; width:100%; height: 200px; background: #333; border: 1px solid white;}
+	date-format{ color: white; font-size: 30px; display: block; margin-bottom: 10px; text-align: center;}
+	place-name{color: white; font-size: 50px;display: block; margin-bottom: 30px;  text-align: center;}
+	weather-chart{margin-bottom:50px; width:100%; height: 200px; background: #333; border: 0px solid white;}
 </style>
 
-<main>
-	
-</main>
+<main></main>
 
 
 <script>
 
-process = data => {
+processData = data => {
 	console.log('processing',data);
 	var main = document.querySelector('main');
 	main.innerHTML = `<place-name lat="${POS.lat}" lon="${POS.lon}"></place-name>`;
@@ -39,20 +37,27 @@ process = data => {
 	}
 }
 
-gps(pos=>{
+loadLocation = pos => {
 	POS = pos;
 	var storeKey = pos.lon+','+pos.lat;
 	console.log("POS",storeKey);
 	let data = localStorage.getItem(storeKey);
-	if(data) process(JSON.parse(data));
+	if(data) processData(JSON.parse(data));
 
 	fetch(`https://api.max.pub/weather/?range=hours&lat=${pos.lat}&lon=${pos.lon}`).then(resp => resp.json()).then(data => {
 		console.log('NEW DATA',data);
 		localStorage.setItem(storeKey, JSON.stringify(data));
-		process(data);
+		processData(data);
 	});
+}
 
-},null,2);
+
+let TMP = localStorage.getItem("GPS");
+if(TMP) loadLocation(JSON.parse(TMP));
+gps(pos=>{
+	localStorage.setItem("GPS", JSON.stringify(pos));
+	loadLocation(pos);
+}, null, 2);
 
 </script>
 
