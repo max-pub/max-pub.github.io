@@ -1,6 +1,6 @@
 cookie
 <script>
-fetch('https://api.max.pub/mail-id/cookie.php', {
+fetch('https://api.max.pub/mail-id/cookie.php?origin='+document.location.origin, {
         method: 'GET',
         credentials: 'include'
     })
