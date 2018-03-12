@@ -1,0 +1,8 @@
+cookie
+<script>
+fetch('http://api.max.pub/mail-id/cookie.php', {
+        method: 'GET',
+        credentials: 'include'
+    })
+    .then(x => x.text()).then(x => console.log('res', x));
+</script>
