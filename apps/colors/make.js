@@ -30,7 +30,7 @@ data = data.slice(1).map(line => {
 data = data.sort((a,b)=> a[3]>b[3] ? 1 : -1);
 let output = new SV('\t','\r\n').stringify(data);
 console.log(output);
-FS.writeFileSync('test.htm',`<link rel="stylesheet" type="text/css" href="../base.css"><main>`+ data.map(line=>`<div>
+FS.writeFileSync('index.html',`<link rel="stylesheet" type="text/css" href="/base.css"><main>`+ data.map(line=>`<div>
 <span style='display: inline-block; height:30px; width: 200px; background:${line[0]};'>${line[0]}</span> 
 <span style='display: inline-block; height:30px; width: 200px; background:${line[1]};'>${line[1]}</span> 
 <span style='display: inline-block; height:30px; width: 200px; background:${line[2]};'>${line[2]}</span> 
