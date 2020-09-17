@@ -1,0 +1,73 @@
+<meta content='width=device-width, initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0, user-scalable=no'
+	name='viewport' />
+<!-- <link href='https://fonts.googleapis.com/css?family=Josefin+Sans:100' rel='stylesheet' type='text/css'> -->
+<link href='https://max.pub/css/base.css' rel='stylesheet' type='text/css'>
+<link href='https://max.pub/css/josefin.css' rel='stylesheet' type='text/css'>
+
+<style>
+	/* *{font-weight: 300;;} */
+	html{background:#222; color: #eee; font-family: josefin; font-size:25px}
+	h1 {
+		font-weight: 300;
+	}
+
+	main {
+		width: 500px;
+		max-width: 90%;
+		margin: 0 auto;
+	}
+
+	blockquote {
+		margin: 0;
+		margin-bottom: 2rem;
+	}
+
+	p {
+		/*font-size:30px; margin-bottom:10px;*/
+		margin: 0;
+		/* white-space: pre; */
+	}
+
+	i {
+		display: block;
+		margin-top: 5px;
+		color: #aaa;
+		font-style: normal;
+		/*float: right;*/
+	}
+</style>
+
+
+<main>
+	<h1>Quotes</h1>
+
+</main>
+
+<script>
+	/**
+	 * Shuffles array in place. ES6 version
+	 * @param {Array} a items An array containing the items.
+	 */
+	function shuffle(a) {
+		for (let i = a.length - 1; i > 0; i--) {
+			const j = Math.floor(Math.random() * (i + 1));
+			[a[i], a[j]] = [a[j], a[i]];
+		}
+		return a;
+	}
+
+	(async function () {
+		let raw = await fetch('quotes/quotes.txt').then(x => x.text());
+		// console.log('q', raw)
+		let quotes = shuffle(raw.split('\n\n'))
+		let main = document.querySelector('main');
+		for (let quote of quotes) {
+			// console.log(quote)
+			let tmp = quote.split('\n')
+			let author = tmp.slice(-1)[0];
+			let text = tmp.slice(0,-1).join('<br/>');
+			let html = `<blockquote><p>${text}</p><i>${author}</i></blockquote>`;
+			main.insertAdjacentHTML('beforeend',html);
+		}
+	})()
+</script>
