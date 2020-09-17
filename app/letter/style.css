@@ -1,0 +1,176 @@
+/* @font-face {
+    font-family: JosefinSans;
+    src: url(JosefinSans.ttf);
+}
+@font-face {
+    font-family: AvenirNext;
+    src: url(AvenirNext.otf);
+}
+@font-face {
+    font-family: AvenirLight;
+    src: url(AvenirLight.otf);
+}
+@font-face {
+    font-family: AvenirNextProUltraLightCondensed;
+    src: url(AvenirNextProUltraLightCondensed.otf);
+}
+@font-face {
+    font-family: Avenir;
+    src: url(Avenir.ttc);
+}
+@font-face {
+    font-family: HelveticaNeueThin;
+    src: url(HelveticaNeueThin.otf);
+} */
+
+
+* {
+	font-family: Helvetica;
+	font-weight: 300;
+	line-height: 1.5;
+	font-variant: normal;
+}
+
+body {
+	background: #555;
+	margin: 0;
+	padding: 0;
+}
+
+
+main {
+	padding: 7mm;
+	width: 196mm;
+	height: 291.9mm;
+	background: white;
+	margin: 0 auto;
+	position: relative;
+	border: 1px solid silver;
+}
+
+#date {
+	position: absolute;
+	top: 22mm;
+	width: 196mm;
+	text-align: center;
+	/* // right: 20mm;
+	// text-align: right;
+	// dina4: 297 x 210; */
+
+}
+
+#subject {
+	font-size: 30px;
+	font-weight: 300;
+	margin: 0 0 20mm 0;
+	position: absolute;
+	top: 10mm;
+	text-align: center;
+	width: 196mm;
+	border: none;
+
+}
+
+address {
+	position: absolute;
+	display: block;
+	/* // border-radius: 10px; */
+	white-space: pre;
+	font-style: normal;
+	border: 1px solid silver;
+	font-size: 17px;
+}
+
+#sender {
+	top: 35mm;
+	right: 7mm;
+	width: 80mm;
+	height: 40mm;
+	text-align: right;
+	padding: 5mm;
+	/* // background: #aaf;
+	// border: 1px solid silver;
+	// background: #fafafa; */
+}
+
+#recipient {
+	top: 35mm;
+	height: 40mm;
+	width: 90mm;
+	padding: 5mm;
+	left: 7mm;
+	/* // background: #fafafa; */
+}
+
+
+
+@media print {
+
+	main,
+	address,
+	textarea {
+		border: 1px solid transparent !important;
+	}
+}
+
+
+
+
+textarea {
+	display: block;
+	border: 1px solid silver;
+	font-size: 16px;
+	/* // white-space: pre; */
+	font-style: normal;
+	height: 30mm;
+	position: absolute;
+	resize: none;
+	outline: none;
+	/* // margin: 0 0 30mm 0 ; */
+}
+
+#message {
+	position: absolute;
+	width: 196mm;
+	height: 200mm;
+	top: 100mm;
+	padding: 3mm;
+	/* // bottom: 20mm; */
+	border: 1px solid silver;
+	font-size: 17px;
+	text-align: justify;
+	word-spacing: 0.15em;
+	/* // white-space: pre; */
+}
+
+
+
+
+i {
+	background: silver;
+	padding: 0.2mm;
+	position: absolute;
+	width: 3mm;
+}
+
+.lo {
+	top: 100mm;
+	left: 0;
+}
+
+.lu {
+	top: 210mm;
+	left: 0;
+	display: none;
+}
+
+.ro {
+	top: 100mm;
+	right: 0;
+}
+
+.ru {
+	top: 210mm;
+	right: 0;
+	display: none;
+}
