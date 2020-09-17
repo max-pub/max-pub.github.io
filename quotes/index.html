@@ -6,15 +6,24 @@
 
 <style>
 	/* *{font-weight: 300;;} */
-	html{background:#222; color: #eee; font-family: josefin; font-size:25px}
+	html {
+		background: #1a1a1a;
+		color: #eee;
+		font-family: josefin;
+		font-size: 25px;
+		font-weight: 100
+	}
+
 	h1 {
 		font-weight: 300;
 	}
 
 	main {
-		width: 500px;
-		max-width: 90%;
+		width: 100%;
+		max-width: 30rem;
 		margin: 0 auto;
+
+		padding: 1rem;
 	}
 
 	blockquote {
@@ -65,9 +74,9 @@
 			// console.log(quote)
 			let tmp = quote.split('\n')
 			let author = tmp.slice(-1)[0];
-			let text = tmp.slice(0,-1).join('<br/>');
+			let text = tmp.slice(0, -1).join('<br/>');
 			let html = `<blockquote><p>${text}</p><i>${author}</i></blockquote>`;
-			main.insertAdjacentHTML('beforeend',html);
+			main.insertAdjacentHTML('beforeend', html);
 		}
 	})()
 </script>
