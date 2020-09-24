@@ -4,26 +4,44 @@
 	src: url('quicksand.ttf') format("truetype-variations");
 	font-weight: 1 999;
 }
-html{
-    font-family: quicksand;
-    font-weight: 300;
-    font-size: 20px;
-	letter-spacing: -1px;
-	background: #111;
-	color: #eee;
-}
-*{font-weight:100;}
 
-/* @media (prefers-color-scheme: dark) {
-	html {
-		background: #111;
-		color: #eee;
+:root {
+	--back-back: #fff;
+	--back-main: #eee;
+	--text-main: #111;
+	--text-back: #777;
+	--text-mark: cornflowerblue;
+}
+
+@media (prefers-color-scheme: dark) {
+	:root {
+		--back-back: #111;
+		--back-main: #222;
+		--text-main: #eee;
+		--text-back: #777;
+		--text-mark: cornflowerblue;
 	}
-} */
+}
+
+
+html {
+	font-family: quicksand;
+	font-weight: 300;
+	font-size: 20px;
+	letter-spacing: -1px;
+	background: var(--back-back);
+	color: var(--text-main);
+}
+
+* {
+	font-weight: 100;
+}
+
+
 
 main {
 	width: 100%;
 	max-width: 600px;
 	margin: 0 auto;
-	
+	background: var(--back-main)
 }

@@ -3,6 +3,8 @@
 ## abstract
 Improve accountability, resilience and decision-making ability by making governmental departments independently electable.
 
+citizens can vote for a certain policy, not a party.
+
 
 
 Seit der Erfindung der Demokratie gab es praktisch keinen Fortschritt mehr in der Politik. Fukuyama sprach bereits vom  [Ende der Geschichte](www.fukuyama.com)  nachdem der Kommunismus den kalten Krieg verloren hatte. Doch es gibt auch Kritik an der Demokratie. Weltweit wenden sich gegenwärtig mehr und mehr Staaten von diesem Modell ab. Die große amerikanische Demokratie verkommt zunehmend zur Oligarchie und auch in den europäischen Staate verschärft sich durch die zunehmende Einkommenskluft die Elitenbildung.
