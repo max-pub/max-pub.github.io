@@ -1,9 +1,8 @@
-
-
 :root {
 	--back-back: #fff;
 	--back-main: #eee;
 	--text-main: #111;
+	--text-link: #555;
 	--text-back: #777;
 	--text-mark: cornflowerblue;
 }
@@ -13,6 +12,7 @@
 		--back-back: #111;
 		--back-main: #222;
 		--text-main: #eee;
+		--text-link: #aaa;
 		--text-back: #777;
 		--text-mark: cornflowerblue;
 	}
@@ -30,13 +30,25 @@ html {
 
 * {
 	font-weight: 100;
+	box-sizing: border-box;
 }
 
 
 
 main {
 	width: 100%;
-	max-width: 600px;
+	max-width: 21cm;
 	margin: 0 auto;
-	background: var(--back-main)
+	background: var(--back-main);
+	padding: 1rem;
+}
+
+a {
+	text-decoration: none;
+	color: var(--text-link);
+}
+
+a:hover {
+	color: var(--text-mark);
+	cursor: pointer;
 }
