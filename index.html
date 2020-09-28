@@ -2,7 +2,7 @@
 	name='viewport' />
 
 <link href='css/base.css' rel='stylesheet' type='text/css'>
-<link rel="stylesheet" href="https://max.pub/css/quicksand.css"/>
+<link rel="stylesheet" href="css/quicksand.css"/>
 
 
 <title>max.pub</title>
@@ -10,81 +10,50 @@
 
 
 <style>
-	html {
-		/* height: 100%; */
-		/* overflow-x: hidden; */
-		/* margin: 0; */
-		/* padding: 0; */
-		/* background: #111; */
-		/*background: #eee;*/
-		/*background: #222;*/
-		/*background: #284518;*/
-		/*background: #090E07;*/
-		/*background: #136; */
-		/*background: #113663;*/
-		/*background: CornflowerBlue;*/
-	}
 
 	main {
-		/* width: 90%; */
-		/* max-width: 500px; */
-		margin: 50px auto;
-		/* background: #222; */
+		margin-top: 3rem;
 		border-radius: 5px;
-		overflow: hidden;
 		text-align: center;
+		padding:0;
 	}
 
 	h1 {
-		margin-bottom: 20px;
 		margin: .7rem;
-		font-weight: normal;
 	}
 
 	h2 {
-		color: gray;
 		margin: .5rem;
+		color: gray;
 		font-size: 1.3rem;
-		font-weight: normal;
 	}
 
-	main img {
+	.photo {
 		width: 100%;
 
 	}
 
-	main>a img {
+	.biglink img {
 		width: 32px;
 		vertical-align: bottom;
 		margin-right: 5px;
 	}
 
-	main>a {
+	.biglink {
 		font-size: 25px;
 		/* color: #333; */
 		display: inline-block;
 		margin: 0 10px;
 	}
 
-	p {
-		text-align: justify;
-		margin: 20px;
-	}
 
-	a {
-		text-decoration: none;
-		color: cornflowerblue;
-	}
 
-	a:hover {
-		color: #afa;
-	}
 </style>
 
 
 
 <main>
-	<img src='max.jpg' />
+	<img class='photo' src='max.jpg' />
 
 	<h1>Maximilian Fechner</h1>
 
@@ -116,7 +85,7 @@
 		<!-- before switching to <a>Psychiatry</a> in 2018. -->
 	</p>
 
-	<a href='https://www.linkedin.com/in/maxfechner/'><img src='ico/linkedin.png' />LinkedIn</a>
+	<a class='biglink' href='https://www.linkedin.com/in/maxfechner/'><img src='ico/linkedin.png' />LinkedIn</a>
 
 
 	<!-- <p> -->
