@@ -66,8 +66,8 @@
 	}
 
 	(async function () {
-		let raw = await fetch('quotes/quotes.txt').then(x => x.text());
-		console.log('q', raw)
+		let raw = await fetch('quotes.txt').then(x => x.text());
+		// console.log('q', raw)
 		let quotes = shuffle(raw.split('\n\n'))
 		let main = document.querySelector('article');
 		for (let quote of quotes) {
