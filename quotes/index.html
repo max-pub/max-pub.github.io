@@ -7,24 +7,25 @@
 <style>
 	/* *{font-weight: 300;;} */
 	html {
-		background: #1a1a1a;
-		color: #eee;
-		font-family: josefin;
+		/* background: #1a1a1a; */
+		/* color: #eee; */
+		/* font-family: josefin; */
 		font-size: 25px;
 		font-weight: 100
 	}
 
 	h1 {
 		font-weight: 300;
+		text-align: left;
 	}
 
-	main {
+	/* main {
 		width: 100%;
 		max-width: 30rem;
 		margin: 0 auto;
 
 		padding: 1rem;
-	}
+	} */
 
 	blockquote {
 		margin: 0;
@@ -42,6 +43,7 @@
 		margin-top: 5px;
 		color: #aaa;
 		font-style: normal;
+		text-align: left;
 		/*float: right;*/
 	}
 </style>
@@ -67,8 +69,10 @@
 
 	(async function () {
 		let raw = await fetch('quotes.txt').then(x => x.text());
-		// console.log('q', raw)
-		let quotes = shuffle(raw.split('\n\n'))
+		raw = raw.replace(/\r/g, '').split('\n\n');
+		// console.log('q',raw )
+		let quotes = shuffle(raw)
+		// console.log('q',quotes)
 		let main = document.querySelector('article');
 		for (let quote of quotes) {
 			// console.log(quote)
