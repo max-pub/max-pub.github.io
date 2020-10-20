@@ -1,0 +1,14 @@
+<meta content='width=device-width, initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0, user-scalable=no'
+	name='viewport' />
+<link href='https://max.pub/css/base.css' rel='stylesheet' type='text/css'>
+<link href='https://max.pub/css/josefin.css' rel='stylesheet' type='text/css'>
+
+<article></article>
+
+<script type='module'>
+	import snarkdown from 'https://cdnjs.cloudflare.com/ajax/libs/snarkdown/2.0.0/snarkdown.es.min.js';
+	(async function () {
+		let md = await fetch('modem.md').then(x => x.text());
+		document.querySelector('article').innerHTML = snarkdown(md)
+	})()
+</script>
