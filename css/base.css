@@ -26,6 +26,10 @@ html {
 	color: var(--text-main);
 }
 
+body {
+	margin: 0;
+}
+
 * {
 	/* font-weight: 100; */
 	font-weight: 200;
@@ -43,6 +47,7 @@ tr:nth-child(2) {
 article {
 	width: 100%;
 	max-width: 21cm;
+	min-height: 100%;
 	margin: 0 auto;
 	background: var(--back-main);
 	padding: 1rem;
@@ -74,16 +79,19 @@ card {
 .A7 {
 	width: 44mm;
 }
-v-stack{
+
+v-stack {
 	display: flex;
 	flex-direction: column;
 	justify-content: space-around;
 }
-h-stack{
+
+h-stack {
 	display: flex;
 	flex-direction: row;
 	justify-content: space-around;
 }
+
 
 /* .hCenter {
 	position: absolute;
