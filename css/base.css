@@ -94,7 +94,12 @@ h-stack, .h-stack {
 	justify-content: space-around;
   width: 100%;
 }
-
+.spread{
+	justify-content: space-between;
+}
+.center{
+	justify-content: center;
+}
 
 /* .hCenter {
 	position: absolute;
