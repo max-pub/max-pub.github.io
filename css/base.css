@@ -1,3 +1,4 @@
+/* LIGHT THEME */
 :root {
 	--back-back: #fff;
 	--back-main: #eee;
@@ -7,10 +8,13 @@
 	--text-mark: cornflowerblue;
 }
 
+
+/* DARK THEME */
 @media (prefers-color-scheme: dark) {
-	 :root {
+	:root {
 		--back-back: #111;
 		--back-main: #222;
+		--back-mark: #333;
 		--text-main: #eee;
 		--text-link: #aaa;
 		--text-back: #777;
@@ -18,6 +22,9 @@
 	}
 }
 
+
+
+/* GENERAL */
 html {
 	font-family: helvetica;
 	font-size: 20px;
@@ -36,7 +43,14 @@ body {
 	font-weight: 200;
 	box-sizing: border-box;
 }
+*:focus {
+	outline: none;
+}
 
+
+
+
+/* TABLES */
 table {
 	border-collapse: collapse;
 }
@@ -45,6 +59,11 @@ table {
 	background: var(--back-back);
 }
 
+
+
+
+
+/* TEXT */
 article {
 	width: 100%;
 	max-width: 21cm;
@@ -55,16 +74,19 @@ article {
 	text-align: center;
 }
 
-card {
-	display: inline-block;
-	background: var(--back-main);
-	margin: 0 auto;
-	border-radius: 5px;
-	text-align: center;
-	/* padding: 0; */
-	overflow: hidden;
+
+p {
+	text-align: justify;
+	padding: 1rem;
 }
 
+
+
+
+
+
+
+/* DIN SIZES */
 .A4 {
 	width: 210mm;
 }
@@ -81,39 +103,52 @@ card {
 	width: 44mm;
 }
 
-v-stack, .v-stack {
+
+
+
+/* STACKS */
+.v-stack {
 	display: flex;
 	flex-direction: column;
 	justify-content: space-around;
-  height: 100%;
+	height: 100%;
 }
 
-h-stack, .h-stack {
+.h-stack {
 	display: flex;
 	flex-direction: row;
 	justify-content: space-around;
-  width: 100%;
+	width: 100%;
 }
-.spread{
+
+.spread {
 	justify-content: space-between;
 }
-.center{
+
+.center {
 	justify-content: center;
 }
 
-/* .hCenter {
+
+
+
+/* CENTERING */
+.h-center {
 	position: absolute;
 	left: 50%;
 	transform: translateX(-50%);
 }
 
-.vCenter {
+.v-center {
 	position: absolute;
 	top: 50%;
 	transform: translateY(-50%);
-} */
+}
 
 
+
+
+/* LINKS */
 a {
 	text-decoration: none;
 	color: var(--text-link);
@@ -124,11 +159,28 @@ a:hover {
 	cursor: pointer;
 }
 
-p {
-	text-align: justify;
-	margin: 1rem;
+
+
+
+/* BUTTONS */
+button {
+	background: var(--back-main);
+	color: white;
+	border: none;
 }
 
+button:hover {
+	background: #444;
+}
+
+
+
+
+
+
+
+
+/* HEADINGS */
 h1 {
 	font-size: 2rem;
 }
@@ -139,4 +191,19 @@ h2 {
 
 h3 {
 	font-size: 1.3rem;
+}
+
+
+
+
+
+/* CUSTOM TAGS */
+card {
+	display: inline-block;
+	background: var(--back-main);
+	margin: 0 auto;
+	border-radius: 5px;
+	text-align: center;
+	/* padding: 0; */
+	overflow: hidden;
 }
