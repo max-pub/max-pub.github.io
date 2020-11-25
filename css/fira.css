@@ -4,6 +4,6 @@
 	font-weight: 1 999;
 }
 
-.monospace {
+.monospace, .monospace * {
 	font-family: fira;
 }
