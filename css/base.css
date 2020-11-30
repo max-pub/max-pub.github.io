@@ -107,14 +107,14 @@ p {
 
 
 /* STACKS */
-.v-stack {
+v-stack, .v-stack {
 	display: flex;
 	flex-direction: column;
 	justify-content: space-around;
 	height: 100%;
 }
 
-.h-stack {
+h-stack, .h-stack {
 	display: flex;
 	flex-direction: row;
 	justify-content: space-around;
