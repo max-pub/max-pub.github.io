@@ -1,5 +1,5 @@
 * {
-	font-size: 24px;
+	font-size: 20px;
 	font-family: "Inconsolata";
 }
 
@@ -14,6 +14,10 @@ table {
 	width: 100%;
 }
 
+.small * {
+	font-size: 15px;
+}
+
 input {
 	width: 100%;
 	background: #ddd;
@@ -21,7 +25,8 @@ input {
 	border: none;
 	text-align: right;
 }
-input[type='number']{
+
+input[type='number'] {
 	width: 120px;
 }
 
