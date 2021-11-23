@@ -1,6 +1,13 @@
-* {
+@import '/css/quicksand.css';
+@import '/css/inconsolata.css';
+
+html {
 	font-size: 20px;
-	font-family: "Inconsolata";
+}
+
+* {
+	/* font-size: 20px; */
+	/* font-family: "Inconsolata"; */
 }
 
 @media (min-width:800px) {
@@ -9,10 +16,16 @@
 		margin-right: 30%;
 	}
 }
-a{
+
+a {
 	text-decoration: none;
 	color: black;
 }
+
+a:hover {
+	cursor: pointer;
+}
+
 fieldset {
 	margin-bottom: 3rem;
 	width: 100%;
@@ -25,23 +38,39 @@ table {
 }
 
 .small * {
-	font-size: 15px;
+	font-size: .7rem;
+}
+
+.side,
+.side * {
+	color: gray;
 }
 
 .viertel {
 	color: gray;
 }
 
-input {
-	width: 100%;
-	background: #ddd;
-	color: black;
-	border: none;
-	text-align: right;
+input[type='number'] {
+	/* font-family: "Inconsolata"; */
 }
 
 input {
-	width: 120px;
+	font-size: .8rem;
+	width: 100%;
+	background: #eee;
+	color: black;
+	border: none;
+	text-align: right;
+	border-radius: 5px;
+	/* padding:0; */
+}
+
+.mark {
+	font-weight: bold;
+}
+
+input {
+	width: 5rem;
 }
 
 td {
@@ -62,26 +91,36 @@ td {
 	white-space: nowrap;
 }
 
+[quality=bad] {
+	color: red;
+	font-weight: bold;
+}
+
+[quality=good] {
+	color: lightgreen;
+	font-weight: bold;
+}
+
 #rendite,
 #total {
-	font-size: 30px;
+	/* font-size: 30px; */
 }
 
 h1 {
-	font-size: 40px;
+	/* font-size: 40px; */
 }
 
 sup {
-	font-size: 15px;
+	font-size: .5em !important;
 }
 
 sub {
-	font-size: 17px;
+	/* font-size: 17px; */
 }
 
 u {
 	text-decoration: none;
-	font-size: 20px;
+	/* font-size: 20px; */
 }
 
 #mail {
