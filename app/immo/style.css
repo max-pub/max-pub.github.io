@@ -18,6 +18,10 @@ table {
 	font-size: 15px;
 }
 
+.viertel {
+	color: gray;
+}
+
 input {
 	width: 100%;
 	background: #ddd;

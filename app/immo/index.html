@@ -33,7 +33,7 @@
 			<td> <input nav-key='plz' type='number' step="1" /> </td>
 			<td></td>
 		</tr>
-		<tr class='small'>
+		<tr class='small viertel'>
 			<td>Ort</td>
 			<td> <output id='ort_name'></output> </td>
 			<td></td>
@@ -114,7 +114,7 @@
 			<td> <output id='preis_qm'></output> </td>
 			<td>&euro; </td>
 		</tr>
-		<tr class='small'>
+		<tr class='small viertel'>
 			<td>Preis <u>/m<sup>2</sup> (im Viertel)</u></td>
 			<td> <output id='preis_qm_viertel'></output> </td>
 			<td>&euro; </td>
@@ -144,7 +144,7 @@
 					onchange="miete(this.value*valueForKey('flaeche')*12)" /> </td>
 			<td>&euro;</td>
 		</tr>
-		<tr class='small'>
+		<tr class='small viertel'>
 			<td>Miete <u>/Monat /m<sup>2</sup>(im Viertel)</u></td>
 			<td> <output id='miete_monat_qm_viertel'></output> </td>
 			<td>&euro; </td>
@@ -154,6 +154,11 @@
 			<td> <input id='rendite' type='number' step="0.1"
 					onchange="miete(this.value*valueForID('kosten_gesamt')/100)" /> </td>
 			<td>%</td>
+		</tr>
+		<tr class='small viertel'>
+			<td>Rendite (im Viertel)</u></td>
+			<td> <output id='rendite_viertel'></output> </td>
+			<td>&euro; </td>
 		</tr>
 		<tr>
 			<td>Amortisationszeit</td>
@@ -214,6 +219,7 @@
 			$('#ort_name').value = index[s.plz]?.city ?? ''
 			$('#preis_qm_viertel').value = index[s.plz]?.buy?.toFixed(2) ?? ''
 			$('#miete_monat_qm_viertel').value = index[s.plz]?.rent?.toFixed(2) ?? ''
+			$('#rendite_viertel').value = index[s.plz]?.yield?.toFixed(2) ?? ''
 			// let diff = nav.diffState
 			// if (diff.rendite) s.miete_jahr = (s.rendite * gesamtkosten / 100).toFixed(2)
 			// if (diff.amortisation) s.miete_jahr = (gesamtkosten / s.amortisation).toFixed(2)
