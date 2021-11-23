@@ -30,7 +30,7 @@ input {
 	text-align: right;
 }
 
-input[type='number'] {
+input {
 	width: 120px;
 }
 
