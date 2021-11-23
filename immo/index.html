@@ -31,7 +31,7 @@
 
 			<tr>
 				<td>Postleitzahl</td>
-				<td> <input nav-key='plz' type='number' step="1" /> </td>
+				<td> <input nav-key='plz' type="number" pattern="\d*" step="1" /> </td>
 				<td><a id='map_plz' target='_blank'>&rarr;</a></td>
 			</tr>
 			<tr class='small viertel'>
@@ -46,12 +46,12 @@
 			</tr>
 			<tr>
 				<td>Baujahr</td>
-				<td> <input nav-key='baujahr' type='number' step="1" /> </td>
+				<td> <input nav-key='baujahr' type="number" pattern="\d*" step="1" /> </td>
 				<td></td>
 			</tr>
 			<tr>
 				<td>Wohnfläche</td>
-				<td> <input nav-key='wohnflaeche' type='number' step="1" /> </td>
+				<td> <input nav-key='wohnflaeche' type="number" pattern="\d*" step="1" /> </td>
 				<td>m<sup>2</sup></td>
 			</tr>
 			<!-- <tr>
@@ -69,7 +69,7 @@
 		<table>
 			<tr>
 				<td>Kaufpreis</td>
-				<td> <input nav-key='kaufpreis' type='number' step='5000' /> </td>
+				<td> <input nav-key='kaufpreis' type="number" pattern="\d*" step='5000' /> </td>
 				<td>&euro;</td>
 			</tr>
 			<tr class='small'>
@@ -85,7 +85,7 @@
 			</tr>
 			<tr>
 				<td>Gebäudeanteil</td>
-				<td> <input nav-key='gebaeude' type='number' step='1' /> </td>
+				<td> <input nav-key='gebaeude' type="number" pattern="\d*" step='1' /> </td>
 				<td>%</td>
 			</tr>
 			<tr class='small'>
@@ -105,7 +105,7 @@
 		<table>
 			<tr>
 				<td>Maklerprovision</td>
-				<td> <input type='number' nav-key='makler' step="0.01" /> </td>
+				<td> <input type="number" pattern="\d*" nav-key='makler' step="0.01" /> </td>
 				<td>%</td>
 			</tr>
 			<tr class='small'>
@@ -115,7 +115,7 @@
 			</tr>
 			<tr>
 				<td>Notarkosten</td>
-				<td> <input nav-key='notar' type='number' step="0.01" /> </td>
+				<td> <input nav-key='notar' type="number" pattern="\d*" step="0.01" /> </td>
 				<td>%</td>
 			</tr>
 			<tr class='small'>
@@ -125,7 +125,7 @@
 			</tr>
 			<tr>
 				<td>Grunderwerbsteuer</td>
-				<td> <input nav-key='steuer' type='number' step="0.1" /> </td>
+				<td> <input nav-key='steuer' type="number" pattern="\d*" step="0.1" /> </td>
 				<td>%</td>
 			</tr>
 			<tr class='small'>
@@ -135,7 +135,7 @@
 			</tr>
 			<tr>
 				<td>Grundbucheintrag</td>
-				<td> <input nav-key='grundbuch' type='number' step="0.1" /> </td>
+				<td> <input nav-key='grundbuch' type="number" pattern="\d*" step="0.1" /> </td>
 				<td>%</td>
 			</tr>
 			<tr class='small'>
@@ -173,7 +173,7 @@
 
 			<tr>
 				<td>Miete <u>/Jahr</u> <a class='side' onclick="miete(valueForKey('miete_jahr')*1.05)">+5%</a></td>
-				<td> <input nav-key='miete_jahr' type='number' step="10" /> </td>
+				<td> <input nav-key='miete_jahr' type="number" pattern="\d*" step="10" /> </td>
 				<td>&euro; </td>
 			</tr>
 
@@ -190,13 +190,13 @@
 			<tr class='small'>
 				<td>Miete <u>/Monat</u></td>
 				<td> <output id='miete_monat'></output> </td>
-				<!-- <td> <input id='miete_monat' type='number' step="5" onchange="miete(this.value*12)" /> </td> -->
+				<!-- <td> <input id='miete_monat' type="number" pattern="\d*" step="5" onchange="miete(this.value*12)" /> </td> -->
 				<td>&euro;</td>
 			</tr>
 			<tr class='small'>
 				<td>Miete <u>/Monat /m<sup>2</sup></u></td>
 				<td> <output id='miete_monat_qm'></output> </td>
-				<!-- <td> <input id='miete_monat_qm' type='number' step="0.1" -->
+				<!-- <td> <input id='miete_monat_qm' type="number" pattern="\d*" step="0.1" -->
 				<!-- onchange="miete(this.value*valueForKey('wohnflaeche')*12)" /> </td> -->
 				<td>&euro;</td>
 			</tr>
@@ -213,17 +213,17 @@
 		<table>
 			<tr>
 				<td>Betriebskosten</u></td>
-				<td> <input nav-key='betriebskosten' type='number' step="10" /> </td>
+				<td> <input nav-key='betriebskosten' type="number" pattern="\d*" step="10" /> </td>
 				<td>&euro; </td>
 			</tr>
 			<tr>
 				<td>davon umlagefähig</u></td>
-				<td> <input nav-key='umlage' type='number' step="10" /> </td>
+				<td> <input nav-key='umlage' type="number" pattern="\d*" step="10" /> </td>
 				<td>&euro; </td>
 			</tr>
 			<tr>
 				<td>Hausverwaltung</u></td>
-				<td> <input nav-key='verwaltung' type='number' step="10" /> </td>
+				<td> <input nav-key='verwaltung' type="number" pattern="\d*" step="10" /> </td>
 				<td>&euro; </td>
 			</tr>
 			<tr class='small'>
@@ -238,12 +238,12 @@
 			</tr>
 			<tr>
 				<td>Reparaturen</u></td>
-				<td> <input nav-key='reparaturen' type='number' step="10" /> </td>
+				<td> <input nav-key='reparaturen' type="number" pattern="\d*" step="10" /> </td>
 				<td>&euro; </td>
 			</tr>
 			<tr>
 				<td>Rücklagen</u></td>
-				<td> <input nav-key='ruecklagen' type='number' step="10" /> </td>
+				<td> <input nav-key='ruecklagen' type="number" pattern="\d*" step="10" /> </td>
 				<td>&euro; </td>
 			</tr>
 			<tr class='small'>
@@ -293,13 +293,13 @@
 			</tr> -->
 			<!-- <tr>
 				<td>Grenzsteuersatz</td>
-				<td> <input id='rendite' type='number' step="0.1"
+				<td> <input id='rendite' type="number" pattern="\d*" step="0.1"
 						onchange="miete(this.value*valueForID('kosten_gesamt')/100)" /> </td>
 				<td>%</td>
 			</tr>			 -->
 			<!-- <tr>
 				<td>Rendite</td>
-				<td> <input id='rendite' type='number' step="0.1"
+				<td> <input id='rendite' type="number" pattern="\d*" step="0.1"
 						onchange="miete(this.value*valueForID('kosten_gesamt')/100)" /> </td>
 				<td>%</td>
 			</tr>
@@ -310,7 +310,7 @@
 			</tr>
 			<tr>
 				<td>Amortisationszeit</td>
-				<td> <input id='amortisation' type='number' step="0.1"
+				<td> <input id='amortisation' type="number" pattern="\d*" step="0.1"
 						onchange="miete(valueForID('kosten_gesamt')/this.value)" /> </td>
 				<td>J</td>
 			</tr> -->
@@ -367,7 +367,7 @@
 	</fieldset>
 
 
-
+	<button id='share'>share</button>
 
 	<script>
 		function joo() { console.log('jo') }
@@ -446,6 +446,19 @@
 			$('#contact_phone').href = encodeURI(`tel:${s.phone}`)
 		}
 
+
+
+		$('#share').addEventListener('click', async () => {
+			try {
+				await navigator.share({
+					// title: 'MDN',
+					// text: 'Learn web development on MDN!',
+					// url: document.location
+					url: 'https://max.pub/immo/'+document.location.hash
+				})
+			} catch (err) {
+			}
+		});
 		// window.addEventListener('hashchange', update)
 		// update();
 	</script>
