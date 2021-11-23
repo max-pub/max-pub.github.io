@@ -24,6 +24,26 @@
 	<i>123&#8239;456</i>
 	<table>
 		<tr>
+			<td>Fl&auml;che</td>
+			<td> <input nav-key='flaeche' type='number' step="1" /> </td>
+			<td>m<sup>2</sup></td>
+		</tr>
+		<tr>
+			<td>Postleitzahl</td>
+			<td> <input nav-key='plz' type='number' step="1" /> </td>
+			<td></td>
+		</tr>
+
+
+
+		<tr>
+			<td colspan='5'>
+				<hr />
+			</td>
+		</tr>
+
+
+		<tr>
 			<td>Kaufpreis</td>
 			<td> <input nav-key='kaufpreis' type='number' step='5000' /> </td>
 			<td>&euro;</td>
@@ -85,49 +105,47 @@
 			<td> = <output id='kosten_gesamt'></output> </td>
 			<td>&euro;</td>
 		</tr>
-		<tr>
-			<td colspan='5'>
-				<hr />
-			</td>
-		</tr>
-		<tr>
-			<td>Fl&auml;che</td>
-			<td> <input nav-key='flaeche' type='number' step="1" /> </td>
-			<td>m<sup>2</sup></td>
-		</tr>
 		<tr class='small'>
-			<td></td>
+			<td>Preis <u>/m<sup>2</sup></u></td>
 			<td> = <output id='preis_qm'></output> </td>
-			<td>&euro; <u>/m<sup>2</sup></u></td>
+			<td>&euro; </td>
 		</tr>
+
 		<tr>
 			<td colspan='5'>
 				<hr />
 			</td>
 		</tr>
+
+
+
 		<tr>
-			<td>Miete</td>
-			<td> <input nav-key='miete_monat' type='number' step="5" /> </td>
-			<td>&euro; <u>/Monat</u></td>
-		</tr>
-		<tr>
-			<td>Miete</td>
-			<td> <input nav-key='miete_monat_qm' type='number' step="0.5" /> </td>
-			<td>&euro; <u>/Monat /m<sup>2</sup></u></td>
-		</tr>
-		<tr>
-			<td>Miete</td>
+			<td>Miete <u>/Jahr</u></td>
 			<td> <input nav-key='miete_jahr' type='number' step="10" /> </td>
-			<td>&euro; <u>/Jahr</u></td>
+			<td>&euro; </td>
 		</tr>
+		<tr>
+			<td>Miete <u>/Monat</u></td>
+			<td> <input id='miete_monat' type='number' step="5" onchange="miete(this.value*12)" /> </td>
+			<td>&euro;</td>
+		</tr>
+		<tr>
+			<td>Miete <u>/Monat /m<sup>2</sup></u></td>
+			<td> <input id='miete_monat_qm' type='number' step="0.1"
+					onchange="miete(this.value*valueForKey('flaeche')*12)" /> </td>
+			<td>&euro;</td>
+		</tr>
+
 		<tr>
 			<td>Rendite</td>
-			<td> <input nav-key='rendite' type='number' step="0.1" /> </td>
+			<td> <input id='rendite' type='number' step="0.1"
+					onchange="miete(this.value*valueForID('kosten_gesamt')/100)" /> </td>
 			<td>%</td>
 		</tr>
 		<tr>
 			<td>Amortisation</td>
-			<td> <input nav-key='amortisation' type='number' step="0.1" /> </td>
+			<td> <input id='amortisation' type='number' step="0.1"
+					onchange="miete(valueForID('kosten_gesamt')/this.value)" /> </td>
 			<td>Jahre</td>
 		</tr>
 
@@ -137,16 +155,28 @@
 	<br />
 	<br />
 	<a id='mail' href=''>send mail</a>
+	<script>
+		function joo() { console.log('jo') }
+		function valueForID(id) { return document.querySelector(`#` + id).value }
+		function valueForKey(key) { return document.querySelector(`[nav-key='${key}']`).value }
+		function miete(v) { document.location.hash += `&miete_jahr=${Number(v).toFixed(2)}` }
+		// console.log("FAECH", valueOf('flaeche'),document.querySelector(`[nav-key='flaeche']`))
+	</script>
+
 
 	<script type='module'>
 		let $ = x => document.querySelector(x)
 		import * as nav from './nav.js'
-		nav.init({ kaufpreis: 125_000, makler: 3.57, notar: 1.5, steuer: 6.5, grundbuch: 0.5, flaeche: 50, miete_monat: 500 })
+		nav.onChange(update)
+
+		nav.init({ flaeche: 50, plz: 12345, kaufpreis: 125_000, makler: 3.57, notar: 1.5, steuer: 6.5, grundbuch: 0.5, miete_jahr: 5000 })
+
+		// function miete(v){nav.setURL({miete_jahr:v})}
 
 		function update() {
-			console.log("NAV", nav.state)
-			console.log("OLD", nav.oldState)
-			console.log("DIFF", nav.diffState)
+			// console.log("NAV", nav.state)
+			// console.log("OLD", nav.oldState)
+			// console.log("DIFF", nav.diffState)
 			let s = nav.state
 			// var price = document.getElementById('price');
 			// var mak_rel = document.getElementById('mak_rel');
@@ -165,17 +195,25 @@
 
 			$('#preis_qm').value = (gesamtkosten / s.flaeche).toFixed(2)
 
-			let diff = nav.diffState
-			if (diff.rendite) s.miete_jahr = (s.rendite * gesamtkosten / 100).toFixed(2)
-			if (diff.amortisation) s.miete_jahr = (gesamtkosten / s.amortisation).toFixed(2)
-			if (diff.miete_monat) s.miete_jahr = (s.miete_monat * 12).toFixed(2)
-			if (diff.miete_monat_qm) s.miete_jahr = (s.miete_monat_qm * s.flaeche * 12).toFixed(2)
+			// let diff = nav.diffState
+			// if (diff.rendite) s.miete_jahr = (s.rendite * gesamtkosten / 100).toFixed(2)
+			// if (diff.amortisation) s.miete_jahr = (gesamtkosten / s.amortisation).toFixed(2)
+			// if (diff.miete_monat) s.miete_jahr = (s.miete_monat * 12).toFixed(2)
+			// if (diff.miete_monat_qm) s.miete_jahr = (s.miete_monat_qm * s.flaeche * 12).toFixed(2)
 
-			s.miete_monat = (s.miete_jahr / 12).toFixed(2)
-			s.miete_monat_qm = (s.miete_jahr / 12 / s.flaeche).toFixed(2)
-			s.rendite = (s.miete_jahr / gesamtkosten * 100).toFixed(2)
-			s.amortisation = (gesamtkosten / s.miete_jahr).toFixed(1)
-			nav.setURL(s)
+			$('#miete_monat').value = (s.miete_jahr / 12).toFixed(2)
+			$('#miete_monat_qm').value = (s.miete_jahr / 12 / s.flaeche).toFixed(2)
+			$('#rendite').value = (s.miete_jahr / gesamtkosten * 100).toFixed(2)
+			$('#amortisation').value = (gesamtkosten / s.miete_jahr).toFixed(2)
+			// s.miete_monat_qm = (s.miete_jahr / 12 / s.flaeche).toFixed(2)
+			// s.rendite = (s.miete_jahr / gesamtkosten * 100).toFixed(2)
+			// s.amortisation = (gesamtkosten / s.miete_jahr).toFixed(1)
+
+			// s.miete_monat = (s.miete_jahr / 12).toFixed(2)
+			// s.miete_monat_qm = (s.miete_jahr / 12 / s.flaeche).toFixed(2)
+			// s.rendite = (s.miete_jahr / gesamtkosten * 100).toFixed(2)
+			// s.amortisation = (gesamtkosten / s.miete_jahr).toFixed(1)
+			// nav.setURL(s)
 
 			// mak_abs.innerHTML = Math.round(price.value * mak_rel.value / 100);
 			// tax_abs.innerHTML = Math.round(price.value * tax_rel.value / 100);
@@ -199,7 +237,7 @@
 			// mail.setAttribute('href', "mailto:?subject=Haus XXX&body=" + href);
 
 		}
-		window.addEventListener('hashchange', update)
+		// window.addEventListener('hashchange', update)
 		// update();
 	</script>
 

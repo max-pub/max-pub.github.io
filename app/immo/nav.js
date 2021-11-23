@@ -13,15 +13,18 @@ export function getURL() {
 	for (let k in p)
 		if (p[k] === '')
 			p[k] = true
+	// console.log('get', p)
 	return p
 }
-
-export function setURL(p = state) {
-	document.location.hash = Object.entries(p).map(x => {
+function makeURL(p = state) {
+	return Object.entries(p).map(x => {
 		if (x[1] === true) return x[0]
 		if (x[1] === false) return
 		else return `${x[0]}=${x[1]}`
 	}).join('&')
+}
+export function setURL(p = state) {
+	document.location.hash = makeURL(p)
 }
 
 export function addURL(p = {}) {
@@ -49,7 +52,7 @@ export function addURL(p = {}) {
 // 	return output
 // }
 
-export function setDOM(p) {
+export function setDOM(p={}) {
 	for (let node of $$('[nav-key]')) {
 		let key = node.getAttribute('nav-key')
 		// console.log('key', key)
@@ -57,8 +60,10 @@ export function setDOM(p) {
 			if (node.getAttribute('type')?.toLowerCase() == 'checkbox')
 				node.checked = key in p
 			// console.log('checked', key in p)
-			else
-				node.value = p[key]
+			else{
+				// console.log("ERROR",node,p,key)
+				node.value = p[key] ?? ''
+			}
 		} else {
 			// console.log('add selection for', key, p[key])
 			node.querySelectorAll('[nav-val]').forEach(x => x.classList.remove('nav-selected'))
@@ -76,9 +81,15 @@ export function empty() {
 export function init(p = {}) {
 	if (empty())
 		setURL(p)
+	else hashChange()
 }
 
-
+let changeHandlers = []
+export function onChange(f) {
+	changeHandlers.push(f)
+	// console.log('show handlers',changeHandlers)
+	// f?.()
+}
 
 
 
@@ -103,21 +114,31 @@ function watchClickChange(root = document) {
 }
 
 function hashChange(e) {
+	// let temp = document.location.hash
+	// console.log('1', document.location.hash.slice(1))
+	let temp = getURL()
+	// console.log('2', makeURL(temp))
+	// console.log('comp',)
+	if (makeURL(temp) != document.location.hash.slice(1))
+		return setURL(temp)
+	// console.log('3, laeuft')
 	oldState = state
 	state = getURL()
 	diffState = {}
 	for (let key in state)
 		if (state[key] != oldState[key])
 			diffState[key] = state[key]
-	console.log('hashchange', '\nold', oldState, '\nnew', state, '\ndiff', diffState)
+	// console.log('hashchange', '\nold', oldState, '\nnew', state, '\ndiff', diffState)
 	// console.log('current state', state)
 	setDOM(state)
+	// console.log('call handlers',changeHandlers)
+	for(let f of changeHandlers) f?.()
 }
 
 
 
 
 window.addEventListener('hashchange', hashChange)
-hashChange()
+// hashChange()
 watchInputChange()
 watchClickChange()
