@@ -244,12 +244,11 @@
 
 		nav.init({ flaeche: 50, plz: 48143, kaufpreis: 125_000, makler: 3.57, notar: 1.5, steuer: 6.5, grundbuch: 0.5, miete_jahr: 5000 })
 
-		// function miete(v){nav.setURL({miete_jahr:v})}
 
 		function update() {
 
 			let s = nav.state
-			console.log('update with state', s)
+			// console.log('update with state', s)
 
 			$('#makler_abs').value = (s.kaufpreis * s.makler / 100).toFixed(2)
 			$('#notar_abs').value = (s.kaufpreis * s.notar / 100).toFixed(2)
@@ -261,7 +260,6 @@
 			$('#kosten_gesamt').value = gesamtkosten.toFixed(2)
 
 			$('#preis_qm').value = (gesamtkosten / s.flaeche).toFixed(2)
-
 
 			$('#ort_name').value = index[s.plz]?.city ?? ''
 			$('#preis_qm_viertel').value = index[s.plz]?.buy?.toFixed(2) ?? ''
@@ -276,12 +274,8 @@
 
 			$('#map_plz').href = `https://maps.google.com/?q=` + s.plz
 			$('#map_strasse').href = `https://maps.google.com/?q=` + encodeURI(s.strasse + ',' + s.plz + ' ' + index[s.plz]?.city ?? '')
-			$('#contact_email').href = encodeURI(`mailto:?subject=Wohnung ${s.strasse + ',' + s.plz + ' ' + index[s.plz]?.city ?? ''}&body=Sehr geehrte Damen und Herren,\n\nmit freundlichen Grüßen`)
+			$('#contact_email').href = encodeURI(`mailto:${s.email}?subject=Verkauf ${s.strasse + ', ' + s.plz + ' ' + index[s.plz]?.city ?? ''}&body=Sehr geehrte Damen und Herren,\n\nmit freundlichen Grüßen`)
 			$('#contact_phone').href = encodeURI(`tel:${s.phone}`)
-			// console.log("PHONE",encodeURL(`tel:${s.phone}`))
-			// var href = "abc%0Ahttps://max.pub/immo";
-			// mail.setAttribute('href', "mailto:?subject=Haus XXX&body=" + href);
-
 		}
 
 		// window.addEventListener('hashchange', update)

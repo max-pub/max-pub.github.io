@@ -8,7 +8,8 @@ export let diffState = {}
 
 export function getURL() {
 	let p = new URLSearchParams(document.location.hash.slice(1));
-	// console.log('hash', p, document.location.hash.slice(1))
+	// console.log("BASE64",btoa(document.location.hash.slice(1)))
+	// console.log('QUERY', document.location.hash.slice(1))
 	p = Object.fromEntries(p)
 	for (let k in p)
 		if (p[k] === '')
