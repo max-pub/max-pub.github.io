@@ -20,10 +20,11 @@ function makeURL(p = state) {
 	return Object.entries(p).map(x => {
 		if (x[1] === true) return x[0]
 		if (x[1] === false) return
-		else return `${x[0]}=${x[1]}`
+		else return `${x[0]}=${encodeURI(x[1])}`
 	}).join('&')
 }
 export function setURL(p = state) {
+	console.log('setURL', p)
 	document.location.hash = makeURL(p)
 }
 
@@ -52,7 +53,7 @@ export function addURL(p = {}) {
 // 	return output
 // }
 
-export function setDOM(p={}) {
+export function setDOM(p = {}) {
 	for (let node of $$('[nav-key]')) {
 		let key = node.getAttribute('nav-key')
 		// console.log('key', key)
@@ -60,7 +61,7 @@ export function setDOM(p={}) {
 			if (node.getAttribute('type')?.toLowerCase() == 'checkbox')
 				node.checked = key in p
 			// console.log('checked', key in p)
-			else{
+			else {
 				// console.log("ERROR",node,p,key)
 				node.value = p[key] ?? ''
 			}
@@ -114,13 +115,16 @@ function watchClickChange(root = document) {
 }
 
 function hashChange(e) {
+	// console.log("HASH CHANGE")
 	// let temp = document.location.hash
 	// console.log('1', document.location.hash.slice(1))
 	let temp = getURL()
 	// console.log('2', makeURL(temp))
 	// console.log('comp',)
-	if (makeURL(temp) != document.location.hash.slice(1))
+	if (makeURL(temp) != document.location.hash.slice(1)){
+		console.log("re-built URL")
 		return setURL(temp)
+	}
 	// console.log('3, laeuft')
 	oldState = state
 	state = getURL()
@@ -132,7 +136,7 @@ function hashChange(e) {
 	// console.log('current state', state)
 	setDOM(state)
 	// console.log('call handlers',changeHandlers)
-	for(let f of changeHandlers) f?.()
+	for (let f of changeHandlers) f?.()
 }
 
 

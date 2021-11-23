@@ -9,14 +9,19 @@
 		margin-right: 30%;
 	}
 }
-
+a{
+	text-decoration: none;
+	color: black;
+}
 fieldset {
 	margin-bottom: 3rem;
 	width: 100%;
+	box-sizing: border-box;
 }
 
 table {
 	width: 100%;
+	box-sizing: border-box;
 }
 
 .small * {
@@ -50,6 +55,7 @@ td:first-child {
 td:last-child {
 	text-align: left;
 	color: gray;
+	width: 20px;
 }
 
 td {
