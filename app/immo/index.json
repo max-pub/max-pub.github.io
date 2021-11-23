@@ -1,0 +1,8598 @@
+{
+	"14467": {
+		"plz": 14467,
+		"city": "Potsdam",
+		"buy": 4300,
+		"rent": 10.8,
+		"yield": 3
+	},
+	"14469": {
+		"plz": 14469,
+		"city": "Potsdam",
+		"buy": 3650,
+		"rent": 10.1,
+		"yield": 3.3
+	},
+	"14471": {
+		"plz": 14471,
+		"city": "Potsdam",
+		"buy": 3300,
+		"rent": 9.4,
+		"yield": 3.4
+	},
+	"14473": {
+		"plz": 14473,
+		"city": "Potsdam",
+		"buy": 3950,
+		"rent": 10.5,
+		"yield": 3.2
+	},
+	"14476": {
+		"plz": 14476,
+		"city": "Potsdam",
+		"buy": 2600,
+		"rent": 8.9,
+		"yield": 4.1
+	},
+	"14478": {
+		"plz": 14478,
+		"city": "Potsdam",
+		"buy": 2250,
+		"rent": 7.5,
+		"yield": 4
+	},
+	"14480": {
+		"plz": 14480,
+		"city": "Potsdam",
+		"buy": 2500,
+		"rent": 8.6,
+		"yield": 4.1
+	},
+	"14482": {
+		"plz": 14482,
+		"city": "Potsdam",
+		"buy": 3250,
+		"rent": 10,
+		"yield": 3.7
+	},
+	"14770": {
+		"plz": 14770,
+		"city": "Brandenburg an der Havel",
+		"buy": 1400,
+		"rent": 5.9,
+		"yield": 5.1
+	},
+	"14772": {
+		"plz": 14772,
+		"city": "Brandenburg an der Havel",
+		"buy": 1250,
+		"rent": 5.4,
+		"yield": 5.2
+	},
+	"14774": {
+		"plz": 14774,
+		"city": "Brandenburg an der Havel",
+		"buy": 1800,
+		"rent": 6,
+		"yield": 4
+	},
+	"14776": {
+		"plz": 14776,
+		"city": "Brandenburg an der Havel",
+		"buy": 1500,
+		"rent": 6.2,
+		"yield": 5
+	},
+	"15230": {
+		"plz": 15230,
+		"city": "Frankfurt (Oder)",
+		"buy": 1400,
+		"rent": 5.9,
+		"yield": 5.1
+	},
+	"15232": {
+		"plz": 15232,
+		"city": "Frankfurt (Oder)",
+		"buy": 1300,
+		"rent": 5.6,
+		"yield": 5.2
+	},
+	"15234": {
+		"plz": 15234,
+		"city": "Frankfurt (Oder)",
+		"buy": 1350,
+		"rent": 5.8,
+		"yield": 5.2
+	},
+	"17033": {
+		"plz": 17033,
+		"city": "Neubrandenburg",
+		"buy": 1450,
+		"rent": 6.5,
+		"yield": 5.4
+	},
+	"17034": {
+		"plz": 17034,
+		"city": "Neubrandenburg",
+		"buy": 1250,
+		"rent": 4.9,
+		"yield": 4.7
+	},
+	"17036": {
+		"plz": 17036,
+		"city": "Neubrandenburg",
+		"buy": 1150,
+		"rent": 5.1,
+		"yield": 5.3
+	},
+	"17489": {
+		"plz": 17489,
+		"city": "Greifswald",
+		"buy": 1900,
+		"rent": 8.1,
+		"yield": 5.1
+	},
+	"17491": {
+		"plz": 17491,
+		"city": "Greifswald",
+		"buy": 1150,
+		"rent": 5.7,
+		"yield": 6
+	},
+	"17493": {
+		"plz": 17493,
+		"city": "Greifswald",
+		"buy": 1450,
+		"rent": 6.7,
+		"yield": 5.5
+	},
+	"18055": {
+		"plz": 18055,
+		"city": "Rostock",
+		"buy": 3100,
+		"rent": 9.7,
+		"yield": 3.8
+	},
+	"18057": {
+		"plz": 18057,
+		"city": "Rostock",
+		"buy": 2600,
+		"rent": 9.5,
+		"yield": 4.4
+	},
+	"18106": {
+		"plz": 18106,
+		"city": "Rostock",
+		"buy": 1950,
+		"rent": 5.9,
+		"yield": 3.6
+	},
+	"18109": {
+		"plz": 18109,
+		"city": "Rostock",
+		"buy": 1800,
+		"rent": 5.9,
+		"yield": 3.9
+	},
+	"18119": {
+		"plz": 18119,
+		"city": "Rostock",
+		"buy": 4500,
+		"rent": 10.5,
+		"yield": 2.8
+	},
+	"18146": {
+		"plz": 18146,
+		"city": "Rostock",
+		"buy": 1550,
+		"rent": 5.6,
+		"yield": 4.3
+	},
+	"18147": {
+		"plz": 18147,
+		"city": "Rostock",
+		"buy": 1700,
+		"rent": 6.5,
+		"yield": 4.6
+	},
+	"18435": {
+		"plz": 18435,
+		"city": "Stralsund",
+		"buy": 1250,
+		"rent": 5.8,
+		"yield": 5.6
+	},
+	"18437": {
+		"plz": 18437,
+		"city": "Stralsund",
+		"buy": 1250,
+		"rent": 5.9,
+		"yield": 5.7
+	},
+	"18439": {
+		"plz": 18439,
+		"city": "Stralsund",
+		"buy": 1700,
+		"rent": 7,
+		"yield": 4.9
+	},
+	"19053": {
+		"plz": 19053,
+		"city": "Schwerin",
+		"buy": 1550,
+		"rent": 7,
+		"yield": 5.4
+	},
+	"19055": {
+		"plz": 19055,
+		"city": "Schwerin",
+		"buy": 1650,
+		"rent": 7.2,
+		"yield": 5.2
+	},
+	"19057": {
+		"plz": 19057,
+		"city": "Schwerin",
+		"buy": 1250,
+		"rent": 6.1,
+		"yield": 5.9
+	},
+	"19059": {
+		"plz": 19059,
+		"city": "Schwerin",
+		"buy": 1450,
+		"rent": 6.7,
+		"yield": 5.5
+	},
+	"19061": {
+		"plz": 19061,
+		"city": "Schwerin",
+		"buy": 1300,
+		"rent": 6.4,
+		"yield": 5.9
+	},
+	"19063": {
+		"plz": 19063,
+		"city": "Schwerin",
+		"buy": 1150,
+		"rent": 5.1,
+		"yield": 5.3
+	},
+	"21335": {
+		"plz": 21335,
+		"city": "Lüneburg",
+		"buy": 2700,
+		"rent": 9,
+		"yield": 4
+	},
+	"21337": {
+		"plz": 21337,
+		"city": "Lüneburg",
+		"buy": 2300,
+		"rent": 9.3,
+		"yield": 4.9
+	},
+	"21339": {
+		"plz": 21339,
+		"city": "Lüneburg",
+		"buy": 2400,
+		"rent": 8.9,
+		"yield": 4.5
+	},
+	"22844": {
+		"plz": 22844,
+		"city": "Norderstedt",
+		"buy": 2850,
+		"rent": 9.3,
+		"yield": 3.9
+	},
+	"22846": {
+		"plz": 22846,
+		"city": "Norderstedt",
+		"buy": 2900,
+		"rent": 9.6,
+		"yield": 4
+	},
+	"22848": {
+		"plz": 22848,
+		"city": "Norderstedt",
+		"buy": 3050,
+		"rent": 9.8,
+		"yield": 3.9
+	},
+	"22850": {
+		"plz": 22850,
+		"city": "Norderstedt",
+		"buy": 2900,
+		"rent": 9.6,
+		"yield": 4
+	},
+	"22851": {
+		"plz": 22851,
+		"city": "Norderstedt",
+		"buy": 2500,
+		"rent": 9.7,
+		"yield": 4.7
+	},
+	"23552": {
+		"plz": 23552,
+		"city": "Lübeck",
+		"buy": 2650,
+		"rent": 8.6,
+		"yield": 3.9
+	},
+	"23554": {
+		"plz": 23554,
+		"city": "Lübeck",
+		"buy": 2000,
+		"rent": 7.7,
+		"yield": 4.6
+	},
+	"23556": {
+		"plz": 23556,
+		"city": "Lübeck",
+		"buy": 1900,
+		"rent": 7.9,
+		"yield": 5
+	},
+	"23558": {
+		"plz": 23558,
+		"city": "Lübeck",
+		"buy": 1900,
+		"rent": 8.1,
+		"yield": 5.1
+	},
+	"23560": {
+		"plz": 23560,
+		"city": "Lübeck",
+		"buy": 1550,
+		"rent": 7.5,
+		"yield": 5.8
+	},
+	"23562": {
+		"plz": 23562,
+		"city": "Lübeck",
+		"buy": 2000,
+		"rent": 8.1,
+		"yield": 4.9
+	},
+	"23564": {
+		"plz": 23564,
+		"city": "Lübeck",
+		"buy": 2400,
+		"rent": 8.4,
+		"yield": 4.2
+	},
+	"23566": {
+		"plz": 23566,
+		"city": "Lübeck",
+		"buy": 1850,
+		"rent": 7.7,
+		"yield": 5
+	},
+	"23568": {
+		"plz": 23568,
+		"city": "Lübeck",
+		"buy": 2100,
+		"rent": 7.8,
+		"yield": 4.5
+	},
+	"23569": {
+		"plz": 23569,
+		"city": "Lübeck",
+		"buy": 1450,
+		"rent": 6.5,
+		"yield": 5.4
+	},
+	"23570": {
+		"plz": 23570,
+		"city": "Lübeck",
+		"buy": 3400,
+		"rent": 9.1,
+		"yield": 3.2
+	},
+	"24103": {
+		"plz": 24103,
+		"city": "Kiel",
+		"buy": 3000,
+		"rent": 8.9,
+		"yield": 3.6
+	},
+	"24105": {
+		"plz": 24105,
+		"city": "Kiel",
+		"buy": 3100,
+		"rent": 9,
+		"yield": 3.5
+	},
+	"24106": {
+		"plz": 24106,
+		"city": "Kiel",
+		"buy": 2600,
+		"rent": 8.2,
+		"yield": 3.8
+	},
+	"24109": {
+		"plz": 24109,
+		"city": "Kiel",
+		"buy": 1550,
+		"rent": 7.1,
+		"yield": 5.5
+	},
+	"24111": {
+		"plz": 24111,
+		"city": "Kiel",
+		"buy": 2450,
+		"rent": 7.9,
+		"yield": 3.9
+	},
+	"24114": {
+		"plz": 24114,
+		"city": "Kiel",
+		"buy": 2350,
+		"rent": 8.3,
+		"yield": 4.2
+	},
+	"24116": {
+		"plz": 24116,
+		"city": "Kiel",
+		"buy": 2800,
+		"rent": 8.1,
+		"yield": 3.5
+	},
+	"24118": {
+		"plz": 24118,
+		"city": "Kiel",
+		"buy": 3000,
+		"rent": 8.7,
+		"yield": 3.5
+	},
+	"24143": {
+		"plz": 24143,
+		"city": "Kiel",
+		"buy": 1500,
+		"rent": 7.1,
+		"yield": 5.7
+	},
+	"24145": {
+		"plz": 24145,
+		"city": "Kiel",
+		"buy": 2200,
+		"rent": 7.8,
+		"yield": 4.3
+	},
+	"24146": {
+		"plz": 24146,
+		"city": "Kiel",
+		"buy": 1700,
+		"rent": 7.1,
+		"yield": 5
+	},
+	"24147": {
+		"plz": 24147,
+		"city": "Kiel",
+		"buy": 1950,
+		"rent": 7.5,
+		"yield": 4.6
+	},
+	"24148": {
+		"plz": 24148,
+		"city": "Kiel",
+		"buy": 1600,
+		"rent": 7.1,
+		"yield": 5.3
+	},
+	"24149": {
+		"plz": 24149,
+		"city": "Kiel",
+		"buy": 1800,
+		"rent": 7.2,
+		"yield": 4.8
+	},
+	"24159": {
+		"plz": 24159,
+		"city": "Kiel",
+		"buy": 2150,
+		"rent": 7.7,
+		"yield": 4.3
+	},
+	"24534": {
+		"plz": 24534,
+		"city": "Neumünster",
+		"buy": 1050,
+		"rent": 6.2,
+		"yield": 7.1
+	},
+	"24536": {
+		"plz": 24536,
+		"city": "Neumünster",
+		"buy": 1300,
+		"rent": 6.6,
+		"yield": 6.1
+	},
+	"24537": {
+		"plz": 24537,
+		"city": "Neumünster",
+		"buy": 1150,
+		"rent": 6.1,
+		"yield": 6.4
+	},
+	"24539": {
+		"plz": 24539,
+		"city": "Neumünster",
+		"buy": 1150,
+		"rent": 6.3,
+		"yield": 6.6
+	},
+	"24937": {
+		"plz": 24937,
+		"city": "Flensburg",
+		"buy": 1750,
+		"rent": 7.1,
+		"yield": 4.9
+	},
+	"24939": {
+		"plz": 24939,
+		"city": "Flensburg",
+		"buy": 1400,
+		"rent": 7,
+		"yield": 6
+	},
+	"24941": {
+		"plz": 24941,
+		"city": "Flensburg",
+		"buy": 1400,
+		"rent": 6.7,
+		"yield": 5.7
+	},
+	"24943": {
+		"plz": 24943,
+		"city": "Flensburg",
+		"buy": 1600,
+		"rent": 6.7,
+		"yield": 5
+	},
+	"24944": {
+		"plz": 24944,
+		"city": "Flensburg",
+		"buy": 1650,
+		"rent": 6.7,
+		"yield": 4.9
+	},
+	"26121": {
+		"plz": 26121,
+		"city": "Oldenburg (Oldb)",
+		"buy": 2350,
+		"rent": 8,
+		"yield": 4.1
+	},
+	"26122": {
+		"plz": 26122,
+		"city": "Oldenburg (Oldb)",
+		"buy": 2450,
+		"rent": 7.9,
+		"yield": 3.9
+	},
+	"26123": {
+		"plz": 26123,
+		"city": "Oldenburg (Oldb)",
+		"buy": 2450,
+		"rent": 8.1,
+		"yield": 4
+	},
+	"26125": {
+		"plz": 26125,
+		"city": "Oldenburg (Oldb)",
+		"buy": 2400,
+		"rent": 8.1,
+		"yield": 4.1
+	},
+	"26127": {
+		"plz": 26127,
+		"city": "Oldenburg (Oldb)",
+		"buy": 2250,
+		"rent": 8,
+		"yield": 4.3
+	},
+	"26129": {
+		"plz": 26129,
+		"city": "Oldenburg (Oldb)",
+		"buy": 2450,
+		"rent": 8.3,
+		"yield": 4.1
+	},
+	"26131": {
+		"plz": 26131,
+		"city": "Oldenburg (Oldb)",
+		"buy": 2400,
+		"rent": 7.9,
+		"yield": 4
+	},
+	"26133": {
+		"plz": 26133,
+		"city": "Oldenburg (Oldb)",
+		"buy": 2100,
+		"rent": 7.5,
+		"yield": 4.3
+	},
+	"26135": {
+		"plz": 26135,
+		"city": "Oldenburg (Oldb)",
+		"buy": 2750,
+		"rent": 8.7,
+		"yield": 3.8
+	},
+	"26382": {
+		"plz": 26382,
+		"city": "Wilhelmshaven",
+		"buy": 1000,
+		"rent": 5.6,
+		"yield": 6.7
+	},
+	"26384": {
+		"plz": 26384,
+		"city": "Wilhelmshaven",
+		"buy": 900,
+		"rent": 5.6,
+		"yield": 7.5
+	},
+	"26386": {
+		"plz": 26386,
+		"city": "Wilhelmshaven",
+		"buy": 900,
+		"rent": 5.3,
+		"yield": 7.1
+	},
+	"26388": {
+		"plz": 26388,
+		"city": "Wilhelmshaven",
+		"buy": 900,
+		"rent": 5.2,
+		"yield": 6.9
+	},
+	"26389": {
+		"plz": 26389,
+		"city": "Wilhelmshaven",
+		"buy": 950,
+		"rent": 5.5,
+		"yield": 7
+	},
+	"26721": {
+		"plz": 26721,
+		"city": "Emden",
+		"buy": 1000,
+		"rent": 6.2,
+		"yield": 7.4
+	},
+	"26723": {
+		"plz": 26723,
+		"city": "Emden",
+		"buy": 1300,
+		"rent": 6,
+		"yield": 5.5
+	},
+	"26725": {
+		"plz": 26725,
+		"city": "Emden",
+		"buy": 950,
+		"rent": 6.1,
+		"yield": 7.7
+	},
+	"27568": {
+		"plz": 27568,
+		"city": "Bremen",
+		"buy": 1150,
+		"rent": 5.5,
+		"yield": 5.7
+	},
+	"27570": {
+		"plz": 27570,
+		"city": "Bremerhaven",
+		"buy": 1000,
+		"rent": 5.6,
+		"yield": 6.7
+	},
+	"27572": {
+		"plz": 27572,
+		"city": "Bremerhaven",
+		"buy": 1100,
+		"rent": 5.5,
+		"yield": 6
+	},
+	"27574": {
+		"plz": 27574,
+		"city": "Bremerhaven",
+		"buy": 1200,
+		"rent": 6.1,
+		"yield": 6.1
+	},
+	"27576": {
+		"plz": 27576,
+		"city": "Bremerhaven",
+		"buy": 800,
+		"rent": 5.2,
+		"yield": 7.8
+	},
+	"27578": {
+		"plz": 27578,
+		"city": "Bremerhaven",
+		"buy": 950,
+		"rent": 5.7,
+		"yield": 7.2
+	},
+	"27580": {
+		"plz": 27580,
+		"city": "Bremerhaven",
+		"buy": 1100,
+		"rent": 5.9,
+		"yield": 6.4
+	},
+	"27749": {
+		"plz": 27749,
+		"city": "Delmenhorst",
+		"buy": 1550,
+		"rent": 6.5,
+		"yield": 5
+	},
+	"27751": {
+		"plz": 27751,
+		"city": "Delmenhorst",
+		"buy": 1600,
+		"rent": 6.5,
+		"yield": 4.9
+	},
+	"27753": {
+		"plz": 27753,
+		"city": "Delmenhorst",
+		"buy": 1300,
+		"rent": 6.6,
+		"yield": 6.1
+	},
+	"27755": {
+		"plz": 27755,
+		"city": "Delmenhorst",
+		"buy": 1250,
+		"rent": 6.5,
+		"yield": 6.2
+	},
+	"28195": {
+		"plz": 28195,
+		"city": "Bremen",
+		"buy": 2500,
+		"rent": 9.1,
+		"yield": 4.4
+	},
+	"28197": {
+		"plz": 28197,
+		"city": "Bremen",
+		"buy": 1800,
+		"rent": 7.2,
+		"yield": 4.8
+	},
+	"28199": {
+		"plz": 28199,
+		"city": "Bremen",
+		"buy": 2600,
+		"rent": 8.8,
+		"yield": 4.1
+	},
+	"28201": {
+		"plz": 28201,
+		"city": "Bremen",
+		"buy": 2300,
+		"rent": 8.7,
+		"yield": 4.5
+	},
+	"28203": {
+		"plz": 28203,
+		"city": "Bremen",
+		"buy": 3100,
+		"rent": 9.6,
+		"yield": 3.7
+	},
+	"28205": {
+		"plz": 28205,
+		"city": "Bremen",
+		"buy": 2500,
+		"rent": 8.8,
+		"yield": 4.2
+	},
+	"28207": {
+		"plz": 28207,
+		"city": "Bremen",
+		"buy": 2100,
+		"rent": 8,
+		"yield": 4.6
+	},
+	"28209": {
+		"plz": 28209,
+		"city": "Bremen",
+		"buy": 3050,
+		"rent": 9.5,
+		"yield": 3.7
+	},
+	"28211": {
+		"plz": 28211,
+		"city": "Bremen",
+		"buy": 2850,
+		"rent": 9,
+		"yield": 3.8
+	},
+	"28213": {
+		"plz": 28213,
+		"city": "Bremen",
+		"buy": 2800,
+		"rent": 8.8,
+		"yield": 3.8
+	},
+	"28215": {
+		"plz": 28215,
+		"city": "Bremen",
+		"buy": 2550,
+		"rent": 8.9,
+		"yield": 4.2
+	},
+	"28217": {
+		"plz": 28217,
+		"city": "Bremen",
+		"buy": 2050,
+		"rent": 8.7,
+		"yield": 5.1
+	},
+	"28219": {
+		"plz": 28219,
+		"city": "Bremen",
+		"buy": 1800,
+		"rent": 7.4,
+		"yield": 4.9
+	},
+	"28237": {
+		"plz": 28237,
+		"city": "Bremen",
+		"buy": 1550,
+		"rent": 6.5,
+		"yield": 5
+	},
+	"28239": {
+		"plz": 28239,
+		"city": "Bremen",
+		"buy": 1550,
+		"rent": 6.9,
+		"yield": 5.3
+	},
+	"28259": {
+		"plz": 28259,
+		"city": "Bremen",
+		"buy": 1450,
+		"rent": 7.3,
+		"yield": 6
+	},
+	"28277": {
+		"plz": 28277,
+		"city": "Bremen",
+		"buy": 1550,
+		"rent": 7.2,
+		"yield": 5.6
+	},
+	"28279": {
+		"plz": 28279,
+		"city": "Bremen",
+		"buy": 2300,
+		"rent": 8.2,
+		"yield": 4.3
+	},
+	"28307": {
+		"plz": 28307,
+		"city": "Bremen",
+		"buy": 1650,
+		"rent": 7.5,
+		"yield": 5.5
+	},
+	"28309": {
+		"plz": 28309,
+		"city": "Bremen",
+		"buy": 1700,
+		"rent": 7.3,
+		"yield": 5.2
+	},
+	"28325": {
+		"plz": 28325,
+		"city": "Bremen",
+		"buy": 1700,
+		"rent": 7.4,
+		"yield": 5.2
+	},
+	"28327": {
+		"plz": 28327,
+		"city": "Bremen",
+		"buy": 1750,
+		"rent": 7,
+		"yield": 4.8
+	},
+	"28329": {
+		"plz": 28329,
+		"city": "Bremen",
+		"buy": 2050,
+		"rent": 7.7,
+		"yield": 4.5
+	},
+	"28355": {
+		"plz": 28355,
+		"city": "Bremen",
+		"buy": 2500,
+		"rent": 8.6,
+		"yield": 4.1
+	},
+	"28357": {
+		"plz": 28357,
+		"city": "Bremen",
+		"buy": 2300,
+		"rent": 8.2,
+		"yield": 4.3
+	},
+	"28359": {
+		"plz": 28359,
+		"city": "Bremen",
+		"buy": 2600,
+		"rent": 8.8,
+		"yield": 4.1
+	},
+	"28717": {
+		"plz": 28717,
+		"city": "Bremen",
+		"buy": 1650,
+		"rent": 7.1,
+		"yield": 5.2
+	},
+	"28719": {
+		"plz": 28719,
+		"city": "Bremen",
+		"buy": 1650,
+		"rent": 6.6,
+		"yield": 4.8
+	},
+	"28755": {
+		"plz": 28755,
+		"city": "Bremen",
+		"buy": 1200,
+		"rent": 6.5,
+		"yield": 6.5
+	},
+	"28757": {
+		"plz": 28757,
+		"city": "Bremen",
+		"buy": 1700,
+		"rent": 6.6,
+		"yield": 4.7
+	},
+	"28759": {
+		"plz": 28759,
+		"city": "Bremen",
+		"buy": 1700,
+		"rent": 7.1,
+		"yield": 5
+	},
+	"28777": {
+		"plz": 28777,
+		"city": "Bremen",
+		"buy": 1050,
+		"rent": 6,
+		"yield": 6.9
+	},
+	"28779": {
+		"plz": 28779,
+		"city": "Bremen",
+		"buy": 1050,
+		"rent": 6.2,
+		"yield": 7.1
+	},
+	"29221": {
+		"plz": 29221,
+		"city": "Celle",
+		"buy": 1250,
+		"rent": 6.5,
+		"yield": 6.2
+	},
+	"29223": {
+		"plz": 29223,
+		"city": "Celle",
+		"buy": 1200,
+		"rent": 6.4,
+		"yield": 6.4
+	},
+	"29225": {
+		"plz": 29225,
+		"city": "Celle",
+		"buy": 1050,
+		"rent": 6.5,
+		"yield": 7.4
+	},
+	"29227": {
+		"plz": 29227,
+		"city": "Celle",
+		"buy": 1050,
+		"rent": 6.2,
+		"yield": 7.1
+	},
+	"29229": {
+		"plz": 29229,
+		"city": "Celle",
+		"buy": 900,
+		"rent": 6.2,
+		"yield": 8.3
+	},
+	"30159": {
+		"plz": 30159,
+		"city": "Hannover",
+		"buy": 3000,
+		"rent": 8.8,
+		"yield": 3.5
+	},
+	"30161": {
+		"plz": 30161,
+		"city": "Hannover",
+		"buy": 3050,
+		"rent": 9.3,
+		"yield": 3.7
+	},
+	"30163": {
+		"plz": 30163,
+		"city": "Hannover",
+		"buy": 2900,
+		"rent": 9.1,
+		"yield": 3.8
+	},
+	"30165": {
+		"plz": 30165,
+		"city": "Hannover",
+		"buy": 2350,
+		"rent": 8.3,
+		"yield": 4.2
+	},
+	"30167": {
+		"plz": 30167,
+		"city": "Hannover",
+		"buy": 2800,
+		"rent": 8.8,
+		"yield": 3.8
+	},
+	"30169": {
+		"plz": 30169,
+		"city": "Hannover",
+		"buy": 3000,
+		"rent": 9.2,
+		"yield": 3.7
+	},
+	"30171": {
+		"plz": 30171,
+		"city": "Hannover",
+		"buy": 3100,
+		"rent": 8.9,
+		"yield": 3.5
+	},
+	"30173": {
+		"plz": 30173,
+		"city": "Hannover",
+		"buy": 3300,
+		"rent": 8.8,
+		"yield": 3.2
+	},
+	"30175": {
+		"plz": 30175,
+		"city": "Hannover",
+		"buy": 3200,
+		"rent": 10,
+		"yield": 3.8
+	},
+	"30177": {
+		"plz": 30177,
+		"city": "Hannover",
+		"buy": 2450,
+		"rent": 8.9,
+		"yield": 4.4
+	},
+	"30179": {
+		"plz": 30179,
+		"city": "Hannover",
+		"buy": 1950,
+		"rent": 7.8,
+		"yield": 4.8
+	},
+	"30419": {
+		"plz": 30419,
+		"city": "Hannover",
+		"buy": 2150,
+		"rent": 8.2,
+		"yield": 4.6
+	},
+	"30449": {
+		"plz": 30449,
+		"city": "Hannover",
+		"buy": 2400,
+		"rent": 8.6,
+		"yield": 4.3
+	},
+	"30451": {
+		"plz": 30451,
+		"city": "Hannover",
+		"buy": 2350,
+		"rent": 8.5,
+		"yield": 4.3
+	},
+	"30453": {
+		"plz": 30453,
+		"city": "Hannover",
+		"buy": 2100,
+		"rent": 7.7,
+		"yield": 4.4
+	},
+	"30455": {
+		"plz": 30455,
+		"city": "Hannover",
+		"buy": 1950,
+		"rent": 7.4,
+		"yield": 4.6
+	},
+	"30457": {
+		"plz": 30457,
+		"city": "Hannover",
+		"buy": 1900,
+		"rent": 7.3,
+		"yield": 4.6
+	},
+	"30459": {
+		"plz": 30459,
+		"city": "Hannover",
+		"buy": 2050,
+		"rent": 8.3,
+		"yield": 4.9
+	},
+	"30519": {
+		"plz": 30519,
+		"city": "Hannover",
+		"buy": 2550,
+		"rent": 8.6,
+		"yield": 4.1
+	},
+	"30539": {
+		"plz": 30539,
+		"city": "Hannover",
+		"buy": 2300,
+		"rent": 7.9,
+		"yield": 4.1
+	},
+	"30559": {
+		"plz": 30559,
+		"city": "Hannover",
+		"buy": 2450,
+		"rent": 8.4,
+		"yield": 4.1
+	},
+	"30625": {
+		"plz": 30625,
+		"city": "Hannover",
+		"buy": 2600,
+		"rent": 8.4,
+		"yield": 3.9
+	},
+	"30627": {
+		"plz": 30627,
+		"city": "Hannover",
+		"buy": 2000,
+		"rent": 7.9,
+		"yield": 4.7
+	},
+	"30629": {
+		"plz": 30629,
+		"city": "Hannover",
+		"buy": 2050,
+		"rent": 7.8,
+		"yield": 4.6
+	},
+	"30655": {
+		"plz": 30655,
+		"city": "Hannover",
+		"buy": 2350,
+		"rent": 8.6,
+		"yield": 4.4
+	},
+	"30657": {
+		"plz": 30657,
+		"city": "Hannover",
+		"buy": 2250,
+		"rent": 8.3,
+		"yield": 4.4
+	},
+	"30659": {
+		"plz": 30659,
+		"city": "Hannover",
+		"buy": 2550,
+		"rent": 8.6,
+		"yield": 4.1
+	},
+	"30823": {
+		"plz": 30823,
+		"city": "Garbsen",
+		"buy": 1900,
+		"rent": 7,
+		"yield": 4.4
+	},
+	"30826": {
+		"plz": 30826,
+		"city": "Garbsen",
+		"buy": 1650,
+		"rent": 6.8,
+		"yield": 5
+	},
+	"30827": {
+		"plz": 30827,
+		"city": "Garbsen",
+		"buy": 1850,
+		"rent": 7,
+		"yield": 4.5
+	},
+	"30851": {
+		"plz": 30851,
+		"city": "Langenhagen",
+		"buy": 2000,
+		"rent": 7.7,
+		"yield": 4.6
+	},
+	"30853": {
+		"plz": 30853,
+		"city": "Langenhagen",
+		"buy": 2350,
+		"rent": 8.3,
+		"yield": 4.2
+	},
+	"30855": {
+		"plz": 30855,
+		"city": "Langenhagen",
+		"buy": 2000,
+		"rent": 7.5,
+		"yield": 4.5
+	},
+	"31134": {
+		"plz": 31134,
+		"city": "Hildesheim",
+		"buy": 1450,
+		"rent": 6.6,
+		"yield": 5.5
+	},
+	"31135": {
+		"plz": 31135,
+		"city": "Hildesheim",
+		"buy": 1300,
+		"rent": 6.4,
+		"yield": 5.9
+	},
+	"31137": {
+		"plz": 31137,
+		"city": "Hildesheim",
+		"buy": 1200,
+		"rent": 6.4,
+		"yield": 6.4
+	},
+	"31139": {
+		"plz": 31139,
+		"city": "Hildesheim",
+		"buy": 1350,
+		"rent": 6.5,
+		"yield": 5.8
+	},
+	"31141": {
+		"plz": 31141,
+		"city": "Hildesheim",
+		"buy": 1500,
+		"rent": 6.5,
+		"yield": 5.2
+	},
+	"31785": {
+		"plz": 31785,
+		"city": "Hameln",
+		"buy": 1000,
+		"rent": 6,
+		"yield": 7.2
+	},
+	"31787": {
+		"plz": 31787,
+		"city": "Hameln",
+		"buy": 1000,
+		"rent": 5.6,
+		"yield": 6.7
+	},
+	"31789": {
+		"plz": 31789,
+		"city": "Hameln",
+		"buy": 950,
+		"rent": 5.6,
+		"yield": 7.1
+	},
+	"32049": {
+		"plz": 32049,
+		"city": "Herford",
+		"buy": 1200,
+		"rent": 5.8,
+		"yield": 5.8
+	},
+	"32051": {
+		"plz": 32051,
+		"city": "Herford",
+		"buy": 1100,
+		"rent": 5.7,
+		"yield": 6.2
+	},
+	"32052": {
+		"plz": 32052,
+		"city": "Herford",
+		"buy": 1350,
+		"rent": 6.2,
+		"yield": 5.5
+	},
+	"32105": {
+		"plz": 32105,
+		"city": "Bad Salzuflen",
+		"buy": 1400,
+		"rent": 6.3,
+		"yield": 5.4
+	},
+	"32107": {
+		"plz": 32107,
+		"city": "Bad Salzuflen",
+		"buy": 1100,
+		"rent": 5.7,
+		"yield": 6.2
+	},
+	"32108": {
+		"plz": 32108,
+		"city": "Bad Salzuflen",
+		"buy": 1300,
+		"rent": 5.9,
+		"yield": 5.5
+	},
+	"32423": {
+		"plz": 32423,
+		"city": "Minden",
+		"buy": 1250,
+		"rent": 6.1,
+		"yield": 5.9
+	},
+	"32425": {
+		"plz": 32425,
+		"city": "Minden",
+		"buy": 1000,
+		"rent": 6.2,
+		"yield": 7.4
+	},
+	"32427": {
+		"plz": 32427,
+		"city": "Minden",
+		"buy": 1350,
+		"rent": 6.3,
+		"yield": 5.6
+	},
+	"32429": {
+		"plz": 32429,
+		"city": "Minden",
+		"buy": 900,
+		"rent": 5.6,
+		"yield": 7.5
+	},
+	"32756": {
+		"plz": 32756,
+		"city": "Detmold",
+		"buy": 1300,
+		"rent": 6.6,
+		"yield": 6.1
+	},
+	"32758": {
+		"plz": 32758,
+		"city": "Detmold",
+		"buy": 1050,
+		"rent": 6,
+		"yield": 6.9
+	},
+	"32760": {
+		"plz": 32760,
+		"city": "Detmold",
+		"buy": 1300,
+		"rent": 6.3,
+		"yield": 5.8
+	},
+	"33098": {
+		"plz": 33098,
+		"city": "Paderborn",
+		"buy": 2150,
+		"rent": 7.2,
+		"yield": 4
+	},
+	"33100": {
+		"plz": 33100,
+		"city": "Paderborn",
+		"buy": 2000,
+		"rent": 6.9,
+		"yield": 4.1
+	},
+	"33102": {
+		"plz": 33102,
+		"city": "Paderborn",
+		"buy": 2150,
+		"rent": 7.6,
+		"yield": 4.2
+	},
+	"33104": {
+		"plz": 33104,
+		"city": "Paderborn",
+		"buy": 1750,
+		"rent": 6.7,
+		"yield": 4.6
+	},
+	"33106": {
+		"plz": 33106,
+		"city": "Paderborn",
+		"buy": 2000,
+		"rent": 6.8,
+		"yield": 4.1
+	},
+	"33330": {
+		"plz": 33330,
+		"city": "Gütersloh",
+		"buy": 1650,
+		"rent": 6.7,
+		"yield": 4.9
+	},
+	"33332": {
+		"plz": 33332,
+		"city": "Gütersloh",
+		"buy": 1750,
+		"rent": 7,
+		"yield": 4.8
+	},
+	"33333": {
+		"plz": 33333,
+		"city": "Gütersloh",
+		"buy": 1550,
+		"rent": 7.1,
+		"yield": 5.5
+	},
+	"33334": {
+		"plz": 33334,
+		"city": "Gütersloh",
+		"buy": 1600,
+		"rent": 6.8,
+		"yield": 5.1
+	},
+	"33335": {
+		"plz": 33335,
+		"city": "Gütersloh",
+		"buy": 1700,
+		"rent": 6.8,
+		"yield": 4.8
+	},
+	"33602": {
+		"plz": 33602,
+		"city": "Bielefeld",
+		"buy": 1900,
+		"rent": 8,
+		"yield": 5.1
+	},
+	"33604": {
+		"plz": 33604,
+		"city": "Bielefeld",
+		"buy": 1900,
+		"rent": 7.5,
+		"yield": 4.7
+	},
+	"33605": {
+		"plz": 33605,
+		"city": "Bielefeld",
+		"buy": 1550,
+		"rent": 7,
+		"yield": 5.4
+	},
+	"33607": {
+		"plz": 33607,
+		"city": "Bielefeld",
+		"buy": 1750,
+		"rent": 7.5,
+		"yield": 5.1
+	},
+	"33609": {
+		"plz": 33609,
+		"city": "Bielefeld",
+		"buy": 1350,
+		"rent": 6.6,
+		"yield": 5.9
+	},
+	"33611": {
+		"plz": 33611,
+		"city": "Bielefeld",
+		"buy": 1850,
+		"rent": 7.2,
+		"yield": 4.7
+	},
+	"33613": {
+		"plz": 33613,
+		"city": "Bielefeld",
+		"buy": 1900,
+		"rent": 7.5,
+		"yield": 4.7
+	},
+	"33615": {
+		"plz": 33615,
+		"city": "Bielefeld",
+		"buy": 2150,
+		"rent": 7.7,
+		"yield": 4.3
+	},
+	"33617": {
+		"plz": 33617,
+		"city": "Bielefeld",
+		"buy": 1900,
+		"rent": 7.2,
+		"yield": 4.6
+	},
+	"33619": {
+		"plz": 33619,
+		"city": "Bielefeld",
+		"buy": 2000,
+		"rent": 7.8,
+		"yield": 4.7
+	},
+	"33647": {
+		"plz": 33647,
+		"city": "Bielefeld",
+		"buy": 1550,
+		"rent": 6.6,
+		"yield": 5.1
+	},
+	"33649": {
+		"plz": 33649,
+		"city": "Bielefeld",
+		"buy": 1550,
+		"rent": 6.8,
+		"yield": 5.3
+	},
+	"33659": {
+		"plz": 33659,
+		"city": "Bielefeld",
+		"buy": 1350,
+		"rent": 6.5,
+		"yield": 5.8
+	},
+	"33689": {
+		"plz": 33689,
+		"city": "Bielefeld",
+		"buy": 1200,
+		"rent": 6.6,
+		"yield": 6.6
+	},
+	"33699": {
+		"plz": 33699,
+		"city": "Bielefeld",
+		"buy": 1500,
+		"rent": 6.5,
+		"yield": 5.2
+	},
+	"33719": {
+		"plz": 33719,
+		"city": "Bielefeld",
+		"buy": 1600,
+		"rent": 7.2,
+		"yield": 5.4
+	},
+	"33729": {
+		"plz": 33729,
+		"city": "Bielefeld",
+		"buy": 1600,
+		"rent": 6.5,
+		"yield": 4.9
+	},
+	"33739": {
+		"plz": 33739,
+		"city": "Bielefeld",
+		"buy": 1750,
+		"rent": 6.6,
+		"yield": 4.5
+	},
+	"34117": {
+		"plz": 34117,
+		"city": "Kassel",
+		"buy": 2000,
+		"rent": 7.9,
+		"yield": 4.7
+	},
+	"34119": {
+		"plz": 34119,
+		"city": "Kassel",
+		"buy": 2150,
+		"rent": 7.9,
+		"yield": 4.4
+	},
+	"34121": {
+		"plz": 34121,
+		"city": "Kassel",
+		"buy": 2000,
+		"rent": 7.7,
+		"yield": 4.6
+	},
+	"34123": {
+		"plz": 34123,
+		"city": "Kassel",
+		"buy": 1650,
+		"rent": 6.8,
+		"yield": 5
+	},
+	"34125": {
+		"plz": 34125,
+		"city": "Kassel",
+		"buy": 1700,
+		"rent": 6.9,
+		"yield": 4.9
+	},
+	"34127": {
+		"plz": 34127,
+		"city": "Kassel",
+		"buy": 1350,
+		"rent": 6.9,
+		"yield": 6.1
+	},
+	"34128": {
+		"plz": 34128,
+		"city": "Kassel",
+		"buy": 2100,
+		"rent": 7.9,
+		"yield": 4.5
+	},
+	"34130": {
+		"plz": 34130,
+		"city": "Kassel",
+		"buy": 2100,
+		"rent": 7.6,
+		"yield": 4.3
+	},
+	"34131": {
+		"plz": 34131,
+		"city": "Kassel",
+		"buy": 2300,
+		"rent": 8.5,
+		"yield": 4.4
+	},
+	"34132": {
+		"plz": 34132,
+		"city": "Kassel",
+		"buy": 1700,
+		"rent": 7,
+		"yield": 4.9
+	},
+	"34134": {
+		"plz": 34134,
+		"city": "Kassel",
+		"buy": 1600,
+		"rent": 7.1,
+		"yield": 5.3
+	},
+	"35037": {
+		"plz": 35037,
+		"city": "Marburg",
+		"buy": 2950,
+		"rent": 9.8,
+		"yield": 4
+	},
+	"35039": {
+		"plz": 35039,
+		"city": "Marburg",
+		"buy": 2600,
+		"rent": 9.6,
+		"yield": 4.4
+	},
+	"35041": {
+		"plz": 35041,
+		"city": "Marburg",
+		"buy": 2100,
+		"rent": 8.4,
+		"yield": 4.8
+	},
+	"35043": {
+		"plz": 35043,
+		"city": "Marburg",
+		"buy": 2500,
+		"rent": 8.8,
+		"yield": 4.2
+	},
+	"35390": {
+		"plz": 35390,
+		"city": "Gießen",
+		"buy": 2600,
+		"rent": 9,
+		"yield": 4.2
+	},
+	"35392": {
+		"plz": 35392,
+		"city": "Gießen",
+		"buy": 2400,
+		"rent": 8.9,
+		"yield": 4.5
+	},
+	"35394": {
+		"plz": 35394,
+		"city": "Gießen",
+		"buy": 2600,
+		"rent": 9.1,
+		"yield": 4.2
+	},
+	"35396": {
+		"plz": 35396,
+		"city": "Gießen",
+		"buy": 2250,
+		"rent": 8,
+		"yield": 4.3
+	},
+	"35398": {
+		"plz": 35398,
+		"city": "Gießen",
+		"buy": 2250,
+		"rent": 8.4,
+		"yield": 4.5
+	},
+	"35576": {
+		"plz": 35576,
+		"city": "Wetzlar",
+		"buy": 1750,
+		"rent": 6.9,
+		"yield": 4.7
+	},
+	"35578": {
+		"plz": 35578,
+		"city": "Wetzlar",
+		"buy": 1850,
+		"rent": 7.4,
+		"yield": 4.8
+	},
+	"35579": {
+		"plz": 35579,
+		"city": "Wetzlar",
+		"buy": 1750,
+		"rent": 6.5,
+		"yield": 4.5
+	},
+	"35580": {
+		"plz": 35580,
+		"city": "Wetzlar",
+		"buy": 1850,
+		"rent": 6.6,
+		"yield": 4.3
+	},
+	"35581": {
+		"plz": 35581,
+		"city": "Wetzlar",
+		"buy": 1900,
+		"rent": 6.9,
+		"yield": 4.4
+	},
+	"35582": {
+		"plz": 35582,
+		"city": "Wetzlar",
+		"buy": 2100,
+		"rent": 7.1,
+		"yield": 4.1
+	},
+	"35583": {
+		"plz": 35583,
+		"city": "Wetzlar",
+		"buy": 1850,
+		"rent": 6.8,
+		"yield": 4.4
+	},
+	"35584": {
+		"plz": 35584,
+		"city": "Wetzlar",
+		"buy": 1800,
+		"rent": 6.7,
+		"yield": 4.5
+	},
+	"35585": {
+		"plz": 35585,
+		"city": "Wetzlar",
+		"buy": 1350,
+		"rent": 5.4,
+		"yield": 4.8
+	},
+	"35586": {
+		"plz": 35586,
+		"city": "Wetzlar",
+		"buy": 1850,
+		"rent": 6.6,
+		"yield": 4.3
+	},
+	"36037": {
+		"plz": 36037,
+		"city": "Fulda",
+		"buy": 2050,
+		"rent": 7.6,
+		"yield": 4.5
+	},
+	"36039": {
+		"plz": 36039,
+		"city": "Fulda",
+		"buy": 2100,
+		"rent": 7.2,
+		"yield": 4.1
+	},
+	"36041": {
+		"plz": 36041,
+		"city": "Fulda",
+		"buy": 1950,
+		"rent": 6.6,
+		"yield": 4.1
+	},
+	"36043": {
+		"plz": 36043,
+		"city": "Fulda",
+		"buy": 1900,
+		"rent": 7,
+		"yield": 4.4
+	},
+	"37073": {
+		"plz": 37073,
+		"city": "Göttingen",
+		"buy": 2250,
+		"rent": 9.5,
+		"yield": 5.1
+	},
+	"37075": {
+		"plz": 37075,
+		"city": "Göttingen",
+		"buy": 2200,
+		"rent": 9.6,
+		"yield": 5.2
+	},
+	"37077": {
+		"plz": 37077,
+		"city": "Göttingen",
+		"buy": 2200,
+		"rent": 8.7,
+		"yield": 4.8
+	},
+	"37079": {
+		"plz": 37079,
+		"city": "Göttingen",
+		"buy": 1750,
+		"rent": 7.2,
+		"yield": 4.9
+	},
+	"37081": {
+		"plz": 37081,
+		"city": "Göttingen",
+		"buy": 1750,
+		"rent": 8,
+		"yield": 5.5
+	},
+	"37083": {
+		"plz": 37083,
+		"city": "Göttingen",
+		"buy": 2400,
+		"rent": 8.7,
+		"yield": 4.4
+	},
+	"37085": {
+		"plz": 37085,
+		"city": "Göttingen",
+		"buy": 2500,
+		"rent": 8.9,
+		"yield": 4.3
+	},
+	"38100": {
+		"plz": 38100,
+		"city": "Braunschweig",
+		"buy": 2250,
+		"rent": 8.2,
+		"yield": 4.4
+	},
+	"38102": {
+		"plz": 38102,
+		"city": "Braunschweig",
+		"buy": 2750,
+		"rent": 8.6,
+		"yield": 3.8
+	},
+	"38104": {
+		"plz": 38104,
+		"city": "Braunschweig",
+		"buy": 2600,
+		"rent": 8.3,
+		"yield": 3.8
+	},
+	"38106": {
+		"plz": 38106,
+		"city": "Braunschweig",
+		"buy": 2550,
+		"rent": 8.2,
+		"yield": 3.9
+	},
+	"38108": {
+		"plz": 38108,
+		"city": "Braunschweig",
+		"buy": 1900,
+		"rent": 7.4,
+		"yield": 4.7
+	},
+	"38110": {
+		"plz": 38110,
+		"city": "Braunschweig",
+		"buy": 2150,
+		"rent": 7.6,
+		"yield": 4.2
+	},
+	"38112": {
+		"plz": 38112,
+		"city": "Braunschweig",
+		"buy": 1900,
+		"rent": 7.6,
+		"yield": 4.8
+	},
+	"38114": {
+		"plz": 38114,
+		"city": "Braunschweig",
+		"buy": 2200,
+		"rent": 8,
+		"yield": 4.4
+	},
+	"38116": {
+		"plz": 38116,
+		"city": "Braunschweig",
+		"buy": 2050,
+		"rent": 7.7,
+		"yield": 4.5
+	},
+	"38118": {
+		"plz": 38118,
+		"city": "Braunschweig",
+		"buy": 2100,
+		"rent": 7.7,
+		"yield": 4.4
+	},
+	"38120": {
+		"plz": 38120,
+		"city": "Braunschweig",
+		"buy": 1800,
+		"rent": 6.7,
+		"yield": 4.5
+	},
+	"38122": {
+		"plz": 38122,
+		"city": "Braunschweig",
+		"buy": 1850,
+		"rent": 7.3,
+		"yield": 4.7
+	},
+	"38124": {
+		"plz": 38124,
+		"city": "Braunschweig",
+		"buy": 1950,
+		"rent": 7.5,
+		"yield": 4.6
+	},
+	"38126": {
+		"plz": 38126,
+		"city": "Braunschweig",
+		"buy": 1900,
+		"rent": 7.3,
+		"yield": 4.6
+	},
+	"38226": {
+		"plz": 38226,
+		"city": "Salzgitter",
+		"buy": 950,
+		"rent": 5.7,
+		"yield": 7.2
+	},
+	"38228": {
+		"plz": 38228,
+		"city": "Salzgitter",
+		"buy": 850,
+		"rent": 5.3,
+		"yield": 7.5
+	},
+	"38229": {
+		"plz": 38229,
+		"city": "Salzgitter",
+		"buy": 850,
+		"rent": 5.4,
+		"yield": 7.6
+	},
+	"38239": {
+		"plz": 38239,
+		"city": "Salzgitter",
+		"buy": 1700,
+		"rent": 6.7,
+		"yield": 4.7
+	},
+	"38259": {
+		"plz": 38259,
+		"city": "Salzgitter",
+		"buy": 750,
+		"rent": 5.6,
+		"yield": 9
+	},
+	"38300": {
+		"plz": 38300,
+		"city": "Wolfenbüttel",
+		"buy": 1500,
+		"rent": 6.9,
+		"yield": 5.5
+	},
+	"38302": {
+		"plz": 38302,
+		"city": "Wolfenbüttel",
+		"buy": 1600,
+		"rent": 6.8,
+		"yield": 5.1
+	},
+	"38304": {
+		"plz": 38304,
+		"city": "Wolfenbüttel",
+		"buy": 1350,
+		"rent": 6.7,
+		"yield": 6
+	},
+	"38440": {
+		"plz": 38440,
+		"city": "Wolfsburg",
+		"buy": 2100,
+		"rent": 8.7,
+		"yield": 5
+	},
+	"38442": {
+		"plz": 38442,
+		"city": "Wolfsburg",
+		"buy": 2400,
+		"rent": 8.3,
+		"yield": 4.2
+	},
+	"38444": {
+		"plz": 38444,
+		"city": "Wolfsburg",
+		"buy": 1800,
+		"rent": 7.7,
+		"yield": 5.1
+	},
+	"38446": {
+		"plz": 38446,
+		"city": "Wolfsburg",
+		"buy": 2200,
+		"rent": 8.4,
+		"yield": 4.6
+	},
+	"38448": {
+		"plz": 38448,
+		"city": "Wolfsburg",
+		"buy": 2200,
+		"rent": 7.9,
+		"yield": 4.3
+	},
+	"38640": {
+		"plz": 38640,
+		"city": "Goslar",
+		"buy": 1000,
+		"rent": 5.9,
+		"yield": 7.1
+	},
+	"38642": {
+		"plz": 38642,
+		"city": "Goslar",
+		"buy": 750,
+		"rent": 5.9,
+		"yield": 9.4
+	},
+	"38644": {
+		"plz": 38644,
+		"city": "Goslar",
+		"buy": 700,
+		"rent": 5.4,
+		"yield": 9.3
+	},
+	"38690": {
+		"plz": 38690,
+		"city": "Goslar",
+		"buy": 600,
+		"rent": 5.4,
+		"yield": 10.8
+	},
+	"39104": {
+		"plz": 39104,
+		"city": "Magdeburg",
+		"buy": 1550,
+		"rent": 6.5,
+		"yield": 5
+	},
+	"39106": {
+		"plz": 39106,
+		"city": "Magdeburg",
+		"buy": 1350,
+		"rent": 6.1,
+		"yield": 5.4
+	},
+	"39108": {
+		"plz": 39108,
+		"city": "Magdeburg",
+		"buy": 1150,
+		"rent": 6.3,
+		"yield": 6.6
+	},
+	"39110": {
+		"plz": 39110,
+		"city": "Magdeburg",
+		"buy": 1100,
+		"rent": 6,
+		"yield": 6.6
+	},
+	"39112": {
+		"plz": 39112,
+		"city": "Magdeburg",
+		"buy": 1000,
+		"rent": 5.9,
+		"yield": 7.1
+	},
+	"39114": {
+		"plz": 39114,
+		"city": "Magdeburg",
+		"buy": 1200,
+		"rent": 6.2,
+		"yield": 6.2
+	},
+	"39116": {
+		"plz": 39116,
+		"city": "Magdeburg",
+		"buy": 1200,
+		"rent": 6,
+		"yield": 6
+	},
+	"39118": {
+		"plz": 39118,
+		"city": "Magdeburg",
+		"buy": 1000,
+		"rent": 5.6,
+		"yield": 6.7
+	},
+	"39120": {
+		"plz": 39120,
+		"city": "Magdeburg",
+		"buy": 950,
+		"rent": 5.9,
+		"yield": 7.5
+	},
+	"39122": {
+		"plz": 39122,
+		"city": "Magdeburg",
+		"buy": 950,
+		"rent": 5.7,
+		"yield": 7.2
+	},
+	"39124": {
+		"plz": 39124,
+		"city": "Magdeburg",
+		"buy": 1150,
+		"rent": 5.7,
+		"yield": 6
+	},
+	"39126": {
+		"plz": 39126,
+		"city": "Magdeburg",
+		"buy": 950,
+		"rent": 5.5,
+		"yield": 7
+	},
+	"39128": {
+		"plz": 39128,
+		"city": "Magdeburg",
+		"buy": 900,
+		"rent": 5.2,
+		"yield": 6.9
+	},
+	"39130": {
+		"plz": 39130,
+		"city": "Magdeburg",
+		"buy": 950,
+		"rent": 5.1,
+		"yield": 6.4
+	},
+	"40667": {
+		"plz": 40667,
+		"city": "Meerbusch",
+		"buy": 3000,
+		"rent": 9.6,
+		"yield": 3.8
+	},
+	"40668": {
+		"plz": 40668,
+		"city": "Meerbusch",
+		"buy": 2650,
+		"rent": 9,
+		"yield": 4.1
+	},
+	"40670": {
+		"plz": 40670,
+		"city": "Meerbusch",
+		"buy": 2450,
+		"rent": 8.7,
+		"yield": 4.3
+	},
+	"40721": {
+		"plz": 40721,
+		"city": "Hilden",
+		"buy": 2450,
+		"rent": 8.7,
+		"yield": 4.3
+	},
+	"40723": {
+		"plz": 40723,
+		"city": "Hilden",
+		"buy": 2300,
+		"rent": 8.7,
+		"yield": 4.5
+	},
+	"40724": {
+		"plz": 40724,
+		"city": "Hilden",
+		"buy": 2150,
+		"rent": 8.5,
+		"yield": 4.7
+	},
+	"40764": {
+		"plz": 40764,
+		"city": "Langenfeld (Rhld,)",
+		"buy": 2550,
+		"rent": 8.7,
+		"yield": 4.1
+	},
+	"40878": {
+		"plz": 40878,
+		"city": "Ratingen",
+		"buy": 2450,
+		"rent": 8.8,
+		"yield": 4.3
+	},
+	"40880": {
+		"plz": 40880,
+		"city": "Ratingen",
+		"buy": 1900,
+		"rent": 8.1,
+		"yield": 5.1
+	},
+	"40882": {
+		"plz": 40882,
+		"city": "Ratingen",
+		"buy": 2450,
+		"rent": 9,
+		"yield": 4.4
+	},
+	"40883": {
+		"plz": 40883,
+		"city": "Ratingen",
+		"buy": 2450,
+		"rent": 8.7,
+		"yield": 4.3
+	},
+	"40885": {
+		"plz": 40885,
+		"city": "Ratingen",
+		"buy": 2100,
+		"rent": 8.4,
+		"yield": 4.8
+	},
+	"41061": {
+		"plz": 41061,
+		"city": "Mönchengladbach",
+		"buy": 1350,
+		"rent": 6.7,
+		"yield": 6
+	},
+	"41063": {
+		"plz": 41063,
+		"city": "Mönchengladbach",
+		"buy": 1700,
+		"rent": 7,
+		"yield": 4.9
+	},
+	"41065": {
+		"plz": 41065,
+		"city": "Mönchengladbach",
+		"buy": 1200,
+		"rent": 6.5,
+		"yield": 6.5
+	},
+	"41066": {
+		"plz": 41066,
+		"city": "Mönchengladbach",
+		"buy": 1600,
+		"rent": 6.8,
+		"yield": 5.1
+	},
+	"41068": {
+		"plz": 41068,
+		"city": "Mönchengladbach",
+		"buy": 1450,
+		"rent": 6.6,
+		"yield": 5.5
+	},
+	"41069": {
+		"plz": 41069,
+		"city": "Mönchengladbach",
+		"buy": 1300,
+		"rent": 6.4,
+		"yield": 5.9
+	},
+	"41169": {
+		"plz": 41169,
+		"city": "Mönchengladbach",
+		"buy": 1350,
+		"rent": 6.5,
+		"yield": 5.8
+	},
+	"41179": {
+		"plz": 41179,
+		"city": "Mönchengladbach",
+		"buy": 1350,
+		"rent": 6.3,
+		"yield": 5.6
+	},
+	"41189": {
+		"plz": 41189,
+		"city": "Mönchengladbach",
+		"buy": 1300,
+		"rent": 6.2,
+		"yield": 5.7
+	},
+	"41199": {
+		"plz": 41199,
+		"city": "Mönchengladbach",
+		"buy": 1200,
+		"rent": 6.3,
+		"yield": 6.3
+	},
+	"41236": {
+		"plz": 41236,
+		"city": "Mönchengladbach",
+		"buy": 1200,
+		"rent": 6.5,
+		"yield": 6.5
+	},
+	"41238": {
+		"plz": 41238,
+		"city": "Mönchengladbach",
+		"buy": 1250,
+		"rent": 6.4,
+		"yield": 6.1
+	},
+	"41239": {
+		"plz": 41239,
+		"city": "Mönchengladbach",
+		"buy": 1200,
+		"rent": 6.5,
+		"yield": 6.5
+	},
+	"41460": {
+		"plz": 41460,
+		"city": "Neuss",
+		"buy": 2100,
+		"rent": 8.2,
+		"yield": 4.7
+	},
+	"41462": {
+		"plz": 41462,
+		"city": "Neuss",
+		"buy": 2200,
+		"rent": 8.1,
+		"yield": 4.4
+	},
+	"41464": {
+		"plz": 41464,
+		"city": "Neuss",
+		"buy": 2400,
+		"rent": 8.3,
+		"yield": 4.2
+	},
+	"41466": {
+		"plz": 41466,
+		"city": "Neuss",
+		"buy": 1750,
+		"rent": 7.6,
+		"yield": 5.2
+	},
+	"41468": {
+		"plz": 41468,
+		"city": "Neuss",
+		"buy": 2650,
+		"rent": 8.3,
+		"yield": 3.8
+	},
+	"41469": {
+		"plz": 41469,
+		"city": "Neuss",
+		"buy": 1600,
+		"rent": 7.8,
+		"yield": 5.9
+	},
+	"41470": {
+		"plz": 41470,
+		"city": "Neuss",
+		"buy": 2400,
+		"rent": 8,
+		"yield": 4
+	},
+	"41472": {
+		"plz": 41472,
+		"city": "Neuss",
+		"buy": 1750,
+		"rent": 7.5,
+		"yield": 5.1
+	},
+	"41515": {
+		"plz": 41515,
+		"city": "Grevenbroich",
+		"buy": 1800,
+		"rent": 7.3,
+		"yield": 4.9
+	},
+	"41516": {
+		"plz": 41516,
+		"city": "Grevenbroich",
+		"buy": 1800,
+		"rent": 7.3,
+		"yield": 4.9
+	},
+	"41517": {
+		"plz": 41517,
+		"city": "Grevenbroich",
+		"buy": 1400,
+		"rent": 6.6,
+		"yield": 5.7
+	},
+	"41539": {
+		"plz": 41539,
+		"city": "Dormagen",
+		"buy": 2300,
+		"rent": 8.4,
+		"yield": 4.4
+	},
+	"41540": {
+		"plz": 41540,
+		"city": "Dormagen",
+		"buy": 1550,
+		"rent": 7.1,
+		"yield": 5.5
+	},
+	"41541": {
+		"plz": 41541,
+		"city": "Dormagen",
+		"buy": 2000,
+		"rent": 8.3,
+		"yield": 5
+	},
+	"41542": {
+		"plz": 41542,
+		"city": "Dormagen",
+		"buy": 2150,
+		"rent": 7.5,
+		"yield": 4.2
+	},
+	"41747": {
+		"plz": 41747,
+		"city": "Viersen",
+		"buy": 1400,
+		"rent": 6.6,
+		"yield": 5.7
+	},
+	"41748": {
+		"plz": 41748,
+		"city": "Viersen",
+		"buy": 1300,
+		"rent": 6.2,
+		"yield": 5.7
+	},
+	"41749": {
+		"plz": 41749,
+		"city": "Viersen",
+		"buy": 1550,
+		"rent": 6.3,
+		"yield": 4.9
+	},
+	"41751": {
+		"plz": 41751,
+		"city": "Viersen",
+		"buy": 1250,
+		"rent": 5.9,
+		"yield": 5.7
+	},
+	"42103": {
+		"plz": 42103,
+		"city": "Wuppertal",
+		"buy": 1300,
+		"rent": 6.4,
+		"yield": 5.9
+	},
+	"42105": {
+		"plz": 42105,
+		"city": "Wuppertal",
+		"buy": 1250,
+		"rent": 6.3,
+		"yield": 6.1
+	},
+	"42107": {
+		"plz": 42107,
+		"city": "Wuppertal",
+		"buy": 1150,
+		"rent": 6.3,
+		"yield": 6.6
+	},
+	"42109": {
+		"plz": 42109,
+		"city": "Wuppertal",
+		"buy": 1250,
+		"rent": 6.3,
+		"yield": 6.1
+	},
+	"42111": {
+		"plz": 42111,
+		"city": "Wuppertal",
+		"buy": 1700,
+		"rent": 6.9,
+		"yield": 4.9
+	},
+	"42113": {
+		"plz": 42113,
+		"city": "Wuppertal",
+		"buy": 1500,
+		"rent": 6.7,
+		"yield": 5.4
+	},
+	"42115": {
+		"plz": 42115,
+		"city": "Wuppertal",
+		"buy": 1400,
+		"rent": 6.6,
+		"yield": 5.7
+	},
+	"42117": {
+		"plz": 42117,
+		"city": "Wuppertal",
+		"buy": 1200,
+		"rent": 6.4,
+		"yield": 6.4
+	},
+	"42119": {
+		"plz": 42119,
+		"city": "Wuppertal",
+		"buy": 1300,
+		"rent": 6.5,
+		"yield": 6
+	},
+	"42275": {
+		"plz": 42275,
+		"city": "Wuppertal",
+		"buy": 1000,
+		"rent": 6,
+		"yield": 7.2
+	},
+	"42277": {
+		"plz": 42277,
+		"city": "Wuppertal",
+		"buy": 1050,
+		"rent": 5.9,
+		"yield": 6.7
+	},
+	"42279": {
+		"plz": 42279,
+		"city": "Wuppertal",
+		"buy": 1150,
+		"rent": 6.3,
+		"yield": 6.6
+	},
+	"42281": {
+		"plz": 42281,
+		"city": "Wuppertal",
+		"buy": 1050,
+		"rent": 6.1,
+		"yield": 7
+	},
+	"42283": {
+		"plz": 42283,
+		"city": "Wuppertal",
+		"buy": 1100,
+		"rent": 6.1,
+		"yield": 6.7
+	},
+	"42285": {
+		"plz": 42285,
+		"city": "Wuppertal",
+		"buy": 1200,
+		"rent": 6.4,
+		"yield": 6.4
+	},
+	"42287": {
+		"plz": 42287,
+		"city": "Wuppertal",
+		"buy": 1400,
+		"rent": 6.7,
+		"yield": 5.7
+	},
+	"42289": {
+		"plz": 42289,
+		"city": "Wuppertal",
+		"buy": 1150,
+		"rent": 6.1,
+		"yield": 6.4
+	},
+	"42327": {
+		"plz": 42327,
+		"city": "Wuppertal",
+		"buy": 1300,
+		"rent": 6.2,
+		"yield": 5.7
+	},
+	"42329": {
+		"plz": 42329,
+		"city": "Wuppertal",
+		"buy": 1300,
+		"rent": 6.3,
+		"yield": 5.8
+	},
+	"42349": {
+		"plz": 42349,
+		"city": "Wuppertal",
+		"buy": 1600,
+		"rent": 6.8,
+		"yield": 5.1
+	},
+	"42369": {
+		"plz": 42369,
+		"city": "Wuppertal",
+		"buy": 1550,
+		"rent": 6.4,
+		"yield": 5
+	},
+	"42389": {
+		"plz": 42389,
+		"city": "Wuppertal",
+		"buy": 1200,
+		"rent": 6,
+		"yield": 6
+	},
+	"42399": {
+		"plz": 42399,
+		"city": "Wuppertal",
+		"buy": 1550,
+		"rent": 6.5,
+		"yield": 5
+	},
+	"42549": {
+		"plz": 42549,
+		"city": "Velbert",
+		"buy": 1400,
+		"rent": 6.4,
+		"yield": 5.5
+	},
+	"42551": {
+		"plz": 42551,
+		"city": "Velbert",
+		"buy": 1400,
+		"rent": 6.5,
+		"yield": 5.6
+	},
+	"42553": {
+		"plz": 42553,
+		"city": "Velbert",
+		"buy": 1350,
+		"rent": 6.4,
+		"yield": 5.7
+	},
+	"42555": {
+		"plz": 42555,
+		"city": "Velbert",
+		"buy": 1250,
+		"rent": 6,
+		"yield": 5.8
+	},
+	"42651": {
+		"plz": 42651,
+		"city": "Solingen",
+		"buy": 1550,
+		"rent": 6.7,
+		"yield": 5.2
+	},
+	"42653": {
+		"plz": 42653,
+		"city": "Solingen",
+		"buy": 1600,
+		"rent": 6.9,
+		"yield": 5.2
+	},
+	"42655": {
+		"plz": 42655,
+		"city": "Solingen",
+		"buy": 1500,
+		"rent": 6.7,
+		"yield": 5.4
+	},
+	"42657": {
+		"plz": 42657,
+		"city": "Solingen",
+		"buy": 1550,
+		"rent": 6.8,
+		"yield": 5.3
+	},
+	"42659": {
+		"plz": 42659,
+		"city": "Solingen",
+		"buy": 1700,
+		"rent": 6.7,
+		"yield": 4.7
+	},
+	"42697": {
+		"plz": 42697,
+		"city": "Solingen",
+		"buy": 1950,
+		"rent": 7.1,
+		"yield": 4.4
+	},
+	"42699": {
+		"plz": 42699,
+		"city": "Solingen",
+		"buy": 1900,
+		"rent": 7.1,
+		"yield": 4.5
+	},
+	"42719": {
+		"plz": 42719,
+		"city": "Solingen",
+		"buy": 1700,
+		"rent": 6.8,
+		"yield": 4.8
+	},
+	"42853": {
+		"plz": 42853,
+		"city": "Remscheid",
+		"buy": 1200,
+		"rent": 6.1,
+		"yield": 6.1
+	},
+	"42855": {
+		"plz": 42855,
+		"city": "Remscheid",
+		"buy": 1250,
+		"rent": 6.1,
+		"yield": 5.9
+	},
+	"42857": {
+		"plz": 42857,
+		"city": "Remscheid",
+		"buy": 1150,
+		"rent": 5.9,
+		"yield": 6.2
+	},
+	"42859": {
+		"plz": 42859,
+		"city": "Remscheid",
+		"buy": 1150,
+		"rent": 6,
+		"yield": 6.3
+	},
+	"42897": {
+		"plz": 42897,
+		"city": "Remscheid",
+		"buy": 1350,
+		"rent": 5.9,
+		"yield": 5.2
+	},
+	"42899": {
+		"plz": 42899,
+		"city": "Remscheid",
+		"buy": 1150,
+		"rent": 5.6,
+		"yield": 5.8
+	},
+	"44135": {
+		"plz": 44135,
+		"city": "Dortmund",
+		"buy": 1650,
+		"rent": 7.8,
+		"yield": 5.7
+	},
+	"44137": {
+		"plz": 44137,
+		"city": "Dortmund",
+		"buy": 1950,
+		"rent": 7.5,
+		"yield": 4.6
+	},
+	"44139": {
+		"plz": 44139,
+		"city": "Dortmund",
+		"buy": 2350,
+		"rent": 8,
+		"yield": 4.1
+	},
+	"44141": {
+		"plz": 44141,
+		"city": "Dortmund",
+		"buy": 1850,
+		"rent": 7.8,
+		"yield": 5.1
+	},
+	"44143": {
+		"plz": 44143,
+		"city": "Dortmund",
+		"buy": 1600,
+		"rent": 7.1,
+		"yield": 5.3
+	},
+	"44145": {
+		"plz": 44145,
+		"city": "Dortmund",
+		"buy": 1050,
+		"rent": 6.4,
+		"yield": 7.3
+	},
+	"44147": {
+		"plz": 44147,
+		"city": "Dortmund",
+		"buy": 1150,
+		"rent": 6.5,
+		"yield": 6.8
+	},
+	"44149": {
+		"plz": 44149,
+		"city": "Dortmund",
+		"buy": 1350,
+		"rent": 6.6,
+		"yield": 5.9
+	},
+	"44225": {
+		"plz": 44225,
+		"city": "Dortmund",
+		"buy": 1650,
+		"rent": 7.6,
+		"yield": 5.5
+	},
+	"44227": {
+		"plz": 44227,
+		"city": "Dortmund",
+		"buy": 1650,
+		"rent": 7.2,
+		"yield": 5.2
+	},
+	"44229": {
+		"plz": 44229,
+		"city": "Dortmund",
+		"buy": 2100,
+		"rent": 7.8,
+		"yield": 4.5
+	},
+	"44263": {
+		"plz": 44263,
+		"city": "Dortmund",
+		"buy": 1650,
+		"rent": 7.6,
+		"yield": 5.5
+	},
+	"44265": {
+		"plz": 44265,
+		"city": "Dortmund",
+		"buy": 1750,
+		"rent": 7.3,
+		"yield": 5
+	},
+	"44267": {
+		"plz": 44267,
+		"city": "Dortmund",
+		"buy": 2050,
+		"rent": 7.4,
+		"yield": 4.3
+	},
+	"44269": {
+		"plz": 44269,
+		"city": "Dortmund",
+		"buy": 1650,
+		"rent": 7.1,
+		"yield": 5.2
+	},
+	"44287": {
+		"plz": 44287,
+		"city": "Dortmund",
+		"buy": 1650,
+		"rent": 7,
+		"yield": 5.1
+	},
+	"44289": {
+		"plz": 44289,
+		"city": "Dortmund",
+		"buy": 1500,
+		"rent": 6.4,
+		"yield": 5.1
+	},
+	"44309": {
+		"plz": 44309,
+		"city": "Dortmund",
+		"buy": 1450,
+		"rent": 6.9,
+		"yield": 5.7
+	},
+	"44319": {
+		"plz": 44319,
+		"city": "Dortmund",
+		"buy": 1400,
+		"rent": 6.2,
+		"yield": 5.3
+	},
+	"44328": {
+		"plz": 44328,
+		"city": "Dortmund",
+		"buy": 1250,
+		"rent": 5.7,
+		"yield": 5.5
+	},
+	"44329": {
+		"plz": 44329,
+		"city": "Dortmund",
+		"buy": 1300,
+		"rent": 6,
+		"yield": 5.5
+	},
+	"44339": {
+		"plz": 44339,
+		"city": "Dortmund",
+		"buy": 1300,
+		"rent": 7,
+		"yield": 6.5
+	},
+	"44357": {
+		"plz": 44357,
+		"city": "Dortmund",
+		"buy": 1200,
+		"rent": 6.5,
+		"yield": 6.5
+	},
+	"44359": {
+		"plz": 44359,
+		"city": "Dortmund",
+		"buy": 1250,
+		"rent": 6.5,
+		"yield": 6.2
+	},
+	"44369": {
+		"plz": 44369,
+		"city": "Dortmund",
+		"buy": 1250,
+		"rent": 7.1,
+		"yield": 6.8
+	},
+	"44379": {
+		"plz": 44379,
+		"city": "Dortmund",
+		"buy": 1200,
+		"rent": 6.4,
+		"yield": 6.4
+	},
+	"44388": {
+		"plz": 44388,
+		"city": "Dortmund",
+		"buy": 1250,
+		"rent": 6.2,
+		"yield": 6
+	},
+	"44532": {
+		"plz": 44532,
+		"city": "Lünen",
+		"buy": 1300,
+		"rent": 5.9,
+		"yield": 5.5
+	},
+	"44534": {
+		"plz": 44534,
+		"city": "Lünen",
+		"buy": 1300,
+		"rent": 6.2,
+		"yield": 5.7
+	},
+	"44536": {
+		"plz": 44536,
+		"city": "Lünen",
+		"buy": 1200,
+		"rent": 5.7,
+		"yield": 5.7
+	},
+	"44575": {
+		"plz": 44575,
+		"city": "Castrop-Rauxel",
+		"buy": 1350,
+		"rent": 6.4,
+		"yield": 5.7
+	},
+	"44577": {
+		"plz": 44577,
+		"city": "Castrop-Rauxel",
+		"buy": 1200,
+		"rent": 6.1,
+		"yield": 6.1
+	},
+	"44579": {
+		"plz": 44579,
+		"city": "Castrop-Rauxel",
+		"buy": 1200,
+		"rent": 6.2,
+		"yield": 6.2
+	},
+	"44581": {
+		"plz": 44581,
+		"city": "Castrop-Rauxel",
+		"buy": 1300,
+		"rent": 6,
+		"yield": 5.5
+	},
+	"44623": {
+		"plz": 44623,
+		"city": "Herne",
+		"buy": 1100,
+		"rent": 6,
+		"yield": 6.6
+	},
+	"44625": {
+		"plz": 44625,
+		"city": "Herne",
+		"buy": 1200,
+		"rent": 6.1,
+		"yield": 6.1
+	},
+	"44627": {
+		"plz": 44627,
+		"city": "Herne",
+		"buy": 1200,
+		"rent": 6,
+		"yield": 6
+	},
+	"44628": {
+		"plz": 44628,
+		"city": "Herne",
+		"buy": 1000,
+		"rent": 5.9,
+		"yield": 7.1
+	},
+	"44629": {
+		"plz": 44629,
+		"city": "Herne",
+		"buy": 1050,
+		"rent": 5.7,
+		"yield": 6.5
+	},
+	"44649": {
+		"plz": 44649,
+		"city": "Herne",
+		"buy": 1050,
+		"rent": 5.9,
+		"yield": 6.7
+	},
+	"44651": {
+		"plz": 44651,
+		"city": "Herne",
+		"buy": 1200,
+		"rent": 5.9,
+		"yield": 5.9
+	},
+	"44652": {
+		"plz": 44652,
+		"city": "Herne",
+		"buy": 1100,
+		"rent": 6,
+		"yield": 6.6
+	},
+	"44653": {
+		"plz": 44653,
+		"city": "Herne",
+		"buy": 1050,
+		"rent": 5.9,
+		"yield": 6.7
+	},
+	"44787": {
+		"plz": 44787,
+		"city": "Bochum",
+		"buy": 1450,
+		"rent": 6.9,
+		"yield": 5.7
+	},
+	"44789": {
+		"plz": 44789,
+		"city": "Bochum",
+		"buy": 1650,
+		"rent": 7.2,
+		"yield": 5.2
+	},
+	"44791": {
+		"plz": 44791,
+		"city": "Bochum",
+		"buy": 1650,
+		"rent": 6.9,
+		"yield": 5
+	},
+	"44793": {
+		"plz": 44793,
+		"city": "Bochum",
+		"buy": 1300,
+		"rent": 7,
+		"yield": 6.5
+	},
+	"44795": {
+		"plz": 44795,
+		"city": "Bochum",
+		"buy": 1600,
+		"rent": 7.5,
+		"yield": 5.6
+	},
+	"44797": {
+		"plz": 44797,
+		"city": "Bochum",
+		"buy": 2200,
+		"rent": 7.8,
+		"yield": 4.3
+	},
+	"44799": {
+		"plz": 44799,
+		"city": "Bochum",
+		"buy": 1850,
+		"rent": 7.5,
+		"yield": 4.9
+	},
+	"44801": {
+		"plz": 44801,
+		"city": "Bochum",
+		"buy": 1400,
+		"rent": 6.5,
+		"yield": 5.6
+	},
+	"44803": {
+		"plz": 44803,
+		"city": "Bochum",
+		"buy": 1500,
+		"rent": 6.9,
+		"yield": 5.5
+	},
+	"44805": {
+		"plz": 44805,
+		"city": "Bochum",
+		"buy": 1350,
+		"rent": 6.6,
+		"yield": 5.9
+	},
+	"44807": {
+		"plz": 44807,
+		"city": "Bochum",
+		"buy": 1300,
+		"rent": 6.7,
+		"yield": 6.2
+	},
+	"44809": {
+		"plz": 44809,
+		"city": "Bochum",
+		"buy": 1250,
+		"rent": 6.5,
+		"yield": 6.2
+	},
+	"44866": {
+		"plz": 44866,
+		"city": "Bochum",
+		"buy": 1150,
+		"rent": 6,
+		"yield": 6.3
+	},
+	"44867": {
+		"plz": 44867,
+		"city": "Bochum",
+		"buy": 1250,
+		"rent": 6.5,
+		"yield": 6.2
+	},
+	"44869": {
+		"plz": 44869,
+		"city": "Bochum",
+		"buy": 1400,
+		"rent": 6.6,
+		"yield": 5.7
+	},
+	"44879": {
+		"plz": 44879,
+		"city": "Bochum",
+		"buy": 1550,
+		"rent": 6.6,
+		"yield": 5.1
+	},
+	"44892": {
+		"plz": 44892,
+		"city": "Bochum",
+		"buy": 1350,
+		"rent": 6.5,
+		"yield": 5.8
+	},
+	"44894": {
+		"plz": 44894,
+		"city": "Bochum",
+		"buy": 1200,
+		"rent": 6.3,
+		"yield": 6.3
+	},
+	"45127": {
+		"plz": 45127,
+		"city": "Essen",
+		"buy": 1400,
+		"rent": 7.1,
+		"yield": 6.1
+	},
+	"45128": {
+		"plz": 45128,
+		"city": "Essen",
+		"buy": 1850,
+		"rent": 7.8,
+		"yield": 5.1
+	},
+	"45130": {
+		"plz": 45130,
+		"city": "Essen",
+		"buy": 2150,
+		"rent": 8.4,
+		"yield": 4.7
+	},
+	"45131": {
+		"plz": 45131,
+		"city": "Essen",
+		"buy": 2500,
+		"rent": 8.4,
+		"yield": 4
+	},
+	"45133": {
+		"plz": 45133,
+		"city": "Essen",
+		"buy": 2550,
+		"rent": 9,
+		"yield": 4.2
+	},
+	"45134": {
+		"plz": 45134,
+		"city": "Essen",
+		"buy": 2300,
+		"rent": 7.9,
+		"yield": 4.1
+	},
+	"45136": {
+		"plz": 45136,
+		"city": "Essen",
+		"buy": 1650,
+		"rent": 7.4,
+		"yield": 5.4
+	},
+	"45138": {
+		"plz": 45138,
+		"city": "Essen",
+		"buy": 1400,
+		"rent": 6.7,
+		"yield": 5.7
+	},
+	"45139": {
+		"plz": 45139,
+		"city": "Essen",
+		"buy": 1050,
+		"rent": 6.5,
+		"yield": 7.4
+	},
+	"45141": {
+		"plz": 45141,
+		"city": "Essen",
+		"buy": 1250,
+		"rent": 6.8,
+		"yield": 6.5
+	},
+	"45143": {
+		"plz": 45143,
+		"city": "Essen",
+		"buy": 1050,
+		"rent": 6.4,
+		"yield": 7.3
+	},
+	"45144": {
+		"plz": 45144,
+		"city": "Essen",
+		"buy": 1250,
+		"rent": 6.7,
+		"yield": 6.4
+	},
+	"45145": {
+		"plz": 45145,
+		"city": "Essen",
+		"buy": 1200,
+		"rent": 6.6,
+		"yield": 6.6
+	},
+	"45147": {
+		"plz": 45147,
+		"city": "Essen",
+		"buy": 1700,
+		"rent": 7.3,
+		"yield": 5.2
+	},
+	"45149": {
+		"plz": 45149,
+		"city": "Essen",
+		"buy": 2000,
+		"rent": 7.7,
+		"yield": 4.6
+	},
+	"45219": {
+		"plz": 45219,
+		"city": "Essen",
+		"buy": 1900,
+		"rent": 8.3,
+		"yield": 5.2
+	},
+	"45239": {
+		"plz": 45239,
+		"city": "Essen",
+		"buy": 2300,
+		"rent": 8.4,
+		"yield": 4.4
+	},
+	"45257": {
+		"plz": 45257,
+		"city": "Essen",
+		"buy": 1850,
+		"rent": 7.7,
+		"yield": 5
+	},
+	"45259": {
+		"plz": 45259,
+		"city": "Essen",
+		"buy": 2200,
+		"rent": 8.3,
+		"yield": 4.5
+	},
+	"45276": {
+		"plz": 45276,
+		"city": "Essen",
+		"buy": 1400,
+		"rent": 6.4,
+		"yield": 5.5
+	},
+	"45277": {
+		"plz": 45277,
+		"city": "Essen",
+		"buy": 1500,
+		"rent": 7.1,
+		"yield": 5.7
+	},
+	"45279": {
+		"plz": 45279,
+		"city": "Essen",
+		"buy": 1150,
+		"rent": 6.1,
+		"yield": 6.4
+	},
+	"45289": {
+		"plz": 45289,
+		"city": "Essen",
+		"buy": 1950,
+		"rent": 7.5,
+		"yield": 4.6
+	},
+	"45307": {
+		"plz": 45307,
+		"city": "Essen",
+		"buy": 1150,
+		"rent": 6.3,
+		"yield": 6.6
+	},
+	"45309": {
+		"plz": 45309,
+		"city": "Essen",
+		"buy": 1300,
+		"rent": 6.4,
+		"yield": 5.9
+	},
+	"45326": {
+		"plz": 45326,
+		"city": "Essen",
+		"buy": 1050,
+		"rent": 6.3,
+		"yield": 7.2
+	},
+	"45327": {
+		"plz": 45327,
+		"city": "Essen",
+		"buy": 1250,
+		"rent": 6.6,
+		"yield": 6.3
+	},
+	"45329": {
+		"plz": 45329,
+		"city": "Essen",
+		"buy": 1100,
+		"rent": 6.4,
+		"yield": 7
+	},
+	"45355": {
+		"plz": 45355,
+		"city": "Essen",
+		"buy": 1300,
+		"rent": 6.7,
+		"yield": 6.2
+	},
+	"45356": {
+		"plz": 45356,
+		"city": "Essen",
+		"buy": 1100,
+		"rent": 6.2,
+		"yield": 6.8
+	},
+	"45357": {
+		"plz": 45357,
+		"city": "Essen",
+		"buy": 1400,
+		"rent": 6.9,
+		"yield": 5.9
+	},
+	"45359": {
+		"plz": 45359,
+		"city": "Essen",
+		"buy": 1500,
+		"rent": 7,
+		"yield": 5.6
+	},
+	"45468": {
+		"plz": 45468,
+		"city": "Mülheim an der Ruhr",
+		"buy": 1400,
+		"rent": 6.9,
+		"yield": 5.9
+	},
+	"45470": {
+		"plz": 45470,
+		"city": "Mülheim an der Ruhr",
+		"buy": 1850,
+		"rent": 7.1,
+		"yield": 4.6
+	},
+	"45472": {
+		"plz": 45472,
+		"city": "Mülheim an der Ruhr",
+		"buy": 1550,
+		"rent": 6.9,
+		"yield": 5.3
+	},
+	"45473": {
+		"plz": 45473,
+		"city": "Mülheim an der Ruhr",
+		"buy": 1400,
+		"rent": 6.8,
+		"yield": 5.8
+	},
+	"45475": {
+		"plz": 45475,
+		"city": "Mülheim an der Ruhr",
+		"buy": 1300,
+		"rent": 6.6,
+		"yield": 6.1
+	},
+	"45476": {
+		"plz": 45476,
+		"city": "Mülheim an der Ruhr",
+		"buy": 1100,
+		"rent": 6.3,
+		"yield": 6.9
+	},
+	"45478": {
+		"plz": 45478,
+		"city": "Mülheim an der Ruhr",
+		"buy": 1700,
+		"rent": 7,
+		"yield": 4.9
+	},
+	"45479": {
+		"plz": 45479,
+		"city": "Mülheim an der Ruhr",
+		"buy": 1550,
+		"rent": 7.2,
+		"yield": 5.6
+	},
+	"45481": {
+		"plz": 45481,
+		"city": "Mülheim an der Ruhr",
+		"buy": 1950,
+		"rent": 7.8,
+		"yield": 4.8
+	},
+	"45525": {
+		"plz": 45525,
+		"city": "Hattingen",
+		"buy": 1400,
+		"rent": 6.6,
+		"yield": 5.7
+	},
+	"45527": {
+		"plz": 45527,
+		"city": "Hattingen",
+		"buy": 1450,
+		"rent": 6.5,
+		"yield": 5.4
+	},
+	"45529": {
+		"plz": 45529,
+		"city": "Hattingen",
+		"buy": 1450,
+		"rent": 6.6,
+		"yield": 5.5
+	},
+	"45657": {
+		"plz": 45657,
+		"city": "Recklinghausen",
+		"buy": 1600,
+		"rent": 6.3,
+		"yield": 4.7
+	},
+	"45659": {
+		"plz": 45659,
+		"city": "Recklinghausen",
+		"buy": 1450,
+		"rent": 6.3,
+		"yield": 5.2
+	},
+	"45661": {
+		"plz": 45661,
+		"city": "Recklinghausen",
+		"buy": 1050,
+		"rent": 5.3,
+		"yield": 6.1
+	},
+	"45663": {
+		"plz": 45663,
+		"city": "Recklinghausen",
+		"buy": 1150,
+		"rent": 5.7,
+		"yield": 6
+	},
+	"45665": {
+		"plz": 45665,
+		"city": "Recklinghausen",
+		"buy": 1300,
+		"rent": 6.1,
+		"yield": 5.6
+	},
+	"45699": {
+		"plz": 45699,
+		"city": "Herten",
+		"buy": 1150,
+		"rent": 5.8,
+		"yield": 6.1
+	},
+	"45701": {
+		"plz": 45701,
+		"city": "Herten",
+		"buy": 1100,
+		"rent": 5.9,
+		"yield": 6.4
+	},
+	"45768": {
+		"plz": 45768,
+		"city": "Marl",
+		"buy": 1250,
+		"rent": 6.2,
+		"yield": 6
+	},
+	"45770": {
+		"plz": 45770,
+		"city": "Marl",
+		"buy": 1100,
+		"rent": 5.8,
+		"yield": 6.3
+	},
+	"45772": {
+		"plz": 45772,
+		"city": "Marl",
+		"buy": 1250,
+		"rent": 5.9,
+		"yield": 5.7
+	},
+	"45879": {
+		"plz": 45879,
+		"city": "Gelsenkirchen",
+		"buy": 1100,
+		"rent": 5.6,
+		"yield": 6.1
+	},
+	"45881": {
+		"plz": 45881,
+		"city": "Gelsenkirchen",
+		"buy": 750,
+		"rent": 5.5,
+		"yield": 8.8
+	},
+	"45883": {
+		"plz": 45883,
+		"city": "Gelsenkirchen",
+		"buy": 1200,
+		"rent": 6,
+		"yield": 6
+	},
+	"45884": {
+		"plz": 45884,
+		"city": "Gelsenkirchen",
+		"buy": 1000,
+		"rent": 5.5,
+		"yield": 6.6
+	},
+	"45886": {
+		"plz": 45886,
+		"city": "Gelsenkirchen",
+		"buy": 1100,
+		"rent": 5.7,
+		"yield": 6.2
+	},
+	"45888": {
+		"plz": 45888,
+		"city": "Gelsenkirchen",
+		"buy": 850,
+		"rent": 5.5,
+		"yield": 7.8
+	},
+	"45889": {
+		"plz": 45889,
+		"city": "Gelsenkirchen",
+		"buy": 950,
+		"rent": 5.3,
+		"yield": 6.7
+	},
+	"45891": {
+		"plz": 45891,
+		"city": "Gelsenkirchen",
+		"buy": 1100,
+		"rent": 5.7,
+		"yield": 6.2
+	},
+	"45892": {
+		"plz": 45892,
+		"city": "Gelsenkirchen",
+		"buy": 1050,
+		"rent": 5.7,
+		"yield": 6.5
+	},
+	"45894": {
+		"plz": 45894,
+		"city": "Gelsenkirchen",
+		"buy": 1400,
+		"rent": 6.4,
+		"yield": 5.5
+	},
+	"45896": {
+		"plz": 45896,
+		"city": "Gelsenkirchen",
+		"buy": 850,
+		"rent": 5.6,
+		"yield": 7.9
+	},
+	"45897": {
+		"plz": 45897,
+		"city": "Gelsenkirchen",
+		"buy": 1050,
+		"rent": 5.8,
+		"yield": 6.6
+	},
+	"45899": {
+		"plz": 45899,
+		"city": "Gelsenkirchen",
+		"buy": 1000,
+		"rent": 5.8,
+		"yield": 7
+	},
+	"45964": {
+		"plz": 45964,
+		"city": "Gladbeck",
+		"buy": 1250,
+		"rent": 6,
+		"yield": 5.8
+	},
+	"45966": {
+		"plz": 45966,
+		"city": "Gladbeck",
+		"buy": 1000,
+		"rent": 5.9,
+		"yield": 7.1
+	},
+	"45968": {
+		"plz": 45968,
+		"city": "Gladbeck",
+		"buy": 950,
+		"rent": 6.4,
+		"yield": 8.1
+	},
+	"46045": {
+		"plz": 46045,
+		"city": "Oberhausen",
+		"buy": 1050,
+		"rent": 6,
+		"yield": 6.9
+	},
+	"46047": {
+		"plz": 46047,
+		"city": "Oberhausen",
+		"buy": 1050,
+		"rent": 6.1,
+		"yield": 7
+	},
+	"46049": {
+		"plz": 46049,
+		"city": "Oberhausen",
+		"buy": 1150,
+		"rent": 6.2,
+		"yield": 6.5
+	},
+	"46117": {
+		"plz": 46117,
+		"city": "Oberhausen",
+		"buy": 1150,
+		"rent": 5.9,
+		"yield": 6.2
+	},
+	"46119": {
+		"plz": 46119,
+		"city": "Oberhausen",
+		"buy": 1100,
+		"rent": 5.9,
+		"yield": 6.4
+	},
+	"46145": {
+		"plz": 46145,
+		"city": "Oberhausen",
+		"buy": 1450,
+		"rent": 6.4,
+		"yield": 5.3
+	},
+	"46147": {
+		"plz": 46147,
+		"city": "Oberhausen",
+		"buy": 1600,
+		"rent": 6.6,
+		"yield": 5
+	},
+	"46149": {
+		"plz": 46149,
+		"city": "Oberhausen",
+		"buy": 1200,
+		"rent": 6.1,
+		"yield": 6.1
+	},
+	"46236": {
+		"plz": 46236,
+		"city": "Bottrop",
+		"buy": 1250,
+		"rent": 6.1,
+		"yield": 5.9
+	},
+	"46238": {
+		"plz": 46238,
+		"city": "Bottrop",
+		"buy": 1300,
+		"rent": 6.5,
+		"yield": 6
+	},
+	"46240": {
+		"plz": 46240,
+		"city": "Bottrop",
+		"buy": 1350,
+		"rent": 6.5,
+		"yield": 5.8
+	},
+	"46242": {
+		"plz": 46242,
+		"city": "Bottrop",
+		"buy": 1500,
+		"rent": 6.8,
+		"yield": 5.4
+	},
+	"46244": {
+		"plz": 46244,
+		"city": "Bottrop",
+		"buy": 1750,
+		"rent": 6.5,
+		"yield": 4.5
+	},
+	"46282": {
+		"plz": 46282,
+		"city": "Dorsten",
+		"buy": 1550,
+		"rent": 6.1,
+		"yield": 4.7
+	},
+	"46284": {
+		"plz": 46284,
+		"city": "Dorsten",
+		"buy": 1300,
+		"rent": 5.9,
+		"yield": 5.5
+	},
+	"46286": {
+		"plz": 46286,
+		"city": "Dorsten",
+		"buy": 1250,
+		"rent": 5.5,
+		"yield": 5.3
+	},
+	"46395": {
+		"plz": 46395,
+		"city": "Bocholt",
+		"buy": 2000,
+		"rent": 6.7,
+		"yield": 4
+	},
+	"46397": {
+		"plz": 46397,
+		"city": "Bocholt",
+		"buy": 1700,
+		"rent": 6.7,
+		"yield": 4.7
+	},
+	"46399": {
+		"plz": 46399,
+		"city": "Bocholt",
+		"buy": 1850,
+		"rent": 6.8,
+		"yield": 4.4
+	},
+	"46483": {
+		"plz": 46483,
+		"city": "Wesel",
+		"buy": 1200,
+		"rent": 6.1,
+		"yield": 6.1
+	},
+	"46485": {
+		"plz": 46485,
+		"city": "Wesel",
+		"buy": 1400,
+		"rent": 6,
+		"yield": 5.1
+	},
+	"46487": {
+		"plz": 46487,
+		"city": "Wesel",
+		"buy": 1250,
+		"rent": 5.9,
+		"yield": 5.7
+	},
+	"46535": {
+		"plz": 46535,
+		"city": "Dinslaken",
+		"buy": 1600,
+		"rent": 6.7,
+		"yield": 5
+	},
+	"46537": {
+		"plz": 46537,
+		"city": "Dinslaken",
+		"buy": 1550,
+		"rent": 6.8,
+		"yield": 5.3
+	},
+	"46539": {
+		"plz": 46539,
+		"city": "Dinslaken",
+		"buy": 1700,
+		"rent": 6.6,
+		"yield": 4.7
+	},
+	"47051": {
+		"plz": 47051,
+		"city": "Duisburg",
+		"buy": 1350,
+		"rent": 6.4,
+		"yield": 5.7
+	},
+	"47053": {
+		"plz": 47053,
+		"city": "Duisburg",
+		"buy": 950,
+		"rent": 5.7,
+		"yield": 7.2
+	},
+	"47055": {
+		"plz": 47055,
+		"city": "Duisburg",
+		"buy": 1200,
+		"rent": 6.4,
+		"yield": 6.4
+	},
+	"47057": {
+		"plz": 47057,
+		"city": "Duisburg",
+		"buy": 1350,
+		"rent": 6.5,
+		"yield": 5.8
+	},
+	"47058": {
+		"plz": 47058,
+		"city": "Duisburg",
+		"buy": 1400,
+		"rent": 6.7,
+		"yield": 5.7
+	},
+	"47059": {
+		"plz": 47059,
+		"city": "Duisburg",
+		"buy": 950,
+		"rent": 5.6,
+		"yield": 7.1
+	},
+	"47119": {
+		"plz": 47119,
+		"city": "Duisburg",
+		"buy": 950,
+		"rent": 5.5,
+		"yield": 7
+	},
+	"47137": {
+		"plz": 47137,
+		"city": "Duisburg",
+		"buy": 900,
+		"rent": 5.7,
+		"yield": 7.6
+	},
+	"47138": {
+		"plz": 47138,
+		"city": "Duisburg",
+		"buy": 900,
+		"rent": 5.7,
+		"yield": 7.6
+	},
+	"47139": {
+		"plz": 47139,
+		"city": "Duisburg",
+		"buy": 800,
+		"rent": 5.5,
+		"yield": 8.3
+	},
+	"47166": {
+		"plz": 47166,
+		"city": "Duisburg",
+		"buy": 800,
+		"rent": 5.4,
+		"yield": 8.1
+	},
+	"47167": {
+		"plz": 47167,
+		"city": "Duisburg",
+		"buy": 1000,
+		"rent": 5.5,
+		"yield": 6.6
+	},
+	"47169": {
+		"plz": 47169,
+		"city": "Duisburg",
+		"buy": 750,
+		"rent": 5.6,
+		"yield": 9
+	},
+	"47178": {
+		"plz": 47178,
+		"city": "Duisburg",
+		"buy": 1100,
+		"rent": 5.9,
+		"yield": 6.4
+	},
+	"47179": {
+		"plz": 47179,
+		"city": "Duisburg",
+		"buy": 1150,
+		"rent": 6,
+		"yield": 6.3
+	},
+	"47198": {
+		"plz": 47198,
+		"city": "Duisburg",
+		"buy": 950,
+		"rent": 5.7,
+		"yield": 7.2
+	},
+	"47199": {
+		"plz": 47199,
+		"city": "Duisburg",
+		"buy": 1650,
+		"rent": 7,
+		"yield": 5.1
+	},
+	"47226": {
+		"plz": 47226,
+		"city": "Duisburg",
+		"buy": 850,
+		"rent": 5.7,
+		"yield": 8.1
+	},
+	"47228": {
+		"plz": 47228,
+		"city": "Duisburg",
+		"buy": 1300,
+		"rent": 6.2,
+		"yield": 5.7
+	},
+	"47229": {
+		"plz": 47229,
+		"city": "Duisburg",
+		"buy": 1050,
+		"rent": 6.2,
+		"yield": 7.1
+	},
+	"47239": {
+		"plz": 47239,
+		"city": "Duisburg",
+		"buy": 1550,
+		"rent": 6.5,
+		"yield": 5
+	},
+	"47249": {
+		"plz": 47249,
+		"city": "Duisburg",
+		"buy": 1300,
+		"rent": 6.6,
+		"yield": 6.1
+	},
+	"47259": {
+		"plz": 47259,
+		"city": "Duisburg",
+		"buy": 1300,
+		"rent": 6.4,
+		"yield": 5.9
+	},
+	"47269": {
+		"plz": 47269,
+		"city": "Duisburg",
+		"buy": 1600,
+		"rent": 6.7,
+		"yield": 5
+	},
+	"47279": {
+		"plz": 47279,
+		"city": "Duisburg",
+		"buy": 1250,
+		"rent": 7.1,
+		"yield": 6.8
+	},
+	"47441": {
+		"plz": 47441,
+		"city": "Moers",
+		"buy": 1600,
+		"rent": 6.9,
+		"yield": 5.2
+	},
+	"47443": {
+		"plz": 47443,
+		"city": "Moers",
+		"buy": 1550,
+		"rent": 6.3,
+		"yield": 4.9
+	},
+	"47445": {
+		"plz": 47445,
+		"city": "Moers",
+		"buy": 1350,
+		"rent": 6.3,
+		"yield": 5.6
+	},
+	"47447": {
+		"plz": 47447,
+		"city": "Moers",
+		"buy": 2000,
+		"rent": 7.2,
+		"yield": 4.3
+	},
+	"47533": {
+		"plz": 47533,
+		"city": "Kleve",
+		"buy": 1450,
+		"rent": 6.6,
+		"yield": 5.5
+	},
+	"47798": {
+		"plz": 47798,
+		"city": "Krefeld",
+		"buy": 1250,
+		"rent": 6.7,
+		"yield": 6.4
+	},
+	"47799": {
+		"plz": 47799,
+		"city": "Krefeld",
+		"buy": 1300,
+		"rent": 6.7,
+		"yield": 6.2
+	},
+	"47800": {
+		"plz": 47800,
+		"city": "Krefeld",
+		"buy": 1900,
+		"rent": 7.4,
+		"yield": 4.7
+	},
+	"47802": {
+		"plz": 47802,
+		"city": "Krefeld",
+		"buy": 2250,
+		"rent": 8,
+		"yield": 4.3
+	},
+	"47803": {
+		"plz": 47803,
+		"city": "Krefeld",
+		"buy": 1300,
+		"rent": 6.6,
+		"yield": 6.1
+	},
+	"47804": {
+		"plz": 47804,
+		"city": "Krefeld",
+		"buy": 1350,
+		"rent": 6.6,
+		"yield": 5.9
+	},
+	"47805": {
+		"plz": 47805,
+		"city": "Krefeld",
+		"buy": 1200,
+		"rent": 6.5,
+		"yield": 6.5
+	},
+	"47807": {
+		"plz": 47807,
+		"city": "Krefeld",
+		"buy": 1500,
+		"rent": 6.9,
+		"yield": 5.5
+	},
+	"47809": {
+		"plz": 47809,
+		"city": "Krefeld",
+		"buy": 1450,
+		"rent": 6.7,
+		"yield": 5.5
+	},
+	"47829": {
+		"plz": 47829,
+		"city": "Krefeld",
+		"buy": 1550,
+		"rent": 6.9,
+		"yield": 5.3
+	},
+	"47839": {
+		"plz": 47839,
+		"city": "Krefeld",
+		"buy": 1750,
+		"rent": 6.9,
+		"yield": 4.7
+	},
+	"47877": {
+		"plz": 47877,
+		"city": "Willich",
+		"buy": 1950,
+		"rent": 7.4,
+		"yield": 4.6
+	},
+	"48143": {
+		"plz": 48143,
+		"city": "Münster",
+		"buy": 3250,
+		"rent": 10.1,
+		"yield": 3.7
+	},
+	"48145": {
+		"plz": 48145,
+		"city": "Münster",
+		"buy": 3850,
+		"rent": 10.3,
+		"yield": 3.2
+	},
+	"48147": {
+		"plz": 48147,
+		"city": "Münster",
+		"buy": 3800,
+		"rent": 10.3,
+		"yield": 3.3
+	},
+	"48149": {
+		"plz": 48149,
+		"city": "Münster",
+		"buy": 3700,
+		"rent": 10.7,
+		"yield": 3.5
+	},
+	"48151": {
+		"plz": 48151,
+		"city": "Münster",
+		"buy": 3700,
+		"rent": 10.2,
+		"yield": 3.3
+	},
+	"48153": {
+		"plz": 48153,
+		"city": "Münster",
+		"buy": 3200,
+		"rent": 9.9,
+		"yield": 3.7
+	},
+	"48155": {
+		"plz": 48155,
+		"city": "Münster",
+		"buy": 3350,
+		"rent": 9.8,
+		"yield": 3.5
+	},
+	"48157": {
+		"plz": 48157,
+		"city": "Münster",
+		"buy": 1750,
+		"rent": 7.9,
+		"yield": 5.4
+	},
+	"48159": {
+		"plz": 48159,
+		"city": "Münster",
+		"buy": 2400,
+		"rent": 8.4,
+		"yield": 4.2
+	},
+	"48161": {
+		"plz": 48161,
+		"city": "Münster",
+		"buy": 2500,
+		"rent": 8.5,
+		"yield": 4.1
+	},
+	"48163": {
+		"plz": 48163,
+		"city": "Münster",
+		"buy": 2400,
+		"rent": 8.4,
+		"yield": 4.2
+	},
+	"48165": {
+		"plz": 48165,
+		"city": "Münster",
+		"buy": 2550,
+		"rent": 8.6,
+		"yield": 4.1
+	},
+	"48167": {
+		"plz": 48167,
+		"city": "Münster",
+		"buy": 2300,
+		"rent": 8.6,
+		"yield": 4.5
+	},
+	"48429": {
+		"plz": 48429,
+		"city": "Rheine",
+		"buy": 1350,
+		"rent": 6.1,
+		"yield": 5.4
+	},
+	"48431": {
+		"plz": 48431,
+		"city": "Rheine",
+		"buy": 1400,
+		"rent": 6.2,
+		"yield": 5.3
+	},
+	"48432": {
+		"plz": 48432,
+		"city": "Rheine",
+		"buy": 1550,
+		"rent": 5.8,
+		"yield": 4.5
+	},
+	"48527": {
+		"plz": 48527,
+		"city": "Nordhorn",
+		"buy": 1350,
+		"rent": 6,
+		"yield": 5.3
+	},
+	"48529": {
+		"plz": 48529,
+		"city": "Nordhorn",
+		"buy": 1400,
+		"rent": 6.2,
+		"yield": 5.3
+	},
+	"48531": {
+		"plz": 48531,
+		"city": "Nordhorn",
+		"buy": 1600,
+		"rent": 6.2,
+		"yield": 4.7
+	},
+	"49074": {
+		"plz": 49074,
+		"city": "Osnabrück",
+		"buy": 2000,
+		"rent": 7.6,
+		"yield": 4.6
+	},
+	"49076": {
+		"plz": 49076,
+		"city": "Osnabrück",
+		"buy": 2550,
+		"rent": 8.6,
+		"yield": 4.1
+	},
+	"49078": {
+		"plz": 49078,
+		"city": "Osnabrück",
+		"buy": 2300,
+		"rent": 8.3,
+		"yield": 4.3
+	},
+	"49080": {
+		"plz": 49080,
+		"city": "Osnabrück",
+		"buy": 1950,
+		"rent": 8,
+		"yield": 4.9
+	},
+	"49082": {
+		"plz": 49082,
+		"city": "Osnabrück",
+		"buy": 1750,
+		"rent": 7.8,
+		"yield": 5.4
+	},
+	"49084": {
+		"plz": 49084,
+		"city": "Osnabrück",
+		"buy": 1350,
+		"rent": 7.4,
+		"yield": 6.6
+	},
+	"49086": {
+		"plz": 49086,
+		"city": "Osnabrück",
+		"buy": 1750,
+		"rent": 7.1,
+		"yield": 4.9
+	},
+	"49088": {
+		"plz": 49088,
+		"city": "Osnabrück",
+		"buy": 1500,
+		"rent": 7.7,
+		"yield": 6.2
+	},
+	"49090": {
+		"plz": 49090,
+		"city": "Osnabrück",
+		"buy": 1650,
+		"rent": 7.3,
+		"yield": 5.3
+	},
+	"49477": {
+		"plz": 49477,
+		"city": "Ibbenbüren",
+		"buy": 1650,
+		"rent": 6.2,
+		"yield": 4.5
+	},
+	"49479": {
+		"plz": 49479,
+		"city": "Ibbenbüren",
+		"buy": 1500,
+		"rent": 5.6,
+		"yield": 4.5
+	},
+	"49808": {
+		"plz": 49808,
+		"city": "Lingen (Ems)",
+		"buy": 1700,
+		"rent": 6.1,
+		"yield": 4.3
+	},
+	"49809": {
+		"plz": 49809,
+		"city": "Lingen (Ems)",
+		"buy": 1550,
+		"rent": 6.2,
+		"yield": 4.8
+	},
+	"49811": {
+		"plz": 49811,
+		"city": "Lingen (Ems)",
+		"buy": 1300,
+		"rent": 5.4,
+		"yield": 5
+	},
+	"50126": {
+		"plz": 50126,
+		"city": "Bergheim",
+		"buy": 1100,
+		"rent": 7.1,
+		"yield": 7.8
+	},
+	"50127": {
+		"plz": 50127,
+		"city": "Bergheim",
+		"buy": 900,
+		"rent": 6.6,
+		"yield": 8.8
+	},
+	"50129": {
+		"plz": 50129,
+		"city": "Bergheim",
+		"buy": 1750,
+		"rent": 7.1,
+		"yield": 4.9
+	},
+	"50169": {
+		"plz": 50169,
+		"city": "Kerpen",
+		"buy": 1450,
+		"rent": 7.6,
+		"yield": 6.3
+	},
+	"50170": {
+		"plz": 50170,
+		"city": "Kerpen",
+		"buy": 1700,
+		"rent": 7.4,
+		"yield": 5.2
+	},
+	"50171": {
+		"plz": 50171,
+		"city": "Kerpen",
+		"buy": 1600,
+		"rent": 7.4,
+		"yield": 5.6
+	},
+	"50226": {
+		"plz": 50226,
+		"city": "Frechen",
+		"buy": 2700,
+		"rent": 8.8,
+		"yield": 3.9
+	},
+	"50259": {
+		"plz": 50259,
+		"city": "Pulheim",
+		"buy": 2300,
+		"rent": 8.7,
+		"yield": 4.5
+	},
+	"50354": {
+		"plz": 50354,
+		"city": "Hürth",
+		"buy": 2750,
+		"rent": 9.1,
+		"yield": 4
+	},
+	"51371": {
+		"plz": 51371,
+		"city": "Leverkusen",
+		"buy": 2100,
+		"rent": 8,
+		"yield": 4.6
+	},
+	"51373": {
+		"plz": 51373,
+		"city": "Leverkusen",
+		"buy": 1950,
+		"rent": 8,
+		"yield": 4.9
+	},
+	"51375": {
+		"plz": 51375,
+		"city": "Leverkusen",
+		"buy": 2600,
+		"rent": 8.4,
+		"yield": 3.9
+	},
+	"51377": {
+		"plz": 51377,
+		"city": "Leverkusen",
+		"buy": 1750,
+		"rent": 7.4,
+		"yield": 5.1
+	},
+	"51379": {
+		"plz": 51379,
+		"city": "Leverkusen",
+		"buy": 2050,
+		"rent": 7.6,
+		"yield": 4.5
+	},
+	"51381": {
+		"plz": 51381,
+		"city": "Leverkusen",
+		"buy": 1950,
+		"rent": 7.4,
+		"yield": 4.6
+	},
+	"51427": {
+		"plz": 51427,
+		"city": "Bergisch Gladbach",
+		"buy": 2400,
+		"rent": 9,
+		"yield": 4.5
+	},
+	"51429": {
+		"plz": 51429,
+		"city": "Bergisch Gladbach",
+		"buy": 2200,
+		"rent": 8.7,
+		"yield": 4.8
+	},
+	"51465": {
+		"plz": 51465,
+		"city": "Bergisch Gladbach",
+		"buy": 2100,
+		"rent": 8.4,
+		"yield": 4.8
+	},
+	"51467": {
+		"plz": 51467,
+		"city": "Bergisch Gladbach",
+		"buy": 2300,
+		"rent": 8.4,
+		"yield": 4.4
+	},
+	"51469": {
+		"plz": 51469,
+		"city": "Bergisch Gladbach",
+		"buy": 2200,
+		"rent": 8.4,
+		"yield": 4.6
+	},
+	"51643": {
+		"plz": 51643,
+		"city": "Gummersbach",
+		"buy": 1300,
+		"rent": 6.3,
+		"yield": 5.8
+	},
+	"51645": {
+		"plz": 51645,
+		"city": "Gummersbach",
+		"buy": 1300,
+		"rent": 5.9,
+		"yield": 5.5
+	},
+	"51647": {
+		"plz": 51647,
+		"city": "Gummersbach",
+		"buy": 950,
+		"rent": 5.6,
+		"yield": 7.1
+	},
+	"52062": {
+		"plz": 52062,
+		"city": "Aachen",
+		"buy": 2700,
+		"rent": 8.8,
+		"yield": 3.9
+	},
+	"52064": {
+		"plz": 52064,
+		"city": "Aachen",
+		"buy": 2700,
+		"rent": 9,
+		"yield": 4
+	},
+	"52066": {
+		"plz": 52066,
+		"city": "Aachen",
+		"buy": 2600,
+		"rent": 8.8,
+		"yield": 4.1
+	},
+	"52068": {
+		"plz": 52068,
+		"city": "Aachen",
+		"buy": 1900,
+		"rent": 8.1,
+		"yield": 5.1
+	},
+	"52070": {
+		"plz": 52070,
+		"city": "Aachen",
+		"buy": 2450,
+		"rent": 8.8,
+		"yield": 4.3
+	},
+	"52072": {
+		"plz": 52072,
+		"city": "Aachen",
+		"buy": 2500,
+		"rent": 8.5,
+		"yield": 4.1
+	},
+	"52074": {
+		"plz": 52074,
+		"city": "Aachen",
+		"buy": 2600,
+		"rent": 8.6,
+		"yield": 4
+	},
+	"52076": {
+		"plz": 52076,
+		"city": "Aachen",
+		"buy": 2150,
+		"rent": 7.4,
+		"yield": 4.1
+	},
+	"52078": {
+		"plz": 52078,
+		"city": "Aachen",
+		"buy": 2100,
+		"rent": 7.7,
+		"yield": 4.4
+	},
+	"52080": {
+		"plz": 52080,
+		"city": "Aachen",
+		"buy": 2050,
+		"rent": 7.7,
+		"yield": 4.5
+	},
+	"52222": {
+		"plz": 52222,
+		"city": "Stolberg (Rhld,)",
+		"buy": 1200,
+		"rent": 6.1,
+		"yield": 6.1
+	},
+	"52223": {
+		"plz": 52223,
+		"city": "Stolberg (Rhld,)",
+		"buy": 1300,
+		"rent": 6.1,
+		"yield": 5.6
+	},
+	"52224": {
+		"plz": 52224,
+		"city": "Stolberg (Rhld,)",
+		"buy": 1450,
+		"rent": 6,
+		"yield": 5
+	},
+	"52249": {
+		"plz": 52249,
+		"city": "Eschweiler",
+		"buy": 1300,
+		"rent": 6.5,
+		"yield": 6
+	},
+	"52349": {
+		"plz": 52349,
+		"city": "Düren",
+		"buy": 1250,
+		"rent": 6.4,
+		"yield": 6.1
+	},
+	"52351": {
+		"plz": 52351,
+		"city": "Düren",
+		"buy": 1200,
+		"rent": 6.3,
+		"yield": 6.3
+	},
+	"52353": {
+		"plz": 52353,
+		"city": "Düren",
+		"buy": 1250,
+		"rent": 6.2,
+		"yield": 6
+	},
+	"52355": {
+		"plz": 52355,
+		"city": "Düren",
+		"buy": 1400,
+		"rent": 6.2,
+		"yield": 5.3
+	},
+	"53111": {
+		"plz": 53111,
+		"city": "Bonn",
+		"buy": 3100,
+		"rent": 10.1,
+		"yield": 3.9
+	},
+	"53113": {
+		"plz": 53113,
+		"city": "Bonn",
+		"buy": 3500,
+		"rent": 10.9,
+		"yield": 3.7
+	},
+	"53115": {
+		"plz": 53115,
+		"city": "Bonn",
+		"buy": 3100,
+		"rent": 10.6,
+		"yield": 4.1
+	},
+	"53117": {
+		"plz": 53117,
+		"city": "Bonn",
+		"buy": 2600,
+		"rent": 9.5,
+		"yield": 4.4
+	},
+	"53119": {
+		"plz": 53119,
+		"city": "Bonn",
+		"buy": 1750,
+		"rent": 8.4,
+		"yield": 5.8
+	},
+	"53121": {
+		"plz": 53121,
+		"city": "Bonn",
+		"buy": 2750,
+		"rent": 9.4,
+		"yield": 4.1
+	},
+	"53123": {
+		"plz": 53123,
+		"city": "Bonn",
+		"buy": 2500,
+		"rent": 8.9,
+		"yield": 4.3
+	},
+	"53125": {
+		"plz": 53125,
+		"city": "Bonn",
+		"buy": 2400,
+		"rent": 8.6,
+		"yield": 4.3
+	},
+	"53127": {
+		"plz": 53127,
+		"city": "Bonn",
+		"buy": 2950,
+		"rent": 9.3,
+		"yield": 3.8
+	},
+	"53129": {
+		"plz": 53129,
+		"city": "Bonn",
+		"buy": 2950,
+		"rent": 10.2,
+		"yield": 4.2
+	},
+	"53173": {
+		"plz": 53173,
+		"city": "Bonn",
+		"buy": 2950,
+		"rent": 9.8,
+		"yield": 4
+	},
+	"53175": {
+		"plz": 53175,
+		"city": "Bonn",
+		"buy": 2700,
+		"rent": 9.6,
+		"yield": 4.3
+	},
+	"53177": {
+		"plz": 53177,
+		"city": "Bonn",
+		"buy": 2600,
+		"rent": 9.3,
+		"yield": 4.3
+	},
+	"53179": {
+		"plz": 53179,
+		"city": "Bonn",
+		"buy": 2500,
+		"rent": 9,
+		"yield": 4.3
+	},
+	"53225": {
+		"plz": 53225,
+		"city": "Bonn",
+		"buy": 3050,
+		"rent": 10,
+		"yield": 3.9
+	},
+	"53227": {
+		"plz": 53227,
+		"city": "Bonn",
+		"buy": 2800,
+		"rent": 9.5,
+		"yield": 4.1
+	},
+	"53229": {
+		"plz": 53229,
+		"city": "Bonn",
+		"buy": 2550,
+		"rent": 8.9,
+		"yield": 4.2
+	},
+	"53757": {
+		"plz": 53757,
+		"city": "Sankt Augustin",
+		"buy": 2050,
+		"rent": 7.9,
+		"yield": 4.6
+	},
+	"53840": {
+		"plz": 53840,
+		"city": "Troisdorf",
+		"buy": 1850,
+		"rent": 7.7,
+		"yield": 5
+	},
+	"53842": {
+		"plz": 53842,
+		"city": "Troisdorf",
+		"buy": 2250,
+		"rent": 8.2,
+		"yield": 4.4
+	},
+	"53844": {
+		"plz": 53844,
+		"city": "Troisdorf",
+		"buy": 2250,
+		"rent": 7.7,
+		"yield": 4.1
+	},
+	"53879": {
+		"plz": 53879,
+		"city": "Euskirchen",
+		"buy": 1700,
+		"rent": 6.7,
+		"yield": 4.7
+	},
+	"53881": {
+		"plz": 53881,
+		"city": "Euskirchen",
+		"buy": 1650,
+		"rent": 6.5,
+		"yield": 4.7
+	},
+	"54290": {
+		"plz": 54290,
+		"city": "Trier",
+		"buy": 2700,
+		"rent": 8.7,
+		"yield": 3.9
+	},
+	"54292": {
+		"plz": 54292,
+		"city": "Trier",
+		"buy": 2700,
+		"rent": 8.6,
+		"yield": 3.8
+	},
+	"54293": {
+		"plz": 54293,
+		"city": "Trier",
+		"buy": 1800,
+		"rent": 7.2,
+		"yield": 4.8
+	},
+	"54294": {
+		"plz": 54294,
+		"city": "Trier",
+		"buy": 2350,
+		"rent": 8.4,
+		"yield": 4.3
+	},
+	"54295": {
+		"plz": 54295,
+		"city": "Trier",
+		"buy": 2550,
+		"rent": 8.7,
+		"yield": 4.1
+	},
+	"54296": {
+		"plz": 54296,
+		"city": "Trier",
+		"buy": 2600,
+		"rent": 8.3,
+		"yield": 3.8
+	},
+	"55116": {
+		"plz": 55116,
+		"city": "Mainz",
+		"buy": 3600,
+		"rent": 11.3,
+		"yield": 3.8
+	},
+	"55118": {
+		"plz": 55118,
+		"city": "Mainz",
+		"buy": 3450,
+		"rent": 11,
+		"yield": 3.8
+	},
+	"55120": {
+		"plz": 55120,
+		"city": "Mainz",
+		"buy": 2750,
+		"rent": 9.9,
+		"yield": 4.3
+	},
+	"55122": {
+		"plz": 55122,
+		"city": "Mainz",
+		"buy": 3400,
+		"rent": 10.8,
+		"yield": 3.8
+	},
+	"55124": {
+		"plz": 55124,
+		"city": "Mainz",
+		"buy": 2550,
+		"rent": 10.4,
+		"yield": 4.9
+	},
+	"55126": {
+		"plz": 55126,
+		"city": "Mainz",
+		"buy": 2650,
+		"rent": 9.4,
+		"yield": 4.3
+	},
+	"55127": {
+		"plz": 55127,
+		"city": "Mainz",
+		"buy": 2650,
+		"rent": 10,
+		"yield": 4.5
+	},
+	"55128": {
+		"plz": 55128,
+		"city": "Mainz",
+		"buy": 3200,
+		"rent": 10.4,
+		"yield": 3.9
+	},
+	"55129": {
+		"plz": 55129,
+		"city": "Mainz",
+		"buy": 2900,
+		"rent": 10.2,
+		"yield": 4.2
+	},
+	"55130": {
+		"plz": 55130,
+		"city": "Mainz",
+		"buy": 3100,
+		"rent": 10.5,
+		"yield": 4.1
+	},
+	"55131": {
+		"plz": 55131,
+		"city": "Mainz",
+		"buy": 3500,
+		"rent": 11.6,
+		"yield": 4
+	},
+	"55246": {
+		"plz": 55246,
+		"city": "Wiesbaden",
+		"buy": 2850,
+		"rent": 9.9,
+		"yield": 4.2
+	},
+	"55252": {
+		"plz": 55252,
+		"city": "Wiesbaden",
+		"buy": 2950,
+		"rent": 10.1,
+		"yield": 4.1
+	},
+	"55543": {
+		"plz": 55543,
+		"city": "Bad Kreuznach",
+		"buy": 1900,
+		"rent": 7.4,
+		"yield": 4.7
+	},
+	"55545": {
+		"plz": 55545,
+		"city": "Bad Kreuznach",
+		"buy": 1750,
+		"rent": 6.8,
+		"yield": 4.7
+	},
+	"55583": {
+		"plz": 55583,
+		"city": "Bad Kreuznach",
+		"buy": 1750,
+		"rent": 6.7,
+		"yield": 4.6
+	},
+	"56068": {
+		"plz": 56068,
+		"city": "Koblenz",
+		"buy": 2450,
+		"rent": 8.1,
+		"yield": 4
+	},
+	"56070": {
+		"plz": 56070,
+		"city": "Koblenz",
+		"buy": 2100,
+		"rent": 7.2,
+		"yield": 4.1
+	},
+	"56072": {
+		"plz": 56072,
+		"city": "Koblenz",
+		"buy": 2550,
+		"rent": 7.5,
+		"yield": 3.5
+	},
+	"56073": {
+		"plz": 56073,
+		"city": "Koblenz",
+		"buy": 2250,
+		"rent": 8.3,
+		"yield": 4.4
+	},
+	"56075": {
+		"plz": 56075,
+		"city": "Koblenz",
+		"buy": 2650,
+		"rent": 7.6,
+		"yield": 3.4
+	},
+	"56076": {
+		"plz": 56076,
+		"city": "Koblenz",
+		"buy": 2300,
+		"rent": 7.4,
+		"yield": 3.9
+	},
+	"56077": {
+		"plz": 56077,
+		"city": "Koblenz",
+		"buy": 2150,
+		"rent": 7.1,
+		"yield": 4
+	},
+	"56564": {
+		"plz": 56564,
+		"city": "Neuwied",
+		"buy": 1550,
+		"rent": 6.5,
+		"yield": 5
+	},
+	"56566": {
+		"plz": 56566,
+		"city": "Neuwied",
+		"buy": 1600,
+		"rent": 6.3,
+		"yield": 4.7
+	},
+	"56567": {
+		"plz": 56567,
+		"city": "Neuwied",
+		"buy": 1600,
+		"rent": 6.1,
+		"yield": 4.6
+	},
+	"57072": {
+		"plz": 57072,
+		"city": "Siegen",
+		"buy": 1600,
+		"rent": 7.1,
+		"yield": 5.3
+	},
+	"57074": {
+		"plz": 57074,
+		"city": "Siegen",
+		"buy": 1450,
+		"rent": 6.7,
+		"yield": 5.5
+	},
+	"57076": {
+		"plz": 57076,
+		"city": "Siegen",
+		"buy": 1600,
+		"rent": 7.1,
+		"yield": 5.3
+	},
+	"57078": {
+		"plz": 57078,
+		"city": "Siegen",
+		"buy": 1300,
+		"rent": 6.5,
+		"yield": 6
+	},
+	"57080": {
+		"plz": 57080,
+		"city": "Siegen",
+		"buy": 1300,
+		"rent": 6,
+		"yield": 5.5
+	},
+	"58089": {
+		"plz": 58089,
+		"city": "Hagen",
+		"buy": 900,
+		"rent": 5.3,
+		"yield": 7.1
+	},
+	"58091": {
+		"plz": 58091,
+		"city": "Hagen",
+		"buy": 950,
+		"rent": 5.4,
+		"yield": 6.8
+	},
+	"58093": {
+		"plz": 58093,
+		"city": "Hagen",
+		"buy": 1200,
+		"rent": 6,
+		"yield": 6
+	},
+	"58095": {
+		"plz": 58095,
+		"city": "Hagen",
+		"buy": 1050,
+		"rent": 5.5,
+		"yield": 6.3
+	},
+	"58097": {
+		"plz": 58097,
+		"city": "Hagen",
+		"buy": 1000,
+		"rent": 5.5,
+		"yield": 6.6
+	},
+	"58099": {
+		"plz": 58099,
+		"city": "Hagen",
+		"buy": 1250,
+		"rent": 5.6,
+		"yield": 5.4
+	},
+	"58119": {
+		"plz": 58119,
+		"city": "Hagen",
+		"buy": 1150,
+		"rent": 5.5,
+		"yield": 5.7
+	},
+	"58135": {
+		"plz": 58135,
+		"city": "Hagen",
+		"buy": 1050,
+		"rent": 5.6,
+		"yield": 6.4
+	},
+	"58452": {
+		"plz": 58452,
+		"city": "Witten",
+		"buy": 1300,
+		"rent": 6.1,
+		"yield": 5.6
+	},
+	"58453": {
+		"plz": 58453,
+		"city": "Witten",
+		"buy": 1350,
+		"rent": 6.2,
+		"yield": 5.5
+	},
+	"58454": {
+		"plz": 58454,
+		"city": "Witten",
+		"buy": 1500,
+		"rent": 6.4,
+		"yield": 5.1
+	},
+	"58455": {
+		"plz": 58455,
+		"city": "Witten",
+		"buy": 1350,
+		"rent": 6.4,
+		"yield": 5.7
+	},
+	"58456": {
+		"plz": 58456,
+		"city": "Witten",
+		"buy": 1550,
+		"rent": 6.4,
+		"yield": 5
+	},
+	"58507": {
+		"plz": 58507,
+		"city": "Lüdenscheid",
+		"buy": 1100,
+		"rent": 5.8,
+		"yield": 6.3
+	},
+	"58509": {
+		"plz": 58509,
+		"city": "Lüdenscheid",
+		"buy": 1300,
+		"rent": 6.2,
+		"yield": 5.7
+	},
+	"58511": {
+		"plz": 58511,
+		"city": "Lüdenscheid",
+		"buy": 1250,
+		"rent": 6.1,
+		"yield": 5.9
+	},
+	"58513": {
+		"plz": 58513,
+		"city": "Lüdenscheid",
+		"buy": 1050,
+		"rent": 5.2,
+		"yield": 5.9
+	},
+	"58515": {
+		"plz": 58515,
+		"city": "Lüdenscheid",
+		"buy": 1200,
+		"rent": 5.6,
+		"yield": 5.6
+	},
+	"58636": {
+		"plz": 58636,
+		"city": "Iserlohn",
+		"buy": 1100,
+		"rent": 6.2,
+		"yield": 6.8
+	},
+	"58638": {
+		"plz": 58638,
+		"city": "Iserlohn",
+		"buy": 1000,
+		"rent": 5.7,
+		"yield": 6.8
+	},
+	"58640": {
+		"plz": 58640,
+		"city": "Iserlohn",
+		"buy": 1300,
+		"rent": 5.9,
+		"yield": 5.5
+	},
+	"58642": {
+		"plz": 58642,
+		"city": "Iserlohn",
+		"buy": 1300,
+		"rent": 5.8,
+		"yield": 5.4
+	},
+	"58644": {
+		"plz": 58644,
+		"city": "Iserlohn",
+		"buy": 1000,
+		"rent": 5.7,
+		"yield": 6.8
+	},
+	"58706": {
+		"plz": 58706,
+		"city": "Menden (Sauerland)",
+		"buy": 1200,
+		"rent": 5.8,
+		"yield": 5.8
+	},
+	"58708": {
+		"plz": 58708,
+		"city": "Menden (Sauerland)",
+		"buy": 1200,
+		"rent": 5.5,
+		"yield": 5.5
+	},
+	"58710": {
+		"plz": 58710,
+		"city": "Menden (Sauerland)",
+		"buy": 1050,
+		"rent": 5.4,
+		"yield": 6.2
+	},
+	"59063": {
+		"plz": 59063,
+		"city": "Hamm",
+		"buy": 1350,
+		"rent": 6.3,
+		"yield": 5.6
+	},
+	"59065": {
+		"plz": 59065,
+		"city": "Hamm",
+		"buy": 1200,
+		"rent": 6,
+		"yield": 6
+	},
+	"59067": {
+		"plz": 59067,
+		"city": "Hamm",
+		"buy": 1150,
+		"rent": 5.9,
+		"yield": 6.2
+	},
+	"59069": {
+		"plz": 59069,
+		"city": "Hamm",
+		"buy": 1400,
+		"rent": 6.2,
+		"yield": 5.3
+	},
+	"59071": {
+		"plz": 59071,
+		"city": "Hamm",
+		"buy": 1350,
+		"rent": 6.1,
+		"yield": 5.4
+	},
+	"59073": {
+		"plz": 59073,
+		"city": "Hamm",
+		"buy": 1200,
+		"rent": 5.8,
+		"yield": 5.8
+	},
+	"59075": {
+		"plz": 59075,
+		"city": "Hamm",
+		"buy": 1200,
+		"rent": 5.9,
+		"yield": 5.9
+	},
+	"59077": {
+		"plz": 59077,
+		"city": "Hamm",
+		"buy": 1150,
+		"rent": 5.7,
+		"yield": 6
+	},
+	"59227": {
+		"plz": 59227,
+		"city": "Ahlen",
+		"buy": 1300,
+		"rent": 5.9,
+		"yield": 5.5
+	},
+	"59229": {
+		"plz": 59229,
+		"city": "Ahlen",
+		"buy": 1100,
+		"rent": 5.8,
+		"yield": 6.3
+	},
+	"59423": {
+		"plz": 59423,
+		"city": "Unna",
+		"buy": 1500,
+		"rent": 6.5,
+		"yield": 5.2
+	},
+	"59425": {
+		"plz": 59425,
+		"city": "Unna",
+		"buy": 1250,
+		"rent": 6,
+		"yield": 5.8
+	},
+	"59427": {
+		"plz": 59427,
+		"city": "Unna",
+		"buy": 1400,
+		"rent": 6.1,
+		"yield": 5.2
+	},
+	"59555": {
+		"plz": 59555,
+		"city": "Lippstadt",
+		"buy": 1500,
+		"rent": 6.2,
+		"yield": 5
+	},
+	"59556": {
+		"plz": 59556,
+		"city": "Lippstadt",
+		"buy": 1700,
+		"rent": 6,
+		"yield": 4.2
+	},
+	"59557": {
+		"plz": 59557,
+		"city": "Lippstadt",
+		"buy": 1400,
+		"rent": 6.1,
+		"yield": 5.2
+	},
+	"59558": {
+		"plz": 59558,
+		"city": "Lippstadt",
+		"buy": 1400,
+		"rent": 5.8,
+		"yield": 5
+	},
+	"59755": {
+		"plz": 59755,
+		"city": "Arnsberg",
+		"buy": 1100,
+		"rent": 5.6,
+		"yield": 6.1
+	},
+	"59757": {
+		"plz": 59757,
+		"city": "Arnsberg",
+		"buy": 1200,
+		"rent": 5.5,
+		"yield": 5.5
+	},
+	"59759": {
+		"plz": 59759,
+		"city": "Arnsberg",
+		"buy": 1100,
+		"rent": 5.6,
+		"yield": 6.1
+	},
+	"59821": {
+		"plz": 59821,
+		"city": "Arnsberg",
+		"buy": 1050,
+		"rent": 5.1,
+		"yield": 5.8
+	},
+	"59823": {
+		"plz": 59823,
+		"city": "Arnsberg",
+		"buy": 1100,
+		"rent": 5.1,
+		"yield": 5.6
+	},
+	"61348": {
+		"plz": 61348,
+		"city": "Bad Homburg v,d, Höhe",
+		"buy": 3500,
+		"rent": 11.9,
+		"yield": 4.1
+	},
+	"61350": {
+		"plz": 61350,
+		"city": "Bad Homburg v,d, Höhe",
+		"buy": 3350,
+		"rent": 11.6,
+		"yield": 4.2
+	},
+	"61352": {
+		"plz": 61352,
+		"city": "Bad Homburg v,d, Höhe",
+		"buy": 3300,
+		"rent": 10.9,
+		"yield": 4
+	},
+	"63065": {
+		"plz": 63065,
+		"city": "Offenbach am Main",
+		"buy": 2900,
+		"rent": 10.4,
+		"yield": 4.3
+	},
+	"63067": {
+		"plz": 63067,
+		"city": "Offenbach am Main",
+		"buy": 3100,
+		"rent": 11,
+		"yield": 4.3
+	},
+	"63069": {
+		"plz": 63069,
+		"city": "Offenbach am Main",
+		"buy": 2800,
+		"rent": 9.9,
+		"yield": 4.2
+	},
+	"63071": {
+		"plz": 63071,
+		"city": "Offenbach am Main",
+		"buy": 3000,
+		"rent": 10,
+		"yield": 4
+	},
+	"63073": {
+		"plz": 63073,
+		"city": "Offenbach am Main",
+		"buy": 2450,
+		"rent": 9.3,
+		"yield": 4.6
+	},
+	"63075": {
+		"plz": 63075,
+		"city": "Offenbach am Main",
+		"buy": 2900,
+		"rent": 9.6,
+		"yield": 4
+	},
+	"63450": {
+		"plz": 63450,
+		"city": "Hanau",
+		"buy": 2300,
+		"rent": 8.8,
+		"yield": 4.6
+	},
+	"63452": {
+		"plz": 63452,
+		"city": "Hanau",
+		"buy": 2150,
+		"rent": 8.8,
+		"yield": 4.9
+	},
+	"63454": {
+		"plz": 63454,
+		"city": "Hanau",
+		"buy": 1950,
+		"rent": 8.4,
+		"yield": 5.2
+	},
+	"63456": {
+		"plz": 63456,
+		"city": "Hanau",
+		"buy": 2300,
+		"rent": 8.8,
+		"yield": 4.6
+	},
+	"63457": {
+		"plz": 63457,
+		"city": "Hanau",
+		"buy": 2200,
+		"rent": 8.6,
+		"yield": 4.7
+	},
+	"63739": {
+		"plz": 63739,
+		"city": "Aschaffenburg",
+		"buy": 2750,
+		"rent": 8.9,
+		"yield": 3.9
+	},
+	"63741": {
+		"plz": 63741,
+		"city": "Aschaffenburg",
+		"buy": 2650,
+		"rent": 8.6,
+		"yield": 3.9
+	},
+	"63743": {
+		"plz": 63743,
+		"city": "Aschaffenburg",
+		"buy": 2700,
+		"rent": 8.8,
+		"yield": 3.9
+	},
+	"64283": {
+		"plz": 64283,
+		"city": "Darmstadt",
+		"buy": 3350,
+		"rent": 10.9,
+		"yield": 3.9
+	},
+	"64285": {
+		"plz": 64285,
+		"city": "Darmstadt",
+		"buy": 3550,
+		"rent": 11.6,
+		"yield": 3.9
+	},
+	"64287": {
+		"plz": 64287,
+		"city": "Darmstadt",
+		"buy": 3400,
+		"rent": 11,
+		"yield": 3.9
+	},
+	"64289": {
+		"plz": 64289,
+		"city": "Darmstadt",
+		"buy": 2500,
+		"rent": 9.9,
+		"yield": 4.8
+	},
+	"64291": {
+		"plz": 64291,
+		"city": "Darmstadt",
+		"buy": 2900,
+		"rent": 10,
+		"yield": 4.1
+	},
+	"64293": {
+		"plz": 64293,
+		"city": "Darmstadt",
+		"buy": 3250,
+		"rent": 10.9,
+		"yield": 4
+	},
+	"64295": {
+		"plz": 64295,
+		"city": "Darmstadt",
+		"buy": 2850,
+		"rent": 10.9,
+		"yield": 4.6
+	},
+	"64297": {
+		"plz": 64297,
+		"city": "Darmstadt",
+		"buy": 2650,
+		"rent": 9.9,
+		"yield": 4.5
+	},
+	"65183": {
+		"plz": 65183,
+		"city": "Wiesbaden",
+		"buy": 3550,
+		"rent": 10.7,
+		"yield": 3.6
+	},
+	"65185": {
+		"plz": 65185,
+		"city": "Wiesbaden",
+		"buy": 3250,
+		"rent": 10.4,
+		"yield": 3.8
+	},
+	"65187": {
+		"plz": 65187,
+		"city": "Wiesbaden",
+		"buy": 3300,
+		"rent": 11.3,
+		"yield": 4.1
+	},
+	"65189": {
+		"plz": 65189,
+		"city": "Wiesbaden",
+		"buy": 3750,
+		"rent": 11.9,
+		"yield": 3.8
+	},
+	"65191": {
+		"plz": 65191,
+		"city": "Wiesbaden",
+		"buy": 3550,
+		"rent": 10.7,
+		"yield": 3.6
+	},
+	"65193": {
+		"plz": 65193,
+		"city": "Wiesbaden",
+		"buy": 4000,
+		"rent": 12.6,
+		"yield": 3.8
+	},
+	"65195": {
+		"plz": 65195,
+		"city": "Wiesbaden",
+		"buy": 3300,
+		"rent": 10.7,
+		"yield": 3.9
+	},
+	"65197": {
+		"plz": 65197,
+		"city": "Wiesbaden",
+		"buy": 3200,
+		"rent": 10.6,
+		"yield": 4
+	},
+	"65199": {
+		"plz": 65199,
+		"city": "Wiesbaden",
+		"buy": 3000,
+		"rent": 10.8,
+		"yield": 4.3
+	},
+	"65201": {
+		"plz": 65201,
+		"city": "Wiesbaden",
+		"buy": 3350,
+		"rent": 11,
+		"yield": 3.9
+	},
+	"65203": {
+		"plz": 65203,
+		"city": "Wiesbaden",
+		"buy": 3250,
+		"rent": 10.7,
+		"yield": 4
+	},
+	"65205": {
+		"plz": 65205,
+		"city": "Wiesbaden",
+		"buy": 2850,
+		"rent": 10.1,
+		"yield": 4.3
+	},
+	"65207": {
+		"plz": 65207,
+		"city": "Wiesbaden",
+		"buy": 2700,
+		"rent": 9.5,
+		"yield": 4.2
+	},
+	"65428": {
+		"plz": 65428,
+		"city": "Rüsselsheim am Main",
+		"buy": 2400,
+		"rent": 9.1,
+		"yield": 4.6
+	},
+	"66111": {
+		"plz": 66111,
+		"city": "Saarbrücken",
+		"buy": 1800,
+		"rent": 7.2,
+		"yield": 4.8
+	},
+	"66113": {
+		"plz": 66113,
+		"city": "Saarbrücken",
+		"buy": 1600,
+		"rent": 6.8,
+		"yield": 5.1
+	},
+	"66115": {
+		"plz": 66115,
+		"city": "Saarbrücken",
+		"buy": 1200,
+		"rent": 6.6,
+		"yield": 6.6
+	},
+	"66117": {
+		"plz": 66117,
+		"city": "Saarbrücken",
+		"buy": 1750,
+		"rent": 7.1,
+		"yield": 4.9
+	},
+	"66119": {
+		"plz": 66119,
+		"city": "Saarbrücken",
+		"buy": 1550,
+		"rent": 7.2,
+		"yield": 5.6
+	},
+	"66121": {
+		"plz": 66121,
+		"city": "Saarbrücken",
+		"buy": 1600,
+		"rent": 7.1,
+		"yield": 5.3
+	},
+	"66123": {
+		"plz": 66123,
+		"city": "Saarbrücken",
+		"buy": 2050,
+		"rent": 7.8,
+		"yield": 4.6
+	},
+	"66125": {
+		"plz": 66125,
+		"city": "Saarbrücken",
+		"buy": 1150,
+		"rent": 6.6,
+		"yield": 6.9
+	},
+	"66126": {
+		"plz": 66126,
+		"city": "Saarbrücken",
+		"buy": 1250,
+		"rent": 6,
+		"yield": 5.8
+	},
+	"66127": {
+		"plz": 66127,
+		"city": "Saarbrücken",
+		"buy": 1450,
+		"rent": 6.4,
+		"yield": 5.3
+	},
+	"66128": {
+		"plz": 66128,
+		"city": "Saarbrücken",
+		"buy": 1400,
+		"rent": 7.1,
+		"yield": 6.1
+	},
+	"66129": {
+		"plz": 66129,
+		"city": "Saarbrücken",
+		"buy": 2850,
+		"rent": 7.9,
+		"yield": 3.3
+	},
+	"66130": {
+		"plz": 66130,
+		"city": "Saarbrücken",
+		"buy": 1250,
+		"rent": 6.3,
+		"yield": 6.1
+	},
+	"66131": {
+		"plz": 66131,
+		"city": "Saarbrücken",
+		"buy": 1200,
+		"rent": 6,
+		"yield": 6
+	},
+	"66132": {
+		"plz": 66132,
+		"city": "Saarbrücken",
+		"buy": 1250,
+		"rent": 6.5,
+		"yield": 6.2
+	},
+	"66133": {
+		"plz": 66133,
+		"city": "Saarbrücken",
+		"buy": 1550,
+		"rent": 6.6,
+		"yield": 5.1
+	},
+	"67059": {
+		"plz": 67059,
+		"city": "Ludwigshafen am Rhein",
+		"buy": 1800,
+		"rent": 8.4,
+		"yield": 5.6
+	},
+	"67061": {
+		"plz": 67061,
+		"city": "Ludwigshafen am Rhein",
+		"buy": 1950,
+		"rent": 8.5,
+		"yield": 5.2
+	},
+	"67063": {
+		"plz": 67063,
+		"city": "Ludwigshafen am Rhein",
+		"buy": 1900,
+		"rent": 8.2,
+		"yield": 5.2
+	},
+	"67065": {
+		"plz": 67065,
+		"city": "Ludwigshafen am Rhein",
+		"buy": 1800,
+		"rent": 8.2,
+		"yield": 5.5
+	},
+	"67067": {
+		"plz": 67067,
+		"city": "Ludwigshafen am Rhein",
+		"buy": 2100,
+		"rent": 7.7,
+		"yield": 4.4
+	},
+	"67069": {
+		"plz": 67069,
+		"city": "Ludwigshafen am Rhein",
+		"buy": 1700,
+		"rent": 7.9,
+		"yield": 5.6
+	},
+	"67071": {
+		"plz": 67071,
+		"city": "Ludwigshafen am Rhein",
+		"buy": 2100,
+		"rent": 8,
+		"yield": 4.6
+	},
+	"67346": {
+		"plz": 67346,
+		"city": "Speyer",
+		"buy": 2500,
+		"rent": 8.8,
+		"yield": 4.2
+	},
+	"67433": {
+		"plz": 67433,
+		"city": "Neustadt an der Weinstraße",
+		"buy": 2050,
+		"rent": 7.8,
+		"yield": 4.6
+	},
+	"67434": {
+		"plz": 67434,
+		"city": "Neustadt an der Weinstraße",
+		"buy": 2200,
+		"rent": 7.7,
+		"yield": 4.2
+	},
+	"67435": {
+		"plz": 67435,
+		"city": "Neustadt an der Weinstraße",
+		"buy": 2050,
+		"rent": 7.4,
+		"yield": 4.3
+	},
+	"67547": {
+		"plz": 67547,
+		"city": "Worms",
+		"buy": 1800,
+		"rent": 7.5,
+		"yield": 5
+	},
+	"67549": {
+		"plz": 67549,
+		"city": "Worms",
+		"buy": 1850,
+		"rent": 7.7,
+		"yield": 5
+	},
+	"67550": {
+		"plz": 67550,
+		"city": "Worms",
+		"buy": 1950,
+		"rent": 7.2,
+		"yield": 4.4
+	},
+	"67551": {
+		"plz": 67551,
+		"city": "Worms",
+		"buy": 1800,
+		"rent": 7,
+		"yield": 4.7
+	},
+	"67655": {
+		"plz": 67655,
+		"city": "Kaiserslautern",
+		"buy": 1500,
+		"rent": 6.9,
+		"yield": 5.5
+	},
+	"67657": {
+		"plz": 67657,
+		"city": "Kaiserslautern",
+		"buy": 1300,
+		"rent": 6.6,
+		"yield": 6.1
+	},
+	"67659": {
+		"plz": 67659,
+		"city": "Kaiserslautern",
+		"buy": 1300,
+		"rent": 6.1,
+		"yield": 5.6
+	},
+	"67661": {
+		"plz": 67661,
+		"city": "Kaiserslautern",
+		"buy": 1250,
+		"rent": 6.4,
+		"yield": 6.1
+	},
+	"67663": {
+		"plz": 67663,
+		"city": "Kaiserslautern",
+		"buy": 1400,
+		"rent": 6.6,
+		"yield": 5.7
+	},
+	"68159": {
+		"plz": 68159,
+		"city": "Mannheim",
+		"buy": 2900,
+		"rent": 9.8,
+		"yield": 4.1
+	},
+	"68161": {
+		"plz": 68161,
+		"city": "Mannheim",
+		"buy": 3050,
+		"rent": 9.8,
+		"yield": 3.9
+	},
+	"68163": {
+		"plz": 68163,
+		"city": "Mannheim",
+		"buy": 3050,
+		"rent": 10.1,
+		"yield": 4
+	},
+	"68165": {
+		"plz": 68165,
+		"city": "Mannheim",
+		"buy": 3200,
+		"rent": 10.5,
+		"yield": 3.9
+	},
+	"68167": {
+		"plz": 68167,
+		"city": "Mannheim",
+		"buy": 2650,
+		"rent": 9.4,
+		"yield": 4.3
+	},
+	"68169": {
+		"plz": 68169,
+		"city": "Mannheim",
+		"buy": 2150,
+		"rent": 8.7,
+		"yield": 4.9
+	},
+	"68199": {
+		"plz": 68199,
+		"city": "Mannheim",
+		"buy": 2800,
+		"rent": 9.3,
+		"yield": 4
+	},
+	"68219": {
+		"plz": 68219,
+		"city": "Mannheim",
+		"buy": 2250,
+		"rent": 8.4,
+		"yield": 4.5
+	},
+	"68229": {
+		"plz": 68229,
+		"city": "Mannheim",
+		"buy": 2250,
+		"rent": 7.8,
+		"yield": 4.2
+	},
+	"68239": {
+		"plz": 68239,
+		"city": "Mannheim",
+		"buy": 2750,
+		"rent": 8.9,
+		"yield": 3.9
+	},
+	"68259": {
+		"plz": 68259,
+		"city": "Mannheim",
+		"buy": 2650,
+		"rent": 9.2,
+		"yield": 4.2
+	},
+	"68305": {
+		"plz": 68305,
+		"city": "Mannheim",
+		"buy": 2050,
+		"rent": 8.7,
+		"yield": 5.1
+	},
+	"68307": {
+		"plz": 68307,
+		"city": "Mannheim",
+		"buy": 2200,
+		"rent": 8.4,
+		"yield": 4.6
+	},
+	"68309": {
+		"plz": 68309,
+		"city": "Mannheim",
+		"buy": 2350,
+		"rent": 8.8,
+		"yield": 4.5
+	},
+	"69115": {
+		"plz": 69115,
+		"city": "Heidelberg",
+		"buy": 4300,
+		"rent": 12.6,
+		"yield": 3.5
+	},
+	"69117": {
+		"plz": 69117,
+		"city": "Heidelberg",
+		"buy": 4250,
+		"rent": 12.5,
+		"yield": 3.5
+	},
+	"69118": {
+		"plz": 69118,
+		"city": "Heidelberg",
+		"buy": 2800,
+		"rent": 9.9,
+		"yield": 4.2
+	},
+	"69120": {
+		"plz": 69120,
+		"city": "Heidelberg",
+		"buy": 5400,
+		"rent": 13.4,
+		"yield": 3
+	},
+	"69121": {
+		"plz": 69121,
+		"city": "Heidelberg",
+		"buy": 4000,
+		"rent": 11.9,
+		"yield": 3.6
+	},
+	"69123": {
+		"plz": 69123,
+		"city": "Heidelberg",
+		"buy": 2850,
+		"rent": 9.4,
+		"yield": 4
+	},
+	"69124": {
+		"plz": 69124,
+		"city": "Heidelberg",
+		"buy": 3000,
+		"rent": 10.2,
+		"yield": 4.1
+	},
+	"69126": {
+		"plz": 69126,
+		"city": "Heidelberg",
+		"buy": 2800,
+		"rent": 9.8,
+		"yield": 4.2
+	},
+	"71032": {
+		"plz": 71032,
+		"city": "Böblingen",
+		"buy": 3200,
+		"rent": 11.5,
+		"yield": 4.3
+	},
+	"71034": {
+		"plz": 71034,
+		"city": "Böblingen",
+		"buy": 3200,
+		"rent": 10.8,
+		"yield": 4.1
+	},
+	"71063": {
+		"plz": 71063,
+		"city": "Sindelfingen",
+		"buy": 3250,
+		"rent": 11.4,
+		"yield": 4.2
+	},
+	"71065": {
+		"plz": 71065,
+		"city": "Sindelfingen",
+		"buy": 3100,
+		"rent": 10.8,
+		"yield": 4.2
+	},
+	"71067": {
+		"plz": 71067,
+		"city": "Sindelfingen",
+		"buy": 2800,
+		"rent": 10.5,
+		"yield": 4.5
+	},
+	"71069": {
+		"plz": 71069,
+		"city": "Sindelfingen",
+		"buy": 3250,
+		"rent": 10.6,
+		"yield": 3.9
+	},
+	"71332": {
+		"plz": 71332,
+		"city": "Waiblingen",
+		"buy": 3300,
+		"rent": 10.3,
+		"yield": 3.8
+	},
+	"71334": {
+		"plz": 71334,
+		"city": "Waiblingen",
+		"buy": 3200,
+		"rent": 10.1,
+		"yield": 3.8
+	},
+	"71336": {
+		"plz": 71336,
+		"city": "Waiblingen",
+		"buy": 3150,
+		"rent": 9.6,
+		"yield": 3.7
+	},
+	"71634": {
+		"plz": 71634,
+		"city": "Ludwigsburg",
+		"buy": 3500,
+		"rent": 12.4,
+		"yield": 4.3
+	},
+	"71636": {
+		"plz": 71636,
+		"city": "Ludwigsburg",
+		"buy": 3550,
+		"rent": 11.5,
+		"yield": 3.9
+	},
+	"71638": {
+		"plz": 71638,
+		"city": "Ludwigsburg",
+		"buy": 3450,
+		"rent": 11.8,
+		"yield": 4.1
+	},
+	"71640": {
+		"plz": 71640,
+		"city": "Ludwigsburg",
+		"buy": 3350,
+		"rent": 11.8,
+		"yield": 4.2
+	},
+	"71642": {
+		"plz": 71642,
+		"city": "Ludwigsburg",
+		"buy": 3050,
+		"rent": 11,
+		"yield": 4.3
+	},
+	"72070": {
+		"plz": 72070,
+		"city": "Tübingen",
+		"buy": 3700,
+		"rent": 11.3,
+		"yield": 3.7
+	},
+	"72072": {
+		"plz": 72072,
+		"city": "Tübingen",
+		"buy": 3650,
+		"rent": 11,
+		"yield": 3.6
+	},
+	"72074": {
+		"plz": 72074,
+		"city": "Tübingen",
+		"buy": 3850,
+		"rent": 11.3,
+		"yield": 3.5
+	},
+	"72076": {
+		"plz": 72076,
+		"city": "Tübingen",
+		"buy": 3600,
+		"rent": 11.1,
+		"yield": 3.7
+	},
+	"72760": {
+		"plz": 72760,
+		"city": "Reutlingen",
+		"buy": 2800,
+		"rent": 9,
+		"yield": 3.9
+	},
+	"72762": {
+		"plz": 72762,
+		"city": "Reutlingen",
+		"buy": 3100,
+		"rent": 10.2,
+		"yield": 4
+	},
+	"72764": {
+		"plz": 72764,
+		"city": "Reutlingen",
+		"buy": 3100,
+		"rent": 9.6,
+		"yield": 3.7
+	},
+	"72766": {
+		"plz": 72766,
+		"city": "Reutlingen",
+		"buy": 2900,
+		"rent": 9.5,
+		"yield": 3.9
+	},
+	"72768": {
+		"plz": 72768,
+		"city": "Reutlingen",
+		"buy": 3000,
+		"rent": 9.3,
+		"yield": 3.7
+	},
+	"72770": {
+		"plz": 72770,
+		"city": "Reutlingen",
+		"buy": 2800,
+		"rent": 9.2,
+		"yield": 3.9
+	},
+	"73033": {
+		"plz": 73033,
+		"city": "Göppingen",
+		"buy": 2400,
+		"rent": 8.4,
+		"yield": 4.2
+	},
+	"73035": {
+		"plz": 73035,
+		"city": "Göppingen",
+		"buy": 2300,
+		"rent": 8.4,
+		"yield": 4.4
+	},
+	"73037": {
+		"plz": 73037,
+		"city": "Göppingen",
+		"buy": 2100,
+		"rent": 7.7,
+		"yield": 4.4
+	},
+	"73430": {
+		"plz": 73430,
+		"city": "Aalen",
+		"buy": 2700,
+		"rent": 9.1,
+		"yield": 4
+	},
+	"73431": {
+		"plz": 73431,
+		"city": "Aalen",
+		"buy": 2350,
+		"rent": 8.2,
+		"yield": 4.2
+	},
+	"73432": {
+		"plz": 73432,
+		"city": "Aalen",
+		"buy": 2050,
+		"rent": 7.1,
+		"yield": 4.2
+	},
+	"73433": {
+		"plz": 73433,
+		"city": "Aalen",
+		"buy": 2150,
+		"rent": 7.9,
+		"yield": 4.4
+	},
+	"73434": {
+		"plz": 73434,
+		"city": "Aalen",
+		"buy": 2250,
+		"rent": 7.7,
+		"yield": 4.1
+	},
+	"73525": {
+		"plz": 73525,
+		"city": "Schwäbisch Gmünd",
+		"buy": 2300,
+		"rent": 8.2,
+		"yield": 4.3
+	},
+	"73527": {
+		"plz": 73527,
+		"city": "Schwäbisch Gmünd",
+		"buy": 2050,
+		"rent": 7.7,
+		"yield": 4.5
+	},
+	"73529": {
+		"plz": 73529,
+		"city": "Schwäbisch Gmünd",
+		"buy": 1850,
+		"rent": 7.5,
+		"yield": 4.9
+	},
+	"73728": {
+		"plz": 73728,
+		"city": "Esslingen am Neckar",
+		"buy": 3350,
+		"rent": 11,
+		"yield": 3.9
+	},
+	"73730": {
+		"plz": 73730,
+		"city": "Esslingen am Neckar",
+		"buy": 3050,
+		"rent": 10.4,
+		"yield": 4.1
+	},
+	"73732": {
+		"plz": 73732,
+		"city": "Esslingen am Neckar",
+		"buy": 3250,
+		"rent": 10.7,
+		"yield": 4
+	},
+	"73733": {
+		"plz": 73733,
+		"city": "Esslingen am Neckar",
+		"buy": 3150,
+		"rent": 11.5,
+		"yield": 4.4
+	},
+	"73734": {
+		"plz": 73734,
+		"city": "Esslingen am Neckar",
+		"buy": 3300,
+		"rent": 10.7,
+		"yield": 3.9
+	},
+	"74072": {
+		"plz": 74072,
+		"city": "Heilbronn",
+		"buy": 2650,
+		"rent": 10.3,
+		"yield": 4.7
+	},
+	"74074": {
+		"plz": 74074,
+		"city": "Heilbronn",
+		"buy": 2850,
+		"rent": 9.4,
+		"yield": 4
+	},
+	"74076": {
+		"plz": 74076,
+		"city": "Heilbronn",
+		"buy": 2750,
+		"rent": 10.3,
+		"yield": 4.5
+	},
+	"74078": {
+		"plz": 74078,
+		"city": "Heilbronn",
+		"buy": 2600,
+		"rent": 9,
+		"yield": 4.2
+	},
+	"74080": {
+		"plz": 74080,
+		"city": "Heilbronn",
+		"buy": 2550,
+		"rent": 9.3,
+		"yield": 4.4
+	},
+	"74081": {
+		"plz": 74081,
+		"city": "Heilbronn",
+		"buy": 2700,
+		"rent": 9.2,
+		"yield": 4.1
+	},
+	"75172": {
+		"plz": 75172,
+		"city": "Pforzheim",
+		"buy": 1850,
+		"rent": 7.8,
+		"yield": 5.1
+	},
+	"75173": {
+		"plz": 75173,
+		"city": "Pforzheim",
+		"buy": 2350,
+		"rent": 8,
+		"yield": 4.1
+	},
+	"75175": {
+		"plz": 75175,
+		"city": "Pforzheim",
+		"buy": 2100,
+		"rent": 8,
+		"yield": 4.6
+	},
+	"75177": {
+		"plz": 75177,
+		"city": "Pforzheim",
+		"buy": 2050,
+		"rent": 7.7,
+		"yield": 4.5
+	},
+	"75179": {
+		"plz": 75179,
+		"city": "Pforzheim",
+		"buy": 2400,
+		"rent": 7.9,
+		"yield": 4
+	},
+	"75180": {
+		"plz": 75180,
+		"city": "Pforzheim",
+		"buy": 2350,
+		"rent": 7.6,
+		"yield": 3.9
+	},
+	"75181": {
+		"plz": 75181,
+		"city": "Pforzheim",
+		"buy": 2250,
+		"rent": 7.5,
+		"yield": 4
+	},
+	"76131": {
+		"plz": 76131,
+		"city": "Karlsruhe",
+		"buy": 3200,
+		"rent": 9.8,
+		"yield": 3.7
+	},
+	"76133": {
+		"plz": 76133,
+		"city": "Karlsruhe",
+		"buy": 3350,
+		"rent": 9.9,
+		"yield": 3.6
+	},
+	"76135": {
+		"plz": 76135,
+		"city": "Karlsruhe",
+		"buy": 3250,
+		"rent": 9.5,
+		"yield": 3.5
+	},
+	"76137": {
+		"plz": 76137,
+		"city": "Karlsruhe",
+		"buy": 3500,
+		"rent": 10.1,
+		"yield": 3.5
+	},
+	"76139": {
+		"plz": 76139,
+		"city": "Karlsruhe",
+		"buy": 3150,
+		"rent": 9.7,
+		"yield": 3.7
+	},
+	"76149": {
+		"plz": 76149,
+		"city": "Karlsruhe",
+		"buy": 3000,
+		"rent": 9.5,
+		"yield": 3.8
+	},
+	"76185": {
+		"plz": 76185,
+		"city": "Karlsruhe",
+		"buy": 3350,
+		"rent": 9.9,
+		"yield": 3.6
+	},
+	"76187": {
+		"plz": 76187,
+		"city": "Karlsruhe",
+		"buy": 3100,
+		"rent": 9.3,
+		"yield": 3.6
+	},
+	"76189": {
+		"plz": 76189,
+		"city": "Karlsruhe",
+		"buy": 3100,
+		"rent": 9.7,
+		"yield": 3.8
+	},
+	"76199": {
+		"plz": 76199,
+		"city": "Karlsruhe",
+		"buy": 3150,
+		"rent": 9.3,
+		"yield": 3.5
+	},
+	"76227": {
+		"plz": 76227,
+		"city": "Karlsruhe",
+		"buy": 3150,
+		"rent": 9.5,
+		"yield": 3.6
+	},
+	"76228": {
+		"plz": 76228,
+		"city": "Karlsruhe",
+		"buy": 2650,
+		"rent": 8.6,
+		"yield": 3.9
+	},
+	"76229": {
+		"plz": 76229,
+		"city": "Karlsruhe",
+		"buy": 2900,
+		"rent": 9.1,
+		"yield": 3.8
+	},
+	"76530": {
+		"plz": 76530,
+		"city": "Baden-Baden",
+		"buy": 3450,
+		"rent": 9.8,
+		"yield": 3.4
+	},
+	"76532": {
+		"plz": 76532,
+		"city": "Baden-Baden",
+		"buy": 2550,
+		"rent": 8.6,
+		"yield": 4.1
+	},
+	"76534": {
+		"plz": 76534,
+		"city": "Baden-Baden",
+		"buy": 2350,
+		"rent": 8.3,
+		"yield": 4.2
+	},
+	"77652": {
+		"plz": 77652,
+		"city": "Offenburg",
+		"buy": 2300,
+		"rent": 8.5,
+		"yield": 4.4
+	},
+	"77654": {
+		"plz": 77654,
+		"city": "Offenburg",
+		"buy": 2500,
+		"rent": 8.3,
+		"yield": 4
+	},
+	"77656": {
+		"plz": 77656,
+		"city": "Offenburg",
+		"buy": 2200,
+		"rent": 7.5,
+		"yield": 4.1
+	},
+	"78048": {
+		"plz": 78048,
+		"city": "Villingen-Schwenningen",
+		"buy": 1850,
+		"rent": 7.3,
+		"yield": 4.7
+	},
+	"78050": {
+		"plz": 78050,
+		"city": "Villingen-Schwenningen",
+		"buy": 2300,
+		"rent": 7.9,
+		"yield": 4.1
+	},
+	"78052": {
+		"plz": 78052,
+		"city": "Villingen-Schwenningen",
+		"buy": 1800,
+		"rent": 7.2,
+		"yield": 4.8
+	},
+	"78054": {
+		"plz": 78054,
+		"city": "Villingen-Schwenningen",
+		"buy": 1850,
+		"rent": 7.5,
+		"yield": 4.9
+	},
+	"78056": {
+		"plz": 78056,
+		"city": "Villingen-Schwenningen",
+		"buy": 1950,
+		"rent": 7.3,
+		"yield": 4.5
+	},
+	"78462": {
+		"plz": 78462,
+		"city": "Konstanz",
+		"buy": 4700,
+		"rent": 12.1,
+		"yield": 3.1
+	},
+	"78464": {
+		"plz": 78464,
+		"city": "Konstanz",
+		"buy": 4550,
+		"rent": 12.1,
+		"yield": 3.2
+	},
+	"78465": {
+		"plz": 78465,
+		"city": "Konstanz",
+		"buy": 4150,
+		"rent": 10.9,
+		"yield": 3.2
+	},
+	"78467": {
+		"plz": 78467,
+		"city": "Konstanz",
+		"buy": 4250,
+		"rent": 12,
+		"yield": 3.4
+	},
+	"79098": {
+		"plz": 79098,
+		"city": "Freiburg im Breisgau",
+		"buy": 4400,
+		"rent": 12.3,
+		"yield": 3.4
+	},
+	"79100": {
+		"plz": 79100,
+		"city": "Freiburg im Breisgau",
+		"buy": 4550,
+		"rent": 12.2,
+		"yield": 3.2
+	},
+	"79102": {
+		"plz": 79102,
+		"city": "Freiburg im Breisgau",
+		"buy": 4750,
+		"rent": 12.1,
+		"yield": 3.1
+	},
+	"79104": {
+		"plz": 79104,
+		"city": "Freiburg im Breisgau",
+		"buy": 5100,
+		"rent": 12.4,
+		"yield": 2.9
+	},
+	"79106": {
+		"plz": 79106,
+		"city": "Freiburg im Breisgau",
+		"buy": 4150,
+		"rent": 12,
+		"yield": 3.5
+	},
+	"79108": {
+		"plz": 79108,
+		"city": "Freiburg im Breisgau",
+		"buy": 3800,
+		"rent": 11.4,
+		"yield": 3.6
+	},
+	"79110": {
+		"plz": 79110,
+		"city": "Freiburg im Breisgau",
+		"buy": 3900,
+		"rent": 11.5,
+		"yield": 3.5
+	},
+	"79111": {
+		"plz": 79111,
+		"city": "Freiburg im Breisgau",
+		"buy": 4150,
+		"rent": 12.1,
+		"yield": 3.5
+	},
+	"79112": {
+		"plz": 79112,
+		"city": "Freiburg im Breisgau",
+		"buy": 3050,
+		"rent": 9.4,
+		"yield": 3.7
+	},
+	"79114": {
+		"plz": 79114,
+		"city": "Freiburg im Breisgau",
+		"buy": 3500,
+		"rent": 10.6,
+		"yield": 3.6
+	},
+	"79115": {
+		"plz": 79115,
+		"city": "Freiburg im Breisgau",
+		"buy": 3850,
+		"rent": 11.6,
+		"yield": 3.6
+	},
+	"79117": {
+		"plz": 79117,
+		"city": "Freiburg im Breisgau",
+		"buy": 4200,
+		"rent": 11.3,
+		"yield": 3.2
+	},
+	"83022": {
+		"plz": 83022,
+		"city": "Rosenheim",
+		"buy": 3850,
+		"rent": 10.4,
+		"yield": 3.2
+	},
+	"83024": {
+		"plz": 83024,
+		"city": "Rosenheim",
+		"buy": 3950,
+		"rent": 10.5,
+		"yield": 3.2
+	},
+	"83026": {
+		"plz": 83026,
+		"city": "Rosenheim",
+		"buy": 3850,
+		"rent": 10.3,
+		"yield": 3.2
+	},
+	"84028": {
+		"plz": 84028,
+		"city": "Landshut",
+		"buy": 3800,
+		"rent": 9.7,
+		"yield": 3.1
+	},
+	"84034": {
+		"plz": 84034,
+		"city": "Landshut",
+		"buy": 3500,
+		"rent": 9.6,
+		"yield": 3.3
+	},
+	"85049": {
+		"plz": 85049,
+		"city": "Ingolstadt",
+		"buy": 4000,
+		"rent": 11.1,
+		"yield": 3.3
+	},
+	"85051": {
+		"plz": 85051,
+		"city": "Ingolstadt",
+		"buy": 4050,
+		"rent": 10.9,
+		"yield": 3.2
+	},
+	"85053": {
+		"plz": 85053,
+		"city": "Ingolstadt",
+		"buy": 4100,
+		"rent": 11.5,
+		"yield": 3.4
+	},
+	"85055": {
+		"plz": 85055,
+		"city": "Ingolstadt",
+		"buy": 3900,
+		"rent": 10.8,
+		"yield": 3.3
+	},
+	"85057": {
+		"plz": 85057,
+		"city": "Ingolstadt",
+		"buy": 3600,
+		"rent": 10.8,
+		"yield": 3.6
+	},
+	"86150": {
+		"plz": 86150,
+		"city": "Augsburg",
+		"buy": 3750,
+		"rent": 10.2,
+		"yield": 3.3
+	},
+	"86152": {
+		"plz": 86152,
+		"city": "Augsburg",
+		"buy": 3750,
+		"rent": 10.4,
+		"yield": 3.3
+	},
+	"86153": {
+		"plz": 86153,
+		"city": "Augsburg",
+		"buy": 3650,
+		"rent": 10.5,
+		"yield": 3.5
+	},
+	"86154": {
+		"plz": 86154,
+		"city": "Augsburg",
+		"buy": 2900,
+		"rent": 9.8,
+		"yield": 4.1
+	},
+	"86156": {
+		"plz": 86156,
+		"city": "Augsburg",
+		"buy": 3200,
+		"rent": 9.9,
+		"yield": 3.7
+	},
+	"86157": {
+		"plz": 86157,
+		"city": "Augsburg",
+		"buy": 3500,
+		"rent": 10.1,
+		"yield": 3.5
+	},
+	"86159": {
+		"plz": 86159,
+		"city": "Augsburg",
+		"buy": 3550,
+		"rent": 10.3,
+		"yield": 3.5
+	},
+	"86161": {
+		"plz": 86161,
+		"city": "Augsburg",
+		"buy": 3000,
+		"rent": 10.3,
+		"yield": 4.1
+	},
+	"86163": {
+		"plz": 86163,
+		"city": "Augsburg",
+		"buy": 3200,
+		"rent": 10.2,
+		"yield": 3.8
+	},
+	"86165": {
+		"plz": 86165,
+		"city": "Augsburg",
+		"buy": 3300,
+		"rent": 9.9,
+		"yield": 3.6
+	},
+	"86167": {
+		"plz": 86167,
+		"city": "Augsburg",
+		"buy": 3200,
+		"rent": 9.9,
+		"yield": 3.7
+	},
+	"86169": {
+		"plz": 86169,
+		"city": "Augsburg",
+		"buy": 3350,
+		"rent": 10.1,
+		"yield": 3.6
+	},
+	"86179": {
+		"plz": 86179,
+		"city": "Augsburg",
+		"buy": 3350,
+		"rent": 10,
+		"yield": 3.6
+	},
+	"86199": {
+		"plz": 86199,
+		"city": "Augsburg",
+		"buy": 3450,
+		"rent": 10.2,
+		"yield": 3.6
+	},
+	"87435": {
+		"plz": 87435,
+		"city": "Kempten (Allgäu)",
+		"buy": 2850,
+		"rent": 9,
+		"yield": 3.8
+	},
+	"87437": {
+		"plz": 87437,
+		"city": "Kempten (Allgäu)",
+		"buy": 2700,
+		"rent": 9.2,
+		"yield": 4.1
+	},
+	"87439": {
+		"plz": 87439,
+		"city": "Kempten (Allgäu)",
+		"buy": 2700,
+		"rent": 8.8,
+		"yield": 3.9
+	},
+	"88045": {
+		"plz": 88045,
+		"city": "Friedrichshafen",
+		"buy": 3300,
+		"rent": 9.9,
+		"yield": 3.6
+	},
+	"88046": {
+		"plz": 88046,
+		"city": "Friedrichshafen",
+		"buy": 2950,
+		"rent": 9.9,
+		"yield": 4
+	},
+	"88048": {
+		"plz": 88048,
+		"city": "Friedrichshafen",
+		"buy": 3200,
+		"rent": 9.8,
+		"yield": 3.7
+	},
+	"88212": {
+		"plz": 88212,
+		"city": "Ravensburg",
+		"buy": 3000,
+		"rent": 9.7,
+		"yield": 3.9
+	},
+	"88213": {
+		"plz": 88213,
+		"city": "Ravensburg",
+		"buy": 2900,
+		"rent": 9.2,
+		"yield": 3.8
+	},
+	"88214": {
+		"plz": 88214,
+		"city": "Ravensburg",
+		"buy": 3100,
+		"rent": 9.4,
+		"yield": 3.6
+	},
+	"89073": {
+		"plz": 89073,
+		"city": "Ulm",
+		"buy": 3450,
+		"rent": 10.3,
+		"yield": 3.6
+	},
+	"89075": {
+		"plz": 89075,
+		"city": "Ulm",
+		"buy": 3400,
+		"rent": 9.8,
+		"yield": 3.5
+	},
+	"89077": {
+		"plz": 89077,
+		"city": "Ulm",
+		"buy": 3450,
+		"rent": 9.9,
+		"yield": 3.4
+	},
+	"89079": {
+		"plz": 89079,
+		"city": "Ulm",
+		"buy": 2800,
+		"rent": 8.7,
+		"yield": 3.7
+	},
+	"89081": {
+		"plz": 89081,
+		"city": "Ulm",
+		"buy": 3150,
+		"rent": 9.5,
+		"yield": 3.6
+	},
+	"89231": {
+		"plz": 89231,
+		"city": "Neu-Ulm",
+		"buy": 2900,
+		"rent": 10.2,
+		"yield": 4.2
+	},
+	"89233": {
+		"plz": 89233,
+		"city": "Neu-Ulm",
+		"buy": 3000,
+		"rent": 9.2,
+		"yield": 3.7
+	},
+	"90402": {
+		"plz": 90402,
+		"city": "Nürnberg",
+		"buy": 3100,
+		"rent": 10.5,
+		"yield": 4.1
+	},
+	"90403": {
+		"plz": 90403,
+		"city": "Nürnberg",
+		"buy": 3250,
+		"rent": 10,
+		"yield": 3.7
+	},
+	"90408": {
+		"plz": 90408,
+		"city": "Nürnberg",
+		"buy": 3100,
+		"rent": 10.2,
+		"yield": 4
+	},
+	"90409": {
+		"plz": 90409,
+		"city": "Nürnberg",
+		"buy": 3000,
+		"rent": 10.1,
+		"yield": 4
+	},
+	"90411": {
+		"plz": 90411,
+		"city": "Nürnberg",
+		"buy": 2950,
+		"rent": 9.4,
+		"yield": 3.8
+	},
+	"90419": {
+		"plz": 90419,
+		"city": "Nürnberg",
+		"buy": 2950,
+		"rent": 9.8,
+		"yield": 4
+	},
+	"90425": {
+		"plz": 90425,
+		"city": "Nürnberg",
+		"buy": 3200,
+		"rent": 10.3,
+		"yield": 3.9
+	},
+	"90427": {
+		"plz": 90427,
+		"city": "Nürnberg",
+		"buy": 3000,
+		"rent": 9.7,
+		"yield": 3.9
+	},
+	"90429": {
+		"plz": 90429,
+		"city": "Nürnberg",
+		"buy": 2700,
+		"rent": 9.8,
+		"yield": 4.4
+	},
+	"90431": {
+		"plz": 90431,
+		"city": "Nürnberg",
+		"buy": 2950,
+		"rent": 9.6,
+		"yield": 3.9
+	},
+	"90439": {
+		"plz": 90439,
+		"city": "Nürnberg",
+		"buy": 2600,
+		"rent": 9.1,
+		"yield": 4.2
+	},
+	"90441": {
+		"plz": 90441,
+		"city": "Nürnberg",
+		"buy": 2700,
+		"rent": 9,
+		"yield": 4
+	},
+	"90443": {
+		"plz": 90443,
+		"city": "Nürnberg",
+		"buy": 2500,
+		"rent": 8.9,
+		"yield": 4.3
+	},
+	"90449": {
+		"plz": 90449,
+		"city": "Nürnberg",
+		"buy": 2850,
+		"rent": 9.3,
+		"yield": 3.9
+	},
+	"90451": {
+		"plz": 90451,
+		"city": "Nürnberg",
+		"buy": 3100,
+		"rent": 9.4,
+		"yield": 3.6
+	},
+	"90453": {
+		"plz": 90453,
+		"city": "Nürnberg",
+		"buy": 3050,
+		"rent": 9.2,
+		"yield": 3.6
+	},
+	"90455": {
+		"plz": 90455,
+		"city": "Nürnberg",
+		"buy": 2850,
+		"rent": 8.7,
+		"yield": 3.7
+	},
+	"90459": {
+		"plz": 90459,
+		"city": "Nürnberg",
+		"buy": 2500,
+		"rent": 9.1,
+		"yield": 4.4
+	},
+	"90461": {
+		"plz": 90461,
+		"city": "Nürnberg",
+		"buy": 2750,
+		"rent": 9.2,
+		"yield": 4
+	},
+	"90469": {
+		"plz": 90469,
+		"city": "Nürnberg",
+		"buy": 2800,
+		"rent": 9.7,
+		"yield": 4.2
+	},
+	"90471": {
+		"plz": 90471,
+		"city": "Nürnberg",
+		"buy": 2650,
+		"rent": 9.3,
+		"yield": 4.2
+	},
+	"90473": {
+		"plz": 90473,
+		"city": "Nürnberg",
+		"buy": 2750,
+		"rent": 9.3,
+		"yield": 4.1
+	},
+	"90478": {
+		"plz": 90478,
+		"city": "Nürnberg",
+		"buy": 2800,
+		"rent": 9.3,
+		"yield": 4
+	},
+	"90480": {
+		"plz": 90480,
+		"city": "Nürnberg",
+		"buy": 2900,
+		"rent": 9.4,
+		"yield": 3.9
+	},
+	"90482": {
+		"plz": 90482,
+		"city": "Nürnberg",
+		"buy": 3100,
+		"rent": 10.1,
+		"yield": 3.9
+	},
+	"90489": {
+		"plz": 90489,
+		"city": "Nürnberg",
+		"buy": 2900,
+		"rent": 9.8,
+		"yield": 4.1
+	},
+	"90491": {
+		"plz": 90491,
+		"city": "Nürnberg",
+		"buy": 3050,
+		"rent": 10.1,
+		"yield": 4
+	},
+	"90762": {
+		"plz": 90762,
+		"city": "Fürth",
+		"buy": 2650,
+		"rent": 9.2,
+		"yield": 4.2
+	},
+	"90763": {
+		"plz": 90763,
+		"city": "Fürth",
+		"buy": 2750,
+		"rent": 9.2,
+		"yield": 4
+	},
+	"90765": {
+		"plz": 90765,
+		"city": "Fürth",
+		"buy": 2700,
+		"rent": 8.8,
+		"yield": 3.9
+	},
+	"90766": {
+		"plz": 90766,
+		"city": "Fürth",
+		"buy": 2700,
+		"rent": 8.4,
+		"yield": 3.7
+	},
+	"90768": {
+		"plz": 90768,
+		"city": "Fürth",
+		"buy": 2900,
+		"rent": 9,
+		"yield": 3.7
+	},
+	"91052": {
+		"plz": 91052,
+		"city": "Erlangen",
+		"buy": 3750,
+		"rent": 11,
+		"yield": 3.5
+	},
+	"91054": {
+		"plz": 91054,
+		"city": "Erlangen",
+		"buy": 3650,
+		"rent": 11,
+		"yield": 3.6
+	},
+	"91056": {
+		"plz": 91056,
+		"city": "Erlangen",
+		"buy": 3000,
+		"rent": 9.7,
+		"yield": 3.9
+	},
+	"91058": {
+		"plz": 91058,
+		"city": "Erlangen",
+		"buy": 3150,
+		"rent": 10.1,
+		"yield": 3.9
+	},
+	"93047": {
+		"plz": 93047,
+		"city": "Regensburg",
+		"buy": 4150,
+		"rent": 10.8,
+		"yield": 3.1
+	},
+	"93049": {
+		"plz": 93049,
+		"city": "Regensburg",
+		"buy": 4100,
+		"rent": 10.5,
+		"yield": 3.1
+	},
+	"93051": {
+		"plz": 93051,
+		"city": "Regensburg",
+		"buy": 3700,
+		"rent": 9.9,
+		"yield": 3.2
+	},
+	"93053": {
+		"plz": 93053,
+		"city": "Regensburg",
+		"buy": 3750,
+		"rent": 9.9,
+		"yield": 3.2
+	},
+	"93055": {
+		"plz": 93055,
+		"city": "Regensburg",
+		"buy": 3900,
+		"rent": 10.4,
+		"yield": 3.2
+	},
+	"93057": {
+		"plz": 93057,
+		"city": "Regensburg",
+		"buy": 3500,
+		"rent": 9.7,
+		"yield": 3.3
+	},
+	"93059": {
+		"plz": 93059,
+		"city": "Regensburg",
+		"buy": 3850,
+		"rent": 10.4,
+		"yield": 3.2
+	},
+	"94032": {
+		"plz": 94032,
+		"city": "Passau",
+		"buy": 2400,
+		"rent": 8.9,
+		"yield": 4.5
+	},
+	"94034": {
+		"plz": 94034,
+		"city": "Passau",
+		"buy": 2200,
+		"rent": 7.7,
+		"yield": 4.2
+	},
+	"94036": {
+		"plz": 94036,
+		"city": "Passau",
+		"buy": 2100,
+		"rent": 7.9,
+		"yield": 4.5
+	},
+	"95444": {
+		"plz": 95444,
+		"city": "Bayreuth",
+		"buy": 2450,
+		"rent": 8.6,
+		"yield": 4.2
+	},
+	"95445": {
+		"plz": 95445,
+		"city": "Bayreuth",
+		"buy": 2100,
+		"rent": 8.1,
+		"yield": 4.6
+	},
+	"95447": {
+		"plz": 95447,
+		"city": "Bayreuth",
+		"buy": 2200,
+		"rent": 8,
+		"yield": 4.4
+	},
+	"95448": {
+		"plz": 95448,
+		"city": "Bayreuth",
+		"buy": 2100,
+		"rent": 8.1,
+		"yield": 4.6
+	},
+	"96047": {
+		"plz": 96047,
+		"city": "Bamberg",
+		"buy": 3050,
+		"rent": 9.3,
+		"yield": 3.7
+	},
+	"96049": {
+		"plz": 96049,
+		"city": "Bamberg",
+		"buy": 2800,
+		"rent": 8.9,
+		"yield": 3.8
+	},
+	"96050": {
+		"plz": 96050,
+		"city": "Bamberg",
+		"buy": 2550,
+		"rent": 8.6,
+		"yield": 4.1
+	},
+	"96052": {
+		"plz": 96052,
+		"city": "Bamberg",
+		"buy": 2750,
+		"rent": 8.7,
+		"yield": 3.8
+	},
+	"97070": {
+		"plz": 97070,
+		"city": "Würzburg",
+		"buy": 3550,
+		"rent": 10.5,
+		"yield": 3.6
+	},
+	"97072": {
+		"plz": 97072,
+		"city": "Würzburg",
+		"buy": 3550,
+		"rent": 10.5,
+		"yield": 3.6
+	},
+	"97074": {
+		"plz": 97074,
+		"city": "Würzburg",
+		"buy": 3450,
+		"rent": 10.5,
+		"yield": 3.7
+	},
+	"97076": {
+		"plz": 97076,
+		"city": "Würzburg",
+		"buy": 2750,
+		"rent": 9.5,
+		"yield": 4.2
+	},
+	"97078": {
+		"plz": 97078,
+		"city": "Würzburg",
+		"buy": 2550,
+		"rent": 9.2,
+		"yield": 4.3
+	},
+	"97080": {
+		"plz": 97080,
+		"city": "Würzburg",
+		"buy": 2950,
+		"rent": 9.6,
+		"yield": 3.9
+	},
+	"97082": {
+		"plz": 97082,
+		"city": "Würzburg",
+		"buy": 3250,
+		"rent": 10.4,
+		"yield": 3.8
+	},
+	"97084": {
+		"plz": 97084,
+		"city": "Würzburg",
+		"buy": 2400,
+		"rent": 9.5,
+		"yield": 4.8
+	},
+	"97421": {
+		"plz": 97421,
+		"city": "Schweinfurt",
+		"buy": 1700,
+		"rent": 7,
+		"yield": 4.9
+	},
+	"97422": {
+		"plz": 97422,
+		"city": "Schweinfurt",
+		"buy": 1900,
+		"rent": 6.4,
+		"yield": 4
+	},
+	"97424": {
+		"plz": 97424,
+		"city": "Schweinfurt",
+		"buy": 1500,
+		"rent": 6.6,
+		"yield": 5.3
+	},
+	"99084": {
+		"plz": 99084,
+		"city": "Erfurt",
+		"buy": 2300,
+		"rent": 8.1,
+		"yield": 4.2
+	},
+	"99085": {
+		"plz": 99085,
+		"city": "Erfurt",
+		"buy": 1700,
+		"rent": 7.4,
+		"yield": 5.2
+	},
+	"99086": {
+		"plz": 99086,
+		"city": "Erfurt",
+		"buy": 1600,
+		"rent": 7,
+		"yield": 5.3
+	},
+	"99087": {
+		"plz": 99087,
+		"city": "Erfurt",
+		"buy": 1350,
+		"rent": 6.1,
+		"yield": 5.4
+	},
+	"99089": {
+		"plz": 99089,
+		"city": "Erfurt",
+		"buy": 1700,
+		"rent": 7.3,
+		"yield": 5.2
+	},
+	"99090": {
+		"plz": 99090,
+		"city": "Erfurt",
+		"buy": 1400,
+		"rent": 6.9,
+		"yield": 5.9
+	},
+	"99091": {
+		"plz": 99091,
+		"city": "Erfurt",
+		"buy": 1450,
+		"rent": 5.6,
+		"yield": 4.6
+	},
+	"99092": {
+		"plz": 99092,
+		"city": "Erfurt",
+		"buy": 1800,
+		"rent": 7.8,
+		"yield": 5.2
+	},
+	"99094": {
+		"plz": 99094,
+		"city": "Erfurt",
+		"buy": 2300,
+		"rent": 8.4,
+		"yield": 4.4
+	},
+	"99095": {
+		"plz": 99095,
+		"city": "Erfurt",
+		"buy": 1350,
+		"rent": 6.8,
+		"yield": 6
+	},
+	"99096": {
+		"plz": 99096,
+		"city": "Erfurt",
+		"buy": 2100,
+		"rent": 8.2,
+		"yield": 4.7
+	},
+	"99097": {
+		"plz": 99097,
+		"city": "Erfurt",
+		"buy": 1400,
+		"rent": 6,
+		"yield": 5.1
+	},
+	"99098": {
+		"plz": 99098,
+		"city": "Erfurt",
+		"buy": 1550,
+		"rent": 7.3,
+		"yield": 5.7
+	},
+	"99099": {
+		"plz": 99099,
+		"city": "Erfurt",
+		"buy": 1750,
+		"rent": 6.9,
+		"yield": 4.7
+	},
+	"99423": {
+		"plz": 99423,
+		"city": "Weimar",
+		"buy": 1850,
+		"rent": 7.6,
+		"yield": 4.9
+	},
+	"99425": {
+		"plz": 99425,
+		"city": "Weimar",
+		"buy": 1900,
+		"rent": 7.9,
+		"yield": 5
+	},
+	"99427": {
+		"plz": 99427,
+		"city": "Weimar",
+		"buy": 1150,
+		"rent": 6,
+		"yield": 6.3
+	},
+	"08525": {
+		"plz": 8525,
+		"city": "Plauen",
+		"buy": 450,
+		"rent": 4.5,
+		"yield": 12
+	},
+	"06861": {
+		"plz": 6861,
+		"city": "Dessau-Roßlau",
+		"buy": 500,
+		"rent": 4.9,
+		"yield": 11.8
+	},
+	"02828": {
+		"plz": 2828,
+		"city": "Görlitz",
+		"buy": 500,
+		"rent": 4.5,
+		"yield": 10.8
+	},
+	"07551": {
+		"plz": 7551,
+		"city": "Gera",
+		"buy": 550,
+		"rent": 4.9,
+		"yield": 10.7
+	},
+	"06849": {
+		"plz": 6849,
+		"city": "Dessau-Roßlau",
+		"buy": 650,
+		"rent": 5.8,
+		"yield": 10.7
+	},
+	"08547": {
+		"plz": 8547,
+		"city": "Plauen",
+		"buy": 600,
+		"rent": 5.2,
+		"yield": 10.4
+	},
+	"06842": {
+		"plz": 6842,
+		"city": "Dessau-Roßlau",
+		"buy": 700,
+		"rent": 5.8,
+		"yield": 9.9
+	},
+	"08527": {
+		"plz": 8527,
+		"city": "Plauen",
+		"buy": 550,
+		"rent": 4.5,
+		"yield": 9.8
+	},
+	"08523": {
+		"plz": 8523,
+		"city": "Plauen",
+		"buy": 550,
+		"rent": 4.5,
+		"yield": 9.8
+	},
+	"08529": {
+		"plz": 8529,
+		"city": "Plauen",
+		"buy": 550,
+		"rent": 4.5,
+		"yield": 9.8
+	},
+	"06862": {
+		"plz": 6862,
+		"city": "Dessau-Roßlau",
+		"buy": 600,
+		"rent": 4.9,
+		"yield": 9.8
+	},
+	"07549": {
+		"plz": 7549,
+		"city": "Gera",
+		"buy": 600,
+		"rent": 4.9,
+		"yield": 9.8
+	},
+	"06847": {
+		"plz": 6847,
+		"city": "Dessau-Roßlau",
+		"buy": 650,
+		"rent": 5.3,
+		"yield": 9.8
+	},
+	"02827": {
+		"plz": 2827,
+		"city": "Görlitz",
+		"buy": 600,
+		"rent": 4.8,
+		"yield": 9.6
+	},
+	"08062": {
+		"plz": 8062,
+		"city": "Zwickau",
+		"buy": 600,
+		"rent": 4.7,
+		"yield": 9.4
+	},
+	"07546": {
+		"plz": 7546,
+		"city": "Gera",
+		"buy": 650,
+		"rent": 5.1,
+		"yield": 9.4
+	},
+	"06132": {
+		"plz": 6132,
+		"city": "Halle (Saale)",
+		"buy": 650,
+		"rent": 5.1,
+		"yield": 9.4
+	},
+	"08064": {
+		"plz": 8064,
+		"city": "Zwickau",
+		"buy": 700,
+		"rent": 5.4,
+		"yield": 9.3
+	},
+	"09122": {
+		"plz": 9122,
+		"city": "Chemnitz",
+		"buy": 650,
+		"rent": 5,
+		"yield": 9.2
+	},
+	"07545": {
+		"plz": 7545,
+		"city": "Gera",
+		"buy": 650,
+		"rent": 5,
+		"yield": 9.2
+	},
+	"08066": {
+		"plz": 8066,
+		"city": "Zwickau",
+		"buy": 650,
+		"rent": 5,
+		"yield": 9.2
+	},
+	"07554": {
+		"plz": 7554,
+		"city": "Gera",
+		"buy": 650,
+		"rent": 4.9,
+		"yield": 9.1
+	},
+	"08060": {
+		"plz": 8060,
+		"city": "Zwickau",
+		"buy": 700,
+		"rent": 5.2,
+		"yield": 8.9
+	},
+	"09123": {
+		"plz": 9123,
+		"city": "Chemnitz",
+		"buy": 700,
+		"rent": 5.1,
+		"yield": 8.7
+	},
+	"07552": {
+		"plz": 7552,
+		"city": "Gera",
+		"buy": 700,
+		"rent": 5.1,
+		"yield": 8.7
+	},
+	"08058": {
+		"plz": 8058,
+		"city": "Zwickau",
+		"buy": 750,
+		"rent": 5.4,
+		"yield": 8.6
+	},
+	"06126": {
+		"plz": 6126,
+		"city": "Halle (Saale)",
+		"buy": 700,
+		"rent": 4.9,
+		"yield": 8.4
+	},
+	"09228": {
+		"plz": 9228,
+		"city": "Chemnitz",
+		"buy": 750,
+		"rent": 5.1,
+		"yield": 8.2
+	},
+	"09119": {
+		"plz": 9119,
+		"city": "Chemnitz",
+		"buy": 750,
+		"rent": 5.1,
+		"yield": 8.2
+	},
+	"09125": {
+		"plz": 9125,
+		"city": "Chemnitz",
+		"buy": 800,
+		"rent": 5.3,
+		"yield": 8
+	},
+	"06124": {
+		"plz": 6124,
+		"city": "Halle (Saale)",
+		"buy": 800,
+		"rent": 5.3,
+		"yield": 8
+	},
+	"08056": {
+		"plz": 8056,
+		"city": "Zwickau",
+		"buy": 800,
+		"rent": 5.3,
+		"yield": 8
+	},
+	"09120": {
+		"plz": 9120,
+		"city": "Chemnitz",
+		"buy": 800,
+		"rent": 5.2,
+		"yield": 7.8
+	},
+	"06844": {
+		"plz": 6844,
+		"city": "Dessau-Roßlau",
+		"buy": 900,
+		"rent": 5.8,
+		"yield": 7.7
+	},
+	"06130": {
+		"plz": 6130,
+		"city": "Halle (Saale)",
+		"buy": 950,
+		"rent": 6.1,
+		"yield": 7.7
+	},
+	"06846": {
+		"plz": 6846,
+		"city": "Dessau-Roßlau",
+		"buy": 1000,
+		"rent": 6.4,
+		"yield": 7.7
+	},
+	"09130": {
+		"plz": 9130,
+		"city": "Chemnitz",
+		"buy": 750,
+		"rent": 4.7,
+		"yield": 7.5
+	},
+	"09131": {
+		"plz": 9131,
+		"city": "Chemnitz",
+		"buy": 800,
+		"rent": 5,
+		"yield": 7.5
+	},
+	"03042": {
+		"plz": 3042,
+		"city": "Cottbus",
+		"buy": 850,
+		"rent": 5.3,
+		"yield": 7.5
+	},
+	"07548": {
+		"plz": 7548,
+		"city": "Gera",
+		"buy": 850,
+		"rent": 5.3,
+		"yield": 7.5
+	},
+	"09247": {
+		"plz": 9247,
+		"city": "Chemnitz",
+		"buy": 900,
+		"rent": 5.6,
+		"yield": 7.5
+	},
+	"09224": {
+		"plz": 9224,
+		"city": "Chemnitz",
+		"buy": 900,
+		"rent": 5.6,
+		"yield": 7.5
+	},
+	"03052": {
+		"plz": 3052,
+		"city": "Cottbus",
+		"buy": 900,
+		"rent": 5.5,
+		"yield": 7.3
+	},
+	"06122": {
+		"plz": 6122,
+		"city": "Halle (Saale)",
+		"buy": 900,
+		"rent": 5.5,
+		"yield": 7.3
+	},
+	"06128": {
+		"plz": 6128,
+		"city": "Halle (Saale)",
+		"buy": 950,
+		"rent": 5.8,
+		"yield": 7.3
+	},
+	"02826": {
+		"plz": 2826,
+		"city": "Görlitz",
+		"buy": 800,
+		"rent": 4.8,
+		"yield": 7.2
+	},
+	"09127": {
+		"plz": 9127,
+		"city": "Chemnitz",
+		"buy": 900,
+		"rent": 5.4,
+		"yield": 7.2
+	},
+	"03054": {
+		"plz": 3054,
+		"city": "Cottbus",
+		"buy": 1000,
+		"rent": 6,
+		"yield": 7.2
+	},
+	"09114": {
+		"plz": 9114,
+		"city": "Chemnitz",
+		"buy": 900,
+		"rent": 5.3,
+		"yield": 7.1
+	},
+	"09126": {
+		"plz": 9126,
+		"city": "Chemnitz",
+		"buy": 900,
+		"rent": 5.2,
+		"yield": 6.9
+	},
+	"03051": {
+		"plz": 3051,
+		"city": "Cottbus",
+		"buy": 1100,
+		"rent": 6.3,
+		"yield": 6.9
+	},
+	"06118": {
+		"plz": 6118,
+		"city": "Halle (Saale)",
+		"buy": 1100,
+		"rent": 6.3,
+		"yield": 6.9
+	},
+	"03050": {
+		"plz": 3050,
+		"city": "Cottbus",
+		"buy": 1000,
+		"rent": 5.7,
+		"yield": 6.8
+	},
+	"03055": {
+		"plz": 3055,
+		"city": "Cottbus",
+		"buy": 1100,
+		"rent": 6.2,
+		"yield": 6.8
+	},
+	"09116": {
+		"plz": 9116,
+		"city": "Chemnitz",
+		"buy": 950,
+		"rent": 5.3,
+		"yield": 6.7
+	},
+	"03048": {
+		"plz": 3048,
+		"city": "Cottbus",
+		"buy": 1000,
+		"rent": 5.6,
+		"yield": 6.7
+	},
+	"03044": {
+		"plz": 3044,
+		"city": "Cottbus",
+		"buy": 1000,
+		"rent": 5.6,
+		"yield": 6.7
+	},
+	"09113": {
+		"plz": 9113,
+		"city": "Chemnitz",
+		"buy": 950,
+		"rent": 5.2,
+		"yield": 6.6
+	},
+	"03053": {
+		"plz": 3053,
+		"city": "Cottbus",
+		"buy": 1000,
+		"rent": 5.5,
+		"yield": 6.6
+	},
+	"06112": {
+		"plz": 6112,
+		"city": "Halle (Saale)",
+		"buy": 1100,
+		"rent": 6,
+		"yield": 6.6
+	},
+	"06116": {
+		"plz": 6116,
+		"city": "Halle (Saale)",
+		"buy": 1150,
+		"rent": 6.3,
+		"yield": 6.6
+	},
+	"09111": {
+		"plz": 9111,
+		"city": "Chemnitz",
+		"buy": 1000,
+		"rent": 5.3,
+		"yield": 6.4
+	},
+	"09128": {
+		"plz": 9128,
+		"city": "Chemnitz",
+		"buy": 1050,
+		"rent": 5.6,
+		"yield": 6.4
+	},
+	"09117": {
+		"plz": 9117,
+		"city": "Chemnitz",
+		"buy": 1100,
+		"rent": 5.5,
+		"yield": 6
+	},
+	"09112": {
+		"plz": 9112,
+		"city": "Chemnitz",
+		"buy": 1100,
+		"rent": 5.4,
+		"yield": 5.9
+	},
+	"03046": {
+		"plz": 3046,
+		"city": "Cottbus",
+		"buy": 1250,
+		"rent": 6.1,
+		"yield": 5.9
+	},
+	"01169": {
+		"plz": 1169,
+		"city": "Dresden",
+		"buy": 1350,
+		"rent": 6.6,
+		"yield": 5.9
+	},
+	"06120": {
+		"plz": 6120,
+		"city": "Halle (Saale)",
+		"buy": 1100,
+		"rent": 5.3,
+		"yield": 5.8
+	},
+	"04205": {
+		"plz": 4205,
+		"city": "Leipzig",
+		"buy": 1150,
+		"rent": 5.4,
+		"yield": 5.6
+	},
+	"04349": {
+		"plz": 4349,
+		"city": "Leipzig",
+		"buy": 1350,
+		"rent": 6.3,
+		"yield": 5.6
+	},
+	"04289": {
+		"plz": 4289,
+		"city": "Leipzig",
+		"buy": 1400,
+		"rent": 6.5,
+		"yield": 5.6
+	},
+	"04209": {
+		"plz": 4209,
+		"city": "Leipzig",
+		"buy": 1150,
+		"rent": 5.3,
+		"yield": 5.5
+	},
+	"06110": {
+		"plz": 6110,
+		"city": "Halle (Saale)",
+		"buy": 1300,
+		"rent": 6,
+		"yield": 5.5
+	},
+	"04328": {
+		"plz": 4328,
+		"city": "Leipzig",
+		"buy": 1300,
+		"rent": 6,
+		"yield": 5.5
+	},
+	"04288": {
+		"plz": 4288,
+		"city": "Leipzig",
+		"buy": 1400,
+		"rent": 6.4,
+		"yield": 5.5
+	},
+	"01328": {
+		"plz": 1328,
+		"city": "Dresden",
+		"buy": 1550,
+		"rent": 7.1,
+		"yield": 5.5
+	},
+	"01465": {
+		"plz": 1465,
+		"city": "Dresden",
+		"buy": 1550,
+		"rent": 7.1,
+		"yield": 5.5
+	},
+	"04356": {
+		"plz": 4356,
+		"city": "Leipzig",
+		"buy": 1450,
+		"rent": 6.5,
+		"yield": 5.4
+	},
+	"01108": {
+		"plz": 1108,
+		"city": "Dresden",
+		"buy": 1650,
+		"rent": 7.4,
+		"yield": 5.4
+	},
+	"04319": {
+		"plz": 4319,
+		"city": "Leipzig",
+		"buy": 1400,
+		"rent": 6.2,
+		"yield": 5.3
+	},
+	"04249": {
+		"plz": 4249,
+		"city": "Leipzig",
+		"buy": 1450,
+		"rent": 6.4,
+		"yield": 5.3
+	},
+	"07747": {
+		"plz": 7747,
+		"city": "Jena",
+		"buy": 1550,
+		"rent": 6.8,
+		"yield": 5.3
+	},
+	"04207": {
+		"plz": 4207,
+		"city": "Leipzig",
+		"buy": 1300,
+		"rent": 5.6,
+		"yield": 5.2
+	},
+	"01237": {
+		"plz": 1237,
+		"city": "Dresden",
+		"buy": 1600,
+		"rent": 6.9,
+		"yield": 5.2
+	},
+	"06108": {
+		"plz": 6108,
+		"city": "Halle (Saale)",
+		"buy": 1650,
+		"rent": 7.1,
+		"yield": 5.2
+	},
+	"04318": {
+		"plz": 4318,
+		"city": "Leipzig",
+		"buy": 1400,
+		"rent": 6,
+		"yield": 5.1
+	},
+	"04329": {
+		"plz": 4329,
+		"city": "Leipzig",
+		"buy": 1450,
+		"rent": 6.1,
+		"yield": 5.1
+	},
+	"04158": {
+		"plz": 4158,
+		"city": "Leipzig",
+		"buy": 1600,
+		"rent": 6.8,
+		"yield": 5.1
+	},
+	"04357": {
+		"plz": 4357,
+		"city": "Leipzig",
+		"buy": 1400,
+		"rent": 5.8,
+		"yield": 5
+	},
+	"04315": {
+		"plz": 4315,
+		"city": "Leipzig",
+		"buy": 1550,
+		"rent": 6.4,
+		"yield": 5
+	},
+	"04159": {
+		"plz": 4159,
+		"city": "Leipzig",
+		"buy": 1550,
+		"rent": 6.4,
+		"yield": 5
+	},
+	"01239": {
+		"plz": 1239,
+		"city": "Dresden",
+		"buy": 1550,
+		"rent": 6.5,
+		"yield": 5
+	},
+	"04316": {
+		"plz": 4316,
+		"city": "Leipzig",
+		"buy": 1600,
+		"rent": 6.7,
+		"yield": 5
+	},
+	"06114": {
+		"plz": 6114,
+		"city": "Halle (Saale)",
+		"buy": 1650,
+		"rent": 6.8,
+		"yield": 5
+	},
+	"01219": {
+		"plz": 1219,
+		"city": "Dresden",
+		"buy": 1750,
+		"rent": 7.3,
+		"yield": 5
+	},
+	"01189": {
+		"plz": 1189,
+		"city": "Dresden",
+		"buy": 1750,
+		"rent": 7.2,
+		"yield": 4.9
+	},
+	"07745": {
+		"plz": 7745,
+		"city": "Jena",
+		"buy": 2000,
+		"rent": 8.2,
+		"yield": 4.9
+	},
+	"04279": {
+		"plz": 4279,
+		"city": "Leipzig",
+		"buy": 1600,
+		"rent": 6.4,
+		"yield": 4.8
+	},
+	"01257": {
+		"plz": 1257,
+		"city": "Dresden",
+		"buy": 1700,
+		"rent": 6.8,
+		"yield": 4.8
+	},
+	"04299": {
+		"plz": 4299,
+		"city": "Leipzig",
+		"buy": 1700,
+		"rent": 6.8,
+		"yield": 4.8
+	},
+	"01139": {
+		"plz": 1139,
+		"city": "Dresden",
+		"buy": 1800,
+		"rent": 7.2,
+		"yield": 4.8
+	},
+	"01129": {
+		"plz": 1129,
+		"city": "Dresden",
+		"buy": 1850,
+		"rent": 7.4,
+		"yield": 4.8
+	},
+	"07743": {
+		"plz": 7743,
+		"city": "Jena",
+		"buy": 2200,
+		"rent": 8.8,
+		"yield": 4.8
+	},
+	"04347": {
+		"plz": 4347,
+		"city": "Leipzig",
+		"buy": 1550,
+		"rent": 6,
+		"yield": 4.7
+	},
+	"04178": {
+		"plz": 4178,
+		"city": "Leipzig",
+		"buy": 1650,
+		"rent": 6.4,
+		"yield": 4.7
+	},
+	"04179": {
+		"plz": 4179,
+		"city": "Leipzig",
+		"buy": 1650,
+		"rent": 6.4,
+		"yield": 4.7
+	},
+	"01159": {
+		"plz": 1159,
+		"city": "Dresden",
+		"buy": 1850,
+		"rent": 7.3,
+		"yield": 4.7
+	},
+	"01127": {
+		"plz": 1127,
+		"city": "Dresden",
+		"buy": 1850,
+		"rent": 7.3,
+		"yield": 4.7
+	},
+	"01217": {
+		"plz": 1217,
+		"city": "Dresden",
+		"buy": 1900,
+		"rent": 7.4,
+		"yield": 4.7
+	},
+	"01069": {
+		"plz": 1069,
+		"city": "Dresden",
+		"buy": 1950,
+		"rent": 7.7,
+		"yield": 4.7
+	},
+	"01067": {
+		"plz": 1067,
+		"city": "Dresden",
+		"buy": 2000,
+		"rent": 7.8,
+		"yield": 4.7
+	},
+	"01097": {
+		"plz": 1097,
+		"city": "Dresden",
+		"buy": 2050,
+		"rent": 8,
+		"yield": 4.7
+	},
+	"01157": {
+		"plz": 1157,
+		"city": "Dresden",
+		"buy": 1900,
+		"rent": 7.2,
+		"yield": 4.6
+	},
+	"01279": {
+		"plz": 1279,
+		"city": "Dresden",
+		"buy": 1900,
+		"rent": 7.3,
+		"yield": 4.6
+	},
+	"01109": {
+		"plz": 1109,
+		"city": "Dresden",
+		"buy": 1950,
+		"rent": 7.5,
+		"yield": 4.6
+	},
+	"04177": {
+		"plz": 4177,
+		"city": "Leipzig",
+		"buy": 1750,
+		"rent": 6.6,
+		"yield": 4.5
+	},
+	"04129": {
+		"plz": 4129,
+		"city": "Leipzig",
+		"buy": 1750,
+		"rent": 6.6,
+		"yield": 4.5
+	},
+	"04157": {
+		"plz": 4157,
+		"city": "Leipzig",
+		"buy": 1850,
+		"rent": 6.9,
+		"yield": 4.5
+	},
+	"01187": {
+		"plz": 1187,
+		"city": "Dresden",
+		"buy": 2100,
+		"rent": 7.8,
+		"yield": 4.5
+	},
+	"04317": {
+		"plz": 4317,
+		"city": "Leipzig",
+		"buy": 1800,
+		"rent": 6.6,
+		"yield": 4.4
+	},
+	"04155": {
+		"plz": 4155,
+		"city": "Leipzig",
+		"buy": 1850,
+		"rent": 6.8,
+		"yield": 4.4
+	},
+	"01259": {
+		"plz": 1259,
+		"city": "Dresden",
+		"buy": 2000,
+		"rent": 7.4,
+		"yield": 4.4
+	},
+	"01307": {
+		"plz": 1307,
+		"city": "Dresden",
+		"buy": 2050,
+		"rent": 7.5,
+		"yield": 4.4
+	},
+	"07749": {
+		"plz": 7749,
+		"city": "Jena",
+		"buy": 2400,
+		"rent": 8.7,
+		"yield": 4.4
+	},
+	"04277": {
+		"plz": 4277,
+		"city": "Leipzig",
+		"buy": 1950,
+		"rent": 7,
+		"yield": 4.3
+	},
+	"01156": {
+		"plz": 1156,
+		"city": "Dresden",
+		"buy": 2000,
+		"rent": 7.2,
+		"yield": 4.3
+	},
+	"04229": {
+		"plz": 4229,
+		"city": "Leipzig",
+		"buy": 2050,
+		"rent": 7.3,
+		"yield": 4.3
+	},
+	"01099": {
+		"plz": 1099,
+		"city": "Dresden",
+		"buy": 2250,
+		"rent": 8.1,
+		"yield": 4.3
+	},
+	"01277": {
+		"plz": 1277,
+		"city": "Dresden",
+		"buy": 2200,
+		"rent": 7.7,
+		"yield": 4.2
+	},
+	"04275": {
+		"plz": 4275,
+		"city": "Leipzig",
+		"buy": 2200,
+		"rent": 7.5,
+		"yield": 4.1
+	},
+	"01309": {
+		"plz": 1309,
+		"city": "Dresden",
+		"buy": 2350,
+		"rent": 7.8,
+		"yield": 4
+	},
+	"01326": {
+		"plz": 1326,
+		"city": "Dresden",
+		"buy": 2450,
+		"rent": 8.2,
+		"yield": 4
+	},
+	"04109": {
+		"plz": 4109,
+		"city": "Leipzig",
+		"buy": 2350,
+		"rent": 7.6,
+		"yield": 3.9
+	},
+	"04103": {
+		"plz": 4103,
+		"city": "Leipzig",
+		"buy": 2450,
+		"rent": 7.7,
+		"yield": 3.8
+	},
+	"04107": {
+		"plz": 4107,
+		"city": "Leipzig",
+		"buy": 2500,
+		"rent": 8,
+		"yield": 3.8
+	},
+	"04105": {
+		"plz": 4105,
+		"city": "Leipzig",
+		"buy": 2550,
+		"rent": 7.8,
+		"yield": 3.7
+	},
+	"01324": {
+		"plz": 1324,
+		"city": "Dresden",
+		"buy": 2650,
+		"rent": 8,
+		"yield": 3.6
+	}
+}

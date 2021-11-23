@@ -33,7 +33,11 @@
 			<td> <input nav-key='plz' type='number' step="1" /> </td>
 			<td></td>
 		</tr>
-
+		<tr class='small'>
+			<td>Ort</td>
+			<td> <output id='ort_name'></output> </td>
+			<td></td>
+		</tr>
 
 
 		<tr>
@@ -97,17 +101,22 @@
 		</tr>
 		<tr class='small'>
 			<td>Transaktionskosten</td>
-			<td> = <output id='kosten_trans'></output> </td>
+			<td> <output id='kosten_trans'></output> </td>
 			<td>&euro;</td>
 		</tr>
 		<tr>
 			<td>Gesamtkosten</td>
-			<td> = <output id='kosten_gesamt'></output> </td>
+			<td> <output id='kosten_gesamt'></output> </td>
 			<td>&euro;</td>
 		</tr>
 		<tr class='small'>
 			<td>Preis <u>/m<sup>2</sup></u></td>
-			<td> = <output id='preis_qm'></output> </td>
+			<td> <output id='preis_qm'></output> </td>
+			<td>&euro; </td>
+		</tr>
+		<tr class='small'>
+			<td>Preis <u>/m<sup>2</sup> (im Viertel)</u></td>
+			<td> <output id='preis_qm_viertel'></output> </td>
 			<td>&euro; </td>
 		</tr>
 
@@ -135,7 +144,11 @@
 					onchange="miete(this.value*valueForKey('flaeche')*12)" /> </td>
 			<td>&euro;</td>
 		</tr>
-
+		<tr class='small'>
+			<td>Miete <u>/Monat /m<sup>2</sup>(im Viertel)</u></td>
+			<td> <output id='miete_monat_qm_viertel'></output> </td>
+			<td>&euro; </td>
+		</tr>
 		<tr>
 			<td>Rendite</td>
 			<td> <input id='rendite' type='number' step="0.1"
@@ -143,10 +156,10 @@
 			<td>%</td>
 		</tr>
 		<tr>
-			<td>Amortisation</td>
+			<td>Amortisationszeit</td>
 			<td> <input id='amortisation' type='number' step="0.1"
 					onchange="miete(valueForID('kosten_gesamt')/this.value)" /> </td>
-			<td>Jahre</td>
+			<td>J</td>
 		</tr>
 
 
@@ -166,10 +179,12 @@
 
 	<script type='module'>
 		let $ = x => document.querySelector(x)
+		let index = await fetch('./index.json').then(x => x.json())
+		console.log('index', index)
 		import * as nav from './nav.js'
 		nav.onChange(update)
 
-		nav.init({ flaeche: 50, plz: 12345, kaufpreis: 125_000, makler: 3.57, notar: 1.5, steuer: 6.5, grundbuch: 0.5, miete_jahr: 5000 })
+		nav.init({ flaeche: 50, plz: 48143, kaufpreis: 125_000, makler: 3.57, notar: 1.5, steuer: 6.5, grundbuch: 0.5, miete_jahr: 5000 })
 
 		// function miete(v){nav.setURL({miete_jahr:v})}
 
@@ -195,6 +210,10 @@
 
 			$('#preis_qm').value = (gesamtkosten / s.flaeche).toFixed(2)
 
+			// console.log('plz', s.plz, index[s.plz])
+			$('#ort_name').value = index[s.plz]?.city ?? ''
+			$('#preis_qm_viertel').value = index[s.plz]?.buy?.toFixed(2) ?? ''
+			$('#miete_monat_qm_viertel').value = index[s.plz]?.rent?.toFixed(2) ?? ''
 			// let diff = nav.diffState
 			// if (diff.rendite) s.miete_jahr = (s.rendite * gesamtkosten / 100).toFixed(2)
 			// if (diff.amortisation) s.miete_jahr = (gesamtkosten / s.amortisation).toFixed(2)
