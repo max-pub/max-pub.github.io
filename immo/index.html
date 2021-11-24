@@ -417,13 +417,13 @@
 		<hr />
 
 		<table>
-			<tr class='side'>
+			<tr class='side buttons'>
 				<td>Mieterhöhung</u></td>
 				<td>
-					<a onclick="miete(valueForKey('miete_jahr')*1.05)">+5</a>
-					<a onclick="miete(valueForKey('miete_jahr')*1.10)">+10</a>
-					<a onclick="miete(valueForKey('miete_jahr')*1.15)">+15</a>
-					<a onclick="miete(valueForKey('miete_jahr')*1.20)">+20</a>
+					<a onclick="miete(valueForKey('miete_wohnung')*1.05)">+5</a>
+					<a onclick="miete(valueForKey('miete_wohnung')*1.10)">+10</a>
+					<a onclick="miete(valueForKey('miete_wohnung')*1.15)">+15</a>
+					<a onclick="miete(valueForKey('miete_wohnung')*1.20)">+20</a>
 				</td>
 				<td>%</td>
 			</tr>
@@ -553,7 +553,7 @@
 		function joo() { console.log('jo') }
 		function valueForID(id) { return document.querySelector(`#` + id).value }
 		function valueForKey(key) { return document.querySelector(`[nav-key='${key}']`).value }
-		function miete(v) { document.location.hash += `&miete_jahr=${Number(v).toFixed(2)}` }
+		function miete(v) { document.location.hash += `&miete_wohnung=${Number(v).toFixed(2)}` }
 	</script>
 
 
@@ -619,7 +619,7 @@
 
 			$('#miete_mieter').value = ($('#miete_gesamt').value * 1 + $('#nk_mieter_gesamt').value * 1).toFixed(2)
 			$('#miete_vermieter').value = ($('#miete_gesamt').value * 1 - $('#nk_vermieter_gesamt').value * 1).toFixed(2)
-			$('#miete_vermieter_steuern').value = ($('#miete_vermieter').value * 1 - $('#abschreibbar').value * 1).toFixed(2)
+			$('#miete_vermieter_steuern').value = ($('#miete_vermieter').value * 1 - ($('#abschreibbar').value * 1 - s.nk_ruecklagen)).toFixed(2)
 
 
 			// $('#miete_monat').value = (s.miete_jahr / 12).toFixed(2)

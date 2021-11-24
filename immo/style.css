@@ -141,7 +141,12 @@ th {
 th:first-child {
 	text-align: left;
 }
-
+.buttons a{
+	margin: 0 .2rem;
+	padding: .2rem;
+	/* background: #eee; */
+	border-radius: 100px;
+}
 #rendite,
 #total {
 	/* font-size: 30px; */
