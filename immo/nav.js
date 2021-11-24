@@ -67,9 +67,14 @@ export function setDOM(p = {}) {
 				node.value = p[key] ?? ''
 			}
 		} else {
-			// console.log('add selection for', key, p[key])
-			node.querySelectorAll('[nav-val]').forEach(x => x.classList.remove('nav-selected'))
-			node.querySelector(`[nav-val="${p[key]}"]`)?.classList.add('nav-selected')
+			// console.log('add selection for', key, p[key], node, 'sub', node.querySelectorAll('[nav-val]'))
+			for (let val of [node,...node.querySelectorAll('[nav-val]')]) {
+				// console.log('val', val, val.getAttribute('nav-val'))
+				if (val.hasAttribute('nav-val') && val.getAttribute('nav-val') == p[key]) val.classList.add('nav-selected')
+				else val.classList.remove('nav-selected')
+			}
+			// node.querySelectorAll('[nav-val]').forEach(x => x.classList.remove('nav-selected'))
+			// node.querySelector(`[nav-val="${p[key]}"]`)?.classList.add('nav-selected')
 		}
 	}
 }
@@ -107,6 +112,7 @@ function watchInputChange(root = document) {
 }
 function watchClickChange(root = document) {
 	root.addEventListener('click', e => {
+		// console.log('click',e)
 		let key = e.target?.closest('[nav-key]')?.getAttribute('nav-key')
 		if (!key) return
 		let value = e.target?.closest('[nav-val]')?.getAttribute('nav-val')
@@ -122,7 +128,7 @@ function hashChange(e) {
 	let temp = getURL()
 	// console.log('2', makeURL(temp))
 	// console.log('comp',)
-	if (makeURL(temp) != document.location.hash.slice(1)){
+	if (makeURL(temp) != document.location.hash.slice(1)) {
 		console.log("re-built URL")
 		return setURL(temp)
 	}

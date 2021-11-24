@@ -64,10 +64,10 @@
 
 
 	<fieldset>
-		<legend>Kaufen</legend>
+		<legend>Fixkosten</legend>
 
 		<table>
-			<tr>
+			<tr class='mark'>
 				<td>Kaufpreis</td>
 				<td> <input nav-key='kaufpreis' type="number" pattern="\d*" step='5000' /> </td>
 				<td>&euro;</td>
@@ -88,13 +88,13 @@
 				<td> <input nav-key='gebaeude' type="number" pattern="\d*" step='1' /> </td>
 				<td>%</td>
 			</tr>
-			<tr class='small'>
+			<tr class='small side'>
 				<td></td>
 				<td> = <output id='gebaeude_abs'></output> </td>
 				<td>&euro; </td>
 			</tr>
-			<tr class='small'>
-				<td>Abschreibung <u>/Jahr</u></td>
+			<tr class='small side'>
+				<td>jährlich abschreibbar</td>
 				<td> <output id='abschreibbar'></output> </td>
 				<td>&euro; </td>
 			</tr>
@@ -108,7 +108,7 @@
 				<td> <input type="number" pattern="\d*" nav-key='makler' step="0.01" /> </td>
 				<td>%</td>
 			</tr>
-			<tr class='small'>
+			<tr class='small side'>
 				<td></td>
 				<td> = <output id='makler_abs'></output> </td>
 				<td>&euro;</td>
@@ -118,7 +118,7 @@
 				<td> <input nav-key='notar' type="number" pattern="\d*" step="0.01" /> </td>
 				<td>%</td>
 			</tr>
-			<tr class='small'>
+			<tr class='small side'>
 				<td></td>
 				<td> = <output id='notar_abs'></output> </td>
 				<td>&euro;</td>
@@ -128,7 +128,7 @@
 				<td> <input nav-key='steuer' type="number" pattern="\d*" step="0.1" /> </td>
 				<td>%</td>
 			</tr>
-			<tr class='small'>
+			<tr class='small side'>
 				<td></td>
 				<td> = <output id='steuer_abs'></output> </td>
 				<td>&euro;</td>
@@ -138,7 +138,7 @@
 				<td> <input nav-key='grundbuch' type="number" pattern="\d*" step="0.1" /> </td>
 				<td>%</td>
 			</tr>
-			<tr class='small'>
+			<tr class='small side'>
 				<td></td>
 				<td> = <output id='grundbuch_abs'></output> </td>
 				<td>&euro;</td>
@@ -157,44 +157,250 @@
 
 		<table>
 			<tr class='mark'>
-				<td>Gesamtkosten</td>
+				<td>Gesamtpreis</td>
 				<td> <output id='kosten_gesamt'></output> </td>
 				<td>&euro;</td>
 			</tr>
 		</table>
 	</fieldset>
 
-
-
 	<fieldset>
-		<legend>Vermieten</legend>
+		<legend>
+			laufende Kosten
+			<!-- <span>
+				<a nav-key='zeitrahmen' nav-val='monat'>monatlich</a>
+				<a nav-key='zeitrahmen' nav-val='jahr'>jährlich</a>
+			</span> -->
+		</legend>
 
-		<table>
+		<!-- <h5>umlagefähige Nebenkosten</h5> -->
+		<table class='monats_spalte'>
+			<tr>
+				<th><h5>umlagefähige Nebenkosten</h5></th>
+				<th>monat</th>
+				<th>jahr</th>
+				<th></th>
+			</tr>
+			<!-- <tr>
+				<td colspan='4'>
+					<h5>umlagefähige Nebenkosten</h5>
+				</td>
+			</tr> -->
 
 			<tr>
-				<td>Miete <u>/Jahr</u> <a class='side' onclick="miete(valueForKey('miete_jahr')*1.05)">+5%</a></td>
-				<td> <input nav-key='miete_jahr' type="number" pattern="\d*" step="10" /> </td>
+				<td>Versicherung</u></td>
+				<td> <output id='nk_versicherung_monat'></output> </td>
+				<td> <input nav-key='nk_versicherung' type="number" pattern="\d*" step="10" /> </td>
+				<td>&euro; </td>
+			</tr>
+			<tr>
+				<td>Reinigung</u></td>
+				<td> <output id='nk_reinigung_monat'></output> </td>
+				<td> <input nav-key='nk_reinigung' type="number" pattern="\d*" step="10" /> </td>
+				<td>&euro; </td>
+			</tr>
+			<tr>
+				<td>Wasser</u></td>
+				<td> <output id='nk_wasser_monat'></output> </td>
+				<td> <input nav-key='nk_wasser' type="number" pattern="\d*" step="10" /> </td>
+				<td>&euro; </td>
+			</tr>
+			<tr>
+				<td>Grundsteuer</u></td>
+				<td> <output id='nk_grundsteuer_monat'></output> </td>
+				<td> <input nav-key='nk_grundsteuer' type="number" pattern="\d*" step="10" /> </td>
+				<td>&euro; </td>
+			</tr>
+			<tr>
+				<td>sonstiges</u></td>
+				<td> <output id='nk_mieter_rest_monat'></output> </td>
+				<td> <input nav-key='nk_mieter_rest' type="number" pattern="\d*" step="10" /> </td>
+				<td>&euro; </td>
+			</tr>
+			<tr class='small side'>
+				<td>Summe</u></td>
+				<!-- <td> <input nav-key='nebenkosten' type="number" pattern="\d*" step="10" /> </td> -->
+				<td> <output id='nk_mieter_gesamt_monat'></output> </td>
+				<td> <output id='nk_mieter_gesamt'></output> </td>
 				<td>&euro; </td>
 			</tr>
 
-
-			<!-- <tr class='side'>
-				<td>Mieterhöhung</u></td>
-				<td>
-					<a onclick="miete(valueForKey('miete_jahr')*1.05)">+5</a>
-					<a onclick="miete(valueForKey('miete_jahr')*1.10)">+10</a>
-					<a onclick="miete(valueForKey('miete_jahr')*1.15)">+15</a>
+			<tr>
+				<td colspan='4'>
+					<!-- <hr /> -->
+					<br/>
+					<h5>nicht umlagefähige Nebenkosten</h5>
 				</td>
-				<td>%</td>
+			</tr>
+
+			<tr>
+				<td>Hausverwaltung</u></td>
+				<td> <output id='nk_verwaltung_monat'></output> </td>
+				<td> <input nav-key='nk_verwaltung' type="number" pattern="\d*" step="10" /> </td>
+				<td>&euro; </td>
+			</tr>
+
+			<tr>
+				<td>Reparaturen</u></td>
+				<td> <output id='nk_reparaturen_monat'></output> </td>
+				<td> <input nav-key='nk_reparaturen' type="number" pattern="\d*" step="10" /> </td>
+				<td>&euro; </td>
+			</tr>
+			<tr>
+				<td>Rücklagen</u></td>
+				<td> <output id='nk_ruecklagen_monat'></output> </td>
+				<td> <input nav-key='nk_ruecklagen' type="number" pattern="\d*" step="10" /> </td>
+				<td>&euro; </td>
+			</tr>
+
+			<tr>
+				<td>sonstiges</u></td>
+				<td> <output id='nk_vermieter_rest_monat'></output> </td>
+				<td> <input nav-key='nk_vermieter_rest' type="number" pattern="\d*" step="10" /> </td>
+				<td>&euro; </td>
+			</tr>
+			<tr class='small mark'>
+				<td>Summe</u></td>
+				<!-- <td> <input nav-key='nebenkosten' type="number" pattern="\d*" step="10" /> </td> -->
+				<td> <output id='nk_vermieter_gesamt_monat'></output> </td>
+				<td> <output id='nk_vermieter_gesamt'></output> </td>
+				<td>&euro; </td>
+			</tr>
+
+			<tr>
+				<td colspan='4'>
+					<br/>
+					<hr />
+				</td>
+			</tr>
+			<tr>
+				<td>Gesamt-Nebenkosten</u></td>
+				<!-- <td> <input nav-key='nebenkosten' type="number" pattern="\d*" step="10" /> </td> -->
+				<td> <output id='nk_gesamt_monat'></output> </td>
+				<td> <output id='nk_gesamt'></output> </td>
+				<td>&euro; </td>
+			</tr>
+			<tr>
+				<td>absetzbare Nebenkosten</u></td>
+				<!-- <td> <input nav-key='nebenkosten' type="number" pattern="\d*" step="10" /> </td> -->
+				<td> <output id='nk_absetzbar_monat'></output> </td>
+				<td> <output id='nk_absetzbar'></output> </td>
+				<td>&euro; </td>
+			</tr>
+		</table>
+		<!-- <hr />
+
+		<table>
+			<tr>
+				<td>Grundsteuer</u></td>
+				<td> <input nav-key='grundsteuer' type="number" pattern="\d*" step="10" /> </td>
+				<td>&euro; </td>
+			</tr>
+		</table> -->
+	</fieldset>
+
+
+	<fieldset>
+		<legend>
+			Einkünfte
+			<!-- <span>
+				<a nav-key='zeitrahmen' nav-val='monat'>monatlich</a>
+				<a nav-key='zeitrahmen' nav-val='jahr'>jährlich</a>
+			</span> -->
+		</legend>
+
+		<table class='monats_spalte'>
+			<tr>
+				<th></th>
+				<th>monat</th>
+				<th>jahr</th>
+				<th></th>
+			</tr>
+			<tr>
+				<!-- <td>Miete <u>/Jahr</u> <a class='side' onclick="miete(valueForKey('miete_jahr')*1.05)">+5%</a></td> -->
+				<td>Wohnung </td>
+				<td> <output id='miete_wohnung_monat'></output> </td>
+				<td> <input nav-key='miete_wohnung' type="number" pattern="\d*" step="10" /> </td>
+				<td>&euro; </td>
+			</tr>
+			<tr>
+				<td>Küche</td>
+				<td> <output id='miete_kueche_monat'></output> </td>
+				<td> <input nav-key='miete_kueche' type="number" pattern="\d*" step="10" /> </td>
+				<td>&euro; </td>
+			</tr>
+			<tr>
+				<!-- <td>Miete <u>/Jahr</u> <a class='side' onclick="miete(valueForKey('miete_jahr')*1.05)">+5%</a></td> -->
+				<td>Keller </td>
+				<td> <output id='miete_keller_monat'></output> </td>
+				<td> <input nav-key='miete_keller' type="number" pattern="\d*" step="10" /> </td>
+				<td>&euro; </td>
+			</tr>
+			<tr>
+				<!-- <td>Miete <u>/Jahr</u> <a class='side' onclick="miete(valueForKey('miete_jahr')*1.05)">+5%</a></td> -->
+				<td>Speicher </td>
+				<td> <output id='miete_speicher_monat'></output> </td>
+				<td> <input nav-key='miete_speicher' type="number" pattern="\d*" step="10" /> </td>
+				<td>&euro; </td>
+			</tr>
+			<tr>
+				<td>Garage/Stellplatz</td>
+				<td> <output id='miete_stellplatz_monat'></output> </td>
+				<td> <input nav-key='miete_stellplatz' type="number" pattern="\d*" step="10" /> </td>
+				<td>&euro; </td>
+			</tr>
+
+			<tr class='small side'>
+				<td>Summe</u></td>
+				<!-- <td> <input nav-key='nebenkosten' type="number" pattern="\d*" step="10" /> </td> -->
+				<td> <output id='miete_gesamt_monat'></output> </td>
+				<td> <output id='miete_gesamt'></output> </td>
+				<td>&euro; </td>
+			</tr>
+
+			<tr>
+				<td colspan='4'>
+					<hr />
+				</td>
+			</tr>
+
+			<tr class='small'>
+				<td>Mieter zahlt</u></td>
+				<td> <output id='miete_mieter_monat'></output> </td>
+				<td> <output id='miete_mieter'></output> </td>
+				<td>&euro; </td>
+			</tr>
+			<!-- <tr class='small'>
+				<td>Vermieter erhält /Monat</u></td>
+				<td> <output id='miete_vermieter'></output> </td>
+				<td>&euro; </td>
 			</tr> -->
 			<tr class='small'>
-				<td>Miete <u>/Monat</u></td>
-				<td> <output id='miete_monat'></output> </td>
-				<!-- <td> <input id='miete_monat' type="number" pattern="\d*" step="5" onchange="miete(this.value*12)" /> </td> -->
-				<td>&euro;</td>
+				<td>Vermieter erhält</u></td>
+				<td> <output id='miete_vermieter_monat'></output> </td>
+				<td> <output id='miete_vermieter'></output> </td>
+				<td>&euro; </td>
 			</tr>
 			<tr class='small'>
-				<td>Miete <u>/Monat /m<sup>2</sup></u></td>
+				<td>davon zu versteuern</u></td>
+				<td> <output id='miete_vermieter_steuern_monat'></output> </td>
+				<td> <output id='miete_vermieter_steuern'></output> </td>
+				<td>&euro; </td>
+			</tr>
+		</table>
+
+		<hr />
+
+		<table>
+			<!-- <tr class='small'>
+				<td>Miete <u>/Monat</u></td>
+				<td> <output id='miete_monat'></output> </td>
+				<td> <input id='miete_monat' type="number" pattern="\d*" step="5" onchange="miete(this.value*12)" /> </td> 
+				<td>&euro;</td>
+			</tr> -->
+			<tr class='small'>
+				<!-- <td>Miete <u>/Monat /m<sup>2</sup></u></td> -->
+				<td>Quadratmeterpreis</td>
 				<td> <output id='miete_monat_qm'></output> </td>
 				<!-- <td> <input id='miete_monat_qm' type="number" pattern="\d*" step="0.1" -->
 				<!-- onchange="miete(this.value*valueForKey('wohnflaeche')*12)" /> </td> -->
@@ -211,93 +417,39 @@
 		<hr />
 
 		<table>
-			<tr>
-				<td>Betriebskosten</u></td>
-				<td> <input nav-key='betriebskosten' type="number" pattern="\d*" step="10" /> </td>
-				<td>&euro; </td>
-			</tr>
-			<tr>
-				<td>davon umlagefähig</u></td>
-				<td> <input nav-key='umlage' type="number" pattern="\d*" step="10" /> </td>
-				<td>&euro; </td>
-			</tr>
-			<tr>
-				<td>Hausverwaltung</u></td>
-				<td> <input nav-key='verwaltung' type="number" pattern="\d*" step="10" /> </td>
-				<td>&euro; </td>
-			</tr>
-			<tr class='small'>
-				<td>Verwaltung /Miete</u></td>
-				<td> <output id='verwaltung_miete'></output> </td>
-				<td>%</td>
-			</tr>
-			<tr class='small'>
-				<td>Verwaltung /Kaufpreis</u></td>
-				<td> <output id='verwaltung_kaufpreis'></output> </td>
-				<td>%</td>
-			</tr>
-			<tr>
-				<td>Reparaturen</u></td>
-				<td> <input nav-key='reparaturen' type="number" pattern="\d*" step="10" /> </td>
-				<td>&euro; </td>
-			</tr>
-			<tr>
-				<td>Rücklagen</u></td>
-				<td> <input nav-key='ruecklagen' type="number" pattern="\d*" step="10" /> </td>
-				<td>&euro; </td>
-			</tr>
-			<tr class='small'>
-				<td>Instandhaltung /Miete</u></td>
-				<td> <output id='instandhaltung_miete'></output> </td>
-				<td>%</td>
-			</tr>
-			<tr class='small'>
-				<td>Instandhaltung /Kaufpreis</u></td>
-				<td> <output id='instandhaltung_kaufpreis'></output> </td>
+			<tr class='side'>
+				<td>Mieterhöhung</u></td>
+				<td>
+					<a onclick="miete(valueForKey('miete_jahr')*1.05)">+5</a>
+					<a onclick="miete(valueForKey('miete_jahr')*1.10)">+10</a>
+					<a onclick="miete(valueForKey('miete_jahr')*1.15)">+15</a>
+					<a onclick="miete(valueForKey('miete_jahr')*1.20)">+20</a>
+				</td>
 				<td>%</td>
 			</tr>
 		</table>
 
-		<hr />
 
-		<table>
-			<tr class='small'>
-				<td>Mieter zahlt /Monat</u></td>
-				<td> <output id='miete_mieter'></output> </td>
-				<td>&euro; </td>
-			</tr>
-			<tr class='small'>
-				<td>Vermieter erhält /Monat</u></td>
-				<td> <output id='miete_vermieter'></output> </td>
-				<td>&euro; </td>
-			</tr>
-			<tr class='small'>
-				<td>Vermieter erhält /Jahr</u></td>
-				<td> <output id='miete_vermieter_jahr'></output> </td>
-				<td>&euro; </td>
-			</tr>
-		</table>
+		<!-- <hr /> -->
 
-		<hr />
-
-		<table>
-			<tr class='small'>
-				<td>insgesamt absetzbar <u>/Jahr</u></td>
+		<!-- <table> -->
+		<!-- <tr class='small'>
+				<td>insgesamt absetzbar</td>
 				<td> <output id='absetzbar_gesamt'></output> </td>
 				<td>&euro; </td>
-			</tr>
-			<!-- <tr class='small'>
+			</tr> -->
+		<!-- <tr class='small'>
 				<td>zu versteuern <u>/Jahr</u></td>
 				<td> <output id='absetzbar_gesamt'></output> </td>
 				<td>&euro; </td>
 			</tr> -->
-			<!-- <tr>
+		<!-- <tr>
 				<td>Grenzsteuersatz</td>
 				<td> <input id='rendite' type="number" pattern="\d*" step="0.1"
 						onchange="miete(this.value*valueForID('kosten_gesamt')/100)" /> </td>
 				<td>%</td>
 			</tr>			 -->
-			<!-- <tr>
+		<!-- <tr>
 				<td>Rendite</td>
 				<td> <input id='rendite' type="number" pattern="\d*" step="0.1"
 						onchange="miete(this.value*valueForID('kosten_gesamt')/100)" /> </td>
@@ -314,7 +466,7 @@
 						onchange="miete(valueForID('kosten_gesamt')/this.value)" /> </td>
 				<td>J</td>
 			</tr> -->
-		</table>
+		<!-- </table> -->
 	</fieldset>
 
 
@@ -367,6 +519,34 @@
 	</fieldset>
 
 
+	<fieldset>
+		<legend>Statistiken / Optimierungspotenzial</legend>
+		<table>
+			<tr class='small side'>
+				<td>Verwaltung /Miete</u></td>
+				<td> <output id='verwaltung_miete'></output> </td>
+				<td>%</td>
+			</tr>
+			<tr class='small side'>
+				<td>Verwaltung /Kaufpreis</u></td>
+				<td> <output id='verwaltung_kaufpreis'></output> </td>
+				<td>%</td>
+			</tr>
+			<tr class='small side'>
+				<td>Instandhaltung /Miete</u></td>
+				<td> <output id='instandhaltung_miete'></output> </td>
+				<td>%</td>
+			</tr>
+			<tr class='small side'>
+				<td>Instandhaltung /Kaufpreis</u></td>
+				<td> <output id='instandhaltung_kaufpreis'></output> </td>
+				<td>%</td>
+			</tr>
+		</table>
+	</fieldset>
+
+
+
 	<button id='share'>share</button>
 
 	<script>
@@ -386,16 +566,17 @@
 		import * as nav from './nav.js'
 		nav.onChange(update)
 
-		nav.init({ wohnflaeche: 50, gebaeude: 80, plz: 48143, kaufpreis: 125_000, makler: 3.57, notar: 1.5, steuer: 6.5, grundbuch: 0.5, miete_jahr: 5000 })
+		nav.init({ gebaeude: 80, makler: 3.57, notar: 1.5, steuer: 6.5, grundbuch: 0.5 })
 
 
 		function update() {
-
 			let s = nav.state
+			let zeitrahmen = s.zeitrahmen == 'monat' ? 12 : 1
+			// console.log(s.zeitrahmen,zeitrahmen)
 			// console.log('update with state', s)
 			$('#gebaeude_abs').value = (s.kaufpreis * s.gebaeude / 100).toFixed(2)
 			$('#abschreibbar').value = ($('#gebaeude_abs').value * 0.02).toFixed(2)
-			$('#absetzbar_gesamt').value = ($('#abschreibbar').value * 1 + s.reparaturen * 1 + s.verwaltung * 1).toFixed(2)
+			// $('#absetzbar_gesamt').value = ($('#abschreibbar').value * 1 + s.reparaturen * 1 + s.verwaltung * 1).toFixed(2)
 
 			$('#makler_abs').value = (s.kaufpreis * s.makler / 100).toFixed(2)
 			$('#notar_abs').value = (s.kaufpreis * s.notar / 100).toFixed(2)
@@ -425,25 +606,47 @@
 
 			$('#instandhaltung_kaufpreis').value = ((s.reparaturen * 1 + s.ruecklagen * 1) / gesamtkosten * 100).toFixed(2)
 
-			$('#miete_mieter').value = (s.miete_jahr / 12 + s.umlage / 12).toFixed(2)
-			$('#miete_vermieter_jahr').value = (s.miete_jahr * 1 - s.betriebskosten * 1 + s.umlage * 1).toFixed(2)
-			$('#miete_vermieter').value = ($('#miete_vermieter_jahr').value / 12).toFixed(2)
 
-			$('#miete_monat').value = (s.miete_jahr / 12).toFixed(2)
-			$('#miete_monat_qm').value = (s.miete_jahr / 12 / s.wohnflaeche).toFixed(2)
+			// $('#miete_vermieter').value = ($('#miete_vermieter_jahr').value / 12).toFixed(2)
+
+
+			$('#nk_mieter_gesamt').value = ((s.nk_versicherung ?? 0) * 1 + (s.nk_reinigung ?? 0) * 1 + (s.nk_wasser ?? 0) * 1 + (s.nk_mieter_rest ?? 0) * 1).toFixed(2)
+			$('#nk_vermieter_gesamt').value = ((s.nk_verwaltung ?? 0) * 1 + (s.nk_reparaturen ?? 0) * 1 + (s.nk_ruecklagen ?? 0) * 1 + (s.nk_vermieter_rest ?? 0) * 1).toFixed(2)
+			$('#nk_gesamt').value = ($('#nk_mieter_gesamt').value * 1 + $('#nk_vermieter_gesamt').value * 1).toFixed(2)
+			$('#nk_absetzbar').value = ((s.nk_verwaltung ?? 0) * 1 + (s.nk_reparaturen ?? 0) * 1).toFixed(2)
+
+			$('#miete_gesamt').value = ((s.miete_wohnung ?? 0) * 1 + (s.miete_keller ?? 0) * 1 + (s.miete_stellplatz ?? 0) * 1 + (s.miete_kueche ?? 0) * 1).toFixed(2)
+
+			$('#miete_mieter').value = ($('#miete_gesamt').value * 1 + $('#nk_mieter_gesamt').value * 1).toFixed(2)
+			$('#miete_vermieter').value = ($('#miete_gesamt').value * 1 - $('#nk_vermieter_gesamt').value * 1).toFixed(2)
+			$('#miete_vermieter_steuern').value = ($('#miete_vermieter').value * 1 - $('#abschreibbar').value * 1).toFixed(2)
+
+
+			// $('#miete_monat').value = (s.miete_jahr / 12).toFixed(2)
+			$('#miete_monat_qm').value = (s.miete_wohnung / 12 / s.wohnflaeche).toFixed(2)
 			$('#miete_monat_qm').setAttribute('quality', $('#miete_monat_qm').value * 1 > $('#miete_monat_qm_viertel').value * 1 ? 'bad' : 'good')
 
 			// $('#rendite').value = (s.miete_jahr / gesamtkosten * 100).toFixed(2)
 			// $('#amortisation').value = (gesamtkosten / s.miete_jahr).toFixed(2)
 
-			$('#rendite_brutto').value = (s.miete_jahr / s.kaufpreis * 100).toFixed(2)
-			$('#rendite_netto').value = ($('#miete_vermieter_jahr').value / gesamtkosten * 100).toFixed(2)
+			$('#rendite_brutto').value = ($('#miete_gesamt').value / s.kaufpreis * 100).toFixed(2)
+			$('#rendite_netto').value = ($('#miete_vermieter').value / gesamtkosten * 100).toFixed(2)
 			$('#rendite_netto').setAttribute('quality', $('#rendite_netto').value * 1 < 4 ? 'bad' : 'good')
 
 			$('#map_plz').href = `https://maps.google.com/?q=` + s.plz
 			$('#map_strasse').href = `https://maps.google.com/?q=` + encodeURI(s.strasse + ',' + s.plz + ' ' + index[s.plz]?.city ?? '')
 			$('#contact_email').href = encodeURI(`mailto:${s.email}?subject=Verkauf ${s.strasse + ', ' + s.plz + ' ' + index[s.plz]?.city ?? ''}&body=Sehr geehrte Damen und Herren,\n\nmit freundlichen Grüßen`)
 			$('#contact_phone').href = encodeURI(`tel:${s.phone}`)
+
+			for (let node of document.querySelectorAll('output')) {
+				// console.log('node', node, ('#' + node.id.replace('_monat', '')))
+				if (node.id.endsWith('_monat')) {
+					let id = node.id.replace('_monat', '')
+					try { node.value = ($(`[nav-key=${id}]`).value / 12).toFixed(2) } catch { }
+					try { node.value = ($(`#${id}`).value / 12).toFixed(2) } catch { }
+					if (node.value == '0.00') node.value = ''
+				}
+			}
 		}
 
 
@@ -454,7 +657,7 @@
 					// title: 'MDN',
 					// text: 'Learn web development on MDN!',
 					// url: document.location
-					url: 'https://max.pub/immo/'+document.location.hash
+					url: 'https://max.pub/immo/' + document.location.hash
 				})
 			} catch (err) {
 			}
