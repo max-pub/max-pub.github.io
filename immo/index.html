@@ -176,7 +176,9 @@
 		<!-- <h5>umlagefähige Nebenkosten</h5> -->
 		<table class='monats_spalte'>
 			<tr>
-				<th><h5>umlagefähige Nebenkosten</h5></th>
+				<th>
+					<h5>umlagefähige Nebenkosten</h5>
+				</th>
 				<th>monat</th>
 				<th>jahr</th>
 				<th></th>
@@ -228,7 +230,7 @@
 			<tr>
 				<td colspan='4'>
 					<!-- <hr /> -->
-					<br/>
+					<br />
 					<h5>nicht umlagefähige Nebenkosten</h5>
 				</td>
 			</tr>
@@ -269,7 +271,7 @@
 
 			<tr>
 				<td colspan='4'>
-					<br/>
+					<br />
 					<hr />
 				</td>
 			</tr>
@@ -574,17 +576,17 @@
 			let zeitrahmen = s.zeitrahmen == 'monat' ? 12 : 1
 			// console.log(s.zeitrahmen,zeitrahmen)
 			// console.log('update with state', s)
-			$('#gebaeude_abs').value = (s.kaufpreis * s.gebaeude / 100).toFixed(2)
+			$('#gebaeude_abs').value = ((s.kaufpreis ?? 0) * s.gebaeude / 100).toFixed(2)
 			$('#abschreibbar').value = ($('#gebaeude_abs').value * 0.02).toFixed(2)
 			// $('#absetzbar_gesamt').value = ($('#abschreibbar').value * 1 + s.reparaturen * 1 + s.verwaltung * 1).toFixed(2)
 
-			$('#makler_abs').value = (s.kaufpreis * s.makler / 100).toFixed(2)
-			$('#notar_abs').value = (s.kaufpreis * s.notar / 100).toFixed(2)
-			$('#steuer_abs').value = (s.kaufpreis * s.steuer / 100).toFixed(2)
-			$('#grundbuch_abs').value = (s.kaufpreis * s.grundbuch / 100).toFixed(2)
+			$('#makler_abs').value = ((s.kaufpreis ?? 0) * (s.makler ?? 0) / 100).toFixed(2)
+			$('#notar_abs').value = ((s.kaufpreis ?? 0) * s.notar / 100).toFixed(2)
+			$('#steuer_abs').value = ((s.kaufpreis ?? 0) * s.steuer / 100).toFixed(2)
+			$('#grundbuch_abs').value = ((s.kaufpreis ?? 0) * s.grundbuch / 100).toFixed(2)
 			let trans = (s.makler * 1 + s.notar * 1 + s.steuer * 1 + s.grundbuch * 1) / 100
-			$('#kosten_trans').value = (s.kaufpreis * trans).toFixed(2)
-			let gesamtkosten = s.kaufpreis * (1 + trans)
+			$('#kosten_trans').value = ((s.kaufpreis ?? 0) * trans).toFixed(2)
+			let gesamtkosten = (s.kaufpreis ?? 0) * (1 + trans)
 			$('#kosten_gesamt').value = gesamtkosten.toFixed(2)
 
 			$('#ort_name').value = index[s.plz]?.city ?? ''
@@ -592,7 +594,7 @@
 			$('#miete_monat_qm_viertel').value = index[s.plz]?.rent?.toFixed(2) ?? ''
 			// $('#rendite_viertel').value = index[s.plz]?.yield?.toFixed(2) ?? ''
 
-			$('#kaufpreis_qm').value = (gesamtkosten / s.wohnflaeche).toFixed(2)
+			$('#kaufpreis_qm').value = ((gesamtkosten ?? 0) / (s.wohnflaeche ?? 1)).toFixed(2)
 			$('#kaufpreis_qm').setAttribute('quality', $('#kaufpreis_qm').value * 1 > $('#preis_qm_viertel').value * 1 ? 'bad' : 'good')
 
 
@@ -619,7 +621,7 @@
 
 			$('#miete_mieter').value = ($('#miete_gesamt').value * 1 + $('#nk_mieter_gesamt').value * 1).toFixed(2)
 			$('#miete_vermieter').value = ($('#miete_gesamt').value * 1 - $('#nk_vermieter_gesamt').value * 1).toFixed(2)
-			$('#miete_vermieter_steuern').value = ($('#miete_vermieter').value * 1 - ($('#abschreibbar').value * 1 - s.nk_ruecklagen)).toFixed(2)
+			$('#miete_vermieter_steuern').value = (($('#miete_vermieter').value ??0)* 1 - ($('#abschreibbar').value * 1 - s.nk_ruecklagen)).toFixed(2)
 
 
 			// $('#miete_monat').value = (s.miete_jahr / 12).toFixed(2)
