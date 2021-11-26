@@ -5,7 +5,10 @@ export let state = {}
 export let oldState = {}
 export let diffState = {}
 
-
+// export let types = {}
+// export function addTypes(p = {}) {
+// 	types = { ...types, ...p }
+// }
 export function getURL() {
 	let p = new URLSearchParams(document.location.hash.slice(1));
 	// console.log("BASE64",btoa(document.location.hash.slice(1)))
@@ -15,7 +18,11 @@ export function getURL() {
 		if (p[k] === '')
 			p[k] = true
 	// console.log('get', p)
+	// for (let x in p)
+	// 	if (Date.parse(p[x])) p[x] = new Date(Date.parse(p[x]))
+	// 	else if (Number(p[x]) != NaN) p[x] = Number(p[x])
 	return p
+
 }
 function makeURL(p = state) {
 	return Object.entries(p).map(x => {
@@ -68,7 +75,7 @@ export function setDOM(p = {}) {
 			}
 		} else {
 			// console.log('add selection for', key, p[key], node, 'sub', node.querySelectorAll('[nav-val]'))
-			for (let val of [node,...node.querySelectorAll('[nav-val]')]) {
+			for (let val of [node, ...node.querySelectorAll('[nav-val]')]) {
 				// console.log('val', val, val.getAttribute('nav-val'))
 				if (val.hasAttribute('nav-val') && val.getAttribute('nav-val') == p[key]) val.classList.add('nav-selected')
 				else val.classList.remove('nav-selected')
@@ -86,6 +93,7 @@ export function empty() {
 	return !Boolean(document.location.hash.slice(1))
 }
 export function init(p = {}) {
+	// console.log("INIT")
 	if (empty())
 		setURL(p)
 	else hashChange()
@@ -124,11 +132,11 @@ function watchClickChange(root = document) {
 function hashChange(e) {
 	// console.log("HASH CHANGE")
 	// let temp = document.location.hash
-	// console.log('1', document.location.hash.slice(1))
+	// console.log('1', document.location.hash.slice(1), '1')
 	let temp = getURL()
-	// console.log('2', makeURL(temp))
+	// console.log('2', makeURL(temp), '2')
 	// console.log('comp',)
-	if (makeURL(temp) != document.location.hash.slice(1)) {
+	if (makeURL(temp) != document.location.hash.slice(1)) { // prettify url in case of double entries, etc
 		console.log("re-built URL")
 		return setURL(temp)
 	}
