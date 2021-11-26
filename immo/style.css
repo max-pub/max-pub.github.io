@@ -184,7 +184,9 @@ u {
 #mail {
 	display: none;
 }
-
+.percent{
+	text-align: right !important;
+}
 .percent input{
 	width: 3rem;
 	text-align: right;

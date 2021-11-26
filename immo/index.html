@@ -27,28 +27,31 @@
 		<table>
 			<tr class='mark'>
 				<td>Kaufpreis</td>
-				<td> <input nav-key='kaufpreis' type="number" pattern="\d*" step='5000' /> </td>
-				<td>&euro;</td>
+				<td class='euro'> <input nav-key='kaufpreis' type="number" pattern="\d*" step='5000' /> </td>
 			</tr>
-			<tr class='mark'>
+			<tr class='small'>
+				<td>Maklerprovision</td>
+				<td class='percent'> <input type="number" pattern="\d*" nav-key='makler' step="0.01" /> </td>
+			</tr>
+			<!-- <tr class='mark'>
 				<td>Jahresmiete</td>
-				<td> <input nav-key='miete_wohnung' type="number" pattern="\d*" step='5000' /> </td>
-				<td>&euro;</td>
+				<td class='euro'> <input nav-key='miete_wohnung' type="number" pattern="\d*" step='5000' /> </td>
+			</tr>			 -->
+			<tr class='mark'>
+				<td>Monatskaltmiete</td>
+				<td class='euro'> <input id='miete_wohnung_monat' onchange="miete(this.value*12)" type="number" pattern="\d*" step='5000' /> </td>
 			</tr>
 			<tr class='mark'>
 				<td>nicht umlegbare Nebenkosten</td>
-				<td> <input nav-key='nk_vermieter_rest' type="number" pattern="\d*" step='5000' /> </td>
-				<td>&euro;</td>
+				<td class='euro'> <input  id='nk_vermieter_rest_monat' onchange="document.location.hash += `&nk_vermieter_rest=${Number(this.value*12).toFixed(2)}`" type="number" pattern="\d*" step='5000' /> </td>
 			</tr>
 			<tr>
 				<td>Brutto Mietrendite</td>
-				<td> <output id='rendite_brutto'></output> </td>
-				<td>%</td>
+				<td class='percent'> <output id='rendite_brutto'></output> </td>
 			</tr>
 			<tr>
 				<td>Netto Mietrendite</td>
-				<td> <output id='rendite_netto'></output> </td>
-				<td>%</td>
+				<td class='percent'> <output id='rendite_netto'></output> </td>
 			</tr>
 		</table>
 	</fieldset>
@@ -145,7 +148,7 @@
 			</tr> -->
 			<tr class='small'>
 				<td>Transaktionskosten</td>
-				<td>  </td>
+				<td> </td>
 				<td class='equals euro sum'> <output id='kosten_trans'></output> </td>
 			</tr>
 		</table>
@@ -450,25 +453,25 @@
 
 	<fieldset>
 		<legend>Summe</legend>
-<table>
-	<tr>
-		<td>Gebäudeanteil</td>
-		<td> <input nav-key='gebaeude' type="number" pattern="\d*" step='1' /> </td>
-		<td>%</td>
-	</tr>
-	<tr class='small side'>
-		<td></td>
-		<td> = <output id='gebaeude_abs'></output> </td>
-		<td>&euro; </td>
-	</tr>
-	<tr class='small side'>
-		<td>jährlich abschreibbar</td>
-		<td> <output id='abschreibbar'></output> </td>
-		<td>&euro; </td>
-	</tr>
-</table>
 		<table>
-			
+			<tr>
+				<td>Gebäudeanteil</td>
+				<td> <input nav-key='gebaeude' type="number" pattern="\d*" step='1' /> </td>
+				<td>%</td>
+			</tr>
+			<tr class='small side'>
+				<td></td>
+				<td> = <output id='gebaeude_abs'></output> </td>
+				<td>&euro; </td>
+			</tr>
+			<tr class='small side'>
+				<td>jährlich abschreibbar</td>
+				<td> <output id='abschreibbar'></output> </td>
+				<td>&euro; </td>
+			</tr>
+		</table>
+		<table>
+
 			<tr class='small'>
 				<td>Mieter zahlt</u></td>
 				<td> <output id='miete_mieter_monat'></output> </td>
@@ -581,7 +584,7 @@
 		// function joo() { console.log('jo') }
 		function valueForID(id) { return document.querySelector(`#` + id).value }
 		function valueForKey(key) { return document.querySelector(`[nav-key='${key}']`).value }
-		function miete(v) { document.location.hash += `&miete_wohnung=${Number(v).toFixed(2)}` }
+		function miete(v) { console.log('set miete',v); document.location.hash += `&miete_wohnung=${Number(v).toFixed(2)}` }
 	</script>
 
 
@@ -689,7 +692,7 @@
 
 
 			// berechne alle monats-werte aus den jahres-werten
-			for (let node of document.querySelectorAll('output')) {
+			for (let node of [...document.querySelectorAll('input'),...document.querySelectorAll('output')]) {
 				if (node.id.endsWith('_monat')) {
 					let id = node.id.replace('_monat', '')
 					try { node.value = ($(`[nav-key=${id}]`).value / 12).toFixed(2) } catch { }
