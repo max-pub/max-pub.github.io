@@ -112,7 +112,7 @@
 				<td class='euro'> <output id='kaufpreis_qm'></output> </td>
 			</tr>
 			<tr class='small viertel'>
-				<td>Ortsüblich</u></td>
+				<td>Ortsüblich</td>
 				<!-- <td>Preis <u>/m<sup>2</sup> (im Viertel)</u></td> -->
 				<td class='euro'> <output id='preis_qm_viertel'></output> </td>
 			</tr>
@@ -191,44 +191,48 @@
 					<h5>umlagefähige Nebenkosten</h5>
 				</td>
 			</tr> -->
-
 			<tr>
-				<td>Versicherung</u></td>
+				<td>gesamt</td>
+				<td> <output id='nk_mieter_rest_monat'></output> </td>
+				<td> <input nav-key='nk_mieter_rest' type="number" pattern="\d*" step="10" /> </td>
+				<td>&euro; </td>
+			</tr>
+			<!-- <tr>
+				<td>Versicherung</td>
 				<td> <output id='nk_versicherung_monat'></output> </td>
 				<td> <input nav-key='nk_versicherung' type="number" pattern="\d*" step="10" /> </td>
 				<td>&euro; </td>
 			</tr>
 			<tr>
-				<td>Reinigung</u></td>
+				<td>Reinigung</td>
 				<td> <output id='nk_reinigung_monat'></output> </td>
 				<td> <input nav-key='nk_reinigung' type="number" pattern="\d*" step="10" /> </td>
 				<td>&euro; </td>
 			</tr>
 			<tr>
-				<td>Wasser</u></td>
+				<td>Wasser</td>
 				<td> <output id='nk_wasser_monat'></output> </td>
 				<td> <input nav-key='nk_wasser' type="number" pattern="\d*" step="10" /> </td>
 				<td>&euro; </td>
 			</tr>
 			<tr>
-				<td>Grundsteuer</u></td>
+				<td>Grundsteuer</td>
 				<td> <output id='nk_grundsteuer_monat'></output> </td>
 				<td> <input nav-key='nk_grundsteuer' type="number" pattern="\d*" step="10" /> </td>
 				<td>&euro; </td>
 			</tr>
 			<tr>
-				<td>sonstiges</u></td>
+				<td>sonstiges</td>
 				<td> <output id='nk_mieter_rest_monat'></output> </td>
 				<td> <input nav-key='nk_mieter_rest' type="number" pattern="\d*" step="10" /> </td>
 				<td>&euro; </td>
 			</tr>
 			<tr class='small side'>
-				<td>Summe</u></td>
-				<!-- <td> <input nav-key='nebenkosten' type="number" pattern="\d*" step="10" /> </td> -->
+				<td>Summe</td>
 				<td> <output id='nk_mieter_gesamt_monat'></output> </td>
 				<td> <output id='nk_mieter_gesamt'></output> </td>
 				<td>&euro; </td>
-			</tr>
+			</tr> -->
 
 			<tr>
 				<td colspan='4'>
@@ -246,33 +250,33 @@
 				<th></th>
 			</tr> -->
 			<tr>
-				<td>Hausverwaltung</u></td>
+				<td>Hausverwaltung</td>
 				<td> <output id='nk_verwaltung_monat'></output> </td>
 				<td> <input nav-key='nk_verwaltung' type="number" pattern="\d*" step="10" /> </td>
 				<td>&euro; </td>
 			</tr>
 
 			<tr>
-				<td>Reparaturen</u></td>
+				<td>Reparaturen</td>
 				<td> <output id='nk_reparaturen_monat'></output> </td>
 				<td> <input nav-key='nk_reparaturen' type="number" pattern="\d*" step="10" /> </td>
 				<td>&euro; </td>
 			</tr>
 			<tr>
-				<td>Rücklagen</u></td>
+				<td>Rücklagen</td>
 				<td> <output id='nk_ruecklagen_monat'></output> </td>
 				<td> <input nav-key='nk_ruecklagen' type="number" pattern="\d*" step="10" /> </td>
 				<td>&euro; </td>
 			</tr>
 
 			<tr>
-				<td>sonstiges</u></td>
+				<td>sonstiges</td>
 				<td> <output id='nk_vermieter_rest_monat'></output> </td>
 				<td> <input nav-key='nk_vermieter_rest' type="number" pattern="\d*" step="10" /> </td>
 				<td>&euro; </td>
 			</tr>
 			<tr class='small mark'>
-				<td>Summe</u></td>
+				<td>Summe</td>
 				<!-- <td> <input nav-key='nebenkosten' type="number" pattern="\d*" step="10" /> </td> -->
 				<td> <output id='nk_vermieter_gesamt_monat'></output> </td>
 				<td> <output id='nk_vermieter_gesamt'></output> </td>
@@ -286,14 +290,14 @@
 				</td>
 			</tr>
 			<tr>
-				<td>Gesamt-Nebenkosten</u></td>
+				<td>Gesamt-Nebenkosten</td>
 				<!-- <td> <input nav-key='nebenkosten' type="number" pattern="\d*" step="10" /> </td> -->
 				<td> <output id='nk_gesamt_monat'></output> </td>
 				<td> <output id='nk_gesamt'></output> </td>
 				<td>&euro; </td>
 			</tr>
 			<tr>
-				<td>absetzbare Nebenkosten</u></td>
+				<td>absetzbare Nebenkosten</td>
 				<!-- <td> <input nav-key='nebenkosten' type="number" pattern="\d*" step="10" /> </td> -->
 				<td> <output id='nk_absetzbar_monat'></output> </td>
 				<td> <output id='nk_absetzbar'></output> </td>
@@ -304,7 +308,7 @@
 
 		<table>
 			<tr>
-				<td>Grundsteuer</u></td>
+				<td>Grundsteuer</td>
 				<td> <input nav-key='grundsteuer' type="number" pattern="\d*" step="10" /> </td>
 				<td>&euro; </td>
 			</tr>
@@ -363,7 +367,7 @@
 			</tr>
 
 			<tr class='small side'>
-				<td>Summe</u></td>
+				<td>Summe</td>
 				<!-- <td> <input nav-key='nebenkosten' type="number" pattern="\d*" step="10" /> </td> -->
 				<td> <output id='miete_gesamt_monat'></output> </td>
 				<td> <output id='miete_gesamt'></output> </td>
@@ -376,7 +380,7 @@
 				</td>
 			</tr>
 			<!-- <tr class='small'>
-				<td>Miete <u>/Monat</u></td>
+				<td>Miete <u>/Monat</td>
 				<td> <output id='miete_monat'></output> </td>
 				<td> <input id='miete_monat' type="number" pattern="\d*" step="5" onchange="miete(this.value*12)" /> </td> 
 				<td>&euro;</td>
@@ -391,7 +395,7 @@
 				<td></td>
 			</tr>
 			<tr class='small viertel'>
-				<td>Ortsüblich</u></td>
+				<td>Ortsüblich</td>
 				<!-- <td>Miete <u>/Monat /m<sup>2</sup>(im Viertel)</u></td> -->
 				<td> <output id='miete_monat_qm_viertel'></output> &euro;</td>
 				<td></td>
@@ -403,7 +407,7 @@
 
 		<table>
 			<tr class='side buttons'>
-				<td>Mieterhöhung</u></td>
+				<td>Mieterhöhung</td>
 				<td>
 					<a onclick="miete(valueForKey('miete_wohnung')*1.05)">+5</a>
 					<a onclick="miete(valueForKey('miete_wohnung')*1.10)">+10</a>
@@ -441,7 +445,7 @@
 				<td>%</td>
 			</tr>
 			<tr class='small viertel'>
-				<td>Ortsüblich</u></td>
+				<td>Ortsüblich</td>
 				<td> <output id='rendite_viertel'></output> </td>
 				<td>&euro; </td>
 			</tr>
@@ -460,13 +464,13 @@
 		<table>
 
 			<tr class='small'>
-				<td>Mieter zahlt</u></td>
+				<td>Mieter zahlt</td>
 				<td> <output id='miete_mieter_monat'></output> </td>
 				<td> <output id='miete_mieter'></output> </td>
 				<td>&euro; </td>
 			</tr>
 			<tr class='small'>
-				<td>Vermieter erhält</u></td>
+				<td>Vermieter erhält</td>
 				<td> <output id='miete_vermieter_monat'></output> </td>
 				<td> <output id='miete_vermieter'></output> </td>
 				<td>&euro; </td>
@@ -520,13 +524,13 @@
 				<td class='equals euro'> <output id='abschreibbar'></output> </td>
 			</tr>
 			<tr>
-				<td>absetzbare Nebenkosten</u></td>
+				<td>absetzbare Nebenkosten</td>
 				<!-- <td> <input nav-key='nebenkosten' type="number" pattern="\d*" step="10" /> </td> -->
 				<td class='euro'> <output id='nk_absetzbar_monat'></output> </td>
 				<td class='euro'> <output id='nk_absetzbar'></output> </td>
 			</tr>
 			<tr class='small'>
-				<td> zu versteuernde Miete</u></td>
+				<td> zu versteuernde Miete</td>
 				<td> <output id='miete_vermieter_steuern_monat'></output> </td>
 				<td> <output id='miete_vermieter_steuern'></output> </td>
 				<td>&euro; </td>
@@ -559,12 +563,12 @@
 		<legend>Statistiken / Optimierungspotenzial</legend>
 		<table>
 			<tr class='small side'>
-				<td>Verwaltung /Miete</u></td>
+				<td>Verwaltung /Miete</td>
 				<td> <output id='verwaltung_miete'></output> </td>
 				<td>%</td>
 			</tr>
 			<tr class='small side'>
-				<td>Verwaltung /Kaufpreis</u></td>
+				<td>Verwaltung /Kaufpreis</td>
 				<td> <output id='verwaltung_kaufpreis'></output> </td>
 				<td>%</td>
 			</tr>
@@ -572,12 +576,12 @@
 		<hr>
 		<table>
 			<tr class='small side'>
-				<td>Instandhaltung /Miete</u></td>
+				<td>Instandhaltung /Miete</td>
 				<td> <output id='instandhaltung_miete'></output> </td>
 				<td>%</td>
 			</tr>
 			<tr class='small side'>
-				<td>Instandhaltung /Kaufpreis</u></td>
+				<td>Instandhaltung /Kaufpreis</td>
 				<td> <output id='instandhaltung_kaufpreis'></output> </td>
 				<td>%</td>
 			</tr>
